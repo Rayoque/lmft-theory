@@ -1,0 +1,165 @@
+{
+ "instructions": "For each question pick the single best option. Answer only from the options given. Output strict JSON: {\"answers\":{\"<id>\":\"<LETTER>\"}, \"ambiguous\":[\"<id>\", ...]}. List an id under ambiguous if two or more options are defensible.",
+ "questions": [
+  {
+   "id": "v_attachment_dismissive",
+   "stem": "A client dismisses the importance of love and connection, idealizes their parents although actual memories do not corroborate it, dislikes looking inward, and has difficulty tolerating heightened emotions in others.\n\nThis attachment pattern is:",
+   "options": {
+    "A": "Secure Attachment",
+    "B": "Fearful/Avoidant Attachment (Disorganized)",
+    "C": "Preoccupied/Anxious Attachment",
+    "D": "Dismissive/Avoidant Attachment"
+   }
+  },
+  {
+   "id": "v_attachment_preoccupied",
+   "stem": "A client is still embroiled with anger and hurt at their parents, becomes overly dependent on attachment figures, recalls role reversal in childhood, and dreads abandonment.\n\nThis attachment pattern is:",
+   "options": {
+    "A": "Fearful/Avoidant Attachment (Disorganized)",
+    "B": "Secure Attachment",
+    "C": "Preoccupied/Anxious Attachment",
+    "D": "Dismissive/Avoidant Attachment"
+   }
+  },
+  {
+   "id": "v_sft_miracle",
+   "stem": "A therapist asks: “Imagine that tomorrow morning you wake up and a miracle has happened. What would be different that will tell you a miracle has happened and your problem has been solved?”\n\nThis is:",
+   "options": {
+    "A": "“Imaginal death” exercises",
+    "B": "Unique Outcomes",
+    "C": "Finding Alternatives",
+    "D": "Miracle Questioning"
+   }
+  },
+  {
+   "id": "v_sft_coping",
+   "stem": "A client cannot identify any positive change. The therapist asks: “How do you keep going each day even when it feels like there is no hope?”\n\nThis is:",
+   "options": {
+    "A": "Scaling Questions",
+    "B": "Exception Questioning",
+    "C": "Presupposing Change",
+    "D": "Coping Questions"
+   }
+  },
+  {
+   "id": "v_narrative_externalize",
+   "stem": "A therapist asks a series of questions designed to separate the person from the problem, so the client stops experiencing the problem as who they are.\n\nIn Narrative therapy this is:",
+   "options": {
+    "A": "Transforming Rules",
+    "B": "Externalizing the Problem",
+    "C": "Client Centered Therapy",
+    "D": "Exception Questioning"
+   }
+  },
+  {
+   "id": "e_cc_no_phases",
+   "stem": "Client Centered therapy has no clear phases of treatment, and the packet says so. It also warns that the exam may still ask what a Client Centered therapist does in the initial or middle stage.\n\nWhat answer shape is correct there?",
+   "options": {
+    "A": "Empty chair",
+    "B": "Unconditional positive regard, empathy, therapist congruence, and promotion of self-acceptance",
+    "C": "Battle for Structure",
+    "D": "“Imaginal death” exercises"
+   }
+  },
+  {
+   "id": "e_objrel_look_for_term",
+   "stem": "A therapist becomes aware of strong feelings arising in themselves about a client. The packet flags this as an exam cue and names the term to look for.\n\nHow would an Object Relations therapist handle this?",
+   "options": {
+    "A": "Identify and process projective identification",
+    "B": "Mirroring",
+    "C": "Attunement",
+    "D": "Optimal Frustration"
+   }
+  },
+  {
+   "id": "e_attachment_exam_focus",
+   "stem": "The packet gives explicit exam guidance about what an attachment-based therapist focuses on.\n\nOn the exam, an attachment therapist is specifically focused on:",
+   "options": {
+    "A": "How the person attaches in relationships and how they regulate their own emotions, exploring their early caregiver interactions",
+    "B": "Twinship Transference",
+    "C": "Splitting",
+    "D": "Top dog / underdog dialogue"
+   }
+  },
+  {
+   "id": "e_cbt_relaxation_initial",
+   "stem": "The packet flags one CBT technique with the note “select this on test” for questions about the initial phase of treatment.\n\nWhich technique belongs to the initial phase, alongside psychoeducation and thought patterns?",
+   "options": {
+    "A": "Thought Record",
+    "B": "Opposite Action",
+    "C": "Relaxation Training",
+    "D": "Mastery/Pleasure Ratings"
+   }
+  },
+  {
+   "id": "e_cbt_be_vs_exposure_belief",
+   "stem": "A client who fears blushing in public is asked to test the belief “people will laugh if I blush in public.”\n\nThe packet says this is:",
+   "options": {
+    "A": "Behavioral Experiments",
+    "B": "Exposure",
+    "C": "Systematic Desensitization",
+    "D": "Anxiety Management Training"
+   }
+  },
+  {
+   "id": "e_cbt_be_vs_exposure_fear",
+   "stem": "A client who fears blushing is repeatedly exposed to blushing in order to reduce the fear of blushing itself.\n\nThe packet says this is:",
+   "options": {
+    "A": "Successive Approximation",
+    "B": "Exposure",
+    "C": "Opposite Action",
+    "D": "Behavioral Experiments"
+   }
+  },
+  {
+   "id": "e_cbt_three_column_first",
+   "stem": "Which CBT technique does the packet describe as the initial homework assignment, collecting the situation, the automatic thought, and the associated feelings?",
+   "options": {
+    "A": "Three-Column Technique",
+    "B": "Mastery/Pleasure Ratings",
+    "C": "Thought Record",
+    "D": "Self-Monitoring"
+   }
+  },
+  {
+   "id": "e_cbt_thought_record_next",
+   "stem": "Which CBT technique expands the three-column technique by adding columns for an alternative response and the resulting emotional outcome?",
+   "options": {
+    "A": "Finding Alternatives",
+    "B": "Three-Column Technique",
+    "C": "Labeling Distortions",
+    "D": "Thought Record"
+   }
+  },
+  {
+   "id": "e_cbt_amt_early",
+   "stem": "The packet notes that one CBT intervention is skill acquisition done early in therapy, teaching general coping skills with a lot of imagery and relaxation practice.\n\nWhich is it?",
+   "options": {
+    "A": "Behavioral Activation",
+    "B": "Exposure",
+    "C": "Anxiety Management Training",
+    "D": "Systematic Desensitization"
+   }
+  },
+  {
+   "id": "e_cbt_first_session",
+   "stem": "According to the packet, what is taught in the first CBT session, alongside psychoeducation about how CBT works?",
+   "options": {
+    "A": "Assertiveness Training",
+    "B": "Problem-Solving Training",
+    "C": "Psychoeducation on the negative triad",
+    "D": "Downward Arrow"
+   }
+  },
+  {
+   "id": "e_bowen_three_generations",
+   "stem": "The packet singles out one model as the only therapy concerned with the past three generations of the family.\n\nWhich model?",
+   "options": {
+    "A": "Satir Communications Therapy",
+    "B": "Structural Family Therapy",
+    "C": "Strategic Therapy",
+    "D": "Bowen Family Systems"
+   }
+  }
+ ]
+}

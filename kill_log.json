@@ -1,0 +1,1663 @@
+{
+ "stage": "all four gates",
+ "generated": 392,
+ "killed": 36,
+ "survived": 356,
+ "killRatePct": 9.2,
+ "byGate": {
+  "gate4_distractor": 17,
+  "gate5_source_integrity": 1,
+  "gate2_uniqueness": 9,
+  "gate1_blind_reanswer": 9
+ },
+ "kills": [
+  {
+   "item": {
+    "id": "t3_bowen_models",
+    "tier": 3,
+    "type": "T3_concept",
+    "models": [
+     "bowen"
+    ],
+    "stem": "Which term does the packet define this way?\n\n“Demonstrates new ways to interact and communicate.”",
+    "options": [
+     {
+      "text": "Multigenerational Transmission Process",
+      "correct": false,
+      "belongsTo": "bowen",
+      "sourceLine": "Multigenerational Transmission Process: The concept of the multigenerational transmission process describes how small differences in the levels of differentiation between parents and their offspring lead over many generations to marked differences in differentiation among the members of a multigenerational family."
+     },
+     {
+      "text": "Placater",
+      "correct": false,
+      "belongsTo": "satir",
+      "sourceLine": "Placater: Apologizing, never disagreeing, trying to please."
+     },
+     {
+      "text": "Distracter",
+      "correct": false,
+      "belongsTo": "satir",
+      "sourceLine": "Distracter: Seeking approval by acting out, irrelevant."
+     },
+     {
+      "text": "Models",
+      "correct": true,
+      "belongsTo": "bowen",
+      "sourceLine": "Models: Demonstrates new ways to interact and communicate."
+     }
+    ],
+    "rationale": "Definition is verbatim from the Bowen Family Systems section.",
+    "sourceLine": "Models: Demonstrates new ways to interact and communicate.",
+    "marker": "Models",
+    "intraModel": true
+   },
+   "gate": "gate4_distractor",
+   "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them",
+   "allFailures": [
+    {
+     "gate": "gate4_distractor",
+     "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them"
+    }
+   ]
+  },
+  {
+   "item": {
+    "id": "t3_satir_leveler",
+    "tier": 3,
+    "type": "T3_concept",
+    "models": [
+     "satir"
+    ],
+    "stem": "Which term does the packet define this way?\n\n“Congruent in their beliefs about self and others.”",
+    "options": [
+     {
+      "text": "Enmeshed Boundaries",
+      "correct": false,
+      "belongsTo": "structural",
+      "sourceLine": "Enmeshed Boundaries: Family members are overly dependent and too closely involved and reactive to other family members. Can lead to incest."
+     },
+     {
+      "text": "Bibliotherapy",
+      "correct": false,
+      "belongsTo": "bowen",
+      "sourceLine": "Bibliotherapy: Assigning reading material."
+     },
+     {
+      "text": "Leveler",
+      "correct": true,
+      "belongsTo": "satir",
+      "sourceLine": "Leveler: Congruent in their beliefs about self and others."
+     },
+     {
+      "text": "Subsystems",
+      "correct": false,
+      "belongsTo": "structural",
+      "sourceLine": "Subsystems: Families organize themselves by generation, relationship, and necessity. Examples: marital subsystem – spouses; parental subsystem: parents; executive subsystem: people who run the family; sibling subsystem – kids."
+     }
+    ],
+    "rationale": "Definition is verbatim from the Satir Communications Therapy section.",
+    "sourceLine": "Leveler: Congruent in their beliefs about self and others.",
+    "marker": "Leveler",
+    "intraModel": true
+   },
+   "gate": "gate4_distractor",
+   "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them",
+   "allFailures": [
+    {
+     "gate": "gate4_distractor",
+     "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them"
+    }
+   ]
+  },
+  {
+   "item": {
+    "id": "t3_satir_placater",
+    "tier": 3,
+    "type": "T3_concept",
+    "models": [
+     "satir"
+    ],
+    "stem": "Which term does the packet define this way?\n\n“Apologizing, never disagreeing, trying to please.”",
+    "options": [
+     {
+      "text": "Leveler",
+      "correct": false,
+      "belongsTo": "satir",
+      "sourceLine": "Leveler: Congruent in their beliefs about self and others."
+     },
+     {
+      "text": "Blamer",
+      "correct": false,
+      "belongsTo": "satir",
+      "sourceLine": "Blamer: Attacking others, fault finder, dictator, boss."
+     },
+     {
+      "text": "Genogram",
+      "correct": false,
+      "belongsTo": "bowen",
+      "sourceLine": "Genogram: Create a multigenerational map of family emotional system."
+     },
+     {
+      "text": "Placater",
+      "correct": true,
+      "belongsTo": "satir",
+      "sourceLine": "Placater: Apologizing, never disagreeing, trying to please."
+     }
+    ],
+    "rationale": "Definition is verbatim from the Satir Communications Therapy section.",
+    "sourceLine": "Placater: Apologizing, never disagreeing, trying to please.",
+    "marker": "Placater",
+    "intraModel": true
+   },
+   "gate": "gate4_distractor",
+   "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them",
+   "allFailures": [
+    {
+     "gate": "gate4_distractor",
+     "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them"
+    }
+   ]
+  },
+  {
+   "item": {
+    "id": "t3_satir_distracter",
+    "tier": 3,
+    "type": "T3_concept",
+    "models": [
+     "satir"
+    ],
+    "stem": "Which term does the packet define this way?\n\n“Seeking approval by acting out, irrelevant.”",
+    "options": [
+     {
+      "text": "Models",
+      "correct": false,
+      "belongsTo": "bowen",
+      "sourceLine": "Models: Demonstrates new ways to interact and communicate."
+     },
+     {
+      "text": "Distracter",
+      "correct": true,
+      "belongsTo": "satir",
+      "sourceLine": "Distracter: Seeking approval by acting out, irrelevant."
+     },
+     {
+      "text": "Positioning",
+      "correct": false,
+      "belongsTo": "strategic",
+      "sourceLine": "Positioning: Therapist takes a more exaggerated and extreme view of the problem and the family is obligated to rebel. That leads to them seeing the ways in which they have Competency. (T says your family is completely hopeless w hopes they’d say no its not)"
+     },
+     {
+      "text": "Joining",
+      "correct": false,
+      "belongsTo": "structural",
+      "sourceLine": "Joining: Therapist’s first task; involves blending in with the family, adapting the family’s affect, style, and language."
+     }
+    ],
+    "rationale": "Definition is verbatim from the Satir Communications Therapy section.",
+    "sourceLine": "Distracter: Seeking approval by acting out, irrelevant.",
+    "marker": "Distracter",
+    "intraModel": true
+   },
+   "gate": "gate4_distractor",
+   "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them",
+   "allFailures": [
+    {
+     "gate": "gate4_distractor",
+     "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them"
+    }
+   ]
+  },
+  {
+   "item": {
+    "id": "t3_satir_incongruentcommunica",
+    "tier": 3,
+    "type": "T3_concept",
+    "models": [
+     "satir"
+    ],
+    "stem": "Which term does the packet define this way?\n\n“Discrepancies between verbal and non-verbal cues.”",
+    "options": [
+     {
+      "text": "Leveler",
+      "correct": false,
+      "belongsTo": "satir",
+      "sourceLine": "Leveler: Congruent in their beliefs about self and others."
+     },
+     {
+      "text": "Incongruent Communication",
+      "correct": true,
+      "belongsTo": "satir",
+      "sourceLine": "Incongruent Communication: Discrepancies between verbal and non-verbal cues."
+     },
+     {
+      "text": "Positioning",
+      "correct": false,
+      "belongsTo": "strategic",
+      "sourceLine": "Positioning: Therapist takes a more exaggerated and extreme view of the problem and the family is obligated to rebel. That leads to them seeing the ways in which they have Competency. (T says your family is completely hopeless w hopes they’d say no its not)"
+     },
+     {
+      "text": "Coalitions",
+      "correct": false,
+      "belongsTo": "structural",
+      "sourceLine": "Coalitions: Alignments where 2 or more family members join together to form a bond against another family member."
+     }
+    ],
+    "rationale": "Definition is verbatim from the Satir Communications Therapy section.",
+    "sourceLine": "Incongruent Communication: Discrepancies between verbal and non-verbal cues.",
+    "marker": "Incongruent Communication",
+    "intraModel": true
+   },
+   "gate": "gate4_distractor",
+   "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them",
+   "allFailures": [
+    {
+     "gate": "gate4_distractor",
+     "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them"
+    }
+   ]
+  },
+  {
+   "item": {
+    "id": "t3_satir_blamer",
+    "tier": 3,
+    "type": "T3_concept",
+    "models": [
+     "satir"
+    ],
+    "stem": "Which term does the packet define this way?\n\n“Attacking others, fault finder, dictator, boss.”",
+    "options": [
+     {
+      "text": "Prescribing the Symptom",
+      "correct": false,
+      "belongsTo": "strategic",
+      "sourceLine": "Prescribing the Symptom: A strategy in which the therapist encourages or instructs the client to engage in or practice the symptom. ie schedule a fight or schedule a worry time."
+     },
+     {
+      "text": "Blamer",
+      "correct": true,
+      "belongsTo": "satir",
+      "sourceLine": "Blamer: Attacking others, fault finder, dictator, boss."
+     },
+     {
+      "text": "Styles of Communication",
+      "correct": false,
+      "belongsTo": "satir",
+      "sourceLine": "Styles of Communication: The rules that govern family interaction function as a method of ensuring the maintenance and preservation of the family’s current functioning level."
+     },
+     {
+      "text": "Nuclear Family Emotional System",
+      "correct": false,
+      "belongsTo": "bowen",
+      "sourceLine": "Nuclear Family Emotional System: The concept of the nuclear family emotional system describes four basic relationship patterns that govern where problems develop in a family. Effects overall differentiation. Emotional distance, dysfunction in parent or impairment in child, conflict."
+     }
+    ],
+    "rationale": "Definition is verbatim from the Satir Communications Therapy section.",
+    "sourceLine": "Blamer: Attacking others, fault finder, dictator, boss.",
+    "marker": "Blamer",
+    "intraModel": true
+   },
+   "gate": "gate4_distractor",
+   "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them",
+   "allFailures": [
+    {
+     "gate": "gate4_distractor",
+     "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them"
+    }
+   ]
+  },
+  {
+   "item": {
+    "id": "t3_satir_metaphorsandstorytel",
+    "tier": 3,
+    "type": "T3_concept",
+    "models": [
+     "satir"
+    ],
+    "stem": "Which term does the packet define this way?\n\n“Used to help clients understand their roles.”",
+    "options": [
+     {
+      "text": "Models",
+      "correct": false,
+      "belongsTo": "bowen",
+      "sourceLine": "Models: Demonstrates new ways to interact and communicate."
+     },
+     {
+      "text": "Styles of Communication",
+      "correct": false,
+      "belongsTo": "satir",
+      "sourceLine": "Styles of Communication: The rules that govern family interaction function as a method of ensuring the maintenance and preservation of the family’s current functioning level."
+     },
+     {
+      "text": "Increasing Differentiation",
+      "correct": false,
+      "belongsTo": "bowen",
+      "sourceLine": "Increasing Differentiation: By forming supportive relationship with family members to explore the origins and effects of their families beliefs and behaviors."
+     },
+     {
+      "text": "Metaphors and Storytelling",
+      "correct": true,
+      "belongsTo": "satir",
+      "sourceLine": "Metaphors and Storytelling: Used to help clients understand their roles."
+     }
+    ],
+    "rationale": "Definition is verbatim from the Satir Communications Therapy section.",
+    "sourceLine": "Metaphors and Storytelling: Used to help clients understand their roles.",
+    "marker": "Metaphors and Storytelling",
+    "intraModel": true
+   },
+   "gate": "gate4_distractor",
+   "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them",
+   "allFailures": [
+    {
+     "gate": "gate4_distractor",
+     "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them"
+    }
+   ]
+  },
+  {
+   "item": {
+    "id": "t3_narrative_reauthoringthestory",
+    "tier": 3,
+    "type": "T3_concept",
+    "models": [
+     "narrative"
+    ],
+    "stem": "Which term does the packet define this way?\n\n“Assist client in reauthoring their story”",
+    "options": [
+     {
+      "text": "Re-authoring the story",
+      "correct": true,
+      "belongsTo": "narrative",
+      "sourceLine": "Assist client in reauthoring their story"
+     },
+     {
+      "text": "Family Life Chronology",
+      "correct": false,
+      "belongsTo": "satir",
+      "sourceLine": "Family Life Chronology: Gathering history as far back as possible. Include: ideology, values, rules, disruptions, moves, and major events. What the family has been through and how those events impact the family. How past events and unresolved issues are carried out presently."
+     },
+     {
+      "text": "Take Responsibility",
+      "correct": false,
+      "belongsTo": "satir",
+      "sourceLine": "Take Responsibility: Encouraging clients to take responsibility for how they felt, what they experienced, what meaning they made, what feelings they had about their feelings."
+     },
+     {
+      "text": "Styles of Communication",
+      "correct": false,
+      "belongsTo": "satir",
+      "sourceLine": "Styles of Communication: The rules that govern family interaction function as a method of ensuring the maintenance and preservation of the family’s current functioning level."
+     }
+    ],
+    "rationale": "Definition is verbatim from the Narrative Therapy section.",
+    "sourceLine": "Assist client in reauthoring their story",
+    "marker": "Re-authoring the story",
+    "intraModel": true
+   },
+   "gate": "gate4_distractor",
+   "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them",
+   "allFailures": [
+    {
+     "gate": "gate4_distractor",
+     "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them"
+    }
+   ]
+  },
+  {
+   "item": {
+    "id": "t3_object-relations_interpretation",
+    "tier": 3,
+    "type": "T3_concept",
+    "models": [
+     "object-relations"
+    ],
+    "stem": "Which term does the packet define this way?\n\n“Promote insight and growth through interpretation.”",
+    "options": [
+     {
+      "text": "Idealizing Transference",
+      "correct": false,
+      "belongsTo": "self-psychology",
+      "sourceLine": "Idealizing Transference: The patient looks up to and admires the therapist"
+     },
+     {
+      "text": "Provide “experience-near” empathy",
+      "correct": false,
+      "belongsTo": "self-psychology",
+      "sourceLine": "Provide “experience-near” empathy"
+     },
+     {
+      "text": "Demonstrate containment",
+      "correct": false,
+      "belongsTo": "self-psychology",
+      "sourceLine": "Demonstrate that the therapist is able to provide containment: client is getting emotional, and the T can be a warm open presence without judgement and having client feel they are able to share this information and they will not be rejected. The therapist is able to hear what client is saying without becoming overwhelmed themselves."
+     },
+     {
+      "text": "Interpretation",
+      "correct": true,
+      "belongsTo": "object-relations",
+      "sourceLine": "Promote insight and growth through interpretation."
+     }
+    ],
+    "rationale": "Definition is verbatim from the Object Relations section.",
+    "sourceLine": "Promote insight and growth through interpretation.",
+    "marker": "Interpretation",
+    "intraModel": true
+   },
+   "gate": "gate4_distractor",
+   "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them",
+   "allFailures": [
+    {
+     "gate": "gate4_distractor",
+     "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them"
+    }
+   ]
+  },
+  {
+   "item": {
+    "id": "t3_object-relations_focusontransferencec",
+    "tier": 3,
+    "type": "T3_concept",
+    "models": [
+     "object-relations"
+    ],
+    "stem": "Which term does the packet define this way?\n\n“Focus on transference/countertransference dynamic.”",
+    "options": [
+     {
+      "text": "Repair stage",
+      "correct": false,
+      "belongsTo": "attachment",
+      "sourceLine": "Repair stage of the therapy aims to alter the patient’s current reactions to the events that cause them emotional distress by sharing their own interpretations of the event. By sharing their own subjective interpretation, the therapist helps create a new reality of the painful events for the patient in order to get rid of unwanted emotions and reactions."
+     },
+     {
+      "text": "Focus on transference/countertransference",
+      "correct": true,
+      "belongsTo": "object-relations",
+      "sourceLine": "Focus on transference/countertransference dynamic."
+     },
+     {
+      "text": "Twinship Transference",
+      "correct": false,
+      "belongsTo": "self-psychology",
+      "sourceLine": "Twinship Transference: The patient experiences the therapist as someone like himself, “that person is like me.”"
+     },
+     {
+      "text": "Mirroring",
+      "correct": false,
+      "belongsTo": "self-psychology",
+      "sourceLine": "Mirroring: Approving and confirming responses."
+     }
+    ],
+    "rationale": "Definition is verbatim from the Object Relations section.",
+    "sourceLine": "Focus on transference/countertransference dynamic.",
+    "marker": "Focus on transference/countertransference",
+    "intraModel": true
+   },
+   "gate": "gate4_distractor",
+   "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them",
+   "allFailures": [
+    {
+     "gate": "gate4_distractor",
+     "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them"
+    }
+   ]
+  },
+  {
+   "item": {
+    "id": "t3_self-psychology_idealizingtransferen",
+    "tier": 3,
+    "type": "T3_concept",
+    "models": [
+     "self-psychology"
+    ],
+    "stem": "Which term does the packet define this way?\n\n“The patient looks up to and admires the therapist”",
+    "options": [
+     {
+      "text": "Mourning loss of selfobjects",
+      "correct": false,
+      "belongsTo": "self-psychology",
+      "sourceLine": "Mourning loss of selfobjects Mourning the mother they may have never had. They can grieve these losses. An acceptance of that loss, a sadness that is allowed to happen over it. Cry for their younger selves, inner child."
+     },
+     {
+      "text": "Idealizing Transference",
+      "correct": true,
+      "belongsTo": "self-psychology",
+      "sourceLine": "Idealizing Transference: The patient looks up to and admires the therapist"
+     },
+     {
+      "text": "Self- and Object-Representations",
+      "correct": false,
+      "belongsTo": "object-relations",
+      "sourceLine": "Self- and Object-Representations: Infants form images of themselves and others. Once formed, they are fundamental internal structures that affect the ways in which individuals view themselves and others. These are created from the internalization process. Can create a false self disconnected from the true self."
+     },
+     {
+      "text": "Establish a holding environment",
+      "correct": false,
+      "belongsTo": "object-relations",
+      "sourceLine": "Establish a holding environment"
+     }
+    ],
+    "rationale": "Definition is verbatim from the Self Psychology section.",
+    "sourceLine": "Idealizing Transference: The patient looks up to and admires the therapist",
+    "marker": "Idealizing Transference",
+    "intraModel": true
+   },
+   "gate": "gate4_distractor",
+   "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them",
+   "allFailures": [
+    {
+     "gate": "gate4_distractor",
+     "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them"
+    }
+   ]
+  },
+  {
+   "item": {
+    "id": "t3_self-psychology_establishatherapeuti",
+    "tier": 3,
+    "type": "T3_concept",
+    "models": [
+     "self-psychology"
+    ],
+    "stem": "Which term does the packet define this way?\n\n“Establish a therapeutic holding environment”",
+    "options": [
+     {
+      "text": "Establish a therapeutic holding environment",
+      "correct": true,
+      "belongsTo": "self-psychology",
+      "sourceLine": "Establish a therapeutic holding environment"
+     },
+     {
+      "text": "Repair disruptions of the self-object transference",
+      "correct": false,
+      "belongsTo": "self-psychology",
+      "sourceLine": "Repair disruptions of the self-object transference"
+     },
+     {
+      "text": "Secure Attachment",
+      "correct": false,
+      "belongsTo": "attachment",
+      "sourceLine": "Secure Attachment: The person has easy access to a wide range of feelings and memories, positive and negative. Has a balanced view of parents and has worked through hurt and anger from the past. Has developed a strong sense of self and empathy for others."
+     },
+     {
+      "text": "Projective Identification",
+      "correct": false,
+      "belongsTo": "object-relations",
+      "sourceLine": "Projective Identification (specific to object relations): Refers to a psychological process in which a person will project a thought or belief that they have onto a second person. Then, in most common definitions of projective identification, there is another action in which the second person is changed by the projection and begins to behave as though they are, in fact, actually characterized by those thoughts or beliefs that have been projected. The client is projecting onto the therapist a feeling of annoyance. What happens is the therapist realizes they feel annoyed. The therapist takes on the feeling themselves, they begin to identify with the feeling, the therapist finds themselves feeling annoyed. That’s the unconscious manipulation of the client putting those feelings onto the therapist. Sexual attraction: Therapist would say it’s really the client having those unconscious feelings towards the therapist."
+     }
+    ],
+    "rationale": "Definition is verbatim from the Self Psychology section.",
+    "sourceLine": "Establish a therapeutic holding environment",
+    "marker": "Establish a therapeutic holding environment",
+    "intraModel": true
+   },
+   "gate": "gate4_distractor",
+   "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them",
+   "allFailures": [
+    {
+     "gate": "gate4_distractor",
+     "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them"
+    }
+   ]
+  },
+  {
+   "item": {
+    "id": "t3_self-psychology_repairdisruptionsoft",
+    "tier": 3,
+    "type": "T3_concept",
+    "models": [
+     "self-psychology"
+    ],
+    "stem": "Which term does the packet define this way?\n\n“Repair disruptions of the self-object transference”",
+    "options": [
+     {
+      "text": "Fearful/Avoidant Attachment (Disorganized)",
+      "correct": false,
+      "belongsTo": "attachment",
+      "sourceLine": "Fearful/Avoidant Attachment (Disorganized): The person usually has a history of trauma and or loss. Similar to Dismissive/Avoidant, they dismiss the importance of love and connection but usually out of fear or a belief that they are unworthy of love. They have difficulty trusting others and may feel uncomfortable with emotional closeness."
+     },
+     {
+      "text": "Mourning ambitions and fantasies",
+      "correct": false,
+      "belongsTo": "self-psychology",
+      "sourceLine": "Mourning ambitions and fantasies. If person had ideas that their life was going to turn out a certain way, mourning those losses of those fantasies."
+     },
+     {
+      "text": "Repair disruptions of the self-object transference",
+      "correct": true,
+      "belongsTo": "self-psychology",
+      "sourceLine": "Repair disruptions of the self-object transference"
+     },
+     {
+      "text": "Interpretation",
+      "correct": false,
+      "belongsTo": "object-relations",
+      "sourceLine": "Promote insight and growth through interpretation."
+     }
+    ],
+    "rationale": "Definition is verbatim from the Self Psychology section.",
+    "sourceLine": "Repair disruptions of the self-object transference",
+    "marker": "Repair disruptions of the self-object transference",
+    "intraModel": true
+   },
+   "gate": "gate4_distractor",
+   "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them",
+   "allFailures": [
+    {
+     "gate": "gate4_distractor",
+     "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them"
+    }
+   ]
+  },
+  {
+   "item": {
+    "id": "t3_gestalt_repeatingwordsorexag",
+    "tier": 3,
+    "type": "T3_concept",
+    "models": [
+     "gestalt"
+    ],
+    "stem": "Which term does the packet define this way?\n\n“Repeating words of overexaggerating gestures”",
+    "options": [
+     {
+      "text": "Repeating words or exaggerating gestures",
+      "correct": true,
+      "belongsTo": "gestalt",
+      "sourceLine": "Repeating words of overexaggerating gestures"
+     },
+     {
+      "text": "Standing up while speaking",
+      "correct": false,
+      "belongsTo": "gestalt",
+      "sourceLine": "Somebody stands up while saying something"
+     },
+     {
+      "text": "Holding",
+      "correct": false,
+      "belongsTo": "existential",
+      "sourceLine": "Concept of holding: process of looking at the problem, and really holding that, remembering that in the presence of the empathetic other. Our goal is to be with them in their pain, sitting there with them. Naming that emotional pain allows that mutual encounter, the experience is not shared, person is able to now process that situation with increased support."
+     },
+     {
+      "text": "Battle for Structure",
+      "correct": false,
+      "belongsTo": "experiential",
+      "sourceLine": "Battle for Structure: Therapist establishes the rules and working atmosphere of treatment. Includes the need for the entire family to be in therapy (a mother and child come in for therapy and there is a question for the initial intervention an experiential therapist would use: the therapist discusses with mom the need to include entire family in therapy would be the correct answer."
+     }
+    ],
+    "rationale": "Definition is verbatim from the Gestalt Therapy section.",
+    "sourceLine": "Repeating words of overexaggerating gestures",
+    "marker": "Repeating words or exaggerating gestures",
+    "intraModel": true
+   },
+   "gate": "gate4_distractor",
+   "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them",
+   "allFailures": [
+    {
+     "gate": "gate4_distractor",
+     "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them"
+    }
+   ]
+  },
+  {
+   "item": {
+    "id": "t3_gestalt_standingupwhilespeak",
+    "tier": 3,
+    "type": "T3_concept",
+    "models": [
+     "gestalt"
+    ],
+    "stem": "Which term does the packet define this way?\n\n“Somebody stands up while saying something”",
+    "options": [
+     {
+      "text": "Play, Humor, and “Craziness”",
+      "correct": false,
+      "belongsTo": "experiential",
+      "sourceLine": "Play, Humor, and “Craziness:” Tapping irrational side. Finding solutions in creative interactions."
+     },
+     {
+      "text": "Empty chair",
+      "correct": false,
+      "belongsTo": "gestalt",
+      "sourceLine": "Empty chair"
+     },
+     {
+      "text": "Standing up while speaking",
+      "correct": true,
+      "belongsTo": "gestalt",
+      "sourceLine": "Somebody stands up while saying something"
+     },
+     {
+      "text": "Repeating statement",
+      "correct": false,
+      "belongsTo": "gestalt",
+      "sourceLine": "Repeating statement: “I’m disappointed in my partner.” T: sit up in your chair, say it a little bit louder. Check in with them about their experience. Client can say no and T can also see how they respond to the suggestion."
+     }
+    ],
+    "rationale": "Definition is verbatim from the Gestalt Therapy section.",
+    "sourceLine": "Somebody stands up while saying something",
+    "marker": "Standing up while speaking",
+    "intraModel": true
+   },
+   "gate": "gate4_distractor",
+   "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them",
+   "allFailures": [
+    {
+     "gate": "gate4_distractor",
+     "reason": "intraModel item has same-model distractors but the stem carries too little content to disambiguate them"
+    }
+   ]
+  },
+  {
+   "item": {
+    "id": "v_strategic_positioning",
+    "tier": 2,
+    "type": "V_vignette",
+    "models": [
+     "strategic",
+     "structural",
+     "bowen",
+     "satir"
+    ],
+    "stem": "A therapist tells a family their situation is completely hopeless, expecting the family to push back and insist that it is not.\n\nThis Strategic technique is:",
+    "options": [
+     {
+      "text": "Positioning",
+      "correct": true,
+      "belongsTo": "strategic",
+      "sourceLine": "Positioning: Therapist takes a more exaggerated and extreme view of the problem and the family is obligated to rebel. That leads to them seeing the ways in which they have Competency. (T says your family is completely hopeless w hopes they’d say no its not)"
+     },
+     {
+      "text": "Transforming Rules",
+      "correct": false,
+      "belongsTo": "satir",
+      "sourceLine": "Transforming Rules: Assisting clients to create more functional, less rigid guidelines."
+     },
+     {
+      "text": "Reframing",
+      "correct": false,
+      "belongsTo": "bowen",
+      "sourceLine": "Reframing: The presenting problem as a multigenerational problem that is caused by factors beyond the individual. Reframing issues as multigenerational issue."
+     },
+     {
+      "text": "Unbalancing",
+      "correct": false,
+      "belongsTo": "structural",
+      "sourceLine": "Unbalancing: Supporting someone who is in a one-down position, thus changing hierarchical position."
+     }
+    ],
+    "rationale": "Positioning: the therapist takes a more exaggerated and extreme view of the problem and the family is obligated to rebel.",
+    "sourceLine": "Positioning: Therapist takes a more exaggerated and extreme view of the problem and the family is obligated to rebel. That leads to them seeing the ways in which they have Competency. (T says your family is completely hopeless w hopes they’d say no its not)"
+   },
+   "gate": "gate4_distractor",
+   "reason": "distractor 'Reframing' is ALSO claimed by strategic, so it is arguably correct for the named theory",
+   "allFailures": [
+    {
+     "gate": "gate4_distractor",
+     "reason": "distractor 'Reframing' is ALSO claimed by strategic, so it is arguably correct for the named theory"
+    }
+   ]
+  },
+  {
+   "item": {
+    "id": "t1_client-centered_role_nonacceptance",
+    "tier": 1,
+    "type": "T1_marker",
+    "models": [
+     "client-centered"
+    ],
+    "stem": "Which model describes the therapist's role this way?\n\n“non acceptance”",
+    "options": [
+     {
+      "text": "Experiential / Symbolic Therapy (Whitaker)",
+      "correct": false,
+      "belongsTo": "experiential",
+      "sourceLine": "Change happens through the existential encounter – the authentic meeting of the therapist and the client in the present moment and by expanding the client’s range of experience. Very influenced by Gestalt therapy. Generally used with families, started by Carl Whittaker."
+     },
+     {
+      "text": "Existential Therapy",
+      "correct": false,
+      "belongsTo": "existential",
+      "sourceLine": "Change occurs through finding meaning, living authentically and responsibly. The idea that the person can respond, make choices, emphasizes personal choice about how clients want to live their lives. Core question: how do I exist? Inherent meaninglessness to life and existence."
+     },
+     {
+      "text": "Gestalt Therapy",
+      "correct": false,
+      "belongsTo": "gestalt",
+      "sourceLine": "The idea is that change occurs through increased awareness of here and now experience and dialogic relationship between T and client. Dialogic refers to a therapeutic stance where the therapist and client engage as two authentic human beings — fully present with each other, co-creating the therapeutic process. Heavily influenced by Martin Buber’s “I-Thou” philosophy, where the therapist meets the client as a fellow human, not an object to be treated."
+     },
+     {
+      "text": "Client Centered Therapy",
+      "correct": true,
+      "belongsTo": "client-centered",
+      "sourceLine": "non acceptance"
+     }
+    ],
+    "rationale": "“non acceptance” is listed under Client Centered Therapy's therapist role and is not claimed by another model in the packet.",
+    "sourceLine": "non acceptance",
+    "marker": "non acceptance"
+   },
+   "gate": "gate5_source_integrity",
+   "reason": "quotes the corrupted packet bullet 'non acceptance', which as written asserts the opposite of the model"
+  },
+  {
+   "item": {
+    "id": "t2_coll_existential_authenticpresenc",
+    "tier": 2,
+    "type": "T2_collision",
+    "models": [
+     "existential",
+     "client-centered",
+     "experiential",
+     "gestalt",
+     "satir"
+    ],
+    "stem": "Existential Therapy share the marker “authentic presence” with Client Centered Therapy, Experiential / Symbolic Therapy (Whitaker), Gestalt Therapy, Satir Communications Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Existential Therapy?",
+    "options": [
+     {
+      "text": "Focus on moment to moment",
+      "correct": true,
+      "belongsTo": "existential",
+      "sourceLine": "Focus on moment to moment during therapy, process not content."
+     },
+     {
+      "text": "Styles of Communication",
+      "correct": false,
+      "belongsTo": "satir",
+      "sourceLine": "Styles of Communication: The rules that govern family interaction function as a method of ensuring the maintenance and preservation of the family’s current functioning level."
+     },
+     {
+      "text": "Activating Constructive Anxiety",
+      "correct": false,
+      "belongsTo": "experiential",
+      "sourceLine": "Activating Constructive Anxiety: Reframing anxiety in the family as efforts toward competence (fear of failing to accomplish what one is capable of). Enhancing motivation, if you identify the positive thing they were afraid wouldn’t happen."
+     },
+     {
+      "text": "Battle for Initiative",
+      "correct": false,
+      "belongsTo": "experiential",
+      "sourceLine": "Battle for Initiative: Motivation for change must come from family. Includes having a family state the agenda for each session, waiting silently for family to take initiative, allowing family to determine how change is going to happen. The therapist should not be working harder than the family. A family comes in, and nobody is speaking. What would experiential therapist do? The right answer would be the therapist would wait silently for the family to take initiative."
+     }
+    ],
+    "rationale": "“authentic presence” is claimed by Client Centered Therapy, Existential Therapy, Experiential / Symbolic Therapy (Whitaker), Gestalt Therapy, Satir Communications Therapy, so it discriminates nothing. Focus on moment to moment is unique to Existential Therapy.",
+    "sourceLine": "Focus on moment to moment during therapy, process not content.",
+    "marker": "authentic presence"
+   },
+   "gate": "gate2_uniqueness",
+   "reason": "keyed answer 'Focus on moment to moment' is claimed by ['client-centered', 'existential', 'gestalt'] once equivalence-class prefixes are matched"
+  },
+  {
+   "item": {
+    "id": "t2_coll_experiential_authenticpresenc",
+    "tier": 2,
+    "type": "T2_collision",
+    "models": [
+     "experiential",
+     "client-centered",
+     "existential",
+     "gestalt",
+     "satir"
+    ],
+    "stem": "Experiential / Symbolic Therapy (Whitaker) share the marker “authentic presence” with Client Centered Therapy, Existential Therapy, Gestalt Therapy, Satir Communications Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Experiential / Symbolic Therapy (Whitaker)?",
+    "options": [
+     {
+      "text": "Top dog / underdog dialogue",
+      "correct": false,
+      "belongsTo": "gestalt",
+      "sourceLine": "Top dog / underdog dialogue"
+     },
+     {
+      "text": "Trial of Labor",
+      "correct": true,
+      "belongsTo": "experiential",
+      "sourceLine": "Trial of Labor: Understanding the roles, boundaries, beliefs, history, and levels of conflict within the family. Assessment. Family dynamic."
+     },
+     {
+      "text": "Focus on process",
+      "correct": false,
+      "belongsTo": "gestalt",
+      "sourceLine": "Focuses on the process: how things are being sad, how the therapy is unfolding, the tons of voice, body language, the energy of the therapy, paying attention to what’s going on in the moment."
+     },
+     {
+      "text": "Focus on moment to moment",
+      "correct": false,
+      "belongsTo": "existential",
+      "sourceLine": "Focus on moment to moment during therapy, process not content."
+     }
+    ],
+    "rationale": "“authentic presence” is claimed by Client Centered Therapy, Existential Therapy, Experiential / Symbolic Therapy (Whitaker), Gestalt Therapy, Satir Communications Therapy, so it discriminates nothing. Trial of Labor is unique to Experiential / Symbolic Therapy (Whitaker).",
+    "sourceLine": "Trial of Labor: Understanding the roles, boundaries, beliefs, history, and levels of conflict within the family. Assessment. Family dynamic.",
+    "marker": "authentic presence"
+   },
+   "gate": "gate2_uniqueness",
+   "reason": "keyed answer 'Trial of Labor' is claimed by ['bowen', 'experiential', 'satir', 'structural'] once equivalence-class prefixes are matched"
+  },
+  {
+   "item": {
+    "id": "t2_coll_bowen_coachconsultante",
+    "tier": 2,
+    "type": "T2_collision",
+    "models": [
+     "bowen",
+     "solution-focused"
+    ],
+    "stem": "Bowen Family Systems share the marker “coach / consultant / educator” with Solution-Focused Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Bowen Family Systems?",
+    "options": [
+     {
+      "text": "Scaling Questions",
+      "correct": false,
+      "belongsTo": "solution-focused",
+      "sourceLine": "Scaling Questions: The therapist asks the client to think of a scale ranging from the worst things could be to the best. The client then rates their current position on the scale and is asked to identify how they could move up or down the scale. The client is also encouraged to identify what point on the scale would be good enough or where their “perfect future” is. Example: “You said that things are between a 4 and a 5. What would need to happen so that things were between a 5 and 6?”"
+     },
+     {
+      "text": "Coping Questions",
+      "correct": false,
+      "belongsTo": "solution-focused",
+      "sourceLine": "Coping Questions: If a client has trouble identifying positive change, coping questions are asked by the therapist in order to illustrate resources that the client already has. This can include validating the client’s difficulties while also showing that they are still able to get up in the morning, go to school, etc. This highlights the client’s strengths without undermining their view of reality. These questions are supportive while also challenging the client and shifting the focus away from problem-focused narratives. Example: “How do you keep going each day even when it feels like there is no hope?”"
+     },
+     {
+      "text": "Formula First Session Task (FFST)",
+      "correct": false,
+      "belongsTo": "solution-focused",
+      "sourceLine": "Formula First Session Task (FFST) A homework task to observe what’s already working “Between now and our next meeting, observe what happens in your life that you’d like to continue.”"
+     },
+     {
+      "text": "Genogram",
+      "correct": true,
+      "belongsTo": "bowen",
+      "sourceLine": "Genogram: Create a multigenerational map of family emotional system."
+     }
+    ],
+    "rationale": "“coach / consultant / educator” is claimed by Bowen Family Systems, Solution-Focused Therapy, so it discriminates nothing. Genogram is unique to Bowen Family Systems.",
+    "sourceLine": "Genogram: Create a multigenerational map of family emotional system.",
+    "marker": "coach / consultant / educator"
+   },
+   "gate": "gate2_uniqueness",
+   "reason": "keyed answer 'Genogram' is claimed by ['bowen', 'experiential', 'satir', 'structural'] once equivalence-class prefixes are matched"
+  },
+  {
+   "item": {
+    "id": "t2_coll_solution-focused_coachconsultante",
+    "tier": 2,
+    "type": "T2_collision",
+    "models": [
+     "solution-focused",
+     "bowen"
+    ],
+    "stem": "Solution-Focused Therapy share the marker “coach / consultant / educator” with Bowen Family Systems, so that marker cannot tell them apart. Which of these IS distinctive of Solution-Focused Therapy?",
+    "options": [
+     {
+      "text": "Formula First Session Task (FFST)",
+      "correct": true,
+      "belongsTo": "solution-focused",
+      "sourceLine": "Formula First Session Task (FFST) A homework task to observe what’s already working “Between now and our next meeting, observe what happens in your life that you’d like to continue.”"
+     },
+     {
+      "text": "Reduce emotional reactivity",
+      "correct": false,
+      "belongsTo": "bowen",
+      "sourceLine": "Reduce emotional reactivity by having family members talk to the therapist."
+     },
+     {
+      "text": "Family Projection Process",
+      "correct": false,
+      "belongsTo": "bowen",
+      "sourceLine": "Family Projection Process: The family projection process describes the primary way parents transmit their emotional problems to a child. The projection process can impair the functioning of one or more children and increase their vulnerability to clinical symptoms. Example: parents show no conflict or are too argumentative in front of kids"
+     },
+     {
+      "text": "Opening Cutoff Relationships",
+      "correct": false,
+      "belongsTo": "bowen",
+      "sourceLine": "Opening Cutoff Relationships: Encouraging and supporting clients to re-engage with estranged family members."
+     }
+    ],
+    "rationale": "“coach / consultant / educator” is claimed by Bowen Family Systems, Solution-Focused Therapy, so it discriminates nothing. Formula First Session Task (FFST) is unique to Solution-Focused Therapy.",
+    "sourceLine": "Formula First Session Task (FFST) A homework task to observe what’s already working “Between now and our next meeting, observe what happens in your life that you’d like to continue.”",
+    "marker": "coach / consultant / educator"
+   },
+   "gate": "gate2_uniqueness",
+   "reason": "keyed answer 'Formula First Session Task (FFST)' is claimed by ['bowen', 'cbt', 'solution-focused', 'strategic'] once equivalence-class prefixes are matched"
+  },
+  {
+   "item": {
+    "id": "t2_coll_solution-focused_collaborativegoa",
+    "tier": 2,
+    "type": "T2_collision",
+    "models": [
+     "solution-focused",
+     "cbt",
+     "narrative"
+    ],
+    "stem": "Solution-Focused Therapy share the marker “collaborative goal setting” with CBT (interventions), Narrative Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Solution-Focused Therapy?",
+    "options": [
+     {
+      "text": "Behavioral Activation",
+      "correct": false,
+      "belongsTo": "cbt",
+      "sourceLine": "Behavioral Activation: Increases activity for depressed or passive clients by using activity scheduling and incentives. Incentives planned for activities that are difficult for people to accomplish."
+     },
+     {
+      "text": "Problem-Saturated Stories",
+      "correct": false,
+      "belongsTo": "narrative",
+      "sourceLine": "Problem-Saturated Stories: The dominant and unhealthy stories an individual tells themselves. These are often the stories that bring people to therapy."
+     },
+     {
+      "text": "Formula First Session Task (FFST)",
+      "correct": true,
+      "belongsTo": "solution-focused",
+      "sourceLine": "Formula First Session Task (FFST) A homework task to observe what’s already working “Between now and our next meeting, observe what happens in your life that you’d like to continue.”"
+     },
+     {
+      "text": "Externalizing the Problem",
+      "correct": false,
+      "belongsTo": "narrative",
+      "sourceLine": "Externalizing the Problem: This is a type of intervention. The therapist asks questions that are designed to separate the person from the problem."
+     }
+    ],
+    "rationale": "“collaborative goal setting” is claimed by CBT (interventions), Narrative Therapy, Solution-Focused Therapy, so it discriminates nothing. Formula First Session Task (FFST) is unique to Solution-Focused Therapy.",
+    "sourceLine": "Formula First Session Task (FFST) A homework task to observe what’s already working “Between now and our next meeting, observe what happens in your life that you’d like to continue.”",
+    "marker": "collaborative goal setting"
+   },
+   "gate": "gate2_uniqueness",
+   "reason": "keyed answer 'Formula First Session Task (FFST)' is claimed by ['bowen', 'cbt', 'solution-focused', 'strategic'] once equivalence-class prefixes are matched"
+  },
+  {
+   "item": {
+    "id": "t2_coll_attachment_empathyattunemen",
+    "tier": 2,
+    "type": "T2_collision",
+    "models": [
+     "attachment",
+     "client-centered",
+     "object-relations",
+     "self-psychology"
+    ],
+    "stem": "Attachment-Based Therapy (Bowlby) share the marker “empathy / attunement” with Client Centered Therapy, Object Relations, Self Psychology, so that marker cannot tell them apart. Which of these IS distinctive of Attachment-Based Therapy (Bowlby)?",
+    "options": [
+     {
+      "text": "Repair disruptions of the self-object transference",
+      "correct": false,
+      "belongsTo": "self-psychology",
+      "sourceLine": "Repair disruptions of the self-object transference"
+     },
+     {
+      "text": "Repair",
+      "correct": true,
+      "belongsTo": "attachment",
+      "sourceLine": "Repair occurs during the late middle phase and the end of treatment."
+     },
+     {
+      "text": "Mirroring Transference",
+      "correct": false,
+      "belongsTo": "self-psychology",
+      "sourceLine": "Mirroring Transference: The patient seeks acceptance and confirmation of the self from the therapist."
+     },
+     {
+      "text": "Identify alternative self-objects",
+      "correct": false,
+      "belongsTo": "self-psychology",
+      "sourceLine": "Identify alternative self-objects: people they did have had positive relationship with them. Through their relationship with T they learn about different positive selfobjects, and can start to identify healthy selfobjects for themselves."
+     }
+    ],
+    "rationale": "“empathy / attunement” is claimed by Attachment-Based Therapy (Bowlby), Client Centered Therapy, Object Relations, Self Psychology, so it discriminates nothing. Repair is unique to Attachment-Based Therapy (Bowlby).",
+    "sourceLine": "Repair occurs during the late middle phase and the end of treatment.",
+    "marker": "empathy / attunement"
+   },
+   "gate": "gate4_distractor",
+   "reason": "distractor 'Repair disruptions of the self-object tr' restates the keyed answer 'Repair'"
+  },
+  {
+   "item": {
+    "id": "t2_coll_structural_familyhistorymap",
+    "tier": 2,
+    "type": "T2_collision",
+    "models": [
+     "structural",
+     "bowen",
+     "experiential",
+     "satir"
+    ],
+    "stem": "Structural Family Therapy share the marker “family history mapping (function)” with Bowen Family Systems, Experiential / Symbolic Therapy (Whitaker), Satir Communications Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Structural Family Therapy?",
+    "options": [
+     {
+      "text": "Enactment",
+      "correct": true,
+      "belongsTo": "structural",
+      "sourceLine": "Enactment: The actualization of transactional patterns under the control of the therapist. It allows the therapist to observe how family members mutually regulate their behaviors, and to determine the place of the problem behavior within the sequence of transactions."
+     },
+     {
+      "text": "Battle for Initiative",
+      "correct": false,
+      "belongsTo": "experiential",
+      "sourceLine": "Battle for Initiative: Motivation for change must come from family. Includes having a family state the agenda for each session, waiting silently for family to take initiative, allowing family to determine how change is going to happen. The therapist should not be working harder than the family. A family comes in, and nobody is speaking. What would experiential therapist do? The right answer would be the therapist would wait silently for the family to take initiative."
+     },
+     {
+      "text": "Emotional Cutoff",
+      "correct": false,
+      "belongsTo": "bowen",
+      "sourceLine": "Emotional Cutoff: The concept of emotional cutoff describes people managing their unresolved emotional issues with parents, siblings, and other family members by reducing or totally cutting off emotional contact with them."
+     },
+     {
+      "text": "Bibliotherapy",
+      "correct": false,
+      "belongsTo": "bowen",
+      "sourceLine": "Bibliotherapy: Assigning reading material."
+     }
+    ],
+    "rationale": "“family history mapping (function)” is claimed by Bowen Family Systems, Experiential / Symbolic Therapy (Whitaker), Satir Communications Therapy, Structural Family Therapy, so it discriminates nothing. Enactment is unique to Structural Family Therapy.",
+    "sourceLine": "Enactment: The actualization of transactional patterns under the control of the therapist. It allows the therapist to observe how family members mutually regulate their behaviors, and to determine the place of the problem behavior within the sequence of transactions.",
+    "marker": "family history mapping (function)"
+   },
+   "gate": "gate2_uniqueness",
+   "reason": "keyed answer 'Enactment' is claimed by ['self-psychology', 'structural'] once equivalence-class prefixes are matched"
+  },
+  {
+   "item": {
+    "id": "t2_coll_bowen_neutralstance",
+    "tier": 2,
+    "type": "T2_collision",
+    "models": [
+     "bowen",
+     "object-relations"
+    ],
+    "stem": "Bowen Family Systems share the marker “neutral stance” with Object Relations, so that marker cannot tell them apart. Which of these IS distinctive of Bowen Family Systems?",
+    "options": [
+     {
+      "text": "Identify and process projective identification",
+      "correct": false,
+      "belongsTo": "object-relations",
+      "sourceLine": "Identify and process projective identification (T is aware of feeling so and do about the client, how would object relations therapist handle this situation, look for this term)."
+     },
+     {
+      "text": "Genogram",
+      "correct": true,
+      "belongsTo": "bowen",
+      "sourceLine": "Genogram: Extensive study of family’s history. Acts both as an assessment and treatment tool."
+     },
+     {
+      "text": "Confront resistance and primitive defenses",
+      "correct": false,
+      "belongsTo": "object-relations",
+      "sourceLine": "Confront (aka bringing the issues to attention: I notice when I bring this up, you quickly change the subject) resistance and primitive defense mechanisms."
+     },
+     {
+      "text": "Self- and Object-Representations",
+      "correct": false,
+      "belongsTo": "object-relations",
+      "sourceLine": "Self- and Object-Representations: Infants form images of themselves and others. Once formed, they are fundamental internal structures that affect the ways in which individuals view themselves and others. These are created from the internalization process. Can create a false self disconnected from the true self."
+     }
+    ],
+    "rationale": "“neutral stance” is claimed by Bowen Family Systems, Object Relations, so it discriminates nothing. Genogram is unique to Bowen Family Systems.",
+    "sourceLine": "Genogram: Extensive study of family’s history. Acts both as an assessment and treatment tool.",
+    "marker": "neutral stance"
+   },
+   "gate": "gate2_uniqueness",
+   "reason": "keyed answer 'Genogram' is claimed by ['bowen', 'experiential', 'satir', 'structural'] once equivalence-class prefixes are matched"
+  },
+  {
+   "item": {
+    "id": "t2_coll_bowen_reframing",
+    "tier": 2,
+    "type": "T2_collision",
+    "models": [
+     "bowen",
+     "cbt",
+     "experiential",
+     "strategic",
+     "structural"
+    ],
+    "stem": "Bowen Family Systems share the marker “reframing” with CBT (interventions), Experiential / Symbolic Therapy (Whitaker), Strategic Therapy, Structural Family Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Bowen Family Systems?",
+    "options": [
+     {
+      "text": "Positioning",
+      "correct": false,
+      "belongsTo": "strategic",
+      "sourceLine": "Positioning: Therapist takes a more exaggerated and extreme view of the problem and the family is obligated to rebel. That leads to them seeing the ways in which they have Competency. (T says your family is completely hopeless w hopes they’d say no its not)"
+     },
+     {
+      "text": "Joining",
+      "correct": false,
+      "belongsTo": "structural",
+      "sourceLine": "Joining: Therapist’s first task; involves blending in with the family, adapting the family’s affect, style, and language."
+     },
+     {
+      "text": "Systematic Desensitization",
+      "correct": false,
+      "belongsTo": "cbt",
+      "sourceLine": "Systematic Desensitization: Systematic desensitization pairs relaxation with exposure to something stressful. Clients are taught to relax in anxiety producing situations. People taught how to relax, exposed to stressful situation, then exposed and use those techniques can be real life or imagery. A type of Counterconditioning: replacing fear with relaxation. - Create fear hierarchy - Relaxation training - Gradual exposure (in imagination or real life) Systematic Desensitization = “Let’s gradually face your fear, while staying relaxed, until it no longer feels threatening.”"
+     },
+     {
+      "text": "Models",
+      "correct": true,
+      "belongsTo": "bowen",
+      "sourceLine": "Models: Demonstrates new ways to interact and communicate."
+     }
+    ],
+    "rationale": "“reframing” is claimed by Bowen Family Systems, CBT (interventions), Experiential / Symbolic Therapy (Whitaker), Strategic Therapy, Structural Family Therapy, so it discriminates nothing. Models is unique to Bowen Family Systems.",
+    "sourceLine": "Models: Demonstrates new ways to interact and communicate.",
+    "marker": "reframing"
+   },
+   "gate": "gate2_uniqueness",
+   "reason": "keyed answer 'Models' is claimed by ['bowen', 'client-centered', 'existential', 'experiential', 'gestalt', 'satir'] once equivalence-class prefixes are matched"
+  },
+  {
+   "item": {
+    "id": "t2_coll_experiential_reframing",
+    "tier": 2,
+    "type": "T2_collision",
+    "models": [
+     "experiential",
+     "bowen",
+     "cbt",
+     "strategic",
+     "structural"
+    ],
+    "stem": "Experiential / Symbolic Therapy (Whitaker) share the marker “reframing” with Bowen Family Systems, CBT (interventions), Strategic Therapy, Structural Family Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Experiential / Symbolic Therapy (Whitaker)?",
+    "options": [
+     {
+      "text": "Trial of Labor",
+      "correct": true,
+      "belongsTo": "experiential",
+      "sourceLine": "Trial of Labor: Understanding the roles, boundaries, beliefs, history, and levels of conflict within the family. Assessment. Family dynamic."
+     },
+     {
+      "text": "Differentiation of Self",
+      "correct": false,
+      "belongsTo": "bowen",
+      "sourceLine": "Differentiation of Self: Families and other social groups tremendously affect how people think, feel, and act, but individuals vary in their susceptibility to a “group think” and groups vary in the amount of pressure they exert for conformity. These differences between individuals and between groups reflect differences in people’s levels of differentiation of self. Differentiation of Self refers to a person’s ability to maintain their sense of self while remaining emotionally connected to others. It reflects how well someone can balance thinking vs. feeling, and autonomy vs. intimacy, especially under stress."
+     },
+     {
+      "text": "Psychoeducation on the negative triad",
+      "correct": false,
+      "belongsTo": "cbt",
+      "sourceLine": "Teach the client about negative triad, done in first session as well as psychoeducation about how CBT works."
+     },
+     {
+      "text": "Alliances",
+      "correct": false,
+      "belongsTo": "structural",
+      "sourceLine": "Alliances: Subgroups based on gender, generation, developmental tasks."
+     }
+    ],
+    "rationale": "“reframing” is claimed by Bowen Family Systems, CBT (interventions), Experiential / Symbolic Therapy (Whitaker), Strategic Therapy, Structural Family Therapy, so it discriminates nothing. Trial of Labor is unique to Experiential / Symbolic Therapy (Whitaker).",
+    "sourceLine": "Trial of Labor: Understanding the roles, boundaries, beliefs, history, and levels of conflict within the family. Assessment. Family dynamic.",
+    "marker": "reframing"
+   },
+   "gate": "gate2_uniqueness",
+   "reason": "keyed answer 'Trial of Labor' is claimed by ['bowen', 'experiential', 'satir', 'structural'] once equivalence-class prefixes are matched"
+  },
+  {
+   "item": {
+    "id": "t1_bowen_marker_models",
+    "tier": 1,
+    "type": "T1_marker",
+    "models": [
+     "bowen"
+    ],
+    "stem": "“Models” is a signature term of which model?",
+    "options": [
+     {
+      "text": "Strategic Therapy",
+      "correct": false,
+      "belongsTo": "strategic",
+      "sourceLine": "Change occurs through action-oriented directives and paradoxical interventions. Very focused on specific problems."
+     },
+     {
+      "text": "Bowen Family Systems",
+      "correct": true,
+      "belongsTo": "bowen",
+      "sourceLine": "Models: Demonstrates new ways to interact and communicate."
+     },
+     {
+      "text": "Satir Communications Therapy",
+      "correct": false,
+      "belongsTo": "satir",
+      "sourceLine": "Change happens through self-awareness and improved communication. Humanistic approach."
+     },
+     {
+      "text": "Structural Family Therapy",
+      "correct": false,
+      "belongsTo": "structural",
+      "sourceLine": "Change occurs through restructuring the family’s organization. Very focused on entire organization of the whole family system. Looking at bigger picture of the family interactions."
+     }
+    ],
+    "rationale": "Models belongs to Bowen Family Systems and is not claimed by any other model in the packet.",
+    "sourceLine": "Models: Demonstrates new ways to interact and communicate.",
+    "marker": "Models"
+   },
+   "gate": "gate1_blind_reanswer",
+   "reason": "blind grader picked correctly but flagged two or more options as defensible"
+  },
+  {
+   "item": {
+    "id": "t1_object-relations_marker_projection",
+    "tier": 1,
+    "type": "T1_marker",
+    "models": [
+     "object-relations"
+    ],
+    "stem": "“Projection” is a signature term of which model?",
+    "options": [
+     {
+      "text": "Attachment-Based Therapy (Bowlby)",
+      "correct": false,
+      "belongsTo": "attachment",
+      "sourceLine": "Change occurs through exploration of past and current relational attachments and trauma in the environment of a healing, secure, and reliable relationship."
+     },
+     {
+      "text": "Bowen Family Systems",
+      "correct": false,
+      "belongsTo": "bowen",
+      "sourceLine": "Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family."
+     },
+     {
+      "text": "Object Relations",
+      "correct": true,
+      "belongsTo": "object-relations",
+      "sourceLine": "Projection: Involves projecting undesirable feelings or emotions onto someone else, rather than admitting to or dealing with the unwanted feelings."
+     },
+     {
+      "text": "Self Psychology",
+      "correct": false,
+      "belongsTo": "self-psychology",
+      "sourceLine": "Change occurs through empathetic attunement and strengthening the self-structures through optimal responsiveness. Shift away from interpretation."
+     }
+    ],
+    "rationale": "Projection belongs to Object Relations and is not claimed by any other model in the packet.",
+    "sourceLine": "Projection: Involves projecting undesirable feelings or emotions onto someone else, rather than admitting to or dealing with the unwanted feelings.",
+    "marker": "Projection"
+   },
+   "gate": "gate1_blind_reanswer",
+   "reason": "blind grader picked correctly but flagged two or more options as defensible"
+  },
+  {
+   "item": {
+    "id": "t1_attachment_marker_repairstage",
+    "tier": 1,
+    "type": "T1_marker",
+    "models": [
+     "attachment"
+    ],
+    "stem": "“Repair stage” is a signature term of which model?",
+    "options": [
+     {
+      "text": "Object Relations",
+      "correct": false,
+      "belongsTo": "object-relations",
+      "sourceLine": "Change occurs through both reparative experiences within the treatment relationship (relationship with therapist) insight into and modification of entrenched object relations pathology."
+     },
+     {
+      "text": "Self Psychology",
+      "correct": false,
+      "belongsTo": "self-psychology",
+      "sourceLine": "Change occurs through empathetic attunement and strengthening the self-structures through optimal responsiveness. Shift away from interpretation."
+     },
+     {
+      "text": "Attachment-Based Therapy (Bowlby)",
+      "correct": true,
+      "belongsTo": "attachment",
+      "sourceLine": "Repair stage of the therapy aims to alter the patient’s current reactions to the events that cause them emotional distress by sharing their own interpretations of the event. By sharing their own subjective interpretation, the therapist helps create a new reality of the painful events for the patient in order to get rid of unwanted emotions and reactions."
+     },
+     {
+      "text": "Client Centered Therapy",
+      "correct": false,
+      "belongsTo": "client-centered",
+      "sourceLine": "Views people are always growing and inherently good. Avoids diagnosis, avoid strict adherence to what the ideal person should be. Role of therapist is nondirective, not steering client in any one direction (unlike CBT or systems theory). Driven by what the client wants to talk about. T is a facilitator who is helping the person to grow and change. This occurs by creating unconditional positive regard. Client determines the goals of therapy. Up to the client to decide how many sessions they would like as well, a lot of support for client self-determination."
+     }
+    ],
+    "rationale": "Repair stage belongs to Attachment-Based Therapy (Bowlby) and is not claimed by any other model in the packet.",
+    "sourceLine": "Repair stage of the therapy aims to alter the patient’s current reactions to the events that cause them emotional distress by sharing their own interpretations of the event. By sharing their own subjective interpretation, the therapist helps create a new reality of the painful events for the patient in order to get rid of unwanted emotions and reactions.",
+    "marker": "Repair stage"
+   },
+   "gate": "gate1_blind_reanswer",
+   "reason": "blind grader picked correctly but flagged two or more options as defensible"
+  },
+  {
+   "item": {
+    "id": "t1_attachment_marker_repair",
+    "tier": 1,
+    "type": "T1_marker",
+    "models": [
+     "attachment"
+    ],
+    "stem": "“Repair” is a signature term of which model?",
+    "options": [
+     {
+      "text": "Client Centered Therapy",
+      "correct": false,
+      "belongsTo": "client-centered",
+      "sourceLine": "Views people are always growing and inherently good. Avoids diagnosis, avoid strict adherence to what the ideal person should be. Role of therapist is nondirective, not steering client in any one direction (unlike CBT or systems theory). Driven by what the client wants to talk about. T is a facilitator who is helping the person to grow and change. This occurs by creating unconditional positive regard. Client determines the goals of therapy. Up to the client to decide how many sessions they would like as well, a lot of support for client self-determination."
+     },
+     {
+      "text": "Object Relations",
+      "correct": false,
+      "belongsTo": "object-relations",
+      "sourceLine": "Change occurs through both reparative experiences within the treatment relationship (relationship with therapist) insight into and modification of entrenched object relations pathology."
+     },
+     {
+      "text": "Self Psychology",
+      "correct": false,
+      "belongsTo": "self-psychology",
+      "sourceLine": "Change occurs through empathetic attunement and strengthening the self-structures through optimal responsiveness. Shift away from interpretation."
+     },
+     {
+      "text": "Attachment-Based Therapy (Bowlby)",
+      "correct": true,
+      "belongsTo": "attachment",
+      "sourceLine": "Repair occurs during the late middle phase and the end of treatment."
+     }
+    ],
+    "rationale": "Repair belongs to Attachment-Based Therapy (Bowlby) and is not claimed by any other model in the packet.",
+    "sourceLine": "Repair occurs during the late middle phase and the end of treatment.",
+    "marker": "Repair"
+   },
+   "gate": "gate1_blind_reanswer",
+   "reason": "blind grader picked correctly but flagged two or more options as defensible"
+  },
+  {
+   "item": {
+    "id": "t1_existential_marker_focusonmomenttomom",
+    "tier": 1,
+    "type": "T1_marker",
+    "models": [
+     "existential"
+    ],
+    "stem": "“Focus on moment to moment” is a signature term of which model?",
+    "options": [
+     {
+      "text": "Client Centered Therapy",
+      "correct": false,
+      "belongsTo": "client-centered",
+      "sourceLine": "Views people are always growing and inherently good. Avoids diagnosis, avoid strict adherence to what the ideal person should be. Role of therapist is nondirective, not steering client in any one direction (unlike CBT or systems theory). Driven by what the client wants to talk about. T is a facilitator who is helping the person to grow and change. This occurs by creating unconditional positive regard. Client determines the goals of therapy. Up to the client to decide how many sessions they would like as well, a lot of support for client self-determination."
+     },
+     {
+      "text": "Existential Therapy",
+      "correct": true,
+      "belongsTo": "existential",
+      "sourceLine": "Focus on moment to moment during therapy, process not content."
+     },
+     {
+      "text": "Gestalt Therapy",
+      "correct": false,
+      "belongsTo": "gestalt",
+      "sourceLine": "The idea is that change occurs through increased awareness of here and now experience and dialogic relationship between T and client. Dialogic refers to a therapeutic stance where the therapist and client engage as two authentic human beings — fully present with each other, co-creating the therapeutic process. Heavily influenced by Martin Buber’s “I-Thou” philosophy, where the therapist meets the client as a fellow human, not an object to be treated."
+     },
+     {
+      "text": "Experiential / Symbolic Therapy (Whitaker)",
+      "correct": false,
+      "belongsTo": "experiential",
+      "sourceLine": "Change happens through the existential encounter – the authentic meeting of the therapist and the client in the present moment and by expanding the client’s range of experience. Very influenced by Gestalt therapy. Generally used with families, started by Carl Whittaker."
+     }
+    ],
+    "rationale": "Focus on moment to moment belongs to Existential Therapy and is not claimed by any other model in the packet.",
+    "sourceLine": "Focus on moment to moment during therapy, process not content.",
+    "marker": "Focus on moment to moment"
+   },
+   "gate": "gate1_blind_reanswer",
+   "reason": "blind grader picked correctly but flagged two or more options as defensible"
+  },
+  {
+   "item": {
+    "id": "t1_solution-focused_phase_beginning_0",
+    "tier": 1,
+    "type": "T1_phase",
+    "models": [
+     "solution-focused"
+    ],
+    "stem": "In the beginning phase of treatment, what would a Solution-Focused Therapy therapist do?",
+    "options": [
+     {
+      "text": "Set collaborative goals.",
+      "correct": false,
+      "belongsTo": "cbt",
+      "sourceLine": "Set collaborative goals."
+     },
+     {
+      "text": "Join with client competencies",
+      "correct": true,
+      "belongsTo": "solution-focused",
+      "sourceLine": "Join with client competencies"
+     },
+     {
+      "text": "Identify treatment focus and goals.",
+      "correct": false,
+      "belongsTo": "satir",
+      "sourceLine": "Identify treatment focus and goals."
+     },
+     {
+      "text": "Establish safe and supportive therapeutic relationship",
+      "correct": false,
+      "belongsTo": "cbt",
+      "sourceLine": "Establish safe and supportive therapeutic relationship"
+     }
+    ],
+    "rationale": "This is drawn from Solution-Focused Therapy's beginning phase. The distractors are the same phase in neighbouring models.",
+    "sourceLine": "Join with client competencies"
+   },
+   "gate": "gate1_blind_reanswer",
+   "reason": "blind grader picked correctly but flagged two or more options as defensible"
+  },
+  {
+   "item": {
+    "id": "t1_object-relations_phase_beginning_1",
+    "tier": 1,
+    "type": "T1_phase",
+    "models": [
+     "object-relations"
+    ],
+    "stem": "In the beginning phase of treatment, what would a Object Relations therapist do?",
+    "options": [
+     {
+      "text": "Provide “experience-near” empathy",
+      "correct": false,
+      "belongsTo": "self-psychology",
+      "sourceLine": "Provide “experience-near” empathy"
+     },
+     {
+      "text": "Collaboratively identifying client’s “attachment style,\" that is, problematic behavioral and emotional patterns, formed in early childhood as attempts to maintain attachment to primary caregivers.",
+      "correct": false,
+      "belongsTo": "attachment",
+      "sourceLine": "Collaboratively identifying client’s “attachment style,\" that is, problematic behavioral and emotional patterns, formed in early childhood as attempts to maintain attachment to primary caregivers."
+     },
+     {
+      "text": "Build rapport and therapeutic alliance through listening",
+      "correct": true,
+      "belongsTo": "object-relations",
+      "sourceLine": "Build rapport and therapeutic alliance through listening"
+     },
+     {
+      "text": "Explore the client's problem and history, including relationship history.",
+      "correct": false,
+      "belongsTo": "self-psychology",
+      "sourceLine": "Explore the client's problem and history, including relationship history."
+     }
+    ],
+    "rationale": "This is drawn from Object Relations's beginning phase. The distractors are the same phase in neighbouring models.",
+    "sourceLine": "Build rapport and therapeutic alliance through listening"
+   },
+   "gate": "gate1_blind_reanswer",
+   "reason": "blind grader picked correctly but flagged two or more options as defensible"
+  },
+  {
+   "item": {
+    "id": "t1_cbt_phase_beginning_0",
+    "tier": 1,
+    "type": "T1_phase",
+    "models": [
+     "cbt"
+    ],
+    "stem": "In the beginning phase of treatment, what would a CBT (interventions) therapist do?",
+    "options": [
+     {
+      "text": "Define the problem",
+      "correct": false,
+      "belongsTo": "strategic",
+      "sourceLine": "Define the problem"
+     },
+     {
+      "text": "identify dysfunctional patterns that have been passed along through the generations.",
+      "correct": false,
+      "belongsTo": "bowen",
+      "sourceLine": "identify dysfunctional patterns that have been passed along through the generations."
+     },
+     {
+      "text": "Create a family diagram of multigenerational emotional connections, genogram",
+      "correct": false,
+      "belongsTo": "bowen",
+      "sourceLine": "Create a family diagram of multigenerational emotional connections, genogram"
+     },
+     {
+      "text": "Establish safe and supportive therapeutic relationship",
+      "correct": true,
+      "belongsTo": "cbt",
+      "sourceLine": "Establish safe and supportive therapeutic relationship"
+     }
+    ],
+    "rationale": "This is drawn from CBT (interventions)'s beginning phase. The distractors are the same phase in neighbouring models.",
+    "sourceLine": "Establish safe and supportive therapeutic relationship"
+   },
+   "gate": "gate1_blind_reanswer",
+   "reason": "blind grader picked correctly but flagged two or more options as defensible"
+  },
+  {
+   "item": {
+    "id": "t1_cbt_phase_end_0",
+    "tier": 1,
+    "type": "T1_phase",
+    "models": [
+     "cbt"
+    ],
+    "stem": "In the end phase of treatment, what would a CBT (interventions) therapist do?",
+    "options": [
+     {
+      "text": "Review new skills and knowledge gained in therapy.",
+      "correct": false,
+      "belongsTo": "bowen",
+      "sourceLine": "Review new skills and knowledge gained in therapy."
+     },
+     {
+      "text": "emphasize positive changes made.",
+      "correct": false,
+      "belongsTo": "strategic",
+      "sourceLine": "emphasize positive changes made."
+     },
+     {
+      "text": "Review gains",
+      "correct": true,
+      "belongsTo": "cbt",
+      "sourceLine": "Review gains"
+     },
+     {
+      "text": "plan for future challenges",
+      "correct": false,
+      "belongsTo": "strategic",
+      "sourceLine": "plan for future challenges"
+     }
+    ],
+    "rationale": "This is drawn from CBT (interventions)'s end phase. The distractors are the same phase in neighbouring models.",
+    "sourceLine": "Review gains"
+   },
+   "gate": "gate1_blind_reanswer",
+   "reason": "blind grader picked correctly but flagged two or more options as defensible"
+  }
+ ]
+}

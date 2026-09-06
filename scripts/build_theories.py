@@ -81,6 +81,12 @@ def termfact(doc, term, ids, ctx):
     else:
         if sl.lower().startswith(term.lower()):
             definition = sl[len(term):].lstrip(" :–-").strip()
+    # Stripping the label can leave an orphaned fragment ("of the therapy aims
+    # to alter...", ". If person had ideas..."). If the remainder does not start
+    # a sentence, keep the whole line instead -- a fragment reads as a broken
+    # question.
+    if not definition or not definition[0].isupper():
+        definition = sl
     return {"term": term, "definition": definition, "sourceLine": sl,
             "sourceDoc": doc, "blocks": ids}
 

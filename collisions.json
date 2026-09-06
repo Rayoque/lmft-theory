@@ -2,8 +2,8 @@
  "note": "unique:true markers are the ONLY legal keyed answers for inverse (T1_marker) items. See BUILD_BRIEF S5 / S6 rule 3.",
  "counts": {
   "markers": 207,
-  "unique": 148,
-  "shared": 59,
+  "unique": 149,
+  "shared": 58,
   "equivalenceClasses": 29,
   "confusionSets": 8
  },
@@ -1299,6 +1299,16 @@
    "equivalenceClass": null
   },
   {
+   "marker": "Supervisor",
+   "normalized": "supervisor",
+   "type": "role",
+   "claimedBy": [
+    "bowen"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
    "marker": "Support affect regulation",
    "normalized": "support affect regulation",
    "type": "intervention",
@@ -1743,17 +1753,6 @@
    ],
    "unique": false,
    "equivalenceClass": "investigator / detective stance"
-  },
-  {
-   "marker": "Supervisor",
-   "normalized": "supervisor",
-   "type": "role",
-   "claimedBy": [
-    "bowen",
-    "solution-focused"
-   ],
-   "unique": false,
-   "equivalenceClass": "coach / consultant / educator"
   },
   {
    "marker": "Take Responsibility",
@@ -2318,7 +2317,6 @@
    "type": "role",
    "variants": [
     "Coach/educator",
-    "Supervisor",
     "Therapist is a consultant, coach"
    ],
    "claimedBy": [
@@ -2327,8 +2325,7 @@
    ],
    "byModel": {
     "bowen": [
-     "Coach/educator",
-     "Supervisor"
+     "Coach/educator"
     ],
     "solution-focused": [
      "Therapist is a consultant, coach"

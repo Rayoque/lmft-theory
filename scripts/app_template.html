@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#14181f">
+<title>LMFT Theory</title>
+<style>
+:root{
+  --bg:#f6f7f9; --card:#ffffff; --ink:#161a21; --dim:#5d6673; --line:#e2e6ec;
+  --accent:#2f5fd0; --accent-ink:#fff; --ok:#1c7a4a; --okbg:#e6f5ec;
+  --bad:#b3261e; --badbg:#fdeceb; --warn:#8a5a00; --warnbg:#fdf3e0;
+  --src:#f2f4f8; --radius:14px;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#0f1319; --card:#171d26; --ink:#e8ecf2; --dim:#98a2b1; --line:#28313d;
+    --accent:#6f9bff; --accent-ink:#0f1319; --ok:#6ddb9f; --okbg:#122e20;
+    --bad:#ff9b93; --badbg:#38191a; --warn:#f0c274; --warnbg:#33280f;
+    --src:#111721;
+  }
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--bg); color:var(--ink);
+  font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  -webkit-text-size-adjust:100%;
+  padding:0 0 env(safe-area-inset-bottom);
+}
+.wrap{max-width:760px;margin:0 auto;padding:12px 14px 90px}
+h1{font-size:17px;margin:0;letter-spacing:-.01em}
+h2{font-size:20px;margin:0 0 10px;letter-spacing:-.02em}
+h3{font-size:13px;text-transform:uppercase;letter-spacing:.07em;color:var(--dim);margin:18px 0 7px}
+p{margin:0 0 10px}
+header{
+  position:sticky;top:0;z-index:20;background:var(--bg);
+  border-bottom:1px solid var(--line);padding:10px 14px calc(10px + env(safe-area-inset-top));
+  padding-top:calc(10px + env(safe-area-inset-top));
+}
+.hrow{max-width:760px;margin:0 auto;display:flex;align-items:center;gap:10px}
+.days{margin-left:auto;font-size:12px;color:var(--dim);font-variant-numeric:tabular-nums}
+nav{max-width:760px;margin:8px auto 0;display:flex;gap:6px;overflow-x:auto;-webkit-overflow-scrolling:touch}
+nav button{
+  flex:0 0 auto;background:transparent;border:1px solid var(--line);color:var(--dim);
+  padding:7px 13px;border-radius:999px;font-size:14px;font-weight:600;cursor:pointer;
+}
+nav button[aria-current="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+nav button:disabled{opacity:.4}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;margin-bottom:12px}
+button.opt{
+  display:block;width:100%;text-align:left;background:var(--card);color:var(--ink);
+  border:1px solid var(--line);border-radius:12px;padding:13px 15px;margin-bottom:9px;
+  font:inherit;cursor:pointer;line-height:1.45;
+}
+button.opt:active{transform:scale(.995)}
+button.opt.correct{border-color:var(--ok);background:var(--okbg)}
+button.opt.wrong{border-color:var(--bad);background:var(--badbg)}
+button.opt[disabled]{cursor:default;opacity:1}
+.btn{
+  background:var(--accent);color:var(--accent-ink);border:0;border-radius:11px;
+  padding:12px 18px;font:inherit;font-weight:650;cursor:pointer;
+}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.row{display:flex;gap:9px;flex-wrap:wrap}
+.stem{font-size:17px;line-height:1.5;white-space:pre-wrap;margin-bottom:14px}
+.tag{
+  display:inline-block;font-size:11px;font-weight:700;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--dim);border:1px solid var(--line);
+  border-radius:6px;padding:2px 7px;margin-bottom:10px;
+}
+.src{
+  background:var(--src);border-left:3px solid var(--accent);border-radius:0 8px 8px 0;
+  padding:11px 13px;font-size:14px;line-height:1.55;color:var(--ink);margin-top:10px;
+}
+.src b{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--dim);margin-bottom:5px;font-weight:700}
+.bar{height:5px;background:var(--line);border-radius:99px;overflow:hidden;margin:10px 0 2px}
+.bar>i{display:block;height:100%;background:var(--accent);transition:width .25s}
+.grid14{display:grid;grid-template-columns:repeat(auto-fill,minmax(158px,1fr));gap:9px}
+.tile{
+  background:var(--card);border:1px solid var(--line);border-left-width:4px;
+  border-radius:11px;padding:11px 12px;cursor:pointer;text-align:left;font:inherit;color:var(--ink);
+}
+.tile b{display:block;font-size:14.5px;line-height:1.3;margin-bottom:4px}
+.tile span{font-size:12px;color:var(--dim)}
+.s-new{border-left-color:var(--line)}
+.s-learning{border-left-color:var(--warn)}
+.s-shaky{border-left-color:var(--bad)}
+.s-solid{border-left-color:var(--ok)}
+.note{font-size:13.5px;color:var(--dim);line-height:1.55}
+.banner{border-radius:11px;padding:12px 14px;font-size:14px;line-height:1.55;margin-bottom:12px}
+.banner.warn{background:var(--warnbg);color:var(--warn)}
+.banner.ok{background:var(--okbg);color:var(--ok)}
+.banner.bad{background:var(--badbg);color:var(--bad)}
+table.grid{border-collapse:collapse;font-size:11.5px;width:100%}
+table.grid th,table.grid td{border:1px solid var(--line);padding:6px 7px;vertical-align:top;text-align:left}
+table.grid th{background:var(--src);font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--dim)}
+table.grid td:first-child{font-weight:700;white-space:nowrap}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.kv{font-size:14.5px;line-height:1.6}
+.kv li{margin-bottom:5px}
+ul{margin:0 0 10px;padding-left:20px}
+.dim{color:var(--dim)}
+.null{color:var(--warn);font-style:italic}
+footer{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:1px solid var(--line);padding:10px 14px calc(10px + env(safe-area-inset-bottom));z-index:20}
+.frow{max-width:760px;margin:0 auto;display:flex;gap:9px;align-items:center}
+.frow .note{flex:1;min-width:0}
+</style>
+</head>
+<body>
+<header>
+  <div class="hrow">
+    <h1>LMFT Theory</h1>
+    <span class="days" id="days"></span>
+  </div>
+  <nav id="nav"></nav>
+</header>
+<div class="wrap" id="view"></div>
+<footer id="foot" hidden><div class="frow" id="frow"></div></footer>
+
+<script>
+/* ---------- data (inlined at build time: single file, works offline) ---------- */
+const THEORIES = __THEORIES__;
+const ITEMS    = __ITEMS__;
+const BUILT    = "__BUILT__";
+const EXAM     = "2026-09-15";
+
+const MODELS = THEORIES.models;
+const BYID   = Object.fromEntries(MODELS.map(m => [m.id, m]));
+const NAME   = id => (BYID[id] ? BYID[id].name : id);
+
+/* ---------- mastery state: localStorage, deliberately ~20 lines ---------- */
+const KEY = "lmft.theory.v1";
+const today = () => new Date().toISOString().slice(0, 10);
+let S = load();
+function load(){
+  try { return JSON.parse(localStorage.getItem(KEY)) || {concepts:{}, learned:{}}; }
+  catch(e){ return {concepts:{}, learned:{}}; }
+}
+function save(){ try { localStorage.setItem(KEY, JSON.stringify(S)); } catch(e){} }
+function rec(id){ return S.concepts[id] || (S.concepts[id] = {seen:0, correct:0, correctDates:[], confidentWrong:0}); }
+function score(id, right, knew){
+  const r = rec(id); r.seen++;
+  if (right){ r.correct++; if (!r.correctDates.includes(today())) r.correctDates.push(today()); }
+  else if (knew) r.confidentWrong++;
+  save();
+}
+/* retired = 3 correct across 3 distinct calendar days */
+const retired = id => (S.concepts[id] ? S.concepts[id].correctDates.length >= 3 : false);
+/* a confidently wrong answer is the most dangerous state on the board */
+function weight(id){
+  const r = S.concepts[id];
+  if (!r) return 2;                       // unseen
+  if (retired(id)) return 0;
+  let w = 1 + r.confidentWrong * 2;       // double weight per confident miss
+  if (r.seen && r.correct / r.seen < .5) w += 1;
+  return w;
+}
+
+/* ---------- queue ---------- */
+const SESSION = 20;
+function poolFor(mode, modelId){
+  let p = ITEMS.filter(i => weight(i.id) > 0);
+  if (mode === "learn" && modelId) p = p.filter(i => i.models[0] === modelId);
+  if (mode === "vignette")        p = p.filter(i => i.type === "V_vignette");
+  if (mode === "drill")           p = p.filter(i => i.type !== "V_vignette");
+  return p;
+}
+function shuffle(a){ for(let i=a.length-1;i>0;i--){const j=(Math.random()*(i+1))|0;[a[i],a[j]]=[a[j],a[i]];} return a; }
+
+/* Never two consecutive items from the same model. Blocked practice feels
+   more productive and produces worse discrimination, which is the exact
+   failure mode here. */
+function interleave(list){
+  // Always take from the model with the MOST items left (that isn't the one
+  // just served). Taking merely the first different model strands a crowded
+  // model's leftovers at the tail and produces a same-model pair there.
+  const out = [], pool = list.slice();
+  let last = null;
+  while (pool.length){
+    const count = {};
+    pool.forEach(x => count[x.models[0]] = (count[x.models[0]] || 0) + 1);
+    let best = null;
+    for (const m in count)
+      if (m !== last && (best === null || count[m] > count[best])) best = m;
+    if (best === null) best = last;            // one model left; unavoidable
+    const i = pool.findIndex(x => x.models[0] === best);
+    out.push(pool[i]); last = best; pool.splice(i, 1);
+  }
+  return out;
+}
+function buildQueue(mode, modelId, n){
+  const pool = poolFor(mode, modelId);
+  const weighted = [];
+  pool.forEach(i => { const w = weight(i.id); for (let k = 0; k < w; k++) weighted.push(i); });
+  shuffle(weighted);
+  const seen = new Set(), picked = [];
+  for (const it of weighted){
+    if (seen.has(it.id)) continue;
+    seen.add(it.id); picked.push(it);
+    if (picked.length >= (n || SESSION)) break;
+  }
+  // collision items weighted heavy in drill
+  if (mode === "drill") picked.sort((a,b) =>
+    (b.type === "T2_collision") - (a.type === "T2_collision"));
+  return interleave(picked);
+}
+
+/* ---------- session ---------- */
+let Q = [], qi = 0, mode = "learn", learnModel = null, answered = null;
+let stats = {right:0, wrong:0, confidentWrong:0};
+
+const el = document.getElementById("view");
+const foot = document.getElementById("foot"), frow = document.getElementById("frow");
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function daysLeft(){
+  const d = Math.ceil((new Date(EXAM) - new Date(today())) / 864e5);
+  return d > 0 ? d + " days to exam" : (d === 0 ? "exam today" : "");
+}
+document.getElementById("days").textContent = daysLeft();
+
+const TABS = [["learn","Learn"],["drill","Drill"],["vignette","Vignette"],["grid","Grid"],["progress","Progress"]];
+function learnedAll(){ return MODELS.every(m => S.learned[m.id]); }
+function renderNav(){
+  document.getElementById("nav").innerHTML = TABS.map(([k,l]) => {
+    const lock = (k === "vignette" && !learnedAll());
+    return `<button data-tab="${k}" ${lock?"disabled":""} aria-current="${mode===k}">${l}${lock?" 🔒":""}</button>`;
+  }).join("");
+}
+document.getElementById("nav").onclick = e => {
+  const b = e.target.closest("button[data-tab]"); if (!b || b.disabled) return;
+  go(b.dataset.tab);
+};
+function go(tab){ mode = tab; learnModel = null; Q = []; qi = 0; renderNav(); render(); }
+
+/* ---------- model state for the dashboard ---------- */
+function modelState(id){
+  const its = ITEMS.filter(i => i.models[0] === id);
+  if (!its.length) return {k:"new", label:"no items"};
+  const seen = its.filter(i => S.concepts[i.id]);
+  if (!seen.length) return {k:"new", label:"not started"};
+  const done = its.filter(i => retired(i.id)).length;
+  const cw = seen.reduce((n,i) => n + S.concepts[i.id].confidentWrong, 0);
+  if (done === its.length) return {k:"solid", label:"retired"};
+  if (cw > 0) return {k:"shaky", label:cw + " confident miss" + (cw>1?"es":"")};
+  return {k:"learning", label:done + "/" + its.length + " retired"};
+}
+
+/* ---------- views ---------- */
+function render(){
+  foot.hidden = true;
+  if (mode === "grid")     return renderGrid();
+  if (mode === "progress") return renderProgress();
+  if (mode === "learn" && !learnModel) return renderLearnPicker();
+  if (!Q.length){ Q = buildQueue(mode, learnModel, mode === "learn" ? 3 : SESSION); qi = 0; stats = {right:0,wrong:0,confidentWrong:0}; }
+  if (qi >= Q.length) return renderSummary();
+  renderItem();
+}
+
+function renderLearnPicker(){
+  el.innerHTML = `<h2>Learn</h2>
+    <p class="note">Read the brief, then answer three questions on that model straight away, before you leave it. Start anywhere. ${MODELS.filter(m=>S.learned[m.id]).length} of ${MODELS.length} done.</p>
+    <div class="grid14">${MODELS.map(m => {
+      const st = modelState(m.id);
+      return `<button class="tile s-${st.k}" data-m="${m.id}">
+        <b>${esc(m.name)}</b><span>${S.learned[m.id] ? "✓ " : ""}${st.label}</span></button>`;
+    }).join("")}</div>`;
+  el.querySelectorAll("[data-m]").forEach(b => b.onclick = () => { learnModel = b.dataset.m; renderBrief(); });
+}
+
+function factList(arr, empty){
+  if (arr === null) return `<p class="null">${empty}</p>`;
+  if (!arr || !arr.length) return `<p class="null">${empty}</p>`;
+  return `<ul class="kv">${arr.map(f => `<li>${esc(f.text)}</li>`).join("")}</ul>`;
+}
+function renderBrief(){
+  const m = BYID[learnModel];
+  const ph = m.phases;
+  el.innerHTML = `
+    <span class="tag">${esc(m.family.join(" · "))} · ${esc(m.sourceDoc)}</span>
+    <h2>${esc(m.name)}</h2>
+    <div class="card">
+      <h3>Theory of change</h3>
+      ${m.changeMechanism ? `<p>${esc(m.changeMechanism.text)}</p>`
+        : `<p class="null">Your packet has no theory of change for this model. It is an intervention catalogue. Nothing has been invented to fill the gap.</p>`}
+      <h3>Therapist role</h3>
+      ${factList(m.therapistRoles, "Your packet lists no therapist role section for this model.")}
+      <h3>Goals</h3>
+      ${factList(m.goals, "Your packet lists no treatment goals section for this model.")}
+      <h3>Signature interventions</h3>
+      <ul class="kv">${m.interventions.slice(0,8).map(c => `<li><b>${esc(c.term)}</b> — ${esc(c.definition.slice(0,190))}</li>`).join("") || '<li class="null">none listed</li>'}</ul>
+      <h3>Phases of treatment</h3>
+      ${ph === null
+        ? `<div class="banner warn">Your packet says this model has <b>no clear phases of treatment</b> — and warns the exam may still ask about the initial or middle stage anyway. Look for unconditional positive regard, empathy, therapist congruence and promotion of self-acceptance.</div>`
+        : ["beginning","middle","end"].map(k => `<p><b>${k}.</b> ${esc((ph[k]||[]).map(f=>f.text).join(" "))||"—"}</p>`).join("")}
+      ${m.examTips.length ? `<h3>Flagged for the exam</h3>${m.examTips.map(t=>`<div class="src"><b>from your packet</b>${esc(t.sourceLine)}</div>`).join("")}` : ""}
+    </div>
+    <div class="row"><button class="btn" id="start">Answer 3 questions on this</button>
+    <button class="btn ghost" id="back">All models</button></div>`;
+  document.getElementById("back").onclick = () => { learnModel = null; render(); };
+  document.getElementById("start").onclick = () => {
+    S.learned[learnModel] = today(); save(); renderNav();
+    Q = buildQueue("learn", learnModel, 3); qi = 0; stats = {right:0,wrong:0,confidentWrong:0}; render();
+  };
+}
+
+function renderItem(){
+  const it = Q[qi]; answered = null;
+  el.innerHTML = `
+    <div class="bar"><i style="width:${(qi/Q.length)*100}%"></i></div>
+    <div class="note">${qi+1} of ${Q.length}${mode!=="learn"?" · "+esc(NAME(it.models[0])):""}</div>
+    <div class="card">
+      <span class="tag">${esc(it.type.replace(/^[TV]\d?_/,"").replace("_"," "))}</span>
+      <div class="stem">${esc(it.stem)}</div>
+      <div id="opts">${it.options.map((o,i)=>`<button class="opt" data-i="${i}">${esc(o.text)}</button>`).join("")}</div>
+      <div id="reveal"></div>
+    </div>`;
+  el.querySelectorAll(".opt").forEach(b => b.onclick = () => choose(it, +b.dataset.i));
+}
+
+function choose(it, i){
+  if (answered !== null) return;
+  answered = i;
+  const right = it.options[i].correct;
+  right ? stats.right++ : stats.wrong++;
+  el.querySelectorAll(".opt").forEach((b,j) => {
+    b.disabled = true;
+    if (it.options[j].correct) b.classList.add("correct");
+    else if (j === i) b.classList.add("wrong");
+  });
+  const chosen = it.options[i];
+  document.getElementById("reveal").innerHTML = `
+    <div class="banner ${right?"ok":"bad"}">${right ? "Correct." : "Not this one. The answer is highlighted above."}</div>
+    <p>${esc(it.rationale)}</p>
+    ${!right && chosen.belongsTo !== it.models[0]
+      ? `<p class="note">What you picked belongs to <b>${esc(NAME(chosen.belongsTo))}</b>.</p>` : ""}
+    <div class="src"><b>verbatim from your packet</b>${esc(it.sourceLine)}</div>
+    <p class="note" style="margin-top:12px">If this item looks wrong to you, trust your packet over the app.</p>`;
+  foot.hidden = false;
+  frow.innerHTML = `<span class="note">Did you know it, or guess?</span>
+    <button class="btn ghost" data-k="0">Guessed</button>
+    <button class="btn" data-k="1">Knew it</button>`;
+  frow.querySelectorAll("[data-k]").forEach(b => b.onclick = () => {
+    const knew = b.dataset.k === "1";
+    if (!right && knew) stats.confidentWrong++;
+    score(it.id, right, knew);
+    // a miss goes back near the front of the queue, and returns tomorrow
+    if (!right) Q.splice(Math.min(qi + 2, Q.length), 0, it);
+    qi++; foot.hidden = true; render();
+  });
+}
+
+function renderSummary(){
+  const n = stats.right + stats.wrong;
+  const acc = n ? Math.round(stats.right / n * 100) : 0;
+  let msg = "";
+  if (acc > 90) msg = `<div class="banner ok"><b>${acc}% — that is above the useful band.</b> You are being asked things you already own. Switch to Drill, which weights the collision set heavily, or start a model you have not opened.</div>`;
+  else if (acc < 70) msg = `<div class="banner warn"><b>${acc}%.</b> This is mixed practice — questions from different models are deliberately shuffled together, and that always scores lower than drilling one model at a time. It feels worse and it works better. 70–80% is the band you want. A low number here is not a verdict on you.</div>`;
+  else msg = `<div class="banner ok"><b>${acc}%.</b> That is the target band.</div>`;
+  el.innerHTML = `<h2>Session done</h2>${msg}
+    <div class="card"><ul class="kv">
+      <li><b>${stats.right}</b> right, <b>${stats.wrong}</b> wrong</li>
+      <li><b>${stats.confidentWrong}</b> confidently wrong ${stats.confidentWrong ? "— these come back twice as often, on purpose. That is the collision trap: a familiar word fires before you check." : ""}</li>
+      <li>${MODELS.filter(m=>S.learned[m.id]).length} of ${MODELS.length} models opened in Learn</li>
+    </ul></div>
+    <div class="row">
+      <button class="btn" id="again">Another ${mode==="learn"?"3":"20"}</button>
+      <button class="btn ghost" id="toGrid">See the grid</button>
+      ${mode==="learn"?'<button class="btn ghost" id="pick">Another model</button>':""}
+    </div>
+    <p class="note" style="margin-top:14px">Theory is one content domain of this exam. A green dashboard here does not mean you are ready for the whole LMCE.</p>`;
+  document.getElementById("again").onclick = () => { Q = []; render(); };
+  document.getElementById("toGrid").onclick = () => go("grid");
+  const p = document.getElementById("pick"); if (p) p.onclick = () => { learnModel = null; Q = []; render(); };
+}
+
+function renderProgress(){
+  el.innerHTML = `<h2>Progress</h2>
+    <p class="note">One state per model. Not a percentage — what matters is which models you cannot yet tell apart.</p>
+    <div class="grid14">${MODELS.map(m=>{
+      const st = modelState(m.id);
+      return `<div class="tile s-${st.k}"><b>${esc(m.name)}</b><span>${st.label}</span></div>`;
+    }).join("")}</div>
+    <h3>What the colours mean</h3>
+    <ul class="kv note">
+      <li><b>grey</b> not started</li>
+      <li><b>amber</b> in progress</li>
+      <li><b>red</b> you have answered confidently and been wrong here — the dangerous state</li>
+      <li><b>green</b> every item retired: 3 correct on 3 different days</li>
+    </ul>
+    <div class="row"><button class="btn ghost" id="reset">Reset all progress</button></div>`;
+  document.getElementById("reset").onclick = () => {
+    if (confirm("Erase all progress on this device?")){ S = {concepts:{}, learned:{}}; save(); renderNav(); render(); }
+  };
+}
+
+/* ---------- the grid: 14 models x 6 columns, one page ---------- */
+const COLS = ["Change mechanism","Therapist role","Signature intervention","Beginning","Middle","End"];
+function cell(m, c){
+  const first = a => (a && a.length ? a[0].text : null);
+  switch(c){
+    case 0: return m.changeMechanism ? m.changeMechanism.text : null;
+    case 1: return m.therapistRoles === null ? null : first(m.therapistRoles);
+    case 2: return m.interventions.length ? m.interventions[0].term : null;
+    default: {
+      if (m.phases === null) return null;
+      const k = ["beginning","middle","end"][c-3];
+      return first(m.phases[k]);
+    }
+  }
+}
+function renderGrid(){
+  el.innerHTML = `<h2>The grid</h2>
+    <p class="note">Fourteen models, six columns, one page. Screenshot it to your lock screen. Blank cells are blank in your packet — nothing has been invented to fill them.</p>
+    <div class="card scroll"><table class="grid"><thead><tr><th>Model</th>${COLS.map(c=>`<th>${c}</th>`).join("")}</tr></thead>
+    <tbody>${MODELS.map(m=>`<tr><td>${esc(m.name)}</td>${COLS.map((_,i)=>{
+      const v = cell(m,i);
+      return `<td>${v === null ? '<span class="null">not in packet</span>' : esc(v.length>150 ? v.slice(0,150)+"…" : v)}</td>`;
+    }).join("")}</tr>`).join("")}</tbody></table></div>
+    <p class="note">Built ${esc(BUILT)} from your five packets.</p>`;
+}
+
+renderNav();
+render();
+</script>
+</body>
+</html>

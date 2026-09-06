@@ -1,0 +1,455 @@
+{
+ "instructions": "For each question pick the single best option. Answer only from the options given. Output strict JSON: {\"answers\":{\"<id>\":\"<LETTER>\"}, \"ambiguous\":[\"<id>\", ...]}. List an id under ambiguous if two or more options are defensible.",
+ "questions": [
+  {
+   "id": "t3_solution-focused_presupposingchange",
+   "stem": "Which term does the packet define this way?\n\n“Rather than focusing on the problem that brought the client in, the therapist can ask the client questions to focus on the positive changes that have been occurring. Example: “What’s different or better since the last time we met?””",
+   "options": {
+    "A": "Exception Questioning",
+    "B": "Incongruent Communication",
+    "C": "Exposure",
+    "D": "Presupposing Change"
+   }
+  },
+  {
+   "id": "t3_solution-focused_scalingquestions",
+   "stem": "Which term does the packet define this way?\n\n“The therapist asks the client to think of a scale ranging from the worst things could be to the best. The client then rates their current position on the scale and is asked to identify how they could move up or down the scale. The client is also encouraged to identify what point on the scale would be good enough or where their “perfect future” is. Example: “You said that things are between a 4 and a 5. What would nee”",
+   "options": {
+    "A": "Scaling Questions",
+    "B": "Assertiveness Training",
+    "C": "Problem-Solving Training",
+    "D": "Take Responsibility"
+   }
+  },
+  {
+   "id": "t3_object-relations_selfandobjectreprese",
+   "stem": "Which term does the packet define this way?\n\n“Infants form images of themselves and others. Once formed, they are fundamental internal structures that affect the ways in which individuals view themselves and others. These are created from the internalization process. Can create a false self disconnected from the true self.”",
+   "options": {
+    "A": "Repair",
+    "B": "Identification",
+    "C": "Mourning loss of selfobjects",
+    "D": "Self- and Object-Representations"
+   }
+  },
+  {
+   "id": "t3_object-relations_confrontresistancean",
+   "stem": "Which term does the packet define this way?\n\n“Confront (aka bringing the issues to attention: I notice when I bring this up, you quickly change the subject) resistance and primitive defense mechanisms.”",
+   "options": {
+    "A": "Preoccupied/Anxious Attachment",
+    "B": "Mirroring Transference",
+    "C": "Confront resistance and primitive defenses",
+    "D": "Dismissive/Avoidant Attachment"
+   }
+  },
+  {
+   "id": "t3_object-relations_identification",
+   "stem": "Which term does the packet define this way?\n\n“Identification occurs when a person not only takes on a belief or voice of another person, but also begins to identify with that individual. In this case, the husband has not merely taken on the idea that women should do the housework; rather, he sees himself as the head of his household, like his father. He is identifying with his father. Because of this identification, he expects to be treated like his father, with”",
+   "options": {
+    "A": "Explore disruptions",
+    "B": "Establish a holding environment",
+    "C": "Twinship Transference",
+    "D": "Identification"
+   }
+  },
+  {
+   "id": "t3_object-relations_identifyandprocesspr",
+   "stem": "Which term does the packet define this way?\n\n“Identify and process projective identification (T is aware of feeling so and do about the client, how would object relations therapist handle this situation, look for this term).”",
+   "options": {
+    "A": "Establish a therapeutic holding environment",
+    "B": "Identify and process projective identification",
+    "C": "Idealizing Transference",
+    "D": "Mirroring"
+   }
+  },
+  {
+   "id": "t3_object-relations_splitting",
+   "stem": "Which term does the packet define this way?\n\n“When two contradictory states, such as love and hate, are compartmentalized and not integrated. Somebody is either all good, or all bad. Very extreme views of people, and it can switch quickly. Therapist will want to bring these two contradictions together: your friend did something hurtful, and there are things about them you really like. Are people allowed to make mistakes, and can we recover from that? Wanting to ”",
+   "options": {
+    "A": "Demonstrate containment",
+    "B": "Repair stage",
+    "C": "Interpretation",
+    "D": "Splitting"
+   }
+  },
+  {
+   "id": "t3_object-relations_internalization",
+   "stem": "Which term does the packet define this way?\n\n“Early infant-caretaker interactions lead to the person internalizing basic attitudes toward self and other, characteristic relational patterns, and a repertoire of defenses and internal capacities. If mom is warm and caring towards infant, then infant and child takes in that attitude about themselves and the world. A child who grew up with angry parents, the world is hostile, and the world is hostile to me, so I must”",
+   "options": {
+    "A": "Collaboratively identifying attachment style",
+    "B": "Internalization",
+    "C": "Addressing enactments",
+    "D": "Explore disruptions"
+   }
+  },
+  {
+   "id": "t3_object-relations_objects",
+   "stem": "Which term does the packet define this way?\n\n“Refers to persons in the external world. Individuals seek objects (others) from birth. We are inherently object seeking, wanting to connect to others.”",
+   "options": {
+    "A": "Twinship Transference",
+    "B": "Self-Objects",
+    "C": "Adversarial Transference",
+    "D": "Objects"
+   }
+  },
+  {
+   "id": "t3_object-relations_introjection",
+   "stem": "Which term does the packet define this way?\n\n“Where the subject replicates in themselves behaviors, attributes, or other fragments of the surrounding world, especially of other people. An unconscious taking in of another person’s traits, behaviors, or attitudes as if they were one’s own.”",
+   "options": {
+    "A": "Introjection",
+    "B": "Attachment Behavior System",
+    "C": "Addressing enactments",
+    "D": "Identify and process projective identification"
+   }
+  },
+  {
+   "id": "t3_object-relations_ego",
+   "stem": "Which term does the packet define this way?\n\n“The structure responsible for dealing with the world, for instituting defense Mechanisms (ie projection), for internalizing external objects, and for integrating and synthesizing self-and object-representations.”",
+   "options": {
+    "A": "Introjection",
+    "B": "Projective Identification",
+    "C": "Repair stage",
+    "D": "Ego"
+   }
+  },
+  {
+   "id": "t3_object-relations_projectiveidentifica",
+   "stem": "Which term does the packet define this way?\n\n“Projective Identification (specific to object relations): Refers to a psychological process in which a person will project a thought or belief that they have onto a second person. Then, in most common definitions of projective identification, there is another action in which the second person is changed by the projection and begins to behave as though they are, in fact, actually characterized by those thoughts or bel”",
+   "options": {
+    "A": "Identify alternative self-objects",
+    "B": "Focus on transference/countertransference",
+    "C": "Projective Identification",
+    "D": "Repair stage"
+   }
+  },
+  {
+   "id": "t3_object-relations_projection",
+   "stem": "Which term does the packet define this way?\n\n“Involves projecting undesirable feelings or emotions onto someone else, rather than admitting to or dealing with the unwanted feelings.”",
+   "options": {
+    "A": "Ego",
+    "B": "Objects",
+    "C": "Projection",
+    "D": "Establish a holding environment"
+   }
+  },
+  {
+   "id": "t3_self-psychology_mourningambitionsand",
+   "stem": "Which term does the packet define this way?\n\n“Mourning ambitions and fantasies. If person had ideas that their life was going to turn out a certain way, mourning those losses of those fantasies.”",
+   "options": {
+    "A": "Demonstrate containment",
+    "B": "Idealizing Transference",
+    "C": "Provide a secure base",
+    "D": "Mourning ambitions and fantasies"
+   }
+  },
+  {
+   "id": "t3_self-psychology_identifyalternatives",
+   "stem": "Which term does the packet define this way?\n\n“Identify alternative self-objects: people they did have had positive relationship with them. Through their relationship with T they learn about different positive selfobjects, and can start to identify healthy selfobjects for themselves.”",
+   "options": {
+    "A": "Repair disruptions of the self-object transference",
+    "B": "Idealizing Transference",
+    "C": "Identify alternative self-objects",
+    "D": "Confront resistance and primitive defenses"
+   }
+  },
+  {
+   "id": "t3_self-psychology_twinshiptransference",
+   "stem": "Which term does the packet define this way?\n\n“The patient experiences the therapist as someone like himself, “that person is like me.””",
+   "options": {
+    "A": "Establish a therapeutic holding environment",
+    "B": "Mirroring Transference",
+    "C": "Twinship Transference",
+    "D": "Experience-Near Empathy"
+   }
+  },
+  {
+   "id": "t3_self-psychology_selfobjectneeds",
+   "stem": "Which term does the packet define this way?\n\n“Mirroring, idealization of others, twin/alter ego. Child needs these.”",
+   "options": {
+    "A": "Collaboratively identifying attachment style",
+    "B": "Preoccupied/Anxious Attachment",
+    "C": "Provide a secure base",
+    "D": "Self-Object Needs"
+   }
+  },
+  {
+   "id": "t3_self-psychology_adversarialtransfere",
+   "stem": "Which term does the packet define this way?\n\n“The need for a supportive relationship that the patient can oppose in order to grow. The therapist can be a person who cares about them, but C is also allowed to disagree and push back, and this could be an important way of healing for a client who felt differential their entire life.”",
+   "options": {
+    "A": "Repair disruptions of the self-object transference",
+    "B": "Explore disruptions",
+    "C": "Adversarial Transference",
+    "D": "Secure Attachment"
+   }
+  },
+  {
+   "id": "t3_self-psychology_optimalfrustration",
+   "stem": "Which term does the packet define this way?\n\n“When a self-object is needed, but not accessible, this will create a potential problem for the self, referred to as a \"frustration.” Healthy window where child doesn’t get needs met all the time (otherwise it results in entitlement of sorts)”",
+   "options": {
+    "A": "Optimal Frustration",
+    "B": "Identify and process projective identification",
+    "C": "Objects",
+    "D": "Confront resistance and primitive defenses"
+   }
+  },
+  {
+   "id": "t3_self-psychology_demonstratecontainme",
+   "stem": "Which term does the packet define this way?\n\n“Demonstrate that the therapist is able to provide containment: client is getting emotional, and the T can be a warm open presence without judgement and having client feel they are able to share this information and they will not be rejected. The therapist is able to hear what client is saying without becoming overwhelmed themselves.”",
+   "options": {
+    "A": "Demonstrate containment",
+    "B": "Support affect regulation",
+    "C": "Provide “experience-near” empathy",
+    "D": "Experience-Near Empathy"
+   }
+  },
+  {
+   "id": "t3_self-psychology_selfobjects",
+   "stem": "Which term does the packet define this way?\n\n“Early self-objects are those empathetic or attuned caretakers who perform vital functions for the infant that it cannot carry out itself”",
+   "options": {
+    "A": "Demonstrate containment",
+    "B": "Self-Objects",
+    "C": "Dismissive/Avoidant Attachment",
+    "D": "Mourning ambitions and fantasies"
+   }
+  },
+  {
+   "id": "t3_self-psychology_mirroringtransferenc",
+   "stem": "Which term does the packet define this way?\n\n“The patient seeks acceptance and confirmation of the self from the therapist.”",
+   "options": {
+    "A": "Repair",
+    "B": "Explore disruptions",
+    "C": "Mourning ambitions and fantasies",
+    "D": "Mirroring Transference"
+   }
+  },
+  {
+   "id": "t3_self-psychology_mourninglossofselfob",
+   "stem": "Which term does the packet define this way?\n\n“Mourning the mother they may have never had. They can grieve these losses. An acceptance of that loss, a sadness that is allowed to happen over it. Cry for their younger selves, inner child.”",
+   "options": {
+    "A": "Internalization",
+    "B": "Mourning loss of selfobjects",
+    "C": "Experience-Near Empathy",
+    "D": "Preoccupied/Anxious Attachment"
+   }
+  },
+  {
+   "id": "t3_self-psychology_experiencenearempath",
+   "stem": "Which term does the packet define this way?\n\n“When therapist steps into client’s shoes and imagines what it is like to be the client. The therapist really wants to step into the emotional experience, body sensations, and communicate that with the client to flesh out that experience. Taking the idea of mirroring to the extreme, that the therapist is really understanding their experience.”",
+   "options": {
+    "A": "Establish a holding environment",
+    "B": "Self-Object Needs",
+    "C": "Optimal Frustration",
+    "D": "Experience-Near Empathy"
+   }
+  },
+  {
+   "id": "t3_self-psychology_addressingenactments",
+   "stem": "Which term does the packet define this way?\n\n“Addressing enactments: situations in the therapy may have played out in the past, or outside in the client’s life. Being able to talk about in session together. “It sounds like what’s going on with your partner is similar to what happened with your father.””",
+   "options": {
+    "A": "Mourning ambitions and fantasies",
+    "B": "Mourning loss of selfobjects",
+    "C": "Addressing enactments",
+    "D": "Attachment Behavior System"
+   }
+  },
+  {
+   "id": "t3_attachment_secureattachment",
+   "stem": "Which term does the packet define this way?\n\n“The person has easy access to a wide range of feelings and memories, positive and negative. Has a balanced view of parents and has worked through hurt and anger from the past. Has developed a strong sense of self and empathy for others.”",
+   "options": {
+    "A": "Secure Attachment",
+    "B": "Projection",
+    "C": "Focus on transference/countertransference",
+    "D": "Demonstrate containment"
+   }
+  },
+  {
+   "id": "t3_attachment_repairstage",
+   "stem": "Which term does the packet define this way?\n\n“Repair stage of the therapy aims to alter the patient’s current reactions to the events that cause them emotional distress by sharing their own interpretations of the event. By sharing their own subjective interpretation, the therapist helps create a new reality of the painful events for the patient in order to get rid of unwanted emotions and reactions.”",
+   "options": {
+    "A": "Repair stage",
+    "B": "Twinship Transference",
+    "C": "Provide a secure base",
+    "D": "Objects"
+   }
+  },
+  {
+   "id": "t3_attachment_provideasecurebase",
+   "stem": "Which term does the packet define this way?\n\n“The therapist provides a secure base by reliably demonstrating empathy and care.”",
+   "options": {
+    "A": "Provide a secure base",
+    "B": "Projection",
+    "C": "Splitting",
+    "D": "Interpretation"
+   }
+  },
+  {
+   "id": "t3_attachment_exploredisruptions",
+   "stem": "Which term does the packet define this way?\n\n“Disruptions are explored in the middle phase. Disruptions include those in the early life of the client as well as those in current relationships, including the relationship with the therapist. Where they are having conflicts, where there is pain, disruptions in attunement. Can even apply to what happens in the therapy room, between client and the therapist.”",
+   "options": {
+    "A": "Experience-Near Empathy",
+    "B": "Mourning loss of selfobjects",
+    "C": "Explore disruptions",
+    "D": "Establish a therapeutic holding environment"
+   }
+  },
+  {
+   "id": "t3_attachment_dismissiveavoidantat",
+   "stem": "Which term does the packet define this way?\n\n“The person dismisses the importance of love and connection – and the value of emotions in general. Often idealizes parents, but actual memories don’t corroborate. They dislike looking inward and often have a shallow, if any, self-reflection. They often are very independent, dismissive of their own emotionality, and have difficulty tolerating the heightened emotions of others.”",
+   "options": {
+    "A": "Mourning ambitions and fantasies",
+    "B": "Experience-Near Empathy",
+    "C": "Dismissive/Avoidant Attachment",
+    "D": "Fearful/Avoidant Attachment (Disorganized)"
+   }
+  },
+  {
+   "id": "t3_attachment_supportaffectregulat",
+   "stem": "Which term does the packet define this way?\n\n“Support client’s ability to regulate and express emotions in relationally difficult Situations teaching clients to have a reflective stance toward themselves.”",
+   "options": {
+    "A": "Support affect regulation",
+    "B": "Interpretation",
+    "C": "Identification",
+    "D": "Introjection"
+   }
+  },
+  {
+   "id": "t3_attachment_attachmentbehaviorsy",
+   "stem": "Which term does the packet define this way?\n\n“The process in which infants and caregivers have an organized pattern of signals and responses that leads to the development of a protecting and trusting relationship. The emotional bond that develops between adult romantic partners is partly a function of the same motivational system - the attachment behavioral system. Relational system. Emotional bond that happens later in life repeats the behavioral systems of our”",
+   "options": {
+    "A": "Focus on transference/countertransference",
+    "B": "Twinship Transference",
+    "C": "Optimal Frustration",
+    "D": "Attachment Behavior System"
+   }
+  },
+  {
+   "id": "t3_attachment_fearfulavoidantattac",
+   "stem": "Which term does the packet define this way?\n\n“The person usually has a history of trauma and or loss. Similar to Dismissive/Avoidant, they dismiss the importance of love and connection but usually out of fear or a belief that they are unworthy of love. They have difficulty trusting others and may feel uncomfortable with emotional closeness.”",
+   "options": {
+    "A": "Fearful/Avoidant Attachment (Disorganized)",
+    "B": "Focus on transference/countertransference",
+    "C": "Addressing enactments",
+    "D": "Repair disruptions of the self-object transference"
+   }
+  },
+  {
+   "id": "t3_attachment_preoccupiedanxiousat",
+   "stem": "Which term does the packet define this way?\n\n“The person is still embroiled with anger and hurt at parents. They sometimes value intimacy to such an extent that they become overly dependent on the attachment figure both past and present. They often recall role reversal in childhood and have a hard time seeing their own responsibility in relationships. They dread abandonment.”",
+   "options": {
+    "A": "Splitting",
+    "B": "Fearful/Avoidant Attachment (Disorganized)",
+    "C": "Internalization",
+    "D": "Preoccupied/Anxious Attachment"
+   }
+  },
+  {
+   "id": "t3_attachment_collaborativelyident",
+   "stem": "Which term does the packet define this way?\n\n“Collaboratively identifying client’s “attachment style,\" that is, problematic behavioral and emotional patterns, formed in early childhood as attempts to maintain attachment to primary caregivers.”",
+   "options": {
+    "A": "Mirroring",
+    "B": "Fearful/Avoidant Attachment (Disorganized)",
+    "C": "Collaboratively identifying attachment style",
+    "D": "Objects"
+   }
+  },
+  {
+   "id": "t3_attachment_repair",
+   "stem": "Which term does the packet define this way?\n\n“Repair occurs during the late middle phase and the end of treatment.”",
+   "options": {
+    "A": "Repair",
+    "B": "Projective Identification",
+    "C": "Addressing enactments",
+    "D": "Mirroring"
+   }
+  },
+  {
+   "id": "t3_attachment_attunement",
+   "stem": "Which term does the packet define this way?\n\n“Attunement is the key intervention in the early stage and consists of forging a personal relationship between the therapist and the patient.”",
+   "options": {
+    "A": "Attunement",
+    "B": "Self- and Object-Representations",
+    "C": "Provide “experience-near” empathy",
+    "D": "Dismissive/Avoidant Attachment"
+   }
+  },
+  {
+   "id": "t3_gestalt_experiments",
+   "stem": "Which term does the packet define this way?\n\n“Experiments in Gestalt: T can make suggestions of client trying something new.”",
+   "options": {
+    "A": "Battle for Structure",
+    "B": "Experiments",
+    "C": "Repeating statement",
+    "D": "Mastering emotional pain"
+   }
+  },
+  {
+   "id": "t3_gestalt_repeatingstatement",
+   "stem": "Which term does the packet define this way?\n\n“Repeating statement: “I’m disappointed in my partner.” T: sit up in your chair, say it a little bit louder. Check in with them about their experience. Client can say no and T can also see how they respond to the suggestion.”",
+   "options": {
+    "A": "Focus on moment to moment",
+    "B": "Repeating statement",
+    "C": "“Imaginal death” exercises",
+    "D": "Battle for Structure"
+   }
+  },
+  {
+   "id": "t3_gestalt_presentexperiencewhi",
+   "stem": "Which term does the packet define this way?\n\n“Paying to client’s present experience as they’re discussing the past: right now, what are experiencing as you think about that past relationship?”",
+   "options": {
+    "A": "Phenomenological description",
+    "B": "Battle for Initiative",
+    "C": "Present experience while discussing the past",
+    "D": "Focus on process"
+   }
+  },
+  {
+   "id": "t3_gestalt_focusonprocess",
+   "stem": "Which term does the packet define this way?\n\n“Focuses on the process: how things are being sad, how the therapy is unfolding, the tons of voice, body language, the energy of the therapy, paying attention to what’s going on in the moment.”",
+   "options": {
+    "A": "Repeating words or exaggerating gestures",
+    "B": "Activating Constructive Anxiety",
+    "C": "Body awareness",
+    "D": "Focus on process"
+   }
+  },
+  {
+   "id": "t3_gestalt_phenomenologicaldesc",
+   "stem": "Which term does the packet define this way?\n\n“Explaining experience of the client by using description instead of interpretation. Client is crying in session. Interpretation “you seem sad.” For Gestalt phenomenological method: “I see you tearing up, I’m wondering what you’re experiencing right now.” This allows for more expanded of what the client is experiencing. You’re asking them to really describe what they are experiencing in the moment.”",
+   "options": {
+    "A": "Repeating words or exaggerating gestures",
+    "B": "Top dog / underdog dialogue",
+    "C": "Phenomenological description",
+    "D": "Play, Humor, and “Craziness”"
+   }
+  },
+  {
+   "id": "t3_gestalt_bodyawareness",
+   "stem": "Which term does the packet define this way?\n\n“Gestalt focuses on body awareness: what are you noticing in your body. Getting in touch with the sensations and associated emotions with the sensations.”",
+   "options": {
+    "A": "Trial of Labor",
+    "B": "Activating Constructive Anxiety",
+    "C": "Body awareness",
+    "D": "Standing up while speaking"
+   }
+  },
+  {
+   "id": "t3_existential_holding",
+   "stem": "Which term does the packet define this way?\n\n“Concept of holding: process of looking at the problem, and really holding that, remembering that in the presence of the empathetic other. Our goal is to be with them in their pain, sitting there with them. Naming that emotional pain allows that mutual encounter, the experience is not shared, person is able to now process that situation with increased support.”",
+   "options": {
+    "A": "Phenomenological description",
+    "B": "“Imaginal death” exercises",
+    "C": "Repeating words or exaggerating gestures",
+    "D": "Holding"
+   }
+  },
+  {
+   "id": "t3_existential_focusonmomenttomomen",
+   "stem": "Which term does the packet define this way?\n\n“Focus on moment to moment during therapy, process not content.”",
+   "options": {
+    "A": "Focus on moment to moment",
+    "B": "Battle for Initiative",
+    "C": "Play, Humor, and “Craziness”",
+    "D": "Activating Constructive Anxiety"
+   }
+  }
+ ]
+}

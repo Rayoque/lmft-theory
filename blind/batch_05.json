@@ -1,0 +1,455 @@
+{
+ "instructions": "For each question pick the single best option. Answer only from the options given. Output strict JSON: {\"answers\":{\"<id>\":\"<LETTER>\"}, \"ambiguous\":[\"<id>\", ...]}. List an id under ambiguous if two or more options are defensible.",
+ "questions": [
+  {
+   "id": "t2_coll_experiential_reframing",
+   "stem": "Experiential / Symbolic Therapy (Whitaker) share the marker “reframing” with Bowen Family Systems, CBT (interventions), Strategic Therapy, Structural Family Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Experiential / Symbolic Therapy (Whitaker)?",
+   "options": {
+    "A": "Trial of Labor",
+    "B": "Differentiation of Self",
+    "C": "Psychoeducation on the negative triad",
+    "D": "Alliances"
+   }
+  },
+  {
+   "id": "t2_coll_strategic_reframing",
+   "stem": "Strategic Therapy share the marker “reframing” with Bowen Family Systems, CBT (interventions), Experiential / Symbolic Therapy (Whitaker), Structural Family Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Strategic Therapy?",
+   "options": {
+    "A": "Battle for Structure",
+    "B": "Enactment",
+    "C": "Activating Constructive Anxiety",
+    "D": "Positioning"
+   }
+  },
+  {
+   "id": "t2_coll_structural_reframing",
+   "stem": "Structural Family Therapy share the marker “reframing” with Bowen Family Systems, CBT (interventions), Experiential / Symbolic Therapy (Whitaker), Strategic Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Structural Family Therapy?",
+   "options": {
+    "A": "Subsystems",
+    "B": "Cognitive Restructuring",
+    "C": "Positioning",
+    "D": "Play, Humor, and “Craziness”"
+   }
+  },
+  {
+   "id": "t2_coll_cbt_roleplay",
+   "stem": "CBT (interventions) share the marker “role-play” with Experiential / Symbolic Therapy (Whitaker), so that marker cannot tell them apart. Which of these IS distinctive of CBT (interventions)?",
+   "options": {
+    "A": "Battle for Initiative",
+    "B": "Trial of Labor",
+    "C": "Successive Approximation",
+    "D": "Battle for Structure"
+   }
+  },
+  {
+   "id": "t2_coll_experiential_roleplay",
+   "stem": "Experiential / Symbolic Therapy (Whitaker) share the marker “role-play” with CBT (interventions), so that marker cannot tell them apart. Which of these IS distinctive of Experiential / Symbolic Therapy (Whitaker)?",
+   "options": {
+    "A": "Systematic Desensitization",
+    "B": "Communication Skills Training",
+    "C": "Psychoeducation on the negative triad",
+    "D": "Battle for Structure"
+   }
+  },
+  {
+   "id": "t2_coll_satir_selfesteem",
+   "stem": "Satir Communications Therapy share the marker “self-esteem” with Self Psychology, so that marker cannot tell them apart. Which of these IS distinctive of Satir Communications Therapy?",
+   "options": {
+    "A": "Mirroring",
+    "B": "Adversarial Transference",
+    "C": "Identify alternative self-objects",
+    "D": "Placater"
+   }
+  },
+  {
+   "id": "t2_coll_self-psychology_selfesteem",
+   "stem": "Self Psychology share the marker “self-esteem” with Satir Communications Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Self Psychology?",
+   "options": {
+    "A": "Blamer",
+    "B": "Leveler",
+    "C": "Computer",
+    "D": "Mourning loss of selfobjects"
+   }
+  },
+  {
+   "id": "t2_coll_narrative_strengthsandreso",
+   "stem": "Narrative Therapy share the marker “strengths and resources” with Satir Communications Therapy, Solution-Focused Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Narrative Therapy?",
+   "options": {
+    "A": "Deconstructive Questions",
+    "B": "Blamer",
+    "C": "Metaphors and Storytelling",
+    "D": "Styles of Communication"
+   }
+  },
+  {
+   "id": "t2_coll_satir_strengthsandreso",
+   "stem": "Satir Communications Therapy share the marker “strengths and resources” with Narrative Therapy, Solution-Focused Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Satir Communications Therapy?",
+   "options": {
+    "A": "Mapping the Influence",
+    "B": "Externalizing the Problem",
+    "C": "Distracter",
+    "D": "Formula First Session Task (FFST)"
+   }
+  },
+  {
+   "id": "t2_coll_solution-focused_strengthsandreso",
+   "stem": "Solution-Focused Therapy share the marker “strengths and resources” with Narrative Therapy, Satir Communications Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Solution-Focused Therapy?",
+   "options": {
+    "A": "Affirmations/Compliments",
+    "B": "Distracter",
+    "C": "Transforming Rules",
+    "D": "Written Artifact"
+   }
+  },
+  {
+   "id": "t2_coll_bowen_takingresponsibi",
+   "stem": "Bowen Family Systems share the marker “taking responsibility” with Existential Therapy, Satir Communications Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Bowen Family Systems?",
+   "options": {
+    "A": "Distracter",
+    "B": "Givens in life",
+    "C": "Holding",
+    "D": "Multigenerational Transmission Process"
+   }
+  },
+  {
+   "id": "t2_coll_existential_takingresponsibi",
+   "stem": "Existential Therapy share the marker “taking responsibility” with Bowen Family Systems, Satir Communications Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Existential Therapy?",
+   "options": {
+    "A": "Givens in life",
+    "B": "Computer",
+    "C": "Family Life Chronology",
+    "D": "De-triangulation"
+   }
+  },
+  {
+   "id": "t2_coll_satir_takingresponsibi",
+   "stem": "Satir Communications Therapy share the marker “taking responsibility” with Bowen Family Systems, Existential Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Satir Communications Therapy?",
+   "options": {
+    "A": "Family Sculpting",
+    "B": "Differentiation of Self",
+    "C": "Imaginal death",
+    "D": "Triangles (Triangulation)"
+   }
+  },
+  {
+   "id": "t2_coll_object-relations_terminationwork",
+   "stem": "Object Relations share the marker “termination work” with Self Psychology, so that marker cannot tell them apart. Which of these IS distinctive of Object Relations?",
+   "options": {
+    "A": "Idealizing Transference",
+    "B": "Confront resistance and primitive defenses",
+    "C": "Mirroring",
+    "D": "Demonstrate containment"
+   }
+  },
+  {
+   "id": "t2_coll_self-psychology_terminationwork",
+   "stem": "Self Psychology share the marker “termination work” with Object Relations, so that marker cannot tell them apart. Which of these IS distinctive of Self Psychology?",
+   "options": {
+    "A": "Focus on transference/countertransference",
+    "B": "Identification",
+    "C": "Self- and Object-Representations",
+    "D": "Idealizing Transference"
+   }
+  },
+  {
+   "id": "t2_coll_object-relations_transferencework",
+   "stem": "Object Relations share the marker “transference work” with Self Psychology, so that marker cannot tell them apart. Which of these IS distinctive of Object Relations?",
+   "options": {
+    "A": "Twinship Transference",
+    "B": "Experience-Near Empathy",
+    "C": "Confront resistance and primitive defenses",
+    "D": "Adversarial Transference"
+   }
+  },
+  {
+   "id": "t2_coll_self-psychology_transferencework",
+   "stem": "Self Psychology share the marker “transference work” with Object Relations, so that marker cannot tell them apart. Which of these IS distinctive of Self Psychology?",
+   "options": {
+    "A": "Self- and Object-Representations",
+    "B": "Provide “experience-near” empathy",
+    "C": "Identification",
+    "D": "Focus on transference/countertransference"
+   }
+  },
+  {
+   "id": "t2_conf_object-relations_projection",
+   "stem": "Within Object Relations: which term matches this description?\n\n“Involves projecting undesirable feelings or emotions onto someone else, rather than admitting to or dealing with the unwanted feelings.”",
+   "options": {
+    "A": "Identification",
+    "B": "Projection",
+    "C": "Projective Identification",
+    "D": "Introjection"
+   }
+  },
+  {
+   "id": "t2_conf_object-relations_projectiveidentifi",
+   "stem": "Within Object Relations: which term matches this description?\n\n“Projective Identification (specific to object relations): Refers to a psychological process in which a person will project a thought or belief that they have onto a second person. Then, in most common definitions of projective identification, there is another action in which the second person is changed by the projection and begins to behave as though they are, in fact, actually characterized by t”",
+   "options": {
+    "A": "Introjection",
+    "B": "Identification",
+    "C": "Projection",
+    "D": "Projective Identification"
+   }
+  },
+  {
+   "id": "t2_conf_object-relations_introjection",
+   "stem": "Within Object Relations: which term matches this description?\n\n“Where the subject replicates in themselves behaviors, attributes, or other fragments of the surrounding world, especially of other people. An unconscious taking in of another person’s traits, behaviors, or attitudes as if they were one’s own.”",
+   "options": {
+    "A": "Introjection",
+    "B": "Projection",
+    "C": "Projective Identification",
+    "D": "Identification"
+   }
+  },
+  {
+   "id": "t2_conf_object-relations_identification",
+   "stem": "Within Object Relations: which term matches this description?\n\n“Identification occurs when a person not only takes on a belief or voice of another person, but also begins to identify with that individual. In this case, the husband has not merely taken on the idea that women should do the housework; rather, he sees himself as the head of his household, like his father. He is identifying with his father. Because of this identification, he expects to be treated l”",
+   "options": {
+    "A": "Identification",
+    "B": "Introjection",
+    "C": "Projective Identification",
+    "D": "Projection"
+   }
+  },
+  {
+   "id": "t2_conf_self-psychology_mirroringtransfere",
+   "stem": "Within Self Psychology: which term matches this description?\n\n“The patient seeks acceptance and confirmation of the self from the therapist.”",
+   "options": {
+    "A": "Idealizing Transference",
+    "B": "Twinship Transference",
+    "C": "Mirroring Transference",
+    "D": "Adversarial Transference"
+   }
+  },
+  {
+   "id": "t2_conf_self-psychology_twinshiptransferen",
+   "stem": "Within Self Psychology: which term matches this description?\n\n“The patient experiences the therapist as someone like himself, “that person is like me.””",
+   "options": {
+    "A": "Idealizing Transference",
+    "B": "Twinship Transference",
+    "C": "Mirroring Transference",
+    "D": "Adversarial Transference"
+   }
+  },
+  {
+   "id": "t2_conf_self-psychology_idealizingtransfer",
+   "stem": "Within Self Psychology: which term matches this description?\n\n“The patient looks up to and admires the therapist”",
+   "options": {
+    "A": "Twinship Transference",
+    "B": "Adversarial Transference",
+    "C": "Mirroring Transference",
+    "D": "Idealizing Transference"
+   }
+  },
+  {
+   "id": "t2_conf_self-psychology_adversarialtransfe",
+   "stem": "Within Self Psychology: which term matches this description?\n\n“The need for a supportive relationship that the patient can oppose in order to grow. The therapist can be a person who cares about them, but C is also allowed to disagree and push back, and this could be an important way of healing for a client who felt differential their entire life.”",
+   "options": {
+    "A": "Idealizing Transference",
+    "B": "Twinship Transference",
+    "C": "Mirroring Transference",
+    "D": "Adversarial Transference"
+   }
+  },
+  {
+   "id": "t2_conf_attachment_secureattachment",
+   "stem": "Within Attachment-Based Therapy (Bowlby): which term matches this description?\n\n“The person has easy access to a wide range of feelings and memories, positive and negative. Has a balanced view of parents and has worked through hurt and anger from the past. Has developed a strong sense of self and empathy for others.”",
+   "options": {
+    "A": "Dismissive/Avoidant Attachment",
+    "B": "Secure Attachment",
+    "C": "Preoccupied/Anxious Attachment",
+    "D": "Fearful/Avoidant Attachment (Disorganized)"
+   }
+  },
+  {
+   "id": "t2_conf_attachment_preoccupiedanxious",
+   "stem": "Within Attachment-Based Therapy (Bowlby): which term matches this description?\n\n“The person is still embroiled with anger and hurt at parents. They sometimes value intimacy to such an extent that they become overly dependent on the attachment figure both past and present. They often recall role reversal in childhood and have a hard time seeing their own responsibility in relationships. They dread abandonment.”",
+   "options": {
+    "A": "Preoccupied/Anxious Attachment",
+    "B": "Secure Attachment",
+    "C": "Fearful/Avoidant Attachment (Disorganized)",
+    "D": "Dismissive/Avoidant Attachment"
+   }
+  },
+  {
+   "id": "t2_conf_attachment_dismissiveavoidant",
+   "stem": "Within Attachment-Based Therapy (Bowlby): which term matches this description?\n\n“The person dismisses the importance of love and connection – and the value of emotions in general. Often idealizes parents, but actual memories don’t corroborate. They dislike looking inward and often have a shallow, if any, self-reflection. They often are very independent, dismissive of their own emotionality, and have difficulty tolerating the heightened emotions of others.”",
+   "options": {
+    "A": "Preoccupied/Anxious Attachment",
+    "B": "Dismissive/Avoidant Attachment",
+    "C": "Fearful/Avoidant Attachment (Disorganized)",
+    "D": "Secure Attachment"
+   }
+  },
+  {
+   "id": "t2_conf_attachment_fearfulavoidantatt",
+   "stem": "Within Attachment-Based Therapy (Bowlby): which term matches this description?\n\n“The person usually has a history of trauma and or loss. Similar to Dismissive/Avoidant, they dismiss the importance of love and connection but usually out of fear or a belief that they are unworthy of love. They have difficulty trusting others and may feel uncomfortable with emotional closeness.”",
+   "options": {
+    "A": "Secure Attachment",
+    "B": "Preoccupied/Anxious Attachment",
+    "C": "Dismissive/Avoidant Attachment",
+    "D": "Fearful/Avoidant Attachment (Disorganized)"
+   }
+  },
+  {
+   "id": "t2_conf_satir_placater",
+   "stem": "Within Satir Communications Therapy: which term matches this description?\n\n“Apologizing, never disagreeing, trying to please.”",
+   "options": {
+    "A": "Placater",
+    "B": "Blamer",
+    "C": "Computer",
+    "D": "Distracter"
+   }
+  },
+  {
+   "id": "t2_conf_satir_blamer",
+   "stem": "Within Satir Communications Therapy: which term matches this description?\n\n“Attacking others, fault finder, dictator, boss.”",
+   "options": {
+    "A": "Distracter",
+    "B": "Computer",
+    "C": "Placater",
+    "D": "Blamer"
+   }
+  },
+  {
+   "id": "t2_conf_satir_computer",
+   "stem": "Within Satir Communications Therapy: which term matches this description?\n\n“Super reasonable, intellectual, distant, always correct.”",
+   "options": {
+    "A": "Distracter",
+    "B": "Computer",
+    "C": "Blamer",
+    "D": "Placater"
+   }
+  },
+  {
+   "id": "t2_conf_satir_distracter",
+   "stem": "Within Satir Communications Therapy: which term matches this description?\n\n“Seeking approval by acting out, irrelevant.”",
+   "options": {
+    "A": "Distracter",
+    "B": "Blamer",
+    "C": "Computer",
+    "D": "Placater"
+   }
+  },
+  {
+   "id": "t2_conf_satir_leveler",
+   "stem": "Within Satir Communications Therapy: which term matches this description?\n\n“Congruent in their beliefs about self and others.”",
+   "options": {
+    "A": "Blamer",
+    "B": "Computer",
+    "C": "Leveler",
+    "D": "Placater"
+   }
+  },
+  {
+   "id": "t3_bowen_detriangulation",
+   "stem": "Which term does the packet define this way?\n\n“Therapist becomes part of a \"healthy triangle\" where the therapist teaches the couple to manage their own anxiety, distance, and closeness in healthy ways. Therapist will be very conscious to not take sides, and supporting communication between family members.”",
+   "options": {
+    "A": "Nuclear Family Emotional System",
+    "B": "De-triangulation",
+    "C": "Genogram",
+    "D": "Placater"
+   }
+  },
+  {
+   "id": "t3_bowen_teachingistatements",
+   "stem": "Which term does the packet define this way?\n\n“Increases differentiation and improves communication.”",
+   "options": {
+    "A": "Subsystems",
+    "B": "Teaching “I” Statements",
+    "C": "Interacts with Family",
+    "D": "Homework"
+   }
+  },
+  {
+   "id": "t3_bowen_reduceemotionalreact",
+   "stem": "Which term does the packet define this way?\n\n“Reduce emotional reactivity by having family members talk to the therapist.”",
+   "options": {
+    "A": "Restraining",
+    "B": "Power Hierarchy",
+    "C": "Reduce emotional reactivity",
+    "D": "Emotional Cutoff"
+   }
+  },
+  {
+   "id": "t3_bowen_reframing",
+   "stem": "Which term does the packet define this way?\n\n“The presenting problem as a multigenerational problem that is caused by factors beyond the individual. Reframing issues as multigenerational issue.”",
+   "options": {
+    "A": "Reframing",
+    "B": "Incongruent Communication",
+    "C": "Take Responsibility",
+    "D": "Teaching “I” Statements"
+   }
+  },
+  {
+   "id": "t3_bowen_nuclearfamilyemotion",
+   "stem": "Which term does the packet define this way?\n\n“The concept of the nuclear family emotional system describes four basic relationship patterns that govern where problems develop in a family. Effects overall differentiation. Emotional distance, dysfunction in parent or impairment in child, conflict.”",
+   "options": {
+    "A": "Blamer",
+    "B": "Disengaged Boundaries",
+    "C": "Nuclear Family Emotional System",
+    "D": "Interacts with Family"
+   }
+  },
+  {
+   "id": "t3_bowen_genogram",
+   "stem": "Which term does the packet define this way?\n\n“Create a multigenerational map of family emotional system.”",
+   "options": {
+    "A": "Genogram",
+    "B": "Increasing Differentiation",
+    "C": "Emotional Cutoff",
+    "D": "Leveler"
+   }
+  },
+  {
+   "id": "t3_bowen_increasingdifferenti",
+   "stem": "Which term does the packet define this way?\n\n“By forming supportive relationship with family members to explore the origins and effects of their families beliefs and behaviors.”",
+   "options": {
+    "A": "Disengaged Boundaries",
+    "B": "Multigenerational Transmission Process",
+    "C": "Increasing Differentiation",
+    "D": "Triangles (Triangulation)"
+   }
+  },
+  {
+   "id": "t3_bowen_familyprojectionproc",
+   "stem": "Which term does the packet define this way?\n\n“The family projection process describes the primary way parents transmit their emotional problems to a child. The projection process can impair the functioning of one or more children and increase their vulnerability to clinical symptoms. Example: parents show no conflict or are too argumentative in front of kids”",
+   "options": {
+    "A": "Family Projection Process",
+    "B": "Transforming Rules",
+    "C": "Genogram",
+    "D": "Interacts with Family"
+   }
+  },
+  {
+   "id": "t3_bowen_interactswithfamily",
+   "stem": "Which term does the packet define this way?\n\n“Interrupts arguments – open conflict is prohibited as it raises anxiety.”",
+   "options": {
+    "A": "Interacts with Family",
+    "B": "Restraining",
+    "C": "Models",
+    "D": "Increasing Differentiation"
+   }
+  },
+  {
+   "id": "t3_bowen_differentiationofsel",
+   "stem": "Which term does the packet define this way?\n\n“Families and other social groups tremendously affect how people think, feel, and act, but individuals vary in their susceptibility to a “group think” and groups vary in the amount of pressure they exert for conformity. These differences between individuals and between groups reflect differences in people’s levels of differentiation of self. Differentiation of Self refers to a person’s ability to maintain their sense ”",
+   "options": {
+    "A": "Modeling Communication",
+    "B": "Positioning",
+    "C": "Differentiation of Self",
+    "D": "Teaching “I” Statements"
+   }
+  },
+  {
+   "id": "t3_bowen_emotionalcutoff",
+   "stem": "Which term does the packet define this way?\n\n“The concept of emotional cutoff describes people managing their unresolved emotional issues with parents, siblings, and other family members by reducing or totally cutting off emotional contact with them.”",
+   "options": {
+    "A": "Restraining",
+    "B": "Emotional Cutoff",
+    "C": "Ordeals",
+    "D": "Family Map"
+   }
+  }
+ ]
+}

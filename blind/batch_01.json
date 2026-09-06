@@ -1,0 +1,455 @@
+{
+ "instructions": "For each question pick the single best option. Answer only from the options given. Output strict JSON: {\"answers\":{\"<id>\":\"<LETTER>\"}, \"ambiguous\":[\"<id>\", ...]}. List an id under ambiguous if two or more options are defensible.",
+ "questions": [
+  {
+   "id": "t1_bowen_change_fwd",
+   "stem": "According to Bowen Family Systems, how does change occur?",
+   "options": {
+    "A": "Change occurs through restructuring the family’s organization. Very focused on entire organization of the whole family system. Looking at bigger picture of the family interactions.",
+    "B": "Change happens through self-awareness and improved communication. Humanistic approach.",
+    "C": "Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family.",
+    "D": "Change occurs through action-oriented directives and paradoxical interventions. Very focused on specific problems."
+   }
+  },
+  {
+   "id": "t1_bowen_change_inv",
+   "stem": "Which model holds that change occurs in this way?\n\n“Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family.”",
+   "options": {
+    "A": "Satir Communications Therapy",
+    "B": "Strategic Therapy",
+    "C": "Structural Family Therapy",
+    "D": "Bowen Family Systems"
+   }
+  },
+  {
+   "id": "t1_strategic_change_fwd",
+   "stem": "According to Strategic Therapy, how does change occur?",
+   "options": {
+    "A": "Change occurs through restructuring the family’s organization. Very focused on entire organization of the whole family system. Looking at bigger picture of the family interactions.",
+    "B": "Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family.",
+    "C": "Change occurs through action-oriented directives and paradoxical interventions. Very focused on specific problems.",
+    "D": "Change happens through self-awareness and improved communication. Humanistic approach."
+   }
+  },
+  {
+   "id": "t1_strategic_change_inv",
+   "stem": "Which model holds that change occurs in this way?\n\n“Change occurs through action-oriented directives and paradoxical interventions. Very focused on specific problems.”",
+   "options": {
+    "A": "Structural Family Therapy",
+    "B": "Bowen Family Systems",
+    "C": "Satir Communications Therapy",
+    "D": "Strategic Therapy"
+   }
+  },
+  {
+   "id": "t1_structural_change_fwd",
+   "stem": "According to Structural Family Therapy, how does change occur?",
+   "options": {
+    "A": "Change occurs through restructuring the family’s organization. Very focused on entire organization of the whole family system. Looking at bigger picture of the family interactions.",
+    "B": "Change happens through self-awareness and improved communication. Humanistic approach.",
+    "C": "Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family.",
+    "D": "Change occurs through action-oriented directives and paradoxical interventions. Very focused on specific problems."
+   }
+  },
+  {
+   "id": "t1_structural_change_inv",
+   "stem": "Which model holds that change occurs in this way?\n\n“Change occurs through restructuring the family’s organization. Very focused on entire organization of the whole family system. Looking at bigger picture of the family interactions.”",
+   "options": {
+    "A": "Strategic Therapy",
+    "B": "Structural Family Therapy",
+    "C": "Bowen Family Systems",
+    "D": "Satir Communications Therapy"
+   }
+  },
+  {
+   "id": "t1_satir_change_fwd",
+   "stem": "According to Satir Communications Therapy, how does change occur?",
+   "options": {
+    "A": "Change occurs through restructuring the family’s organization. Very focused on entire organization of the whole family system. Looking at bigger picture of the family interactions.",
+    "B": "Change happens through self-awareness and improved communication. Humanistic approach.",
+    "C": "Change occurs through action-oriented directives and paradoxical interventions. Very focused on specific problems.",
+    "D": "Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family."
+   }
+  },
+  {
+   "id": "t1_satir_change_inv",
+   "stem": "Which model holds that change occurs in this way?\n\n“Change happens through self-awareness and improved communication. Humanistic approach.”",
+   "options": {
+    "A": "Satir Communications Therapy",
+    "B": "Structural Family Therapy",
+    "C": "Strategic Therapy",
+    "D": "Bowen Family Systems"
+   }
+  },
+  {
+   "id": "t1_narrative_change_fwd",
+   "stem": "According to Narrative Therapy, how does change occur?",
+   "options": {
+    "A": "Change occurs through accessing client’s strengths and resources. Emphasizes finding solutions to a problem, not on discovering the cause or origins of the problem.",
+    "B": "Change happens through self-awareness and improved communication. Humanistic approach.",
+    "C": "Views people are always growing and inherently good. Avoids diagnosis, avoid strict adherence to what the ideal person should be. Role of therapist is nondirective, not steering client in any one direction (unlike CBT or systems theory). Driven by what the client wants to talk about. T is a facilitator who is helping the person to grow and change. This occurs by creating unconditional positive regard. Client determines the goals of therapy. Up to the client to decide how many sessions they would like as well, a lot of support for client self-determination.",
+    "D": "Change occurs by separating the person from the problem and by creating a new narrative which emphasizes the individual’s competencies and strengths."
+   }
+  },
+  {
+   "id": "t1_narrative_change_inv",
+   "stem": "Which model holds that change occurs in this way?\n\n“Change occurs by separating the person from the problem and by creating a new narrative which emphasizes the individual’s competencies and strengths.”",
+   "options": {
+    "A": "Satir Communications Therapy",
+    "B": "Narrative Therapy",
+    "C": "Client Centered Therapy",
+    "D": "Solution-Focused Therapy"
+   }
+  },
+  {
+   "id": "t1_attachment_change_fwd",
+   "stem": "According to Attachment-Based Therapy (Bowlby), how does change occur?",
+   "options": {
+    "A": "Change occurs through both reparative experiences within the treatment relationship (relationship with therapist) insight into and modification of entrenched object relations pathology.",
+    "B": "Change occurs through empathetic attunement and strengthening the self-structures through optimal responsiveness. Shift away from interpretation.",
+    "C": "Change occurs through exploration of past and current relational attachments and trauma in the environment of a healing, secure, and reliable relationship.",
+    "D": "Views people are always growing and inherently good. Avoids diagnosis, avoid strict adherence to what the ideal person should be. Role of therapist is nondirective, not steering client in any one direction (unlike CBT or systems theory). Driven by what the client wants to talk about. T is a facilitator who is helping the person to grow and change. This occurs by creating unconditional positive regard. Client determines the goals of therapy. Up to the client to decide how many sessions they would like as well, a lot of support for client self-determination."
+   }
+  },
+  {
+   "id": "t1_attachment_change_inv",
+   "stem": "Which model holds that change occurs in this way?\n\n“Change occurs through exploration of past and current relational attachments and trauma in the environment of a healing, secure, and reliable relationship.”",
+   "options": {
+    "A": "Client Centered Therapy",
+    "B": "Object Relations",
+    "C": "Attachment-Based Therapy (Bowlby)",
+    "D": "Self Psychology"
+   }
+  },
+  {
+   "id": "t1_client-centered_change_fwd",
+   "stem": "According to Client Centered Therapy, how does change occur?",
+   "options": {
+    "A": "Views people are always growing and inherently good. Avoids diagnosis, avoid strict adherence to what the ideal person should be. Role of therapist is nondirective, not steering client in any one direction (unlike CBT or systems theory). Driven by what the client wants to talk about. T is a facilitator who is helping the person to grow and change. This occurs by creating unconditional positive regard. Client determines the goals of therapy. Up to the client to decide how many sessions they would like as well, a lot of support for client self-determination.",
+    "B": "Change happens through the existential encounter – the authentic meeting of the therapist and the client in the present moment and by expanding the client’s range of experience. Very influenced by Gestalt therapy. Generally used with families, started by Carl Whittaker.",
+    "C": "Change occurs through finding meaning, living authentically and responsibly. The idea that the person can respond, make choices, emphasizes personal choice about how clients want to live their lives. Core question: how do I exist? Inherent meaninglessness to life and existence.",
+    "D": "The idea is that change occurs through increased awareness of here and now experience and dialogic relationship between T and client. Dialogic refers to a therapeutic stance where the therapist and client engage as two authentic human beings — fully present with each other, co-creating the therapeutic process. Heavily influenced by Martin Buber’s “I-Thou” philosophy, where the therapist meets the client as a fellow human, not an object to be treated."
+   }
+  },
+  {
+   "id": "t1_client-centered_change_inv",
+   "stem": "Which model holds that change occurs in this way?\n\n“Views people are always growing and inherently good. Avoids diagnosis, avoid strict adherence to what the ideal person should be. Role of therapist is nondirective, not steering client in any one direction (unlike CBT or systems theory). Driven by what the client wants to talk about. T is a facilitator who is helping the person to grow and change. This occurs by creating unconditional positive regard. Client determines the goals of therapy. Up to the client to decide how many sessions they would like as well, a lot of support for client self-determination.”",
+   "options": {
+    "A": "Existential Therapy",
+    "B": "Client Centered Therapy",
+    "C": "Gestalt Therapy",
+    "D": "Experiential / Symbolic Therapy (Whitaker)"
+   }
+  },
+  {
+   "id": "t1_gestalt_change_fwd",
+   "stem": "According to Gestalt Therapy, how does change occur?",
+   "options": {
+    "A": "Change occurs through finding meaning, living authentically and responsibly. The idea that the person can respond, make choices, emphasizes personal choice about how clients want to live their lives. Core question: how do I exist? Inherent meaninglessness to life and existence.",
+    "B": "The idea is that change occurs through increased awareness of here and now experience and dialogic relationship between T and client. Dialogic refers to a therapeutic stance where the therapist and client engage as two authentic human beings — fully present with each other, co-creating the therapeutic process. Heavily influenced by Martin Buber’s “I-Thou” philosophy, where the therapist meets the client as a fellow human, not an object to be treated.",
+    "C": "Views people are always growing and inherently good. Avoids diagnosis, avoid strict adherence to what the ideal person should be. Role of therapist is nondirective, not steering client in any one direction (unlike CBT or systems theory). Driven by what the client wants to talk about. T is a facilitator who is helping the person to grow and change. This occurs by creating unconditional positive regard. Client determines the goals of therapy. Up to the client to decide how many sessions they would like as well, a lot of support for client self-determination.",
+    "D": "Change happens through the existential encounter – the authentic meeting of the therapist and the client in the present moment and by expanding the client’s range of experience. Very influenced by Gestalt therapy. Generally used with families, started by Carl Whittaker."
+   }
+  },
+  {
+   "id": "t1_gestalt_change_inv",
+   "stem": "Which model holds that change occurs in this way?\n\n“The idea is that change occurs through increased awareness of here and now experience and dialogic relationship between T and client. Dialogic refers to a therapeutic stance where the therapist and client engage as two authentic human beings — fully present with each other, co-creating the therapeutic process. Heavily influenced by Martin Buber’s “I-Thou” philosophy, where the therapist meets the client as a fellow human, not an object to be treated.”",
+   "options": {
+    "A": "Existential Therapy",
+    "B": "Experiential / Symbolic Therapy (Whitaker)",
+    "C": "Client Centered Therapy",
+    "D": "Gestalt Therapy"
+   }
+  },
+  {
+   "id": "t1_existential_change_fwd",
+   "stem": "According to Existential Therapy, how does change occur?",
+   "options": {
+    "A": "Change occurs through finding meaning, living authentically and responsibly. The idea that the person can respond, make choices, emphasizes personal choice about how clients want to live their lives. Core question: how do I exist? Inherent meaninglessness to life and existence.",
+    "B": "The idea is that change occurs through increased awareness of here and now experience and dialogic relationship between T and client. Dialogic refers to a therapeutic stance where the therapist and client engage as two authentic human beings — fully present with each other, co-creating the therapeutic process. Heavily influenced by Martin Buber’s “I-Thou” philosophy, where the therapist meets the client as a fellow human, not an object to be treated.",
+    "C": "Change happens through the existential encounter – the authentic meeting of the therapist and the client in the present moment and by expanding the client’s range of experience. Very influenced by Gestalt therapy. Generally used with families, started by Carl Whittaker.",
+    "D": "Views people are always growing and inherently good. Avoids diagnosis, avoid strict adherence to what the ideal person should be. Role of therapist is nondirective, not steering client in any one direction (unlike CBT or systems theory). Driven by what the client wants to talk about. T is a facilitator who is helping the person to grow and change. This occurs by creating unconditional positive regard. Client determines the goals of therapy. Up to the client to decide how many sessions they would like as well, a lot of support for client self-determination."
+   }
+  },
+  {
+   "id": "t1_existential_change_inv",
+   "stem": "Which model holds that change occurs in this way?\n\n“Change occurs through finding meaning, living authentically and responsibly. The idea that the person can respond, make choices, emphasizes personal choice about how clients want to live their lives. Core question: how do I exist? Inherent meaninglessness to life and existence.”",
+   "options": {
+    "A": "Client Centered Therapy",
+    "B": "Gestalt Therapy",
+    "C": "Experiential / Symbolic Therapy (Whitaker)",
+    "D": "Existential Therapy"
+   }
+  },
+  {
+   "id": "t1_experiential_change_fwd",
+   "stem": "According to Experiential / Symbolic Therapy (Whitaker), how does change occur?",
+   "options": {
+    "A": "Change happens through the existential encounter – the authentic meeting of the therapist and the client in the present moment and by expanding the client’s range of experience. Very influenced by Gestalt therapy. Generally used with families, started by Carl Whittaker.",
+    "B": "Change occurs through restructuring the family’s organization. Very focused on entire organization of the whole family system. Looking at bigger picture of the family interactions.",
+    "C": "The idea is that change occurs through increased awareness of here and now experience and dialogic relationship between T and client. Dialogic refers to a therapeutic stance where the therapist and client engage as two authentic human beings — fully present with each other, co-creating the therapeutic process. Heavily influenced by Martin Buber’s “I-Thou” philosophy, where the therapist meets the client as a fellow human, not an object to be treated.",
+    "D": "Change happens through self-awareness and improved communication. Humanistic approach."
+   }
+  },
+  {
+   "id": "t1_experiential_change_inv",
+   "stem": "Which model holds that change occurs in this way?\n\n“Change happens through the existential encounter – the authentic meeting of the therapist and the client in the present moment and by expanding the client’s range of experience. Very influenced by Gestalt therapy. Generally used with families, started by Carl Whittaker.”",
+   "options": {
+    "A": "Satir Communications Therapy",
+    "B": "Experiential / Symbolic Therapy (Whitaker)",
+    "C": "Existential Therapy",
+    "D": "Gestalt Therapy"
+   }
+  },
+  {
+   "id": "t1_bowen_marker_nuclearfamilyemoti",
+   "stem": "“Nuclear Family Emotional System” is a signature term of which model?",
+   "options": {
+    "A": "Bowen Family Systems",
+    "B": "Strategic Therapy",
+    "C": "Satir Communications Therapy",
+    "D": "Structural Family Therapy"
+   }
+  },
+  {
+   "id": "t1_bowen_marker_bibliotherapy",
+   "stem": "“Bibliotherapy” is a signature term of which model?",
+   "options": {
+    "A": "Bowen Family Systems",
+    "B": "Structural Family Therapy",
+    "C": "Satir Communications Therapy",
+    "D": "Strategic Therapy"
+   }
+  },
+  {
+   "id": "t1_bowen_marker_models",
+   "stem": "“Models” is a signature term of which model?",
+   "options": {
+    "A": "Strategic Therapy",
+    "B": "Bowen Family Systems",
+    "C": "Satir Communications Therapy",
+    "D": "Structural Family Therapy"
+   }
+  },
+  {
+   "id": "t1_strategic_marker_restraining",
+   "stem": "“Restraining” is a signature term of which model?",
+   "options": {
+    "A": "Satir Communications Therapy",
+    "B": "Structural Family Therapy",
+    "C": "Strategic Therapy",
+    "D": "Bowen Family Systems"
+   }
+  },
+  {
+   "id": "t1_strategic_marker_positioning",
+   "stem": "“Positioning” is a signature term of which model?",
+   "options": {
+    "A": "Bowen Family Systems",
+    "B": "Satir Communications Therapy",
+    "C": "Strategic Therapy",
+    "D": "Structural Family Therapy"
+   }
+  },
+  {
+   "id": "t1_strategic_marker_prescribingthesymp",
+   "stem": "“Prescribing the Symptom” is a signature term of which model?",
+   "options": {
+    "A": "Satir Communications Therapy",
+    "B": "Bowen Family Systems",
+    "C": "Structural Family Therapy",
+    "D": "Strategic Therapy"
+   }
+  },
+  {
+   "id": "t1_structural_marker_familymap",
+   "stem": "“Family Map” is a signature term of which model?",
+   "options": {
+    "A": "Bowen Family Systems",
+    "B": "Strategic Therapy",
+    "C": "Satir Communications Therapy",
+    "D": "Structural Family Therapy"
+   }
+  },
+  {
+   "id": "t1_structural_marker_subsystems",
+   "stem": "“Subsystems” is a signature term of which model?",
+   "options": {
+    "A": "Bowen Family Systems",
+    "B": "Satir Communications Therapy",
+    "C": "Strategic Therapy",
+    "D": "Structural Family Therapy"
+   }
+  },
+  {
+   "id": "t1_structural_marker_tracking",
+   "stem": "“Tracking” is a signature term of which model?",
+   "options": {
+    "A": "Strategic Therapy",
+    "B": "Structural Family Therapy",
+    "C": "Bowen Family Systems",
+    "D": "Satir Communications Therapy"
+   }
+  },
+  {
+   "id": "t1_satir_marker_placater",
+   "stem": "“Placater” is a signature term of which model?",
+   "options": {
+    "A": "Satir Communications Therapy",
+    "B": "Bowen Family Systems",
+    "C": "Strategic Therapy",
+    "D": "Structural Family Therapy"
+   }
+  },
+  {
+   "id": "t1_satir_marker_stylesofcommunicat",
+   "stem": "“Styles of Communication” is a signature term of which model?",
+   "options": {
+    "A": "Strategic Therapy",
+    "B": "Bowen Family Systems",
+    "C": "Satir Communications Therapy",
+    "D": "Structural Family Therapy"
+   }
+  },
+  {
+   "id": "t1_satir_marker_transformingrules",
+   "stem": "“Transforming Rules” is a signature term of which model?",
+   "options": {
+    "A": "Bowen Family Systems",
+    "B": "Satir Communications Therapy",
+    "C": "Strategic Therapy",
+    "D": "Structural Family Therapy"
+   }
+  },
+  {
+   "id": "t1_narrative_marker_thinstory",
+   "stem": "“Thin Story” is a signature term of which model?",
+   "options": {
+    "A": "Narrative Therapy",
+    "B": "Client Centered Therapy",
+    "C": "Solution-Focused Therapy",
+    "D": "Satir Communications Therapy"
+   }
+  },
+  {
+   "id": "t1_narrative_marker_externalizingthepr",
+   "stem": "“Externalizing the Problem” is a signature term of which model?",
+   "options": {
+    "A": "Solution-Focused Therapy",
+    "B": "Narrative Therapy",
+    "C": "Satir Communications Therapy",
+    "D": "Client Centered Therapy"
+   }
+  },
+  {
+   "id": "t1_narrative_marker_writtenartifact",
+   "stem": "“Written Artifact” is a signature term of which model?",
+   "options": {
+    "A": "Narrative Therapy",
+    "B": "Satir Communications Therapy",
+    "C": "Client Centered Therapy",
+    "D": "Solution-Focused Therapy"
+   }
+  },
+  {
+   "id": "t1_solution-focused_marker_copingquestions",
+   "stem": "“Coping Questions” is a signature term of which model?",
+   "options": {
+    "A": "CBT (interventions)",
+    "B": "Solution-Focused Therapy",
+    "C": "Narrative Therapy",
+    "D": "Satir Communications Therapy"
+   }
+  },
+  {
+   "id": "t1_solution-focused_marker_affirmationscompli",
+   "stem": "“Affirmations/Compliments” is a signature term of which model?",
+   "options": {
+    "A": "Satir Communications Therapy",
+    "B": "Solution-Focused Therapy",
+    "C": "CBT (interventions)",
+    "D": "Narrative Therapy"
+   }
+  },
+  {
+   "id": "t1_solution-focused_marker_formulafirstsessio",
+   "stem": "“Formula First Session Task (FFST)” is a signature term of which model?",
+   "options": {
+    "A": "Narrative Therapy",
+    "B": "Solution-Focused Therapy",
+    "C": "Satir Communications Therapy",
+    "D": "CBT (interventions)"
+   }
+  },
+  {
+   "id": "t1_object-relations_marker_objects",
+   "stem": "“Objects” is a signature term of which model?",
+   "options": {
+    "A": "Self Psychology",
+    "B": "Object Relations",
+    "C": "Attachment-Based Therapy (Bowlby)",
+    "D": "Bowen Family Systems"
+   }
+  },
+  {
+   "id": "t1_object-relations_marker_internalization",
+   "stem": "“Internalization” is a signature term of which model?",
+   "options": {
+    "A": "Bowen Family Systems",
+    "B": "Attachment-Based Therapy (Bowlby)",
+    "C": "Object Relations",
+    "D": "Self Psychology"
+   }
+  },
+  {
+   "id": "t1_object-relations_marker_projection",
+   "stem": "“Projection” is a signature term of which model?",
+   "options": {
+    "A": "Attachment-Based Therapy (Bowlby)",
+    "B": "Bowen Family Systems",
+    "C": "Object Relations",
+    "D": "Self Psychology"
+   }
+  },
+  {
+   "id": "t1_self-psychology_marker_repairdisruptionso",
+   "stem": "“Repair disruptions of the self-object transference” is a signature term of which model?",
+   "options": {
+    "A": "Self Psychology",
+    "B": "Object Relations",
+    "C": "Bowen Family Systems",
+    "D": "Attachment-Based Therapy (Bowlby)"
+   }
+  },
+  {
+   "id": "t1_self-psychology_marker_mirroringtransfere",
+   "stem": "“Mirroring Transference” is a signature term of which model?",
+   "options": {
+    "A": "Bowen Family Systems",
+    "B": "Self Psychology",
+    "C": "Attachment-Based Therapy (Bowlby)",
+    "D": "Object Relations"
+   }
+  },
+  {
+   "id": "t1_self-psychology_marker_selfobjects",
+   "stem": "“Self-Objects” is a signature term of which model?",
+   "options": {
+    "A": "Self Psychology",
+    "B": "Bowen Family Systems",
+    "C": "Object Relations",
+    "D": "Attachment-Based Therapy (Bowlby)"
+   }
+  },
+  {
+   "id": "t1_attachment_marker_repairstage",
+   "stem": "“Repair stage” is a signature term of which model?",
+   "options": {
+    "A": "Object Relations",
+    "B": "Self Psychology",
+    "C": "Attachment-Based Therapy (Bowlby)",
+    "D": "Client Centered Therapy"
+   }
+  }
+ ]
+}

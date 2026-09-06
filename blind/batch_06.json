@@ -1,0 +1,455 @@
+{
+ "instructions": "For each question pick the single best option. Answer only from the options given. Output strict JSON: {\"answers\":{\"<id>\":\"<LETTER>\"}, \"ambiguous\":[\"<id>\", ...]}. List an id under ambiguous if two or more options are defensible.",
+ "questions": [
+  {
+   "id": "t3_bowen_trianglestriangulati",
+   "stem": "Which term does the packet define this way?\n\n“A triangle is a three-person relationship system. It is considered the building block or “molecule” of larger emotional systems because a triangle is the smallest stable relationship system. It could be work, or a substance, not just another person.”",
+   "options": {
+    "A": "Family Projection Process",
+    "B": "Styles of Communication",
+    "C": "Triangles (Triangulation)",
+    "D": "Incongruent Communication"
+   }
+  },
+  {
+   "id": "t3_bowen_multigenerationaltra",
+   "stem": "Which term does the packet define this way?\n\n“The concept of the multigenerational transmission process describes how small differences in the levels of differentiation between parents and their offspring lead over many generations to marked differences in differentiation among the members of a multigenerational family.”",
+   "options": {
+    "A": "Homework",
+    "B": "Multigenerational Transmission Process",
+    "C": "Emotional Cutoff",
+    "D": "Blamer"
+   }
+  },
+  {
+   "id": "t3_bowen_openingcutoffrelatio",
+   "stem": "Which term does the packet define this way?\n\n“Encouraging and supporting clients to re-engage with estranged family members.”",
+   "options": {
+    "A": "Genogram",
+    "B": "Paradoxical Directives",
+    "C": "Opening Cutoff Relationships",
+    "D": "Leveler"
+   }
+  },
+  {
+   "id": "t3_strategic_homework",
+   "stem": "Which term does the packet define this way?\n\n“Assignments or directives that take place outside of therapy are essential to the therapy having a successful outcome. The underlying goal of the homework is to try to change the way the family dynamics function around the presenting problem that was identified in session.”",
+   "options": {
+    "A": "Styles of Communication",
+    "B": "Joining",
+    "C": "Homework",
+    "D": "Emotional Cutoff"
+   }
+  },
+  {
+   "id": "t3_strategic_restraining",
+   "stem": "Which term does the packet define this way?\n\n“The therapist will discourage change or changing too quickly in an effort to elicit the desire to change from the client.”",
+   "options": {
+    "A": "Incongruent Communication",
+    "B": "Teaching “I” Statements",
+    "C": "Restraining",
+    "D": "Joining"
+   }
+  },
+  {
+   "id": "t3_strategic_paradoxicaldirective",
+   "stem": "Which term does the packet define this way?\n\n“Maneuvers that are in apparent contradiction to the goals of therapy, yet are actually designed to achieve them; paradoxical interventions help avoid confrontation with therapist’s instructions; undermines resistance by keeping clients in charge.”",
+   "options": {
+    "A": "Emotional Cutoff",
+    "B": "Nuclear Family Emotional System",
+    "C": "Distracter",
+    "D": "Paradoxical Directives"
+   }
+  },
+  {
+   "id": "t3_strategic_prescribingthesympto",
+   "stem": "Which term does the packet define this way?\n\n“A strategy in which the therapist encourages or instructs the client to engage in or practice the symptom. ie schedule a fight or schedule a worry time.”",
+   "options": {
+    "A": "Disengaged Boundaries",
+    "B": "Reframing",
+    "C": "Prescribing the Symptom",
+    "D": "Interacts with Family"
+   }
+  },
+  {
+   "id": "t3_strategic_positioning",
+   "stem": "Which term does the packet define this way?\n\n“Therapist takes a more exaggerated and extreme view of the problem and the family is obligated to rebel. That leads to them seeing the ways in which they have Competency. (T says your family is completely hopeless w hopes they’d say no its not)”",
+   "options": {
+    "A": "Prescribing the Symptom",
+    "B": "Opening Cutoff Relationships",
+    "C": "Positioning",
+    "D": "Bibliotherapy"
+   }
+  },
+  {
+   "id": "t3_strategic_ordeals",
+   "stem": "Which term does the packet define this way?\n\n“Particular type of symptom prescription in which clients are encouraged to carry out harmless but unpleasant tasks whenever symptoms occur; example: having to get up and clean the basement every time the client cannot sleep.”",
+   "options": {
+    "A": "Ordeals",
+    "B": "Teaching “I” Statements",
+    "C": "Models",
+    "D": "Homework"
+   }
+  },
+  {
+   "id": "t3_structural_coalitions",
+   "stem": "Which term does the packet define this way?\n\n“Alignments where 2 or more family members join together to form a bond against another family member.”",
+   "options": {
+    "A": "Tracking",
+    "B": "Opening Cutoff Relationships",
+    "C": "Coalitions",
+    "D": "Differentiation of Self"
+   }
+  },
+  {
+   "id": "t3_structural_disengagedboundaries",
+   "stem": "Which term does the packet define this way?\n\n“Where family members are isolated from each other. Can lead to AOD use and is a result of rigid boundaries.”",
+   "options": {
+    "A": "Disengaged Boundaries",
+    "B": "Multigenerational Transmission Process",
+    "C": "Blamer",
+    "D": "De-triangulation"
+   }
+  },
+  {
+   "id": "t3_structural_reframe",
+   "stem": "Which term does the packet define this way?\n\n“Putting the presenting problem in a perspective that is both different from what the family brings and more workable.”",
+   "options": {
+    "A": "Enmeshed Boundaries",
+    "B": "Modeling Communication",
+    "C": "Reframe",
+    "D": "Reframing"
+   }
+  },
+  {
+   "id": "t3_structural_unbalancing",
+   "stem": "Which term does the packet define this way?\n\n“Supporting someone who is in a one-down position, thus changing hierarchical position.”",
+   "options": {
+    "A": "Placater",
+    "B": "Increasing Differentiation",
+    "C": "Nuclear Family Emotional System",
+    "D": "Unbalancing"
+   }
+  },
+  {
+   "id": "t3_structural_familymap",
+   "stem": "Which term does the packet define this way?\n\n“A tool the therapist will use to depict the relationship dynamics in the family including sub-systems, alliances, coalitions and boundaries. This tool is used to conceptualize the case outside of the actual therapy. It is not used or shared with the family.”",
+   "options": {
+    "A": "Opening Cutoff Relationships",
+    "B": "Family Map",
+    "C": "Tracking",
+    "D": "Homework"
+   }
+  },
+  {
+   "id": "t3_structural_enmeshedboundaries",
+   "stem": "Which term does the packet define this way?\n\n“Family members are overly dependent and too closely involved and reactive to other family members. Can lead to incest.”",
+   "options": {
+    "A": "Subsystems",
+    "B": "Prescribing the Symptom",
+    "C": "Opening Cutoff Relationships",
+    "D": "Enmeshed Boundaries"
+   }
+  },
+  {
+   "id": "t3_structural_enactment",
+   "stem": "Which term does the packet define this way?\n\n“The actualization of transactional patterns under the control of the therapist. It allows the therapist to observe how family members mutually regulate their behaviors, and to determine the place of the problem behavior within the sequence of transactions.”",
+   "options": {
+    "A": "Joining",
+    "B": "Blamer",
+    "C": "Disengaged Boundaries",
+    "D": "Enactment"
+   }
+  },
+  {
+   "id": "t3_structural_boundarymaking",
+   "stem": "Which term does the packet define this way?\n\n“Special case of enactment, in which the therapist defines areas of interaction that he rules open to certain members but closed to others. Example: a son is asked to leave his chair (in between his parents) and go to another chair on the opposite side of the room, so that he is not “caught in the middle””",
+   "options": {
+    "A": "Genogram",
+    "B": "Homework",
+    "C": "Enmeshed Boundaries",
+    "D": "Boundary Making"
+   }
+  },
+  {
+   "id": "t3_structural_alliances",
+   "stem": "Which term does the packet define this way?\n\n“Subgroups based on gender, generation, developmental tasks.”",
+   "options": {
+    "A": "Reframe",
+    "B": "Unbalancing",
+    "C": "Genogram",
+    "D": "Alliances"
+   }
+  },
+  {
+   "id": "t3_structural_subsystems",
+   "stem": "Which term does the packet define this way?\n\n“Families organize themselves by generation, relationship, and necessity. Examples: marital subsystem – spouses; parental subsystem: parents; executive subsystem: people who run the family; sibling subsystem – kids.”",
+   "options": {
+    "A": "Subsystems",
+    "B": "Take Responsibility",
+    "C": "Styles of Communication",
+    "D": "Family Map"
+   }
+  },
+  {
+   "id": "t3_structural_tracking",
+   "stem": "Which term does the packet define this way?\n\n“The therapist pays close attention to family members and how they relate to one another during an enactment or spontaneous behavioral sequence, noticing boundaries, coalitions, roles, rules, etc.”",
+   "options": {
+    "A": "Tracking",
+    "B": "Triangles (Triangulation)",
+    "C": "Styles of Communication",
+    "D": "Interacts with Family"
+   }
+  },
+  {
+   "id": "t3_structural_joining",
+   "stem": "Which term does the packet define this way?\n\n“Therapist’s first task; involves blending in with the family, adapting the family’s affect, style, and language.”",
+   "options": {
+    "A": "De-triangulation",
+    "B": "Reduce emotional reactivity",
+    "C": "Ordeals",
+    "D": "Joining"
+   }
+  },
+  {
+   "id": "t3_structural_mimesis",
+   "stem": "Which term does the packet define this way?\n\n“The therapist tracks the family’s style of communication and uses it.”",
+   "options": {
+    "A": "Mimesis",
+    "B": "Positioning",
+    "C": "Interacts with Family",
+    "D": "Coalitions"
+   }
+  },
+  {
+   "id": "t3_structural_powerhierarchy",
+   "stem": "Which term does the packet define this way?\n\n“Leadership and direction must be provided by the adults, typically parents. Sometimes when parents are intimidated or insecure, the power is upside down and it leads to chaos.”",
+   "options": {
+    "A": "Power Hierarchy",
+    "B": "Boundary Making",
+    "C": "Incongruent Communication",
+    "D": "Opening Cutoff Relationships"
+   }
+  },
+  {
+   "id": "t3_satir_familylifechronology",
+   "stem": "Which term does the packet define this way?\n\n“Gathering history as far back as possible. Include: ideology, values, rules, disruptions, moves, and major events. What the family has been through and how those events impact the family. How past events and unresolved issues are carried out presently.”",
+   "options": {
+    "A": "Power Hierarchy",
+    "B": "Metaphors and Storytelling",
+    "C": "Family Life Chronology",
+    "D": "Restraining"
+   }
+  },
+  {
+   "id": "t3_satir_modelingcommunicatio",
+   "stem": "Which term does the packet define this way?\n\n“Therapist uses “I” messages; expresses thoughts and feelings directly; avoids statements about what others are thinking or feeling; is honest.”",
+   "options": {
+    "A": "Modeling Communication",
+    "B": "Enactment",
+    "C": "Triangles (Triangulation)",
+    "D": "Placater"
+   }
+  },
+  {
+   "id": "t3_satir_computer",
+   "stem": "Which term does the packet define this way?\n\n“Super reasonable, intellectual, distant, always correct.”",
+   "options": {
+    "A": "Blamer",
+    "B": "Take Responsibility",
+    "C": "Computer",
+    "D": "Family Map"
+   }
+  },
+  {
+   "id": "t3_satir_takeresponsibility",
+   "stem": "Which term does the packet define this way?\n\n“Encouraging clients to take responsibility for how they felt, what they experienced, what meaning they made, what feelings they had about their feelings.”",
+   "options": {
+    "A": "Family Projection Process",
+    "B": "Differentiation of Self",
+    "C": "Take Responsibility",
+    "D": "Incongruent Communication"
+   }
+  },
+  {
+   "id": "t3_satir_familysculpting",
+   "stem": "Which term does the packet define this way?\n\n“Put people into a spatial metaphor – a physical representation of family members characterizations.”",
+   "options": {
+    "A": "Leveler",
+    "B": "Prescribing the Symptom",
+    "C": "Teaching “I” Statements",
+    "D": "Family Sculpting"
+   }
+  },
+  {
+   "id": "t3_satir_stylesofcommunicatio",
+   "stem": "Which term does the packet define this way?\n\n“The rules that govern family interaction function as a method of ensuring the maintenance and preservation of the family’s current functioning level.”",
+   "options": {
+    "A": "Computer",
+    "B": "Styles of Communication",
+    "C": "Enmeshed Boundaries",
+    "D": "Family Sculpting"
+   }
+  },
+  {
+   "id": "t3_satir_transformingrules",
+   "stem": "Which term does the packet define this way?\n\n“Assisting clients to create more functional, less rigid guidelines.”",
+   "options": {
+    "A": "Leveler",
+    "B": "Enmeshed Boundaries",
+    "C": "De-triangulation",
+    "D": "Transforming Rules"
+   }
+  },
+  {
+   "id": "t3_narrative_thickstory",
+   "stem": "Which term does the packet define this way?\n\n“The dominant narrative that the person maintains. This story has been repeated over time and is very detailed and usually problem-saturated.”",
+   "options": {
+    "A": "Computer",
+    "B": "Alternate Stories",
+    "C": "Thick Story",
+    "D": "Deconstructive Questions"
+   }
+  },
+  {
+   "id": "t3_narrative_uniqueoutcomes",
+   "stem": "Which term does the packet define this way?\n\n“This is a type of intervention. The therapist asks questions to highlight times in the client’s life when they were able to resist the effects of the problem. This is a prerequisite for re-authoring the client’s story.”",
+   "options": {
+    "A": "Family Life Chronology",
+    "B": "Computer",
+    "C": "Unique Outcomes",
+    "D": "Problem-Saturated Stories"
+   }
+  },
+  {
+   "id": "t3_narrative_alternatestories",
+   "stem": "Which term does the packet define this way?\n\n“The new and preferred or healthier stories an individual develops.”",
+   "options": {
+    "A": "Affirmations/Compliments",
+    "B": "Alternate Stories",
+    "C": "Presupposing Change",
+    "D": "Transforming Rules"
+   }
+  },
+  {
+   "id": "t3_narrative_problemsaturatedstor",
+   "stem": "Which term does the packet define this way?\n\n“The dominant and unhealthy stories an individual tells themselves. These are often the stories that bring people to therapy.”",
+   "options": {
+    "A": "Family Life Chronology",
+    "B": "Mapping the Influence",
+    "C": "Scaling Questions",
+    "D": "Problem-Saturated Stories"
+   }
+  },
+  {
+   "id": "t3_narrative_writtenartifact",
+   "stem": "Which term does the packet define this way?\n\n“This is a type of intervention. It is some form or written documentation that reinforces the client’s new story.”",
+   "options": {
+    "A": "Written Artifact",
+    "B": "Thin Story",
+    "C": "Take Responsibility",
+    "D": "Metaphors and Storytelling"
+   }
+  },
+  {
+   "id": "t3_narrative_externalizingtheprob",
+   "stem": "Which term does the packet define this way?\n\n“This is a type of intervention. The therapist asks questions that are designed to separate the person from the problem.”",
+   "options": {
+    "A": "Blamer",
+    "B": "Thin Story",
+    "C": "Incongruent Communication",
+    "D": "Externalizing the Problem"
+   }
+  },
+  {
+   "id": "t3_narrative_mappingtheinfluence",
+   "stem": "Which term does the packet define this way?\n\n“This is a type of intervention. The therapist asks a series of questions to understand the effects of the problem in the client’s life.”",
+   "options": {
+    "A": "Affirmations/Compliments",
+    "B": "Take Responsibility",
+    "C": "Mapping the Influence",
+    "D": "Re-authoring the story"
+   }
+  },
+  {
+   "id": "t3_narrative_deconstructivequesti",
+   "stem": "Which term does the packet define this way?\n\n“This is a type of intervention. Once the problem is externalized, the therapist will ask various questions designed to pull apart or dismantle the client’s problem-saturated stories.”",
+   "options": {
+    "A": "Deconstructive Questions",
+    "B": "Scaling Questions",
+    "C": "Incongruent Communication",
+    "D": "Mapping the Influence"
+   }
+  },
+  {
+   "id": "t3_narrative_enlistingawitness",
+   "stem": "Which term does the packet define this way?\n\n“This is a type of intervention. The client invites someone in their life to hear them share the new narrative. This person bears witness to the client’s telling of the new story and becomes an ally to strengthen or thicken this new story.”",
+   "options": {
+    "A": "Enlisting a Witness",
+    "B": "Transforming Rules",
+    "C": "Written Artifact",
+    "D": "Miracle Questioning"
+   }
+  },
+  {
+   "id": "t3_narrative_thinstory",
+   "stem": "Which term does the packet define this way?\n\n“The alternate story being developed, which has minimal details. A goal is to build on this story and make it thicker.”",
+   "options": {
+    "A": "Thin Story",
+    "B": "Miracle Questioning",
+    "C": "Presupposing Change",
+    "D": "Thick Story"
+   }
+  },
+  {
+   "id": "t3_solution-focused_formulafirstsessiont",
+   "stem": "Which term does the packet define this way?\n\n“A homework task to observe what’s already working “Between now and our next meeting, observe what happens in your life that you’d like to continue.””",
+   "options": {
+    "A": "Formula First Session Task (FFST)",
+    "B": "Thin Story",
+    "C": "Opposite Action",
+    "D": "Thick Story"
+   }
+  },
+  {
+   "id": "t3_solution-focused_copingquestions",
+   "stem": "Which term does the packet define this way?\n\n“If a client has trouble identifying positive change, coping questions are asked by the therapist in order to illustrate resources that the client already has. This can include validating the client’s difficulties while also showing that they are still able to get up in the morning, go to school, etc. This highlights the client’s strengths without undermining their view of reality. These questions are supportive while”",
+   "options": {
+    "A": "Coping Questions",
+    "B": "Scaling Questions",
+    "C": "Thought Record",
+    "D": "Problem-Solving Training"
+   }
+  },
+  {
+   "id": "t3_solution-focused_miraclequestioning",
+   "stem": "Which term does the packet define this way?\n\n“The therapist asks the client to envision how the future will be when the problem no longer exists and what their life looks like then. Example: “Imagine that tomorrow morning you wake up and a miracle has happened. What would be different that will tell you a miracle has happened and your problem has been solved?””",
+   "options": {
+    "A": "Three-Column Technique",
+    "B": "Miracle Questioning",
+    "C": "Alternate Stories",
+    "D": "Re-authoring the story"
+   }
+  },
+  {
+   "id": "t3_solution-focused_affirmationscomplime",
+   "stem": "Which term does the packet define this way?\n\n“Regularly acknowledge progress, strengths, and resources. Example: Tell the client, \"I am impressed you are sitting in that chair again after what you just went through.\"”",
+   "options": {
+    "A": "Assertiveness Training",
+    "B": "Distracter",
+    "C": "Affirmations/Compliments",
+    "D": "Unique Outcomes"
+   }
+  },
+  {
+   "id": "t3_solution-focused_exceptionquestioning",
+   "stem": "Which term does the packet define this way?\n\n“The therapist asks the client to think of a time in their life when the particular problem did not exist and what the client did differently during this time. The goal here is to focus on what has worked in the past to provide the client with a positive perspective. Example: “Tell me about the times when you don’t get angry.””",
+   "options": {
+    "A": "Distracter",
+    "B": "Exception Questioning",
+    "C": "Affirmations/Compliments",
+    "D": "Unique Outcomes"
+   }
+  }
+ ]
+}

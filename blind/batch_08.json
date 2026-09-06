@@ -1,0 +1,455 @@
+{
+ "instructions": "For each question pick the single best option. Answer only from the options given. Output strict JSON: {\"answers\":{\"<id>\":\"<LETTER>\"}, \"ambiguous\":[\"<id>\", ...]}. List an id under ambiguous if two or more options are defensible.",
+ "questions": [
+  {
+   "id": "t3_existential_imaginaldeath",
+   "stem": "Which term does the packet define this way?\n\n““Imaginal death” exercises: Envisioning one's death to reflect on what truly matters. Brings clarity, gratitude, and urgency for authentic living.”",
+   "options": {
+    "A": "Imaginal death",
+    "B": "Play, Humor, and “Craziness”",
+    "C": "Givens in life",
+    "D": "Repeating statement"
+   }
+  },
+  {
+   "id": "t3_existential_masteringemotionalpa",
+   "stem": "Which term does the packet define this way?\n\n“Mastering emotional pain: unique healing activities. Relating to pain as something that you have endured and has shaped who you are, so that the painful experience has meaning and significance. Being able to share your deepest wounds with a present nonjudgemental person – T is there with C in their suffering.”",
+   "options": {
+    "A": "Mastering emotional pain",
+    "B": "Trial of Labor",
+    "C": "Battle for Structure",
+    "D": "Battle for Initiative"
+   }
+  },
+  {
+   "id": "t3_existential_givensinlife",
+   "stem": "Which term does the packet define this way?\n\n“Givens in life: death, freedom, meaningless, isolation. Encourages honesty about life’s conditions.”",
+   "options": {
+    "A": "Trial of Labor",
+    "B": "Givens in life",
+    "C": "Mastering emotional pain",
+    "D": "Battle for Initiative"
+   }
+  },
+  {
+   "id": "t3_existential_imaginaldeathexercis",
+   "stem": "Which term does the packet define this way?\n\n“Envisioning one's death to reflect on what truly matters. Brings clarity, gratitude, and urgency for authentic living.”",
+   "options": {
+    "A": "Repeating words or exaggerating gestures",
+    "B": "Repeating statement",
+    "C": "Trial of Labor",
+    "D": "“Imaginal death” exercises"
+   }
+  },
+  {
+   "id": "t3_experiential_battleforstructure",
+   "stem": "Which term does the packet define this way?\n\n“Therapist establishes the rules and working atmosphere of treatment. Includes the need for the entire family to be in therapy (a mother and child come in for therapy and there is a question for the initial intervention an experiential therapist would use: the therapist discusses with mom the need to include entire family in therapy would be the correct answer.”",
+   "options": {
+    "A": "Focus on process",
+    "B": "Battle for Structure",
+    "C": "Blamer",
+    "D": "Battle for Initiative"
+   }
+  },
+  {
+   "id": "t3_experiential_playhumorandcrazines",
+   "stem": "Which term does the packet define this way?\n\n“Play, Humor, and “Craziness:” Tapping irrational side. Finding solutions in creative interactions.”",
+   "options": {
+    "A": "Present experience while discussing the past",
+    "B": "Holding",
+    "C": "Mastering emotional pain",
+    "D": "Play, Humor, and “Craziness”"
+   }
+  },
+  {
+   "id": "t3_experiential_activatingconstructi",
+   "stem": "Which term does the packet define this way?\n\n“Reframing anxiety in the family as efforts toward competence (fear of failing to accomplish what one is capable of). Enhancing motivation, if you identify the positive thing they were afraid wouldn’t happen.”",
+   "options": {
+    "A": "Battle for Structure",
+    "B": "“Imaginal death” exercises",
+    "C": "Givens in life",
+    "D": "Activating Constructive Anxiety"
+   }
+  },
+  {
+   "id": "t3_experiential_trialoflabor",
+   "stem": "Which term does the packet define this way?\n\n“Understanding the roles, boundaries, beliefs, history, and levels of conflict within the family. Assessment. Family dynamic.”",
+   "options": {
+    "A": "Trial of Labor",
+    "B": "Unbalancing",
+    "C": "Leveler",
+    "D": "Givens in life"
+   }
+  },
+  {
+   "id": "t3_experiential_battleforinitiative",
+   "stem": "Which term does the packet define this way?\n\n“Motivation for change must come from family. Includes having a family state the agenda for each session, waiting silently for family to take initiative, allowing family to determine how change is going to happen. The therapist should not be working harder than the family. A family comes in, and nobody is speaking. What would experiential therapist do? The right answer would be the therapist would wait silently for th”",
+   "options": {
+    "A": "Family Sculpting",
+    "B": "Standing up while speaking",
+    "C": "Battle for Initiative",
+    "D": "Blamer"
+   }
+  },
+  {
+   "id": "t3_cbt_psychoeducationonthe",
+   "stem": "Which term does the packet define this way?\n\n“Teach the client about negative triad, done in first session as well as psychoeducation about how CBT works.”",
+   "options": {
+    "A": "Genogram",
+    "B": "Psychoeducation on the negative triad",
+    "C": "Interacts with Family",
+    "D": "Positioning"
+   }
+  },
+  {
+   "id": "t3_cbt_successiveapproximat",
+   "stem": "Which term does the packet define this way?\n\n“Client and therapist collaborate in developing a plan for the client to engage in steps that approximate an ultimate goal to allow the client to have success at each step along the way to the goal. You want to have clients experience successes along the way. Break down things into smaller goals. IE let’s first learn relaxation techniques, client understands that is initial goal, they’re not expected to deal with the ”",
+   "options": {
+    "A": "Emotional Cutoff",
+    "B": "Cognitive Restructuring",
+    "C": "Successive Approximation",
+    "D": "Nuclear Family Emotional System"
+   }
+  },
+  {
+   "id": "t3_cbt_problemsolvingtraini",
+   "stem": "Which term does the packet define this way?\n\n“Teaches a step approach of orienting to the problem, problem definition, generation of alternatives, decision making and solution implementation, and verification of results. Step by step technique, define the problem they’re experiencing, generate alternatives and options, making decisions about the best solution they want to try, implementing the solution, verifying the results. Not an assumption the solution is al”",
+   "options": {
+    "A": "Assertiveness Training",
+    "B": "Ordeals",
+    "C": "Presupposing Change",
+    "D": "Problem-Solving Training"
+   }
+  },
+  {
+   "id": "t3_cbt_exposure",
+   "stem": "Which term does the packet define this way?\n\n“Client faces fear stimuli without resorting to escape or avoidance maneuvers. Can be done in real life or with imagery”",
+   "options": {
+    "A": "Reduce emotional reactivity",
+    "B": "Opposite Action",
+    "C": "Formula First Session Task (FFST)",
+    "D": "Exposure"
+   }
+  },
+  {
+   "id": "t3_cbt_threecolumntechnique",
+   "stem": "Which term does the packet define this way?\n\n“Client collects automatic thoughts and lists: the situation in which the thought occurred, the automatic thought, and the associated feelings. Initial thing that somebody would do for homework.”",
+   "options": {
+    "A": "Three-Column Technique",
+    "B": "Behavioral Activation",
+    "C": "Presupposing Change",
+    "D": "Problem-Solving Training"
+   }
+  },
+  {
+   "id": "t3_cbt_selfmonitoring",
+   "stem": "Which term does the packet define this way?\n\n“Also called diary work, self-monitoring is used to record the amount and degree of thoughts and behaviors. This provides the client and therapist information regarding the degree of a client’s negative affirmations. Teaching client how to do self-monitoring, thought record.”",
+   "options": {
+    "A": "Opposite Action",
+    "B": "Communication Skills Training",
+    "C": "Three-Column Technique",
+    "D": "Self-Monitoring"
+   }
+  },
+  {
+   "id": "t3_cbt_communicationskillst",
+   "stem": "Which term does the packet define this way?\n\n“Used in couples therapy to help couples talk about feelings and problems. CBT therapist working with couples. Managing conflict. I-statements, assertiveness training, teaching people how to listen, teaching people how to listen and not jump in with problem solving, teaching people how to identify when they are getting overly aroused so that they know when to take time-outs.”",
+   "options": {
+    "A": "Mastery/Pleasure Ratings",
+    "B": "Communication Skills Training",
+    "C": "Differentiation of Self",
+    "D": "Homework"
+   }
+  },
+  {
+   "id": "t3_cbt_homework",
+   "stem": "Which term does the packet define this way?\n\n“To assist with cognitive restructuring, clients are often assigned homework. Typical CBT homework assignments may include activities in behavioral activation, monitoring automatic thoughts, reviewing the previous therapy session, and preparing for the next therapy session.”",
+   "options": {
+    "A": "Homework",
+    "B": "Affirmations/Compliments",
+    "C": "Paradoxical Directives",
+    "D": "Reframing"
+   }
+  },
+  {
+   "id": "t3_cbt_masterypleasureratin",
+   "stem": "Which term does the packet define this way?\n\n“Clients use activity chart and rate mastery or pleasure that they derive from activity. Clients use an activity chart and rate the mastery or pleasure they derive from a particular activity. How good or comfortable they are at the activity; how much pleasure they will get out of that.”",
+   "options": {
+    "A": "Mastery/Pleasure Ratings",
+    "B": "Nuclear Family Emotional System",
+    "C": "Opposite Action",
+    "D": "Genogram"
+   }
+  },
+  {
+   "id": "t3_cbt_cognitiverestructuri",
+   "stem": "Which term does the packet define this way?\n\n“Teaches the client to identify irrational, distorted, or maladaptive beliefs, question the evidence for the belief, and generate alternative responses. Teach client to identify their beliefs, question their beliefs, and generate alternative responses.”",
+   "options": {
+    "A": "Cognitive Restructuring",
+    "B": "Labeling Distortions",
+    "C": "Models",
+    "D": "Relaxation Training"
+   }
+  },
+  {
+   "id": "t3_cbt_systematicdesensitiz",
+   "stem": "Which term does the packet define this way?\n\n“Systematic desensitization pairs relaxation with exposure to something stressful. Clients are taught to relax in anxiety producing situations. People taught how to relax, exposed to stressful situation, then exposed and use those techniques can be real life or imagery. A type of Counterconditioning: replacing fear with relaxation. - Create fear hierarchy - Relaxation training - Gradual exposure (in imagination or rea”",
+   "options": {
+    "A": "Miracle Questioning",
+    "B": "Interacts with Family",
+    "C": "Communication Skills Training",
+    "D": "Systematic Desensitization"
+   }
+  },
+  {
+   "id": "t3_cbt_socraticquestioning",
+   "stem": "Which term does the packet define this way?\n\n“Questioning allows the therapist to stimulate the client’s self-awareness, focus on the problem definition, expose the client’s belief system, and challenge irrational beliefs while revealing the client’s cognitive processes. Questions that dive below surface to collect evidence for someone’s thinking. What evidence led you to believe this? Are there alternate ways of thinking about the situation? How did you get to ”",
+   "options": {
+    "A": "Communication Skills Training",
+    "B": "Socratic Questioning",
+    "C": "Bibliotherapy",
+    "D": "Opposite Action"
+   }
+  },
+  {
+   "id": "t3_cbt_assertivenesstrainin",
+   "stem": "Which term does the packet define this way?\n\n“Teaches the client to specify desires and needs using minimally effective responses to assert their position. Used with unassertive or overly aggressive clients. Intervention for both overly aggressive or unassertive people. Express thoughts, feelings, needs, and boundaries in a direct but respectful way, reduce anxiety, guilt, or fear associated with self-expression, challenge maladaptive beliefs (e.g., \"If I say no”",
+   "options": {
+    "A": "De-triangulation",
+    "B": "Opposite Action",
+    "C": "Assertiveness Training",
+    "D": "Behavioral Experiments"
+   }
+  },
+  {
+   "id": "t3_cbt_findingalternatives",
+   "stem": "Which term does the packet define this way?\n\n“Clients review all possible options and alternatives for either interpreting a situation or resolving a problem.”",
+   "options": {
+    "A": "Successive Approximation",
+    "B": "Teaching “I” Statements",
+    "C": "Finding Alternatives",
+    "D": "Multigenerational Transmission Process"
+   }
+  },
+  {
+   "id": "t3_cbt_relaxationtraining",
+   "stem": "Which term does the packet define this way?\n\n“Teaches the client to relax muscles to condition a relaxation response to counter tension. Uses imagery, music, and other stimuli to assist in acquiring response. Initial phase of treatment, including psychoeducation and thought patterns, select this on test. Taking some control over the relaxation of their bodies. For trauma interventions for example.”",
+   "options": {
+    "A": "Relaxation Training",
+    "B": "Reframing",
+    "C": "Assertiveness Training",
+    "D": "Teaching “I” Statements"
+   }
+  },
+  {
+   "id": "t3_cbt_behavioralactivation",
+   "stem": "Which term does the packet define this way?\n\n“Increases activity for depressed or passive clients by using activity scheduling and incentives. Incentives planned for activities that are difficult for people to accomplish.”",
+   "options": {
+    "A": "Behavioral Activation",
+    "B": "Presupposing Change",
+    "C": "Reframing",
+    "D": "Miracle Questioning"
+   }
+  },
+  {
+   "id": "t3_cbt_downwardarrow",
+   "stem": "Which term does the packet define this way?\n\n“Used to uncover underlying assumptions. “If this is true, what does it mean about you and your life?” Therapist moved downwards – people didn’t like me at the party. What was the evidence for that? What did that mean to you? I wasn’t important, and what does that mean about yourself? I am worthless. If that’s true, what does that mean about you and your life. Moves down to core belief person has.”",
+   "options": {
+    "A": "Behavioral Activation",
+    "B": "Successive Approximation",
+    "C": "Downward Arrow",
+    "D": "Homework"
+   }
+  },
+  {
+   "id": "t3_cbt_thoughtrecord",
+   "stem": "Which term does the packet define this way?\n\n“Expands on the three-column technique, with columns to record alternative responses to the automatic thought and behavioral or emotional outcomes of changing the thought. Add a column for an alternate response and pay attention to the resulting emotional outcome. Next step of three-column technique.”",
+   "options": {
+    "A": "Prescribing the Symptom",
+    "B": "Thought Record",
+    "C": "Interacts with Family",
+    "D": "Genogram"
+   }
+  },
+  {
+   "id": "t3_cbt_labelingdistortions",
+   "stem": "Which term does the packet define this way?\n\n“Teaches the client to recognize and label particular distortions in thinking that can lead to problems with interpretations of events.”",
+   "options": {
+    "A": "Bibliotherapy",
+    "B": "Labeling Distortions",
+    "C": "Relaxation Training",
+    "D": "Prescribing the Symptom"
+   }
+  },
+  {
+   "id": "t3_cbt_reframing",
+   "stem": "Which term does the packet define this way?\n\n“Thinking differently by “reframing” negative or untrue assumptions and thoughts into ones that promote adaptive behavior and lessen anxiety and depression. A way of thinking differently about certain assumptions that allows people to think about and feel differently and less in their anxiety and depression. “no one likes me. I must be boring or weird” vs “maybe people were shy too or didn't know what to say.\"”",
+   "options": {
+    "A": "Formula First Session Task (FFST)",
+    "B": "Models",
+    "C": "Reframing",
+    "D": "Socratic Questioning"
+   }
+  },
+  {
+   "id": "t3_cbt_behavioralexperiment",
+   "stem": "Which term does the packet define this way?\n\n“The experiment process includes experiencing, observing, reflecting, and planning. These steps are conducted through thought testing, discovery, activity, and/or observation. People can test out their assumptions about certain things. Some behavioral experiments include exposure (e.g., testing a fear by facing it), but the intention differs:”",
+   "options": {
+    "A": "Multigenerational Transmission Process",
+    "B": "Behavioral Experiments",
+    "C": "Genogram",
+    "D": "Presupposing Change"
+   }
+  },
+  {
+   "id": "t3_cbt_oppositeaction",
+   "stem": "Which term does the packet define this way?\n\n“Client is encouraged to engage in behavior that is counterintuitive or opposite to what they may feel at the time (e.g., when feeling very angry, say something kind or decent).”",
+   "options": {
+    "A": "Opposite Action",
+    "B": "Positioning",
+    "C": "Finding Alternatives",
+    "D": "Miracle Questioning"
+   }
+  },
+  {
+   "id": "t3_cbt_anxietymanagementtra",
+   "stem": "Which term does the packet define this way?\n\n“Teaches skills for specific situations using imagery. The client practices relaxation until anxiety is reduced then continues with imagery. Uses a lot of imagery and practicing relaxation skills. Teaches general coping skills. - Diaphragmatic breathing - Progressive muscle relaxation - Cognitive reframing - Coping self-statements - Thought-stopping - Self-monitoring of anxiety - Coping self-statements - Problem-solvi”",
+   "options": {
+    "A": "Anxiety Management Training",
+    "B": "Genogram",
+    "C": "Restraining",
+    "D": "Miracle Questioning"
+   }
+  },
+  {
+   "id": "v_experiential_whole_family",
+   "stem": "A mother brings her child to therapy. Both are in the room. The therapist works from Experiential/Symbolic therapy.\n\nWhat is the therapist's initial intervention?",
+   "options": {
+    "A": "Empty chair",
+    "B": "Joining",
+    "C": "Family Sculpting",
+    "D": "Discuss with the mother the need to include the entire family in therapy"
+   }
+  },
+  {
+   "id": "v_experiential_silent_family",
+   "stem": "A family comes in for therapy and nobody is speaking.\n\nWhat would an Experiential/Symbolic therapist do?",
+   "options": {
+    "A": "Paradoxical Directives",
+    "B": "Enactment",
+    "C": "Wait silently for the family to take initiative",
+    "D": "Modeling Communication"
+   }
+  },
+  {
+   "id": "v_bowen_projection",
+   "stem": "Maria becomes preoccupied with her daughter Emily's emotions. When Emily cries after a bad test grade, Maria reads it as evidence that Emily is emotionally fragile. Maria begins hovering, solving problems for her, and calling teachers to complain about stressful assignments.\n\nA Bowen therapist would identify this as:",
+   "options": {
+    "A": "Positioning",
+    "B": "Family Projection Process",
+    "C": "Enmeshed Boundaries",
+    "D": "Incongruent Communication"
+   }
+  },
+  {
+   "id": "v_bowen_cutoff",
+   "stem": "A grandmother learned to avoid conflict by emotionally shutting down. Her daughter grew up with a distant mother and became overly enmeshed with her own daughter. That granddaughter is now emotionally reactive under stress, has moved far away to escape the family, and married someone equally distant.\n\nA Bowen therapist would name this pattern:",
+   "options": {
+    "A": "Family Life Chronology",
+    "B": "Restraining",
+    "C": "Multigenerational Transmission Process",
+    "D": "Power Hierarchy"
+   }
+  },
+  {
+   "id": "v_structural_chair",
+   "stem": "A son habitually sits in the chair between his two parents. The therapist asks him to move to a chair on the opposite side of the room so he is not caught in the middle.\n\nThis Structural intervention is:",
+   "options": {
+    "A": "De-triangulation",
+    "B": "Family Sculpting",
+    "C": "Ordeals",
+    "D": "Boundary Making"
+   }
+  },
+  {
+   "id": "v_gestalt_tearing_up",
+   "stem": "A client begins to cry in session. Rather than saying “you seem sad,” the therapist says: “I see you tearing up, I'm wondering what you're experiencing right now.”\n\nThis illustrates which Gestalt method?",
+   "options": {
+    "A": "Holding",
+    "B": "Phenomenological description",
+    "C": "Activating Constructive Anxiety",
+    "D": "Experience-Near Empathy"
+   }
+  },
+  {
+   "id": "v_objrel_annoyed",
+   "stem": "During sessions with a particular client, the therapist repeatedly notices that they themselves feel annoyed. On reflection the therapist recognises the annoyance did not originate with them; they have taken on and begun to identify with a feeling the client put onto them.\n\nAn Object Relations therapist would name this:",
+   "options": {
+    "A": "Adversarial Transference",
+    "B": "Mirroring Transference",
+    "C": "Projective Identification",
+    "D": "Attunement"
+   }
+  },
+  {
+   "id": "v_objrel_identification",
+   "stem": "A husband has not merely taken on the idea that women should do the housework. He sees himself as head of the household, like his father, and expects his wife to treat him as his mother treated his dad.\n\nThis is:",
+   "options": {
+    "A": "Twinship Transference",
+    "B": "Identification",
+    "C": "Idealizing Transference",
+    "D": "Attachment Behavior System"
+   }
+  },
+  {
+   "id": "v_cbt_downward_arrow",
+   "stem": "A client says people did not like them at a party. The therapist asks what that meant to them; the client says they were not important. The therapist asks what that means about them; the client says they are worthless.\n\nWhich CBT technique is the therapist using?",
+   "options": {
+    "A": "Downward Arrow",
+    "B": "Socratic Questioning",
+    "C": "Finding Alternatives",
+    "D": "Labeling Distortions"
+   }
+  },
+  {
+   "id": "v_cbt_reframe",
+   "stem": "A client says: “No one likes me. I must be boring or weird.” The therapist helps them consider: “Maybe people were shy too, or didn't know what to say.”\n\nThis is:",
+   "options": {
+    "A": "Behavioral Activation",
+    "B": "Reframing",
+    "C": "Systematic Desensitization",
+    "D": "Successive Approximation"
+   }
+  },
+  {
+   "id": "v_satir_blamer",
+   "stem": "In a family session one member consistently attacks the others, finds fault, and speaks like a boss or dictator.\n\nIn Satir's terms this communication stance is:",
+   "options": {
+    "A": "Placater",
+    "B": "Blamer",
+    "C": "Computer",
+    "D": "Distracter"
+   }
+  },
+  {
+   "id": "v_satir_computer",
+   "stem": "A family member responds to every emotional question by being super reasonable, intellectual, and distant, and is always correct.\n\nSatir would call this stance:",
+   "options": {
+    "A": "Computer",
+    "B": "Leveler",
+    "C": "Placater",
+    "D": "Blamer"
+   }
+  },
+  {
+   "id": "v_selfpsych_enactment",
+   "stem": "A therapist says: “It sounds like what's going on with your partner is similar to what happened with your father.”\n\nIn Self Psychology this is:",
+   "options": {
+    "A": "Explore disruptions",
+    "B": "Confront resistance and primitive defenses",
+    "C": "Addressing enactments",
+    "D": "Interpretation"
+   }
+  }
+ ]
+}

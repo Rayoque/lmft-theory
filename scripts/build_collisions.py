@@ -60,8 +60,12 @@ EQUIV = {
    "bowen": ["Neutral"],
    "object-relations": ["Neutral"]}),
 
+ # "Supervisor" deliberately NOT a variant. Solution-Focused's source says only
+ # "Therapist is a consultant, coach" -- it never says supervisor, and
+ # BUILD_BRIEF S5 lists the collision as "Coach / consultant", not supervisor.
+ # Supervisor is Bowen's alone and is a legal inverse-item answer.
  "coach / consultant / educator": ("role", {
-   "bowen": ["Coach/educator", "Supervisor"],
+   "bowen": ["Coach/educator"],
    "solution-focused": ["Therapist is a consultant, coach"]}),
 
  "active / directive therapist": ("role", {

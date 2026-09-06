@@ -1,0 +1,455 @@
+{
+ "instructions": "For each question pick the single best option. Answer only from the options given. Output strict JSON: {\"answers\":{\"<id>\":\"<LETTER>\"}, \"ambiguous\":[\"<id>\", ...]}. List an id under ambiguous if two or more options are defensible.",
+ "questions": [
+  {
+   "id": "t2_coll_experiential_boundarywork",
+   "stem": "Experiential / Symbolic Therapy (Whitaker) share the marker “boundary work” with Structural Family Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Experiential / Symbolic Therapy (Whitaker)?",
+   "options": {
+    "A": "Enactment",
+    "B": "Joining",
+    "C": "Unbalancing",
+    "D": "Play, Humor, and “Craziness”"
+   }
+  },
+  {
+   "id": "t2_coll_structural_boundarywork",
+   "stem": "Structural Family Therapy share the marker “boundary work” with Experiential / Symbolic Therapy (Whitaker), so that marker cannot tell them apart. Which of these IS distinctive of Structural Family Therapy?",
+   "options": {
+    "A": "Activating Constructive Anxiety",
+    "B": "Enmeshed Boundaries",
+    "C": "Trial of Labor",
+    "D": "Battle for Initiative"
+   }
+  },
+  {
+   "id": "t2_coll_bowen_coachconsultante",
+   "stem": "Bowen Family Systems share the marker “coach / consultant / educator” with Solution-Focused Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Bowen Family Systems?",
+   "options": {
+    "A": "Scaling Questions",
+    "B": "Coping Questions",
+    "C": "Formula First Session Task (FFST)",
+    "D": "Genogram"
+   }
+  },
+  {
+   "id": "t2_coll_solution-focused_coachconsultante",
+   "stem": "Solution-Focused Therapy share the marker “coach / consultant / educator” with Bowen Family Systems, so that marker cannot tell them apart. Which of these IS distinctive of Solution-Focused Therapy?",
+   "options": {
+    "A": "Formula First Session Task (FFST)",
+    "B": "Reduce emotional reactivity",
+    "C": "Family Projection Process",
+    "D": "Opening Cutoff Relationships"
+   }
+  },
+  {
+   "id": "t2_coll_experiential_coalitionsalignm",
+   "stem": "Experiential / Symbolic Therapy (Whitaker) share the marker “coalitions / alignments” with Structural Family Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Experiential / Symbolic Therapy (Whitaker)?",
+   "options": {
+    "A": "Alliances",
+    "B": "Enactment",
+    "C": "Joining",
+    "D": "Play, Humor, and “Craziness”"
+   }
+  },
+  {
+   "id": "t2_coll_structural_coalitionsalignm",
+   "stem": "Structural Family Therapy share the marker “coalitions / alignments” with Experiential / Symbolic Therapy (Whitaker), so that marker cannot tell them apart. Which of these IS distinctive of Structural Family Therapy?",
+   "options": {
+    "A": "Disengaged Boundaries",
+    "B": "Activating Constructive Anxiety",
+    "C": "Battle for Structure",
+    "D": "Play, Humor, and “Craziness”"
+   }
+  },
+  {
+   "id": "t2_coll_cbt_collaborativegoa",
+   "stem": "CBT (interventions) share the marker “collaborative goal setting” with Narrative Therapy, Solution-Focused Therapy, so that marker cannot tell them apart. Which of these IS distinctive of CBT (interventions)?",
+   "options": {
+    "A": "Presupposing Change",
+    "B": "Assertiveness Training",
+    "C": "Deconstructive Questions",
+    "D": "Alternate Stories"
+   }
+  },
+  {
+   "id": "t2_coll_narrative_collaborativegoa",
+   "stem": "Narrative Therapy share the marker “collaborative goal setting” with CBT (interventions), Solution-Focused Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Narrative Therapy?",
+   "options": {
+    "A": "Thin Story",
+    "B": "Finding Alternatives",
+    "C": "Exception Questioning",
+    "D": "Anxiety Management Training"
+   }
+  },
+  {
+   "id": "t2_coll_solution-focused_collaborativegoa",
+   "stem": "Solution-Focused Therapy share the marker “collaborative goal setting” with CBT (interventions), Narrative Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Solution-Focused Therapy?",
+   "options": {
+    "A": "Behavioral Activation",
+    "B": "Problem-Saturated Stories",
+    "C": "Formula First Session Task (FFST)",
+    "D": "Externalizing the Problem"
+   }
+  },
+  {
+   "id": "t2_coll_attachment_empathyattunemen",
+   "stem": "Attachment-Based Therapy (Bowlby) share the marker “empathy / attunement” with Client Centered Therapy, Object Relations, Self Psychology, so that marker cannot tell them apart. Which of these IS distinctive of Attachment-Based Therapy (Bowlby)?",
+   "options": {
+    "A": "Repair disruptions of the self-object transference",
+    "B": "Repair",
+    "C": "Mirroring Transference",
+    "D": "Identify alternative self-objects"
+   }
+  },
+  {
+   "id": "t2_coll_object-relations_empathyattunemen",
+   "stem": "Object Relations share the marker “empathy / attunement” with Attachment-Based Therapy (Bowlby), Client Centered Therapy, Self Psychology, so that marker cannot tell them apart. Which of these IS distinctive of Object Relations?",
+   "options": {
+    "A": "Provide “experience-near” empathy",
+    "B": "Mirroring",
+    "C": "Attunement",
+    "D": "Identification"
+   }
+  },
+  {
+   "id": "t2_coll_self-psychology_empathyattunemen",
+   "stem": "Self Psychology share the marker “empathy / attunement” with Attachment-Based Therapy (Bowlby), Client Centered Therapy, Object Relations, so that marker cannot tell them apart. Which of these IS distinctive of Self Psychology?",
+   "options": {
+    "A": "Provide “experience-near” empathy",
+    "B": "Repair stage",
+    "C": "Fearful/Avoidant Attachment (Disorganized)",
+    "D": "Attunement"
+   }
+  },
+  {
+   "id": "t2_coll_self-psychology_enactment",
+   "stem": "Self Psychology share the marker “enactment” with Structural Family Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Self Psychology?",
+   "options": {
+    "A": "Disengaged Boundaries",
+    "B": "Family Map",
+    "C": "Unbalancing",
+    "D": "Adversarial Transference"
+   }
+  },
+  {
+   "id": "t2_coll_structural_enactment",
+   "stem": "Structural Family Therapy share the marker “enactment” with Self Psychology, so that marker cannot tell them apart. Which of these IS distinctive of Structural Family Therapy?",
+   "options": {
+    "A": "Mourning loss of selfobjects",
+    "B": "Mirroring",
+    "C": "Experience-Near Empathy",
+    "D": "Enmeshed Boundaries"
+   }
+  },
+  {
+   "id": "t2_coll_cbt_experiments",
+   "stem": "CBT (interventions) share the marker “experiments” with Gestalt Therapy, so that marker cannot tell them apart. Which of these IS distinctive of CBT (interventions)?",
+   "options": {
+    "A": "Empty chair",
+    "B": "Assertiveness Training",
+    "C": "Present experience while discussing the past",
+    "D": "Top dog / underdog dialogue"
+   }
+  },
+  {
+   "id": "t2_coll_gestalt_experiments",
+   "stem": "Gestalt Therapy share the marker “experiments” with CBT (interventions), so that marker cannot tell them apart. Which of these IS distinctive of Gestalt Therapy?",
+   "options": {
+    "A": "Labeling Distortions",
+    "B": "Behavioral Activation",
+    "C": "Relaxation Training",
+    "D": "Repeating words or exaggerating gestures"
+   }
+  },
+  {
+   "id": "t2_coll_bowen_familyhistorymap",
+   "stem": "Bowen Family Systems share the marker “family history mapping (function)” with Experiential / Symbolic Therapy (Whitaker), Satir Communications Therapy, Structural Family Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Bowen Family Systems?",
+   "options": {
+    "A": "Joining",
+    "B": "Triangles (Triangulation)",
+    "C": "Disengaged Boundaries",
+    "D": "Subsystems"
+   }
+  },
+  {
+   "id": "t2_coll_experiential_familyhistorymap",
+   "stem": "Experiential / Symbolic Therapy (Whitaker) share the marker “family history mapping (function)” with Bowen Family Systems, Satir Communications Therapy, Structural Family Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Experiential / Symbolic Therapy (Whitaker)?",
+   "options": {
+    "A": "Power Hierarchy",
+    "B": "Tracking",
+    "C": "Reduce emotional reactivity",
+    "D": "Play, Humor, and “Craziness”"
+   }
+  },
+  {
+   "id": "t2_coll_satir_familyhistorymap",
+   "stem": "Satir Communications Therapy share the marker “family history mapping (function)” with Bowen Family Systems, Experiential / Symbolic Therapy (Whitaker), Structural Family Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Satir Communications Therapy?",
+   "options": {
+    "A": "Styles of Communication",
+    "B": "Tracking",
+    "C": "Family Map",
+    "D": "Mimesis"
+   }
+  },
+  {
+   "id": "t2_coll_structural_familyhistorymap",
+   "stem": "Structural Family Therapy share the marker “family history mapping (function)” with Bowen Family Systems, Experiential / Symbolic Therapy (Whitaker), Satir Communications Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Structural Family Therapy?",
+   "options": {
+    "A": "Enactment",
+    "B": "Battle for Initiative",
+    "C": "Emotional Cutoff",
+    "D": "Bibliotherapy"
+   }
+  },
+  {
+   "id": "t2_coll_existential_hereandnowpresen",
+   "stem": "Existential Therapy share the marker “here and now / present moment” with Client Centered Therapy, Gestalt Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Existential Therapy?",
+   "options": {
+    "A": "Present experience while discussing the past",
+    "B": "“Imaginal death” exercises",
+    "C": "Phenomenological description",
+    "D": "Body awareness"
+   }
+  },
+  {
+   "id": "t2_coll_gestalt_hereandnowpresen",
+   "stem": "Gestalt Therapy share the marker “here and now / present moment” with Client Centered Therapy, Existential Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Gestalt Therapy?",
+   "options": {
+    "A": "Holding",
+    "B": "Focus on moment to moment",
+    "C": "Phenomenological description",
+    "D": "Imaginal death"
+   }
+  },
+  {
+   "id": "t2_coll_existential_holdingenvironme",
+   "stem": "Existential Therapy share the marker “holding environment” with Object Relations, Self Psychology, so that marker cannot tell them apart. Which of these IS distinctive of Existential Therapy?",
+   "options": {
+    "A": "Confront resistance and primitive defenses",
+    "B": "Focus on transference/countertransference",
+    "C": "Interpretation",
+    "D": "Imaginal death"
+   }
+  },
+  {
+   "id": "t2_coll_object-relations_holdingenvironme",
+   "stem": "Object Relations share the marker “holding environment” with Existential Therapy, Self Psychology, so that marker cannot tell them apart. Which of these IS distinctive of Object Relations?",
+   "options": {
+    "A": "Identify alternative self-objects",
+    "B": "Demonstrate containment",
+    "C": "Mirroring Transference",
+    "D": "Identification"
+   }
+  },
+  {
+   "id": "t2_coll_self-psychology_holdingenvironme",
+   "stem": "Self Psychology share the marker “holding environment” with Existential Therapy, Object Relations, so that marker cannot tell them apart. Which of these IS distinctive of Self Psychology?",
+   "options": {
+    "A": "Confront resistance and primitive defenses",
+    "B": "Ego",
+    "C": "Identification",
+    "D": "Demonstrate containment"
+   }
+  },
+  {
+   "id": "t2_coll_bowen_homeworkbetweens",
+   "stem": "Bowen Family Systems share the marker “homework / between-session task” with CBT (interventions), Solution-Focused Therapy, Strategic Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Bowen Family Systems?",
+   "options": {
+    "A": "Assertiveness Training",
+    "B": "Systematic Desensitization",
+    "C": "Prescribing the Symptom",
+    "D": "Family Projection Process"
+   }
+  },
+  {
+   "id": "t2_coll_cbt_homeworkbetweens",
+   "stem": "CBT (interventions) share the marker “homework / between-session task” with Bowen Family Systems, Solution-Focused Therapy, Strategic Therapy, so that marker cannot tell them apart. Which of these IS distinctive of CBT (interventions)?",
+   "options": {
+    "A": "Finding Alternatives",
+    "B": "Models",
+    "C": "Exception Questioning",
+    "D": "De-triangulation"
+   }
+  },
+  {
+   "id": "t2_coll_solution-focused_homeworkbetweens",
+   "stem": "Solution-Focused Therapy share the marker “homework / between-session task” with Bowen Family Systems, CBT (interventions), Strategic Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Solution-Focused Therapy?",
+   "options": {
+    "A": "Restraining",
+    "B": "Models",
+    "C": "Ordeals",
+    "D": "Coping Questions"
+   }
+  },
+  {
+   "id": "t2_coll_strategic_homeworkbetweens",
+   "stem": "Strategic Therapy share the marker “homework / between-session task” with Bowen Family Systems, CBT (interventions), Solution-Focused Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Strategic Therapy?",
+   "options": {
+    "A": "Prescribing the Symptom",
+    "B": "Opposite Action",
+    "C": "Systematic Desensitization",
+    "D": "Bibliotherapy"
+   }
+  },
+  {
+   "id": "t2_coll_bowen_investigatordete",
+   "stem": "Bowen Family Systems share the marker “investigator / detective stance” with Narrative Therapy, Satir Communications Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Bowen Family Systems?",
+   "options": {
+    "A": "Mapping the Influence",
+    "B": "Opening Cutoff Relationships",
+    "C": "Placater",
+    "D": "Leveler"
+   }
+  },
+  {
+   "id": "t2_coll_narrative_investigatordete",
+   "stem": "Narrative Therapy share the marker “investigator / detective stance” with Bowen Family Systems, Satir Communications Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Narrative Therapy?",
+   "options": {
+    "A": "Transforming Rules",
+    "B": "Emotional Cutoff",
+    "C": "Differentiation of Self",
+    "D": "Written Artifact"
+   }
+  },
+  {
+   "id": "t2_coll_satir_investigatordete",
+   "stem": "Satir Communications Therapy share the marker “investigator / detective stance” with Bowen Family Systems, Narrative Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Satir Communications Therapy?",
+   "options": {
+    "A": "Opening Cutoff Relationships",
+    "B": "Models",
+    "C": "Thick Story",
+    "D": "Transforming Rules"
+   }
+  },
+  {
+   "id": "t2_coll_bowen_modeling",
+   "stem": "Bowen Family Systems share the marker “modeling” with Client Centered Therapy, Satir Communications Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Bowen Family Systems?",
+   "options": {
+    "A": "Blamer",
+    "B": "Family Sculpting",
+    "C": "Opening Cutoff Relationships",
+    "D": "Leveler"
+   }
+  },
+  {
+   "id": "t2_coll_satir_modeling",
+   "stem": "Satir Communications Therapy share the marker “modeling” with Bowen Family Systems, Client Centered Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Satir Communications Therapy?",
+   "options": {
+    "A": "Increasing Differentiation",
+    "B": "Blamer",
+    "C": "Opening Cutoff Relationships",
+    "D": "Family Projection Process"
+   }
+  },
+  {
+   "id": "t2_coll_bowen_neutralstance",
+   "stem": "Bowen Family Systems share the marker “neutral stance” with Object Relations, so that marker cannot tell them apart. Which of these IS distinctive of Bowen Family Systems?",
+   "options": {
+    "A": "Identify and process projective identification",
+    "B": "Genogram",
+    "C": "Confront resistance and primitive defenses",
+    "D": "Self- and Object-Representations"
+   }
+  },
+  {
+   "id": "t2_coll_object-relations_neutralstance",
+   "stem": "Object Relations share the marker “neutral stance” with Bowen Family Systems, so that marker cannot tell them apart. Which of these IS distinctive of Object Relations?",
+   "options": {
+    "A": "Models",
+    "B": "Interpretation",
+    "C": "Emotional Cutoff",
+    "D": "Multigenerational Transmission Process"
+   }
+  },
+  {
+   "id": "t2_coll_attachment_nonjudgmentalsta",
+   "stem": "Attachment-Based Therapy (Bowlby) share the marker “nonjudgmental stance” with Client Centered Therapy, Existential Therapy, Gestalt Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Attachment-Based Therapy (Bowlby)?",
+   "options": {
+    "A": "Phenomenological description",
+    "B": "Standing up while speaking",
+    "C": "Body awareness",
+    "D": "Collaboratively identifying attachment style"
+   }
+  },
+  {
+   "id": "t2_coll_existential_nonjudgmentalsta",
+   "stem": "Existential Therapy share the marker “nonjudgmental stance” with Attachment-Based Therapy (Bowlby), Client Centered Therapy, Gestalt Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Existential Therapy?",
+   "options": {
+    "A": "Repeating statement",
+    "B": "Mastering emotional pain",
+    "C": "Empty chair",
+    "D": "Experiments"
+   }
+  },
+  {
+   "id": "t2_coll_gestalt_nonjudgmentalsta",
+   "stem": "Gestalt Therapy share the marker “nonjudgmental stance” with Attachment-Based Therapy (Bowlby), Client Centered Therapy, Existential Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Gestalt Therapy?",
+   "options": {
+    "A": "Top dog / underdog dialogue",
+    "B": "Focus on moment to moment",
+    "C": "Dismissive/Avoidant Attachment",
+    "D": "Repair"
+   }
+  },
+  {
+   "id": "t2_coll_existential_processnotconten",
+   "stem": "Existential Therapy share the marker “process not content” with Gestalt Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Existential Therapy?",
+   "options": {
+    "A": "Present experience while discussing the past",
+    "B": "Focus on process",
+    "C": "Mastering emotional pain",
+    "D": "Top dog / underdog dialogue"
+   }
+  },
+  {
+   "id": "t2_coll_gestalt_processnotconten",
+   "stem": "Gestalt Therapy share the marker “process not content” with Existential Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Gestalt Therapy?",
+   "options": {
+    "A": "Focus on moment to moment",
+    "B": "Mastering emotional pain",
+    "C": "Present experience while discussing the past",
+    "D": "Imaginal death"
+   }
+  },
+  {
+   "id": "t2_coll_bowen_psychoeducationt",
+   "stem": "Bowen Family Systems share the marker “psychoeducation / teaching” with CBT (interventions), so that marker cannot tell them apart. Which of these IS distinctive of Bowen Family Systems?",
+   "options": {
+    "A": "Problem-Solving Training",
+    "B": "Increasing Differentiation",
+    "C": "Behavioral Activation",
+    "D": "Mastery/Pleasure Ratings"
+   }
+  },
+  {
+   "id": "t2_coll_cbt_psychoeducationt",
+   "stem": "CBT (interventions) share the marker “psychoeducation / teaching” with Bowen Family Systems, so that marker cannot tell them apart. Which of these IS distinctive of CBT (interventions)?",
+   "options": {
+    "A": "Emotional Cutoff",
+    "B": "Family Projection Process",
+    "C": "Reduce emotional reactivity",
+    "D": "Finding Alternatives"
+   }
+  },
+  {
+   "id": "t2_coll_bowen_reframing",
+   "stem": "Bowen Family Systems share the marker “reframing” with CBT (interventions), Experiential / Symbolic Therapy (Whitaker), Strategic Therapy, Structural Family Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Bowen Family Systems?",
+   "options": {
+    "A": "Positioning",
+    "B": "Joining",
+    "C": "Systematic Desensitization",
+    "D": "Models"
+   }
+  },
+  {
+   "id": "t2_coll_cbt_reframing",
+   "stem": "CBT (interventions) share the marker “reframing” with Bowen Family Systems, Experiential / Symbolic Therapy (Whitaker), Strategic Therapy, Structural Family Therapy, so that marker cannot tell them apart. Which of these IS distinctive of CBT (interventions)?",
+   "options": {
+    "A": "Assertiveness Training",
+    "B": "Ordeals",
+    "C": "Disengaged Boundaries",
+    "D": "Trial of Labor"
+   }
+  }
+ ]
+}

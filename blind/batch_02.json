@@ -1,0 +1,455 @@
+{
+ "instructions": "For each question pick the single best option. Answer only from the options given. Output strict JSON: {\"answers\":{\"<id>\":\"<LETTER>\"}, \"ambiguous\":[\"<id>\", ...]}. List an id under ambiguous if two or more options are defensible.",
+ "questions": [
+  {
+   "id": "t1_attachment_marker_collaborativelyide",
+   "stem": "“Collaboratively identifying attachment style” is a signature term of which model?",
+   "options": {
+    "A": "Attachment-Based Therapy (Bowlby)",
+    "B": "Object Relations",
+    "C": "Client Centered Therapy",
+    "D": "Self Psychology"
+   }
+  },
+  {
+   "id": "t1_attachment_marker_repair",
+   "stem": "“Repair” is a signature term of which model?",
+   "options": {
+    "A": "Client Centered Therapy",
+    "B": "Object Relations",
+    "C": "Self Psychology",
+    "D": "Attachment-Based Therapy (Bowlby)"
+   }
+  },
+  {
+   "id": "t1_gestalt_marker_presentexperiencew",
+   "stem": "“Present experience while discussing the past” is a signature term of which model?",
+   "options": {
+    "A": "Experiential / Symbolic Therapy (Whitaker)",
+    "B": "Client Centered Therapy",
+    "C": "Gestalt Therapy",
+    "D": "Existential Therapy"
+   }
+  },
+  {
+   "id": "t1_gestalt_marker_repeatingwordsorex",
+   "stem": "“Repeating words or exaggerating gestures” is a signature term of which model?",
+   "options": {
+    "A": "Gestalt Therapy",
+    "B": "Existential Therapy",
+    "C": "Experiential / Symbolic Therapy (Whitaker)",
+    "D": "Client Centered Therapy"
+   }
+  },
+  {
+   "id": "t1_gestalt_marker_experiments",
+   "stem": "“Experiments” is a signature term of which model?",
+   "options": {
+    "A": "Existential Therapy",
+    "B": "Gestalt Therapy",
+    "C": "Client Centered Therapy",
+    "D": "Experiential / Symbolic Therapy (Whitaker)"
+   }
+  },
+  {
+   "id": "t1_existential_marker_focusonmomenttomom",
+   "stem": "“Focus on moment to moment” is a signature term of which model?",
+   "options": {
+    "A": "Client Centered Therapy",
+    "B": "Existential Therapy",
+    "C": "Gestalt Therapy",
+    "D": "Experiential / Symbolic Therapy (Whitaker)"
+   }
+  },
+  {
+   "id": "t1_existential_marker_imaginaldeath",
+   "stem": "“Imaginal death” is a signature term of which model?",
+   "options": {
+    "A": "Existential Therapy",
+    "B": "Gestalt Therapy",
+    "C": "Client Centered Therapy",
+    "D": "Experiential / Symbolic Therapy (Whitaker)"
+   }
+  },
+  {
+   "id": "t1_existential_marker_givensinlife",
+   "stem": "“Givens in life” is a signature term of which model?",
+   "options": {
+    "A": "Client Centered Therapy",
+    "B": "Existential Therapy",
+    "C": "Gestalt Therapy",
+    "D": "Experiential / Symbolic Therapy (Whitaker)"
+   }
+  },
+  {
+   "id": "t1_experiential_marker_battleforstructure",
+   "stem": "“Battle for Structure” is a signature term of which model?",
+   "options": {
+    "A": "Experiential / Symbolic Therapy (Whitaker)",
+    "B": "Existential Therapy",
+    "C": "Satir Communications Therapy",
+    "D": "Gestalt Therapy"
+   }
+  },
+  {
+   "id": "t1_experiential_marker_activatingconstruc",
+   "stem": "“Activating Constructive Anxiety” is a signature term of which model?",
+   "options": {
+    "A": "Satir Communications Therapy",
+    "B": "Existential Therapy",
+    "C": "Experiential / Symbolic Therapy (Whitaker)",
+    "D": "Gestalt Therapy"
+   }
+  },
+  {
+   "id": "t1_experiential_marker_battleforinitiativ",
+   "stem": "“Battle for Initiative” is a signature term of which model?",
+   "options": {
+    "A": "Gestalt Therapy",
+    "B": "Experiential / Symbolic Therapy (Whitaker)",
+    "C": "Existential Therapy",
+    "D": "Satir Communications Therapy"
+   }
+  },
+  {
+   "id": "t1_cbt_marker_socraticquestionin",
+   "stem": "“Socratic Questioning” is a signature term of which model?",
+   "options": {
+    "A": "Bowen Family Systems",
+    "B": "Strategic Therapy",
+    "C": "Solution-Focused Therapy",
+    "D": "CBT (interventions)"
+   }
+  },
+  {
+   "id": "t1_cbt_marker_communicationskill",
+   "stem": "“Communication Skills Training” is a signature term of which model?",
+   "options": {
+    "A": "CBT (interventions)",
+    "B": "Solution-Focused Therapy",
+    "C": "Strategic Therapy",
+    "D": "Bowen Family Systems"
+   }
+  },
+  {
+   "id": "t1_cbt_marker_relaxationtraining",
+   "stem": "“Relaxation Training” is a signature term of which model?",
+   "options": {
+    "A": "Strategic Therapy",
+    "B": "Solution-Focused Therapy",
+    "C": "Bowen Family Systems",
+    "D": "CBT (interventions)"
+   }
+  },
+  {
+   "id": "t1_bowen_role_supervisor",
+   "stem": "Which model describes the therapist's role this way?\n\n“Supervisor”",
+   "options": {
+    "A": "Structural Family Therapy",
+    "B": "Bowen Family Systems",
+    "C": "Strategic Therapy",
+    "D": "Satir Communications Therapy"
+   }
+  },
+  {
+   "id": "t1_strategic_role_focusesonsolvingpr",
+   "stem": "Which model describes the therapist's role this way?\n\n“Focuses on solving problem/eliminating symptoms”",
+   "options": {
+    "A": "Bowen Family Systems",
+    "B": "Structural Family Therapy",
+    "C": "Satir Communications Therapy",
+    "D": "Strategic Therapy"
+   }
+  },
+  {
+   "id": "t1_structural_role_therapistisactivea",
+   "stem": "Which model describes the therapist's role this way?\n\n“Therapist is active and involved. (friendly uncle? lol)”",
+   "options": {
+    "A": "Bowen Family Systems",
+    "B": "Strategic Therapy",
+    "C": "Satir Communications Therapy",
+    "D": "Structural Family Therapy"
+   }
+  },
+  {
+   "id": "t1_satir_role_honestanddirect",
+   "stem": "Which model describes the therapist's role this way?\n\n“Honest and direct”",
+   "options": {
+    "A": "Structural Family Therapy",
+    "B": "Strategic Therapy",
+    "C": "Bowen Family Systems",
+    "D": "Satir Communications Therapy"
+   }
+  },
+  {
+   "id": "t1_narrative_role_coauthorofclientsn",
+   "stem": "Which model describes the therapist's role this way?\n\n“Co-author of client’s new narrative”",
+   "options": {
+    "A": "Client Centered Therapy",
+    "B": "Solution-Focused Therapy",
+    "C": "Satir Communications Therapy",
+    "D": "Narrative Therapy"
+   }
+  },
+  {
+   "id": "t1_object-relations_role_therapistasanewand",
+   "stem": "Which model describes the therapist's role this way?\n\n“Therapist as a new and good object”",
+   "options": {
+    "A": "Object Relations",
+    "B": "Self Psychology",
+    "C": "Attachment-Based Therapy (Bowlby)",
+    "D": "Bowen Family Systems"
+   }
+  },
+  {
+   "id": "t1_self-psychology_role_repairinganydisrup",
+   "stem": "Which model describes the therapist's role this way?\n\n“Repairing any disruptions”",
+   "options": {
+    "A": "Bowen Family Systems",
+    "B": "Self Psychology",
+    "C": "Object Relations",
+    "D": "Attachment-Based Therapy (Bowlby)"
+   }
+  },
+  {
+   "id": "t1_client-centered_role_nonacceptance",
+   "stem": "Which model describes the therapist's role this way?\n\n“non acceptance”",
+   "options": {
+    "A": "Experiential / Symbolic Therapy (Whitaker)",
+    "B": "Existential Therapy",
+    "C": "Gestalt Therapy",
+    "D": "Client Centered Therapy"
+   }
+  },
+  {
+   "id": "t1_experiential_role_playfulcreative",
+   "stem": "Which model describes the therapist's role this way?\n\n“Playful, creative”",
+   "options": {
+    "A": "Gestalt Therapy",
+    "B": "Existential Therapy",
+    "C": "Satir Communications Therapy",
+    "D": "Experiential / Symbolic Therapy (Whitaker)"
+   }
+  },
+  {
+   "id": "t1_bowen_phase_beginning_0",
+   "stem": "In the beginning phase of treatment, what would a Bowen Family Systems therapist do?",
+   "options": {
+    "A": "Create a family diagram of multigenerational emotional connections, genogram",
+    "B": "Assess communication patterns, stances, and concerns.",
+    "C": "Establish rapport, a sense of equality and hope",
+    "D": "both accommodate to and challenge rules of family system"
+   }
+  },
+  {
+   "id": "t1_bowen_phase_beginning_1",
+   "stem": "In the beginning phase of treatment, what would a Bowen Family Systems therapist do?",
+   "options": {
+    "A": "Assess individuals’ levels of differentiation and triangulation",
+    "B": "assess family’s destructive patterns of relating and communicating the continued problem",
+    "C": "Define the problem",
+    "D": "Establish rapport, a sense of equality and hope"
+   }
+  },
+  {
+   "id": "t1_bowen_phase_middle_0",
+   "stem": "In the middle phase of treatment, what would a Bowen Family Systems therapist do?",
+   "options": {
+    "A": "Teach and model differentiation through communication skill building, I-statements, teaching differences between thoughts and feelings, as well as differentiate their feelings from other people.",
+    "B": "Support and strengthen each individual’s sense of uniqueness and self-esteem.",
+    "C": "utilize enactments of issues to challenge participants and unbalance the system.",
+    "D": "Highlight and modify interactions"
+   }
+  },
+  {
+   "id": "t1_bowen_phase_middle_1",
+   "stem": "In the middle phase of treatment, what would a Bowen Family Systems therapist do?",
+   "options": {
+    "A": "De-triangulation, identifying the triangles, and exploring how that has been something that has been passed down. De-pathologizing the individual and looking at it through a family systems lens.",
+    "B": "assign ordeals; prescribe the problem; relabel behavior",
+    "C": "Highlight and modify interactions",
+    "D": "Increase the family’s congruent communication"
+   }
+  },
+  {
+   "id": "t1_bowen_phase_end_0",
+   "stem": "In the end phase of treatment, what would a Bowen Family Systems therapist do?",
+   "options": {
+    "A": "Review progress made",
+    "B": "Review new skills and knowledge gained in therapy.",
+    "C": "Plan for maintenance of new behavior",
+    "D": "emphasize positive changes made."
+   }
+  },
+  {
+   "id": "t1_strategic_phase_beginning_0",
+   "stem": "In the beginning phase of treatment, what would a Strategic Therapy therapist do?",
+   "options": {
+    "A": "Define the problem",
+    "B": "Establish rapport, a sense of equality and hope",
+    "C": "reframing of problem to include whole system.",
+    "D": "both accommodate to and challenge rules of family system"
+   }
+  },
+  {
+   "id": "t1_strategic_phase_beginning_1",
+   "stem": "In the beginning phase of treatment, what would a Strategic Therapy therapist do?",
+   "options": {
+    "A": "Join with family",
+    "B": "determine how the client understands the problem",
+    "C": "reframing of problem to include whole system.",
+    "D": "Assess communication patterns, stances, and concerns."
+   }
+  },
+  {
+   "id": "t1_strategic_phase_middle_0",
+   "stem": "In the middle phase of treatment, what would a Strategic Therapy therapist do?",
+   "options": {
+    "A": "De-triangulation, identifying the triangles, and exploring how that has been something that has been passed down. De-pathologizing the individual and looking at it through a family systems lens.",
+    "B": "Highlight and modify interactions",
+    "C": "Review attempted solutions",
+    "D": "Increase the family’s congruent communication"
+   }
+  },
+  {
+   "id": "t1_strategic_phase_middle_1",
+   "stem": "In the middle phase of treatment, what would a Strategic Therapy therapist do?",
+   "options": {
+    "A": "assign ordeals; prescribe the problem; relabel behavior",
+    "B": "Support and strengthen each individual’s sense of uniqueness and self-esteem.",
+    "C": "utilize enactments of issues to challenge participants and unbalance the system.",
+    "D": "Highlight and modify interactions"
+   }
+  },
+  {
+   "id": "t1_strategic_phase_end_0",
+   "stem": "In the end phase of treatment, what would a Strategic Therapy therapist do?",
+   "options": {
+    "A": "provide tools for future.",
+    "B": "Plan for maintenance of new behavior",
+    "C": "Review progress made",
+    "D": "Review new skills and knowledge gained in therapy."
+   }
+  },
+  {
+   "id": "t1_strategic_phase_end_1",
+   "stem": "In the end phase of treatment, what would a Strategic Therapy therapist do?",
+   "options": {
+    "A": "Review new skills and knowledge gained in therapy.",
+    "B": "Review progress made",
+    "C": "Help family practice implement and integrate changes and increase awareness of larger familial patterns.",
+    "D": "plan for future challenges"
+   }
+  },
+  {
+   "id": "t1_structural_phase_beginning_0",
+   "stem": "In the beginning phase of treatment, what would a Structural Family Therapy therapist do?",
+   "options": {
+    "A": "Join with family",
+    "B": "Define the problem",
+    "C": "Assess individuals’ levels of differentiation and triangulation",
+    "D": "Assess communication patterns, stances, and concerns."
+   }
+  },
+  {
+   "id": "t1_structural_phase_beginning_1",
+   "stem": "In the beginning phase of treatment, what would a Structural Family Therapy therapist do?",
+   "options": {
+    "A": "identify dysfunctional patterns that have been passed along through the generations.",
+    "B": "assess family’s destructive patterns of relating and communicating the continued problem",
+    "C": "Define the problem",
+    "D": "both accommodate to and challenge rules of family system"
+   }
+  },
+  {
+   "id": "t1_structural_phase_middle_0",
+   "stem": "In the middle phase of treatment, what would a Structural Family Therapy therapist do?",
+   "options": {
+    "A": "teach the family how to take responsibility for their feelings and thoughts.",
+    "B": "instruct client to respond to the problem in a new way.",
+    "C": "Highlight and modify interactions",
+    "D": "assign ordeals; prescribe the problem; relabel behavior"
+   }
+  },
+  {
+   "id": "t1_structural_phase_middle_1",
+   "stem": "In the middle phase of treatment, what would a Structural Family Therapy therapist do?",
+   "options": {
+    "A": "Teach and model differentiation through communication skill building, I-statements, teaching differences between thoughts and feelings, as well as differentiate their feelings from other people.",
+    "B": "encourage reunification from cutoff family members",
+    "C": "instruct client to respond to the problem in a new way.",
+    "D": "utilize enactments of issues to challenge participants and unbalance the system."
+   }
+  },
+  {
+   "id": "t1_structural_phase_end_0",
+   "stem": "In the end phase of treatment, what would a Structural Family Therapy therapist do?",
+   "options": {
+    "A": "Review progress made",
+    "B": "plan for future challenges",
+    "C": "Plan for maintenance of new behavior",
+    "D": "Help family practice implement and integrate changes and increase awareness of larger familial patterns."
+   }
+  },
+  {
+   "id": "t1_structural_phase_end_1",
+   "stem": "In the end phase of treatment, what would a Structural Family Therapy therapist do?",
+   "options": {
+    "A": "Help family practice implement and integrate changes and increase awareness of larger familial patterns.",
+    "B": "Plan for maintenance of new behavior",
+    "C": "reinforce structural change",
+    "D": "emphasize positive changes made."
+   }
+  },
+  {
+   "id": "t1_satir_phase_beginning_0",
+   "stem": "In the beginning phase of treatment, what would a Satir Communications Therapy therapist do?",
+   "options": {
+    "A": "assess family’s destructive patterns of relating and communicating the continued problem",
+    "B": "Establish rapport, a sense of equality and hope",
+    "C": "reframing of problem to include whole system.",
+    "D": "Create a family diagram of multigenerational emotional connections, genogram"
+   }
+  },
+  {
+   "id": "t1_satir_phase_beginning_1",
+   "stem": "In the beginning phase of treatment, what would a Satir Communications Therapy therapist do?",
+   "options": {
+    "A": "Assess communication patterns, stances, and concerns.",
+    "B": "Define the problem",
+    "C": "state goals– what behaviors need to change and what would be the signs of change.",
+    "D": "determine how the client understands the problem"
+   }
+  },
+  {
+   "id": "t1_satir_phase_middle_0",
+   "stem": "In the middle phase of treatment, what would a Satir Communications Therapy therapist do?",
+   "options": {
+    "A": "Increase the family’s congruent communication",
+    "B": "Review attempted solutions",
+    "C": "assign ordeals; prescribe the problem; relabel behavior",
+    "D": "utilize enactments of issues to challenge participants and unbalance the system."
+   }
+  },
+  {
+   "id": "t1_satir_phase_middle_1",
+   "stem": "In the middle phase of treatment, what would a Satir Communications Therapy therapist do?",
+   "options": {
+    "A": "Support and strengthen each individual’s sense of uniqueness and self-esteem.",
+    "B": "teach the family how to take responsibility for their feelings and thoughts.",
+    "C": "encourage reunification from cutoff family members",
+    "D": "utilize enactments of issues to challenge participants and unbalance the system."
+   }
+  },
+  {
+   "id": "t1_satir_phase_end_0",
+   "stem": "In the end phase of treatment, what would a Satir Communications Therapy therapist do?",
+   "options": {
+    "A": "Review new skills and knowledge gained in therapy.",
+    "B": "provide tools for future.",
+    "C": "Help family practice implement and integrate changes and increase awareness of larger familial patterns.",
+    "D": "Plan for maintenance of new behavior"
+   }
+  }
+ ]
+}
