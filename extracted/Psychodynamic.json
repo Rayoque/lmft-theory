@@ -1,0 +1,2777 @@
+{
+ "sourceDoc": "Psychodynamic",
+ "file": "Copy of Copy of Psychodynamic.docx",
+ "blocks": [
+  {
+   "i": 0,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Psychodynamic",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Psychodynamic",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Object (other) Relations",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Object (",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "other) ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Relations",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Theory of Change",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Theory of Change",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Change occurs through both reparative experiences within the treatment relationship (relationship with therapist)",
+   "bold_spans": [
+    "reparative experiences within the treatment relationship (relationship with therapist)"
+   ],
+   "runs": [
+    {
+     "text": "Change occurs through both ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "reparative experiences within the treatment relationship (relationship with therapist)",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 4,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "insight into and modification of entrenched object relations pathology.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "insight into and modification of entrenched object relations pathology. ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Role of the Therapist",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Role of the Therapist",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 6,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Neutral",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Neutral",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 7,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Emphasis on transference and countertransference, paying attention to that",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Emphasis on transference and countertransference, paying attention to that",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 8,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Therapist as a new and good object",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Therapist as a new and good object",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 9,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Treatment Goals",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Treatment Goals",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 10,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Providing reparative experiences and building new internal structures (new internal structures is the idea that person would have views of self that would allow for them to be able to rely on their own self talk and self soothing that is more positive and more resilient).",
+   "bold_spans": [
+    "reparative experiences",
+    "new internal structures (new internal structures is the idea that person would have views of self that would allow for them to be able to rely on their own self talk and self soothing that is more positive and more resilient)."
+   ],
+   "runs": [
+    {
+     "text": "Providing ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "reparative experiences",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "and building",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "new internal structures (new internal structures is the idea that person would have views of self that would allow for them to be able to rely on their own self talk and self soothing that is more positive and more resilient).",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 11,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Gaining insight into how past relationships impact client’s functioning, how feelings and experiences are continued to be connected to their past.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Gaining insight into how past relationships impact client’s functioning, how feelings and experiences are continued to be connected to their past.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 12,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Improving relationships with self and others",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Improving relationships with self and others",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 13,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Key Concepts",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Key Concepts",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 14,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Objects: Refers to persons in the external world. Individuals seek objects (others) from birth. We are inherently object seeking, wanting to connect to others.",
+   "bold_spans": [
+    "Objects",
+    "We are inherently object seeking, wanting to connect to others."
+   ],
+   "runs": [
+    {
+     "text": "Objects",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": Refers to persons in the external world. Individuals seek objects (others) from birth. ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "We are inherently object seeking, wanting to connect to others.",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 15,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Internalization: Early infant-caretaker interactions lead to the person internalizing basic attitudes toward self and other, characteristic relational patterns, and a repertoire of defenses and internal capacities. If mom is warm and caring towards infant, then infant and child takes in that attitude about themselves and the world. A child who grew up with angry parents, the world is hostile, and the world is hostile to me, so I must be bad.",
+   "bold_spans": [
+    "Internalization",
+    "If mom is warm and caring towards infant, then infant and child takes in that attitude about themselves and the world. A child who grew up with angry parents, the world is hostile, and the world is hostile to me, so I must be bad."
+   ],
+   "runs": [
+    {
+     "text": "Internalization",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": Early infant-caretaker interactions lead to the person internalizing basic attitudes toward self and other, characteristic relational patterns, and a repertoire of defenses and internal capacities. ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "If mom is warm and caring towards infant, then infant and child takes in that attitude about themselves and the world. A child who grew up with angry parents, the world is hostile, and the world is hostile to me, so I must be bad.",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 16,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Self- and Object-Representations: Infants form images of themselves and others. Once formed, they are fundamental internal structures that affect the ways in which individuals view themselves and others. These are created from the internalization process. Can create a false self disconnected from the true self.",
+   "bold_spans": [
+    "Self- and Object-Representations",
+    "These are created from the internalization process. Can create a false self disconnected from the true self. "
+   ],
+   "runs": [
+    {
+     "text": "Self- and Object-Representations",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": Infants form images of themselves and others. Once formed, they are fundamental internal structures that affect the ways in which individuals view themselves and others. ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "These are created from the internalization process. Can create a false self disconnected from the true self. ",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 17,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Ego: The structure responsible for dealing with the world, for instituting defense",
+   "bold_spans": [
+    "Ego"
+   ],
+   "runs": [
+    {
+     "text": "Ego",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": The structure responsible for dealing with the world, for instituting defense",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 18,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Mechanisms (ie projection), for internalizing external objects, and for integrating and synthesizing self-and object-representations.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Mechanisms (ie projection), for internalizing external objects, and for integrating and synthesizing self-and object-representations. ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 19,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Splitting: When two contradictory states, such as love and hate, are compartmentalized and not integrated. Somebody is either all good, or all bad. Very extreme views of people, and it can switch quickly. Therapist will want to bring these two contradictions together: your friend did something hurtful, and there are things about them you really like. Are people allowed to make mistakes, and can we recover from that? Wanting to put these two extremes together.",
+   "bold_spans": [
+    "Splitting",
+    "Therapist will want to bring these two contradictions together: your friend did something hurtful, and there are things about them you really like. Are people allowed to make mistakes, and can we recover from that? Wanting to put these two extremes together."
+   ],
+   "runs": [
+    {
+     "text": "Splitting",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": When two contradictory states, such as love and hate, are compartmentalized and not integrated. Somebody is either all good, or all bad. Very extreme views of people, and it can switch quickly. ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Therapist will want to bring these two contradictions together: your friend did something hurtful, and there are things about them you really like. Are people allowed to make mistakes, and can we recover from that? Wanting to put these two extremes together.",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 20,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Projection: Involves projecting undesirable feelings or emotions onto someone else, rather than admitting to or dealing with the unwanted feelings.",
+   "bold_spans": [
+    "Projection"
+   ],
+   "runs": [
+    {
+     "text": "Projection",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": Involves projecting undesirable feelings or emotions onto someone else, rather than admitting to or dealing with the unwanted feelings.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 21,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Projective Identification (specific to object relations): Refers to a psychological process in which a person will project a thought or belief that they have onto a second person. Then, in most common definitions of projective identification, there is another action in which the second person is changed by the projection and begins to behave as though they are, in fact, actually characterized by those thoughts or beliefs that have been projected. The client is projecting onto the therapist a feeling of annoyance. What happens is the therapist realizes they feel annoyed. The therapist takes on the feeling themselves, they begin to identify with the feeling, the therapist finds themselves feeling annoyed. That’s the unconscious manipulation of the client putting those feelings onto the therapist. Sexual attraction: Therapist would say it’s really the client having those unconscious feelings towards the therapist.",
+   "bold_spans": [
+    "Projective Identification (specific to object relations)",
+    "The client is projecting onto the therapist a feeling of annoyance. What happens is the therapist realizes they feel annoyed. The therapist takes on the feeling themselves, they begin to identify with the feeling, the therapist finds themselves feeling annoyed. That’s the unconscious manipulation of the client putting those feelings onto the therapist. Sexual attraction: Therapist would say it’s really the client having those unconscious feelings towards the ",
+    "therapist",
+    ". "
+   ],
+   "runs": [
+    {
+     "text": "Projective Identification (specific to object relations)",
+     "bold": true,
+     "italic": false,
+     "underline": true
+    },
+    {
+     "text": ":",
+     "bold": false,
+     "italic": false,
+     "underline": true
+    },
+    {
+     "text": " Refers to a psychological process in which a person will project a thought or belief that they have onto a second person. Then, in most common definitions of projective identification, there is another action in which the second person is changed by the projection and begins to behave as though they are, in fact, actually characterized by those thoughts or beliefs that have been projected. ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "The client is projecting onto the therapist a feeling of annoyance. What happens is the therapist realizes they feel annoyed. The therapist takes on the feeling themselves, they begin to identify with the feeling, the therapist finds themselves feeling annoyed. That’s the unconscious manipulation of the client putting those feelings onto the therapist. Sexual attraction: Therapist would say it’s really the client having those unconscious feelings towards the ",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "therapist",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ". ",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 22,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Introjection: Where the subject replicates in themselves behaviors, attributes, or other fragments of the surrounding world, especially of other people. An unconscious taking in of another person’s traits, behaviors, or attitudes as if they were one’s own.",
+   "bold_spans": [
+    "Introjection"
+   ],
+   "runs": [
+    {
+     "text": "Introjection",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": Where the subject replicates in themselves behaviors, attributes, or other fragments of the surrounding world, especially of other people. An unconscious taking in of another person’s traits, behaviors, or attitudes as if they were one’s own.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 23,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Identification occurs when a person not only takes on a belief or voice of another person, but also begins to identify with that individual. In this case, the husband has not merely taken on the idea that women should do the housework; rather, he sees himself as the head of his household, like his father. He is identifying with his father. Because of this identification, he expects to be treated like his father, with his wife respecting him and treating him as his mom treated his dad.",
+   "bold_spans": [
+    "Identification ",
+    "occurs when a person not only takes on a belief or voice of another person, but also begins to identify with that individual. In this case, the husband has not merely taken on the idea that women should do the housework; rather, he sees himself as the head of his household, like his father. ",
+    "He is identifying with his father",
+    ". Because of this identification, he expects to be treated like his father, with his wife respecting him and treating him as his mom treated his dad."
+   ],
+   "runs": [
+    {
+     "text": "Identification ",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "occurs when a person not only takes on a belief or voice of another person, but also begins to identify with that individual. In this case, the husband has not merely taken on the idea that women should do the housework; rather, he sees himself as the head of his household, like his father. ",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "He is identifying with his father",
+     "bold": true,
+     "italic": false,
+     "underline": true
+    },
+    {
+     "text": ". Because of this identification, he expects to be treated like his father, with his wife respecting him and treating him as his mom treated his dad.",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 24,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Family myths",
+   "bold_spans": [
+    "Family myths"
+   ],
+   "runs": [
+    {
+     "text": "Family myths",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 25,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Phases of Treatment and Interventions",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Phases of Treatment and Interventions",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 26,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Beginning:",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Beginning: ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 27,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Establish a holding environment",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Establish a holding environment",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 28,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Build rapport and therapeutic alliance through listening",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Build rapport and therapeutic alliance through listening",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 29,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "exploration of client’s experience, empathy, and maintaining neutrality: low self disclosure",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "exploration of client’s experience, empathy, and maintaining neutrality",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": low self disclosure",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 30,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Middle:",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Middle: ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 31,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Promote insight and growth through interpretation.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Promote insight and growth through interpretation. ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 32,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Confront (aka bringing the issues to attention: I notice when I bring this up, you quickly change the subject) resistance and primitive defense mechanisms.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Confront (",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "aka bringing the issues to attention: I notice when I bring this up, you quickly change the subject",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ") resistance and primitive defense mechanisms. ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 33,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Focus on transference/countertransference dynamic.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Focus on transference/countertransference dynamic.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 34,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Identify and process projective identification (T is aware of feeling so and do about the client, how would object relations therapist handle this situation, look for this term).",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Identify and process projective identification (",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "T is aware of feeling so and do about the client, how would object relations therapist handle this situation, look for this term",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ").",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 35,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "End:",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "End: ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 36,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Work through termination and abandonment issues.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Work through termination and abandonment issues. ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 37,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Consolidate interpretations.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Consolidate interpretations. ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 38,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Review insights gained in therapy.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Review insights gained in therapy.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 39,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Self Psychology Psychodynamic Therapy",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Self Psychology Psychodynamic Therapy",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 40,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Theory of Change",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Theory of Change",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 41,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Change occurs through empathetic attunement and strengthening the self-structures through",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Change occurs through empathetic attunement and strengthening the self-structures through",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 42,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "optimal responsiveness. Shift away from interpretation.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "optimal responsiveness. Shift away from interpretation. ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 43,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Role of the Therapist",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Role of the Therapist",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 44,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Emphasis on empathetic understanding and optimal responsiveness: reparenting the client",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Emphasis on empathetic understanding and optimal responsiveness: reparenting the client",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 45,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Allows emergence of self-object transferences and the repair of disruptions",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Allows emergence of self-object transferences and the repair of disruptions",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 46,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Repairing any disruptions",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Repairing any disruptions",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 47,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Treatment Goals",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Treatment Goals",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 48,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Developing self-cohesion and self-esteem, client connects to true self",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Developing self-cohesion and self-esteem, client connects to true self",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 49,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Locating better self objects",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Locating better self objects",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 50,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Key Concepts",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Key Concepts",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 51,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Self-Objects: Early self-objects are those empathetic or attuned caretakers who perform",
+   "bold_spans": [
+    "Self-Objects"
+   ],
+   "runs": [
+    {
+     "text": "Self-Objects",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": Early self-objects are those empathetic or attuned caretakers who perform",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 52,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "vital functions for the infant that it cannot carry out itself",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "vital functions for the infant that it cannot carry out itself",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 53,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Self-Object Needs: Mirroring, idealization of others, twin/alter ego. Child needs these.",
+   "bold_spans": [
+    "Self-Object Needs",
+    "Child needs these."
+   ],
+   "runs": [
+    {
+     "text": "Self-Object Needs",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": Mirroring, idealization of others, twin/alter ego. ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Child needs these.",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 54,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Mirroring: Approving and confirming responses.",
+   "bold_spans": [
+    "Mirroring"
+   ],
+   "runs": [
+    {
+     "text": "Mirroring",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": Approving and confirming responses. ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 55,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Optimal Frustration: When a self-object is needed, but not accessible, this will create a",
+   "bold_spans": [
+    "Optimal Frustration"
+   ],
+   "runs": [
+    {
+     "text": "Optimal Frustration",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": When a self-object is needed, but not accessible, this will create a",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 56,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "potential problem for the self, referred to as a \"frustration.” Healthy window where child doesn’t get needs met all the time (otherwise it results in entitlement of sorts)",
+   "bold_spans": [
+    "Healthy window where child doesn’t get needs met all the time (otherwise it results in entitlement of sorts)"
+   ],
+   "runs": [
+    {
+     "text": "potential problem for the self, referred to as a \"frustration.” ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Healthy window where child doesn’t get needs met all the time (otherwise it results in entitlement of sorts)",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 57,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Mirroring Transference: The patient seeks acceptance and confirmation of the self from the therapist.",
+   "bold_spans": [
+    "Mirroring Transference"
+   ],
+   "runs": [
+    {
+     "text": "Mirroring Transference",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": The patient seeks acceptance and confirmation of the self from the therapist.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 58,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Twinship Transference: The patient experiences the therapist as someone like himself, “that person is like me.”",
+   "bold_spans": [
+    "Twinship Transference",
+    "“that person is like me.”"
+   ],
+   "runs": [
+    {
+     "text": "Twinship Transference",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": The patient experiences the therapist as someone like himself, ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "“that person is like me.”",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 59,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Idealizing Transference: The patient looks up to and admires the therapist",
+   "bold_spans": [
+    "Idealizing Transference"
+   ],
+   "runs": [
+    {
+     "text": "Idealizing Transference",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": The patient looks up to and admires the therapist",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 60,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Adversarial Transference: The need for a supportive relationship that the patient can",
+   "bold_spans": [
+    "Adversarial",
+    "Transference"
+   ],
+   "runs": [
+    {
+     "text": "Adversarial",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Transference",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": The need for a supportive relationship that the patient can",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 61,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "oppose in order to grow. The therapist can be a person who cares about them, but C is also allowed to disagree and push back, and this could be an important way of healing for a client who felt differential their entire life.",
+   "bold_spans": [
+    "The therapist can be a person who cares about them, but C is also allowed to disagree and push back, and this could be an important way of healing for a client who felt differential their entire life."
+   ],
+   "runs": [
+    {
+     "text": "oppose in order to grow. ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "The therapist can be a person who cares about them, but C is also allowed to disagree and push back, and this could be an important way of healing for a client who felt differential their entire life.",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 62,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Experience-Near Empathy: When therapist steps into client’s shoes and imagines what it",
+   "bold_spans": [
+    "Experience-Near Empathy",
+    ":"
+   ],
+   "runs": [
+    {
+     "text": "Experience-Near Empathy",
+     "bold": true,
+     "italic": false,
+     "underline": true
+    },
+    {
+     "text": ":",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " When therapist steps into client’s shoes and imagines what it",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 63,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "is like to be the client. The therapist really wants to step into the emotional experience, body sensations, and communicate that with the client to flesh out that experience. Taking the idea of mirroring to the extreme, that the therapist is really understanding their experience.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "is like to be the client. The therapist really wants to step into the emotional experience, body sensations, and communicate that with the client to flesh out that experience. Taking the idea of mirroring to the extreme, that the therapist is really understanding their experience. ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 64,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Phases of Treatment and Interventions",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Phases of Treatment and Interventions",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 65,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Early:",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Early: ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 66,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Establish a therapeutic holding environment",
+   "bold_spans": [
+    "holding environment"
+   ],
+   "runs": [
+    {
+     "text": "Establish a therapeutic ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "holding environment",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 67,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Demonstrate that the therapist is able to provide containment: client is getting emotional, and the T can be a warm open presence without judgement and having client feel they are able to share this information and they will not be rejected. The therapist is able to hear what client is saying without becoming overwhelmed themselves.",
+   "bold_spans": [
+    "containment"
+   ],
+   "runs": [
+    {
+     "text": "Demonstrate that the therapist is able to provide ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "containment",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": client is getting emotional, and the T can be a warm open presence without judgement and having client feel they are able to share this information and they will not be rejected. The therapist is able to hear what client is saying without becoming overwhelmed themselves.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 68,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Provide “experience-near” empathy",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Provide “experience-near” empathy",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 69,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Explore the client's problem and history, including relationship history.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Explore the client's problem and history, including relationship history.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 70,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Middle:",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Middle: ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 71,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Repair disruptions of the self-object transference",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Repair disruptions of the self-object transference",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 72,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Addressing enactments: situations in the therapy may have played out in the past, or outside in the client’s life. Being able to talk about in session together. “It sounds like what’s going on with your partner is similar to what happened with your father.”",
+   "bold_spans": [
+    "Addressing enactments"
+   ],
+   "runs": [
+    {
+     "text": "Addressing enactments",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": situations in the therapy may have played out in the past, or outside in the client’s life. Being able to talk about in session together. “It sounds like what’s going on with your partner is similar to what happened with your father.” ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 73,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Empathizing with losses and blows to self.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Empathizing with losses and blows to self. ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 74,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Mourning loss of selfobjects Mourning the mother they may have never had. They can grieve these losses. An acceptance of that loss, a sadness that is allowed to happen over it. Cry for their younger selves, inner child.",
+   "bold_spans": [
+    "Mourning loss of selfobjects",
+    "Mourning"
+   ],
+   "runs": [
+    {
+     "text": "Mourning loss of selfobjects",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Mourning",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "the mother they may have never had. They can grieve these losses. An acceptance of that loss, a sadness that is allowed to happen over it. Cry for their younger selves, inner child.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 75,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Mourning ambitions and fantasies. If person had ideas that their life was going to turn out a certain way, mourning those losses of those fantasies.",
+   "bold_spans": [
+    "Mourning ambitions and fantasies."
+   ],
+   "runs": [
+    {
+     "text": "Mourning ambitions and fantasies.",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "If person had ideas that their life was going to turn out a certain way, mourning those losses of those fantasies. ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 76,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Identify alternative self-objects: people they did have had positive relationship with them. Through their relationship with T they learn about different positive selfobjects, and can start to identify healthy selfobjects for themselves.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Identify alternative self-objects: people they did have had positive relationship with them. Through their relationship with T they learn about different positive selfobjects, and can start to identify healthy selfobjects for themselves.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 77,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "End:",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "End: ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 78,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Reflect on the treatment process",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Reflect on the treatment process",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 79,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Acknowledge and process issues related to termination.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Acknowledge and process issues related to termination.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 80,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Attachment-Based Therapy: Bolby",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Attachment-Based Therapy: Bolby",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 81,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Theory of Change",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Theory of Change",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 82,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Change occurs through exploration of past and current relational attachments and trauma in the",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Change occurs through exploration of past and current relational attachments and trauma in the",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 83,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "environment of a healing, secure, and reliable relationship.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "environment of a healing, secure, and reliable relationship.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 84,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Role of the Therapist",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Role of the Therapist",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 85,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Therapist is a suﬃciently secure base to enable a person to explore emotional experiences",
+   "bold_spans": [
+    "secure base"
+   ],
+   "runs": [
+    {
+     "text": "Therapist is a su",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "ﬃ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "ciently ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "secure base",
+     "bold": true,
+     "italic": false,
+     "underline": true
+    },
+    {
+     "text": " to enable a person to explore emotional experiences",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 86,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "of the past and the present.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "of the past and the present.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 87,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Create a secure, accepting, caring, non-judgmental, and reliable environment where the",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Create a secure, accepting, caring, non-judgmental, and reliable environment where the",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 88,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "patient can feel comfortable sharing their most traumatic experiences and exploring the",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "patient can feel comfortable sharing their most traumatic experiences and exploring the",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 89,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "nature of the client’s attachment pattern.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "nature of the client’s attachment pattern.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 90,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Treatment Goals",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Treatment Goals",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 91,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Raise awareness of client’s problematic behavioral and emotional patterns, formed in",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Raise awareness of client’s problematic behavioral and emotional patterns, formed in",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 92,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "early childhood as attempts to maintain attachment to primary caregivers.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "early childhood as attempts to maintain attachment to primary caregivers.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 93,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Repair the capacity to regulate affects.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Repair the capacity to regulate affects.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 94,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Resolve any emotional or social disruptions within the patient’s life.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Resolve any emotional or social disruptions within the patient’s life.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 95,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Improve quality of attachment with others.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Improve quality of attachment with others.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 96,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Key Concepts",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Key Concepts",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 97,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Attachment Behavior System: The process in which infants and caregivers have an",
+   "bold_spans": [
+    "Attachment Behavior System"
+   ],
+   "runs": [
+    {
+     "text": "Attachment Behavior System",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": The process in which infants and caregivers have an",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 98,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "organized pattern of signals and responses that leads to the development of a",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "organized pattern of signals and responses that leads to the development of a",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 99,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "protecting and trusting relationship. The emotional bond that develops between adult",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "protecting and trusting relationship. The emotional bond that develops between adult",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 100,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "romantic partners is partly a function of the same motivational system - the attachment",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "romantic partners is partly a function of the same motivational system - the attachment",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 101,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "behavioral system. Relational system. Emotional bond that happens later in life repeats the behavioral systems of our childhood.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "behavioral system. Relational system. Emotional bond that happens later in life repeats the behavioral systems of our childhood. ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 102,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Secure Attachment: The person has easy access to a wide range of feelings and",
+   "bold_spans": [
+    "Secure Attachment"
+   ],
+   "runs": [
+    {
+     "text": "Secure Attachment",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": The person has easy access to a wide range of feelings and",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 103,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "memories, positive and negative. Has a balanced view of parents and has worked",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "memories, positive and negative. Has a balanced view of parents and has worked",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 104,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "through hurt and anger from the past. Has developed a strong sense of self and",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "through hurt and anger from the past. Has developed a strong sense of self and",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 105,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "empathy for others.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "empathy for others.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 106,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Preoccupied/Anxious Attachment: The person is still embroiled with anger and hurt at",
+   "bold_spans": [
+    "Preoccupied",
+    "Anxious",
+    "Attachment"
+   ],
+   "runs": [
+    {
+     "text": "Preoccupied",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "/",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Anxious",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Attachment",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": The person is still embroiled with anger and hurt at",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 107,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "parents. They sometimes value intimacy to such an extent that they become overly",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "parents. They sometimes value intimacy to such an extent that they become overly",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 108,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "dependent on the attachment figure both past and present. They often recall role",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "dependent on the attachment figure both past and present. They often recall role",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 109,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "reversal in childhood and have a hard time seeing their own responsibility in",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "reversal in childhood and have a hard time seeing their own responsibility in",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 110,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "relationships. They dread abandonment.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "relationships. They dread abandonment.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 111,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Dismissive/Avoidant Attachment: The person dismisses the importance of love and",
+   "bold_spans": [
+    "Dismissive",
+    "Avoidant",
+    "Attachment"
+   ],
+   "runs": [
+    {
+     "text": "Dismissive",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "/",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Avoidant",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Attachment",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": The person dismisses the importance of love and",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 112,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "connection – and the value of emotions in general. Often idealizes parents, but actual",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "connection – and the value of emotions in general. Often idealizes parents, but actual",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 113,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "memories don’t corroborate. They dislike looking inward and often have a shallow, if any,",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "memories don’t corroborate. They dislike looking inward and often have a shallow, if any,",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 114,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "self-reflection. They often are very independent, dismissive of their own emotionality, and",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "self-reflection. They often are very independent, dismissive of their own emotionality, and",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 115,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "have diﬃculty tolerating the heightened emotions of others.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "have di",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "ﬃ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "culty tolerating the heightened emotions of others.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 116,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Fearful/Avoidant Attachment (Disorganized): The person usually has a history of trauma and or loss.",
+   "bold_spans": [
+    "Fearful/Avoidant Attachment (",
+    "Disorganized)"
+   ],
+   "runs": [
+    {
+     "text": "Fearful/Avoidant Attachment (",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Disorganized)",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": The person usually has a history of trauma and or loss.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 117,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Similar to Dismissive/Avoidant, they dismiss the importance of love and connection but",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Similar to Dismissive/Avoidant, they dismiss the importance of love and connection but",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 118,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "usually out of fear or a belief that they are unworthy of love. They have diﬃculty trusting",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "usually out of fear or a belief that they are unworthy of love. They have di",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "ﬃ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "culty trusting",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 119,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "others and may feel uncomfortable with emotional closeness.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "others and may feel uncomfortable with emotional closeness.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 120,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Phases of Treatment and Interventions",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Phases of Treatment and Interventions",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 121,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Beginning:",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Beginning: ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 122,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Attunement is the key intervention in the early stage and consists of forging a personal relationship between the therapist and the patient.",
+   "bold_spans": [
+    "consists of forging a personal relationship between the therapist and the patient. "
+   ],
+   "runs": [
+    {
+     "text": "Attunement is the key intervention in the early stage and ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "consists of forging a personal relationship between the therapist and the patient. ",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 123,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "The therapist provides a secure base by reliably demonstrating empathy and care.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "The therapist provides a secure base by reliably demonstrating empathy and care.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 124,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Collaboratively identifying client’s “attachment style,\" that is, problematic behavioral and emotional patterns, formed in early childhood as attempts to maintain attachment to primary caregivers.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Collaboratively identifying client’s “attachment style,\" that is, problematic behavioral and emotional patterns, formed in early childhood as attempts to maintain attachment to primary caregivers.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 125,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "Middle:",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Middle: ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 126,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Disruptions are explored in the middle phase. Disruptions include those in the early life",
+   "bold_spans": [
+    "Disruptions are explored"
+   ],
+   "runs": [
+    {
+     "text": "Disruptions are explored",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "in the middle phase. Disruptions include those in the early life",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 127,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "of the client as well as those in current relationships, including the relationship with the therapist. Where they are having conflicts, where there is pain, disruptions in attunement. Can even apply to what happens in the therapy room, between client and the therapist.",
+   "bold_spans": [
+    "Can even apply to what happens in the therapy room, between client and the therapist."
+   ],
+   "runs": [
+    {
+     "text": "of the client as well as those in current relationships, including the relationship with the therapist. Where they are having conflicts, where there is pain, disruptions in attunement. ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Can even apply to what happens in the therapy room, between client and the therapist.",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 128,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Support client’s ability to regulate and express emotions in relationally diﬃcult Situations teaching clients to have a reflective stance toward themselves.",
+   "bold_spans": [
+    "regulate and express emotions"
+   ],
+   "runs": [
+    {
+     "text": "Support client’s ability to ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "regulate and express emotions",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "in relationally di",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "ﬃ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "cult Situations teaching clients to have a reflective stance toward themselves.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 129,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "End:",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "End:",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 130,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Repair occurs during the late middle phase and the end of treatment.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Repair occurs during the late middle phase and the end of treatment. ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 131,
+   "kind": "p",
+   "style": "normal",
+   "level": 0,
+   "text": "Repair stage of the therapy aims to alter the patient’s current reactions to the events that cause them emotional distress by sharing their own interpretations of the event. By sharing their own subjective interpretation, the therapist helps create a new reality of the painful events for the patient in order to get rid of unwanted emotions and reactions.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Repair stage of the therapy aims to alter the patient’s current reactions to the events that cause them emotional distress by sharing their own interpretations of the event. By sharing their own subjective interpretation, the therapist helps create a new reality of the painful events for the patient in order to get rid of unwanted emotions and reactions.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 132,
+   "kind": "p",
+   "style": "normal",
+   "level": null,
+   "text": "On the exam, attachment therapist is specifically focused on how that person attaches in their relationships, and how they are able to regulate their own emotions. Explore history of their interactions looked like with their early caregiver.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "On the exam, attachment therapist is specifically focused on how that person attaches in their relationships, and how they are able to regulate their own emotions. Explore history of their interactions looked like with their early caregiver.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  }
+ ]
+}

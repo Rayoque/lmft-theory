@@ -1,0 +1,85 @@
+### CBT interventions notes
+### file: Copy of Copy of CBT interventions notes.docx
+
+[0000]   CBT Interventions
+[0001]** Teach the client about negative triad, done in first session as well as psychoeducation about how CBT works.
+[0002]** Socratic Questioning: Questioning allows the therapist to stimulate the client’s self-awareness, focus on the problem definition, expose the client’s belief system, and challenge irrational beliefs while revealing the client’s cognitive processes.
+[0003]   Questions that dive below surface to collect evidence for someone’s thinking. What evidence led you to believe this? Are there alternate ways of thinking about the situation? How did you get to this answer, what is the evidence that led you there?
+[0004]** Reframing: Thinking differently by “reframing” negative or untrue assumptions and thoughts into ones that promote adaptive behavior and lessen anxiety and depression.
+[0005]   A way of thinking differently  about certain assumptions that allows people to think about and feel differently and less in their anxiety and depression. “no one likes me. I must be boring or weird” vs “maybe people were shy too or didn't know what to say."
+[0006]** Cognitive Restructuring: Teaches the client to identify irrational, distorted, or maladaptive beliefs, question the evidence for the belief, and generate alternative responses.
+[0007]   Teach client to identify their beliefs, question their beliefs, and generate alternative responses.
+[0008]** Homework: To assist with cognitive restructuring, clients are often assigned homework. Typical CBT homework assignments may include activities in behavioral activation, monitoring automatic thoughts, reviewing the previous therapy session, and preparing for the next therapy session.
+[0009]** Self-Monitoring: Also called diary work, self-monitoring is used to record the amount and degree of thoughts and behaviors. This provides the client and therapist information regarding the degree of a client’s negative aﬃrmations. Teaching client how to do self-monitoring, thought record.
+[0010]** Behavioral Experiments: The experiment process includes experiencing, observing, reflecting, and planning. These steps are conducted through thought testing, discovery, activity, and/or observation. People can test out their assumptions about certain things.
+[0011]   Some behavioral experiments include exposure (e.g., testing a fear by facing it), but the intention differs:
+[0012]**   If the client is testing a belief ("People will laugh if I blush in public")  it’s a Behavioral Experiment.
+[0013]**   If the client is trying to reduce their fear of blushing itself by repeated exposure  it's Exposure Therapy.
+[0014]** Systematic Desensitization: Systematic desensitization pairs relaxation with exposure to something stressful. Clients are taught to relax in anxiety producing situations.
+[0015]** People taught how to relax, exposed to stressful situation, then exposed and use those techniques can be real life or imagery.
+[0016]== TABLE ==
+        | Reduce specific phobias/fears through gradual exposure paired with relaxation
+[0017]== TABLE ==
+        | 
+        | Unlearn conditioned fear responses to specific triggers | Unlearn conditioned fear responses to specific triggers
+[0018]== TABLE ==
+        | 
+[0019]** A type of Counterconditioning: replacing fear with relaxation.
+[0020]   - Create fear hierarchy 
+- Relaxation training 
+- Gradual exposure (in imagination or real life)
+[0021]** Systematic Desensitization =  “Let’s gradually face your fear, while staying relaxed, until it no longer feels threatening.”
+[0022]** Anxiety Management Training: Teaches skills for specific situations using imagery. The client practices relaxation until anxiety is reduced then continues with imagery.
+[0023]** Uses a lot of imagery and practicing relaxation skills. Teaches general coping skills.
+[0024]== TABLE ==
+        | Increase emotional regulation and anxiety tolerance across various situations
+[0025]== TABLE ==
+        | 
+[0026]   - Diaphragmatic breathing 
+- Progressive muscle relaxation 
+- Cognitive reframing 
+- Coping self-statements 
+- Thought-stopping
+[0027]   - Self-monitoring of anxiety
+- Coping self-statements
+- Problem-solving training
+[0028]   Skill acquisition, done early in therapy.
+[0029]** Anxiety Management Training = “Learn how to calm your mind and body when anxiety hits — anytime, anywhere.”
+[0030]** Assertiveness Training: Teaches the client to specify desires and needs using minimally effective responses to assert their position. Used with unassertive or overly aggressive clients.
+[0031]** Intervention for both overly aggressive or unassertive people. Express thoughts, feelings, needs, and boundaries in a direct but respectful way, reduce anxiety, guilt, or fear associated with self-expression, challenge maladaptive beliefs (e.g., "If I say no, they’ll hate me"), replace passive, aggressive, or passive-aggressive communication styles with assertive behavior. Teaches people to specify their needs, the least they need to do in order to convey their needs and wants, minimally effective responses to assert their position.
+[0032]         I-statements
+[0033]         being clear about thoughts and desires
+[0034]         involves a lot of role-playing with client.
+[0035]** Behavioral Activation: Increases activity for depressed or passive clients by using activity scheduling and incentives. Incentives planned for activities that are difficult for people to accomplish.
+[0036]** Communication Skills Training: Used in couples therapy to help couples talk about feelings and problems. CBT therapist working with couples. Managing conflict. I-statements, assertiveness training, teaching people how to listen, teaching people how to listen and not jump in with problem solving, teaching people how to identify when they are getting overly aroused so that they know when to take time-outs.
+[0037]** Downward Arrow: Used to uncover underlying assumptions.
+[0038]   “If this is true, what does it mean about you and your life?” Therapist moved downwards – people didn’t like me at the party. What was the evidence for that? What did that mean to you? I wasn’t important, and what does that mean about yourself? I am worthless. If that’s true, what does that mean about you and your life. Moves down to core belief person has.
+[0039]** Exposure: Client faces fear stimuli without resorting to escape or avoidance maneuvers. Can be done in real life or with imagery
+[0040]** Finding Alternatives: Clients review all possible options and alternatives for either interpreting a situation or resolving a problem.
+[0041]** Labeling Distortions: Teaches the client to recognize and label particular distortions in thinking that can lead to problems with interpretations of events.
+[0042]** Mastery/Pleasure Ratings: Clients use activity chart and rate mastery or pleasure that they derive from activity. Clients use an activity chart and rate the mastery or pleasure they derive from a particular activity. How good or comfortable they are at the activity; how much pleasure they will get out of that.
+[0043]** Opposite Action: Client is encouraged to engage in behavior that is counterintuitive or opposite to what they may feel at the time (e.g., when feeling very angry, say something kind or decent).
+[0044]** Problem-Solving Training: Teaches a step approach of orienting to the problem, problem definition, generation of alternatives, decision making and solution implementation, and verification of results. Step by step technique, define the problem they’re experiencing, generate alternatives and options, making decisions about the best solution they want to try, implementing the solution, verifying the results. Not an assumption the solution is always going to work. Ongoing process of trying things out. Part of the process is being able to reflect on the outcome of the implementations of the different solutions.
+[0045]** Relaxation Training: Teaches the client to relax muscles to condition a relaxation response to counter tension. Uses imagery, music, and other stimuli to assist in acquiring response. Initial phase of treatment, including psychoeducation and thought patterns, select this on test. Taking some control over the relaxation of their bodies. For trauma interventions for example.
+[0046]** Successive Approximation: Client and therapist collaborate in developing a plan for the client to engage in steps that approximate an ultimate goal to allow the client to have success at each step along the way to the goal. You want to have clients experience successes along the way. Break down things into smaller goals. IE let’s first learn relaxation techniques, client understands that is initial goal, they’re not expected to deal with the bigger issues first right away.
+[0047]** Three-Column Technique: Client collects automatic thoughts and lists: the situation in which the thought occurred, the automatic thought, and the associated feelings. Initial thing that somebody would do for homework.
+[0048]** Thought Record: Expands on the three-column technique, with columns to record alternative responses to the automatic thought and behavioral or emotional outcomes of changing the thought. Add a column for an alternate response and pay attention to the resulting emotional outcome. Next step of three-column technique.
+[0049]   Phases of Treatment
+[0050]** Beginning:
+[0051]     Establish safe and supportive therapeutic relationship
+[0052]     Complete a functional analysis to assess and define the problem and negative thought patterns, where in all their areas of their life are they having problems, explore all areas of life (work, school, relationships, etc).
+[0053]     Educate negative thought triad and explain CBT
+[0054]     Set collaborative goals.
+[0055]**   Person and therapist can also see where client is already dealing well with issue in one context and figure out how to apply it to other life areas (ie they are assertive at work but not in their relationship, exploring what skills they can transfer).
+[0056]** Early/Middle:
+[0057]     Identify negative thought patterns
+[0058]     uncover negative schemas
+[0059]     assign homework to self-monitor thoughts, moods, and behaviors
+[0060]     label cognitive distortions
+[0061]     reframe thoughts
+[0062]     learn and practice new skills and behaviors.
+[0063]     teaching of skill building and coping
+[0064]** End:
+[0065]     Review gains
+[0066]     identify skills learned
+[0067]     rehearse for new situations and anticipate future struggles.

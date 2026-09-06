@@ -1,0 +1,3555 @@
+{
+ "generatedFrom": "five .docx packets in /source, via scripts/extract.py",
+ "note": "Every sourceLine is verbatim from the packet, resolved by block index. null means the source has no such section.",
+ "factCount": 366,
+ "models": [
+  {
+   "id": "bowen",
+   "name": "Bowen Family Systems",
+   "family": [
+    "systems"
+   ],
+   "sourceDoc": "Systems Theories Review",
+   "changeMechanism": {
+    "text": "Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family.",
+    "sourceLine": "Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family.",
+    "sourceDoc": "Systems Theories Review",
+    "blocks": [
+     4
+    ]
+   },
+   "therapistRoles": [
+    {
+     "text": "Coach/educator",
+     "sourceLine": "Coach/educator",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      6
+     ]
+    },
+    {
+     "text": "Supervisor",
+     "sourceLine": "Supervisor",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      7
+     ]
+    },
+    {
+     "text": "Investigator",
+     "sourceLine": "Investigator",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      8
+     ]
+    },
+    {
+     "text": "Neutral",
+     "sourceLine": "Neutral",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      9
+     ]
+    }
+   ],
+   "goals": [
+    {
+     "text": "Reduce anxiety and emotional turmoil in family system",
+     "sourceLine": "Reduce anxiety and emotional turmoil in family system",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      11
+     ]
+    },
+    {
+     "text": "Self-differentiation within the context of family",
+     "sourceLine": "Self-differentiation within the context of family",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      12
+     ]
+    },
+    {
+     "text": "Decrease emotional fusion",
+     "sourceLine": "Decrease emotional fusion",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      13
+     ]
+    },
+    {
+     "text": "Improve communication skills, teaching I statements.",
+     "sourceLine": "Improve communication skills, teaching I statements.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      14
+     ]
+    },
+    {
+     "text": "Decrease recurrence of dysfunctional patterns",
+     "sourceLine": "Decrease recurrence of dysfunctional patterns",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      15
+     ]
+    },
+    {
+     "text": "Reduce emotional reactivity",
+     "sourceLine": "Reduce emotional reactivity",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      16
+     ]
+    },
+    {
+     "text": "Facilitate de-triangulation",
+     "sourceLine": "Facilitate de-triangulation",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      17
+     ]
+    }
+   ],
+   "concepts": [
+    {
+     "term": "Triangles (Triangulation)",
+     "definition": "A triangle is a three-person relationship system. It is considered the building block or “molecule” of larger emotional systems because a triangle is the smallest stable relationship system. It could be work, or a substance, not just another person.",
+     "sourceLine": "Triangles (Triangulation): A triangle is a three-person relationship system. It is considered the building block or “molecule” of larger emotional systems because a triangle is the smallest stable relationship system. It could be work, or a substance, not just another person.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      19,
+      20
+     ]
+    },
+    {
+     "term": "Differentiation of Self",
+     "definition": "Families and other social groups tremendously affect how people think, feel, and act, but individuals vary in their susceptibility to a “group think” and groups vary in the amount of pressure they exert for conformity. These differences between individuals and between groups reflect differences in people’s levels of differentiation of self. Differentiation of Self refers to a person’s ability to maintain their sense of self while remaining emotionally connected to others. It reflects how well someone can balance thinking vs. feeling, and autonomy vs. intimacy, especially under stress.",
+     "sourceLine": "Differentiation of Self: Families and other social groups tremendously affect how people think, feel, and act, but individuals vary in their susceptibility to a “group think” and groups vary in the amount of pressure they exert for conformity. These differences between individuals and between groups reflect differences in people’s levels of differentiation of self. Differentiation of Self refers to a person’s ability to maintain their sense of self while remaining emotionally connected to others. It reflects how well someone can balance thinking vs. feeling, and autonomy vs. intimacy, especially under stress.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      21,
+      22
+     ]
+    },
+    {
+     "term": "Nuclear Family Emotional System",
+     "definition": "The concept of the nuclear family emotional system describes four basic relationship patterns that govern where problems develop in a family. Effects overall differentiation. Emotional distance, dysfunction in parent or impairment in child, conflict.",
+     "sourceLine": "Nuclear Family Emotional System: The concept of the nuclear family emotional system describes four basic relationship patterns that govern where problems develop in a family. Effects overall differentiation. Emotional distance, dysfunction in parent or impairment in child, conflict.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      23,
+      24,
+      25
+     ]
+    },
+    {
+     "term": "Family Projection Process",
+     "definition": "The family projection process describes the primary way parents transmit their emotional problems to a child. The projection process can impair the functioning of one or more children and increase their vulnerability to clinical symptoms. Example: parents show no conflict or are too argumentative in front of kids",
+     "sourceLine": "Family Projection Process: The family projection process describes the primary way parents transmit their emotional problems to a child. The projection process can impair the functioning of one or more children and increase their vulnerability to clinical symptoms. Example: parents show no conflict or are too argumentative in front of kids",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      28,
+      29,
+      30,
+      31
+     ]
+    },
+    {
+     "term": "Multigenerational Transmission Process",
+     "definition": "The concept of the multigenerational transmission process describes how small differences in the levels of differentiation between parents and their offspring lead over many generations to marked differences in differentiation among the members of a multigenerational family.",
+     "sourceLine": "Multigenerational Transmission Process: The concept of the multigenerational transmission process describes how small differences in the levels of differentiation between parents and their offspring lead over many generations to marked differences in differentiation among the members of a multigenerational family.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      35,
+      36,
+      37,
+      38
+     ]
+    },
+    {
+     "term": "Emotional Cutoff",
+     "definition": "The concept of emotional cutoff describes people managing their unresolved emotional issues with parents, siblings, and other family members by reducing or totally cutting off emotional contact with them.",
+     "sourceLine": "Emotional Cutoff: The concept of emotional cutoff describes people managing their unresolved emotional issues with parents, siblings, and other family members by reducing or totally cutting off emotional contact with them.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      52,
+      53,
+      54
+     ]
+    },
+    {
+     "term": "Genogram",
+     "definition": "Extensive study of family’s history. Acts both as an assessment and treatment tool.",
+     "sourceLine": "Genogram: Extensive study of family’s history. Acts both as an assessment and treatment tool.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      55,
+      56
+     ]
+    }
+   ],
+   "interventions": [
+    {
+     "term": "Reduce emotional reactivity",
+     "definition": "by having family members talk to the therapist.",
+     "sourceLine": "Reduce emotional reactivity by having family members talk to the therapist.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      58
+     ]
+    },
+    {
+     "term": "Reframing",
+     "definition": "The presenting problem as a multigenerational problem that is caused by factors beyond the individual. Reframing issues as multigenerational issue.",
+     "sourceLine": "Reframing: The presenting problem as a multigenerational problem that is caused by factors beyond the individual. Reframing issues as multigenerational issue.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      59,
+      60
+     ]
+    },
+    {
+     "term": "Genogram",
+     "definition": "Create a multigenerational map of family emotional system.",
+     "sourceLine": "Genogram: Create a multigenerational map of family emotional system.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      61
+     ]
+    },
+    {
+     "term": "De-triangulation",
+     "definition": "Therapist becomes part of a \"healthy triangle\" where the therapist teaches the couple to manage their own anxiety, distance, and closeness in healthy ways. Therapist will be very conscious to not take sides, and supporting communication between family members.",
+     "sourceLine": "De-triangulation: Therapist becomes part of a \"healthy triangle\" where the therapist teaches the couple to manage their own anxiety, distance, and closeness in healthy ways. Therapist will be very conscious to not take sides, and supporting communication between family members.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      62,
+      63,
+      64
+     ]
+    },
+    {
+     "term": "Increasing Differentiation",
+     "definition": "By forming supportive relationship with family members to explore the origins and effects of their families beliefs and behaviors.",
+     "sourceLine": "Increasing Differentiation: By forming supportive relationship with family members to explore the origins and effects of their families beliefs and behaviors.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      65,
+      66
+     ]
+    },
+    {
+     "term": "Teaching “I” Statements",
+     "definition": "Increases differentiation and improves communication.",
+     "sourceLine": "Teaching “I” Statements: Increases differentiation and improves communication.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      67
+     ]
+    },
+    {
+     "term": "Opening Cutoff Relationships",
+     "definition": "Encouraging and supporting clients to re-engage with estranged family members.",
+     "sourceLine": "Opening Cutoff Relationships: Encouraging and supporting clients to re-engage with estranged family members.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      68,
+      69
+     ]
+    },
+    {
+     "term": "Interacts with Family",
+     "definition": "Interrupts arguments – open conflict is prohibited as it raises anxiety.",
+     "sourceLine": "Interacts with Family: Interrupts arguments – open conflict is prohibited as it raises anxiety.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      70,
+      71
+     ]
+    },
+    {
+     "term": "Models",
+     "definition": "Demonstrates new ways to interact and communicate.",
+     "sourceLine": "Models: Demonstrates new ways to interact and communicate.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      72
+     ]
+    },
+    {
+     "term": "Bibliotherapy",
+     "definition": "Assigning reading material.",
+     "sourceLine": "Bibliotherapy: Assigning reading material.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      73
+     ]
+    }
+   ],
+   "phases": {
+    "beginning": [
+     {
+      "text": "Create a family diagram of multigenerational emotional connections, genogram",
+      "sourceLine": "Create a family diagram of multigenerational emotional connections, genogram",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       76
+      ]
+     },
+     {
+      "text": "Assess individuals’ levels of differentiation and triangulation",
+      "sourceLine": "Assess individuals’ levels of differentiation and triangulation",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       77
+      ]
+     },
+     {
+      "text": "identify dysfunctional patterns that have been passed along through the generations.",
+      "sourceLine": "identify dysfunctional patterns that have been passed along through the generations.",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       78
+      ]
+     }
+    ],
+    "middle": [
+     {
+      "text": "Teach and model differentiation through communication skill building, I-statements, teaching differences between thoughts and feelings, as well as differentiate their feelings from other people.",
+      "sourceLine": "Teach and model differentiation through communication skill building, I-statements, teaching differences between thoughts and feelings, as well as differentiate their feelings from other people.",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       80
+      ]
+     },
+     {
+      "text": "De-triangulation, identifying the triangles, and exploring how that has been something that has been passed down. De-pathologizing the individual and looking at it through a family systems lens.",
+      "sourceLine": "De-triangulation, identifying the triangles, and exploring how that has been something that has been passed down. De-pathologizing the individual and looking at it through a family systems lens.",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       81
+      ]
+     },
+     {
+      "text": "encourage reunification from cutoff family members",
+      "sourceLine": "encourage reunification from cutoff family members",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       82
+      ]
+     },
+     {
+      "text": "teach the family how to take responsibility for their feelings and thoughts.",
+      "sourceLine": "teach the family how to take responsibility for their feelings and thoughts.",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       83
+      ]
+     }
+    ],
+    "end": [
+     {
+      "text": "Review new skills and knowledge gained in therapy.",
+      "sourceLine": "Review new skills and knowledge gained in therapy.",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       85
+      ]
+     }
+    ]
+   },
+   "examTips": [
+    {
+     "text": "Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family.",
+     "sourceLine": "Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "id": "strategic",
+   "name": "Strategic Therapy",
+   "family": [
+    "systems"
+   ],
+   "sourceDoc": "Systems Theories Review",
+   "changeMechanism": {
+    "text": "Change occurs through action-oriented directives and paradoxical interventions. Very focused on specific problems.",
+    "sourceLine": "Change occurs through action-oriented directives and paradoxical interventions. Very focused on specific problems.",
+    "sourceDoc": "Systems Theories Review",
+    "blocks": [
+     88
+    ]
+   },
+   "therapistRoles": [
+    {
+     "text": "Therapist delivers directives that facilitate change, particularly around patterns of communication.",
+     "sourceLine": "Therapist delivers directives that facilitate change, particularly around patterns of communication.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      90
+     ]
+    },
+    {
+     "text": "Focuses on solving problem/eliminating symptoms",
+     "sourceLine": "Focuses on solving problem/eliminating symptoms",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      91
+     ]
+    },
+    {
+     "text": "Designs a specific approach for each person’s presenting problem",
+     "sourceLine": "Designs a specific approach for each person’s presenting problem",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      92
+     ]
+    }
+   ],
+   "goals": [
+    {
+     "text": "Solve the presenting problems",
+     "sourceLine": "Solve the presenting problems",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      94
+     ]
+    },
+    {
+     "text": "Change dysfunctional patterns of interaction",
+     "sourceLine": "Change dysfunctional patterns of interaction",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      95
+     ]
+    }
+   ],
+   "concepts": [],
+   "interventions": [
+    {
+     "term": "Paradoxical Directives",
+     "definition": "Maneuvers that are in apparent contradiction to the goals of therapy, yet are actually designed to achieve them; paradoxical interventions help avoid confrontation with therapist’s instructions; undermines resistance by keeping clients in charge.",
+     "sourceLine": "Paradoxical Directives: Maneuvers that are in apparent contradiction to the goals of therapy, yet are actually designed to achieve them; paradoxical interventions help avoid confrontation with therapist’s instructions; undermines resistance by keeping clients in charge.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      97,
+      98,
+      99,
+      100
+     ]
+    },
+    {
+     "term": "Positioning",
+     "definition": "Therapist takes a more exaggerated and extreme view of the problem and the family is obligated to rebel. That leads to them seeing the ways in which they have Competency. (T says your family is completely hopeless w hopes they’d say no its not)",
+     "sourceLine": "Positioning: Therapist takes a more exaggerated and extreme view of the problem and the family is obligated to rebel. That leads to them seeing the ways in which they have Competency. (T says your family is completely hopeless w hopes they’d say no its not)",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      101,
+      102,
+      103
+     ]
+    },
+    {
+     "term": "Homework",
+     "definition": "Assignments or directives that take place outside of therapy are essential to the therapy having a successful outcome. The underlying goal of the homework is to try to change the way the family dynamics function around the presenting problem that was identified in session.",
+     "sourceLine": "Homework: Assignments or directives that take place outside of therapy are essential to the therapy having a successful outcome. The underlying goal of the homework is to try to change the way the family dynamics function around the presenting problem that was identified in session.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      104,
+      105,
+      106,
+      107
+     ]
+    },
+    {
+     "term": "Prescribing the Symptom",
+     "definition": "A strategy in which the therapist encourages or instructs the client to engage in or practice the symptom. ie schedule a fight or schedule a worry time.",
+     "sourceLine": "Prescribing the Symptom: A strategy in which the therapist encourages or instructs the client to engage in or practice the symptom. ie schedule a fight or schedule a worry time.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      108,
+      109
+     ]
+    },
+    {
+     "term": "Restraining",
+     "definition": "The therapist will discourage change or changing too quickly in an effort to elicit the desire to change from the client.",
+     "sourceLine": "Restraining: The therapist will discourage change or changing too quickly in an effort to elicit the desire to change from the client.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      110,
+      111
+     ]
+    },
+    {
+     "term": "Ordeals",
+     "definition": "Particular type of symptom prescription in which clients are encouraged to carry out harmless but unpleasant tasks whenever symptoms occur; example: having to get up and clean the basement every time the client cannot sleep.",
+     "sourceLine": "Ordeals: Particular type of symptom prescription in which clients are encouraged to carry out harmless but unpleasant tasks whenever symptoms occur; example: having to get up and clean the basement every time the client cannot sleep.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      112,
+      113,
+      114
+     ]
+    }
+   ],
+   "phases": {
+    "beginning": [
+     {
+      "text": "Define the problem",
+      "sourceLine": "Define the problem",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       117
+      ]
+     },
+     {
+      "text": "determine how the client understands the problem",
+      "sourceLine": "determine how the client understands the problem",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       118
+      ]
+     },
+     {
+      "text": "assess family’s destructive patterns of relating and communicating the continued problem",
+      "sourceLine": "assess family’s destructive patterns of relating and communicating the continued problem",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       119
+      ]
+     },
+     {
+      "text": "state goals– what behaviors need to change and what would be the signs of change.",
+      "sourceLine": "state goals– what behaviors need to change and what would be the signs of change.",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       120
+      ]
+     }
+    ],
+    "middle": [
+     {
+      "text": "Review attempted solutions",
+      "sourceLine": "Review attempted solutions",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       122
+      ]
+     },
+     {
+      "text": "assign ordeals; prescribe the problem; relabel behavior",
+      "sourceLine": "assign ordeals; prescribe the problem; relabel behavior",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       123
+      ]
+     },
+     {
+      "text": "instruct client to respond to the problem in a new way.",
+      "sourceLine": "instruct client to respond to the problem in a new way.",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       124
+      ]
+     }
+    ],
+    "end": [
+     {
+      "text": "Plan for maintenance of new behavior",
+      "sourceLine": "Plan for maintenance of new behavior",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       126
+      ]
+     },
+     {
+      "text": "plan for future challenges",
+      "sourceLine": "plan for future challenges",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       127
+      ]
+     },
+     {
+      "text": "emphasize positive changes made.",
+      "sourceLine": "emphasize positive changes made.",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       128
+      ]
+     }
+    ]
+   },
+   "examTips": []
+  },
+  {
+   "id": "structural",
+   "name": "Structural Family Therapy",
+   "family": [
+    "systems"
+   ],
+   "sourceDoc": "Systems Theories Review",
+   "changeMechanism": {
+    "text": "Change occurs through restructuring the family’s organization. Very focused on entire organization of the whole family system. Looking at bigger picture of the family interactions.",
+    "sourceLine": "Change occurs through restructuring the family’s organization. Very focused on entire organization of the whole family system. Looking at bigger picture of the family interactions.",
+    "sourceDoc": "Systems Theories Review",
+    "blocks": [
+     131
+    ]
+   },
+   "therapistRoles": [
+    {
+     "text": "Therapist is active and involved. (friendly uncle? lol)",
+     "sourceLine": "Therapist is active and involved. (friendly uncle? lol)",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      133
+     ]
+    },
+    {
+     "text": "The therapist helps the family understand how family structure (relationships and hierarchies) can be changed, the impact of rituals and rules, and how new patterns of interaction can be integrated into the family.",
+     "sourceLine": "The therapist helps the family understand how family structure (relationships and hierarchies) can be changed, the impact of rituals and rules, and how new patterns of interaction can be integrated into the family.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      134
+     ]
+    },
+    {
+     "text": "Therapist role is to actively challenge the family's patterns of interaction, sometimes uses harsh criticism, unbalancing, therapist directs behaviors of family members in session during enactments, and instructions being followed leads to restructuring. Highlights positive behaviors. Therapist acts like a dramatic theater director.",
+     "sourceLine": "Therapist role is to actively challenge the family's patterns of interaction, sometimes uses harsh criticism, unbalancing, therapist directs behaviors of family members in session during enactments, and instructions being followed leads to restructuring. Highlights positive behaviors. Therapist acts like a dramatic theater director.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      135
+     ]
+    }
+   ],
+   "goals": [
+    {
+     "text": "Restructure family system to allow for symptom relief and constructive problem solving.",
+     "sourceLine": "Restructure family system to allow for symptom relief and constructive problem solving.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      137
+     ]
+    },
+    {
+     "text": "Change dysfunctional transactional patterns and create new ways of relating.",
+     "sourceLine": "Change dysfunctional transactional patterns and create new ways of relating.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      138
+     ]
+    },
+    {
+     "text": "Help create flexible boundaries.",
+     "sourceLine": "Help create flexible boundaries.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      139
+     ]
+    }
+   ],
+   "concepts": [
+    {
+     "term": "Alliances",
+     "definition": "Subgroups based on gender, generation, developmental tasks.",
+     "sourceLine": "Alliances: Subgroups based on gender, generation, developmental tasks.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      141
+     ]
+    },
+    {
+     "term": "Coalitions",
+     "definition": "Alignments where 2 or more family members join together to form a bond against another family member.",
+     "sourceLine": "Coalitions: Alignments where 2 or more family members join together to form a bond against another family member.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      142,
+      143
+     ]
+    },
+    {
+     "term": "Power Hierarchy",
+     "definition": "Leadership and direction must be provided by the adults, typically parents. Sometimes when parents are intimidated or insecure, the power is upside down and it leads to chaos.",
+     "sourceLine": "Power Hierarchy: Leadership and direction must be provided by the adults, typically parents. Sometimes when parents are intimidated or insecure, the power is upside down and it leads to chaos.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      144,
+      145,
+      146
+     ]
+    },
+    {
+     "term": "Subsystems",
+     "definition": "Families organize themselves by generation, relationship, and necessity. Examples: marital subsystem – spouses; parental subsystem: parents; executive subsystem: people who run the family; sibling subsystem – kids.",
+     "sourceLine": "Subsystems: Families organize themselves by generation, relationship, and necessity. Examples: marital subsystem – spouses; parental subsystem: parents; executive subsystem: people who run the family; sibling subsystem – kids.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      147,
+      148,
+      149
+     ]
+    },
+    {
+     "term": "Family Map",
+     "definition": "A tool the therapist will use to depict the relationship dynamics in the family including sub-systems, alliances, coalitions and boundaries. This tool is used to conceptualize the case outside of the actual therapy. It is not used or shared with the family.",
+     "sourceLine": "Family Map: A tool the therapist will use to depict the relationship dynamics in the family including sub-systems, alliances, coalitions and boundaries. This tool is used to conceptualize the case outside of the actual therapy. It is not used or shared with the family.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      150,
+      151,
+      152,
+      153
+     ]
+    },
+    {
+     "term": "Disengaged Boundaries",
+     "definition": "Where family members are isolated from each other. Can lead to AOD use and is a result of rigid boundaries.",
+     "sourceLine": "Disengaged Boundaries: Where family members are isolated from each other. Can lead to AOD use and is a result of rigid boundaries.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      154,
+      155
+     ]
+    },
+    {
+     "term": "Enmeshed Boundaries",
+     "definition": "Family members are overly dependent and too closely involved and reactive to other family members. Can lead to incest.",
+     "sourceLine": "Enmeshed Boundaries: Family members are overly dependent and too closely involved and reactive to other family members. Can lead to incest.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      156,
+      157
+     ]
+    }
+   ],
+   "interventions": [
+    {
+     "term": "Joining",
+     "definition": "Therapist’s first task; involves blending in with the family, adapting the family’s affect, style, and language.",
+     "sourceLine": "Joining: Therapist’s first task; involves blending in with the family, adapting the family’s affect, style, and language.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      159,
+      160
+     ]
+    },
+    {
+     "term": "Tracking",
+     "definition": "The therapist pays close attention to family members and how they relate to one another during an enactment or spontaneous behavioral sequence, noticing boundaries, coalitions, roles, rules, etc.",
+     "sourceLine": "Tracking: The therapist pays close attention to family members and how they relate to one another during an enactment or spontaneous behavioral sequence, noticing boundaries, coalitions, roles, rules, etc.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      161,
+      162
+     ]
+    },
+    {
+     "term": "Mimesis",
+     "definition": "The therapist tracks the family’s style of communication and uses it.",
+     "sourceLine": "Mimesis: The therapist tracks the family’s style of communication and uses it.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      163
+     ]
+    },
+    {
+     "term": "Unbalancing",
+     "definition": "Supporting someone who is in a one-down position, thus changing hierarchical position.",
+     "sourceLine": "Unbalancing: Supporting someone who is in a one-down position, thus changing hierarchical position.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      164,
+      165
+     ]
+    },
+    {
+     "term": "Reframe",
+     "definition": "Putting the presenting problem in a perspective that is both different from what the family brings and more workable.",
+     "sourceLine": "Reframe: Putting the presenting problem in a perspective that is both different from what the family brings and more workable.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      166,
+      167
+     ]
+    },
+    {
+     "term": "Enactment",
+     "definition": "The actualization of transactional patterns under the control of the therapist. It allows the therapist to observe how family members mutually regulate their behaviors, and to determine the place of the problem behavior within the sequence of transactions.",
+     "sourceLine": "Enactment: The actualization of transactional patterns under the control of the therapist. It allows the therapist to observe how family members mutually regulate their behaviors, and to determine the place of the problem behavior within the sequence of transactions.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      168,
+      169,
+      170
+     ]
+    },
+    {
+     "term": "Boundary Making",
+     "definition": "Special case of enactment, in which the therapist defines areas of interaction that he rules open to certain members but closed to others. Example: a son is asked to leave his chair (in between his parents) and go to another chair on the opposite side of the room, so that he is not “caught in the middle”",
+     "sourceLine": "Boundary Making: Special case of enactment, in which the therapist defines areas of interaction that he rules open to certain members but closed to others. Example: a son is asked to leave his chair (in between his parents) and go to another chair on the opposite side of the room, so that he is not “caught in the middle”",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      171,
+      172,
+      173,
+      174
+     ]
+    }
+   ],
+   "phases": {
+    "beginning": [
+     {
+      "text": "Join with family",
+      "sourceLine": "Join with family",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       178
+      ]
+     },
+     {
+      "text": "both accommodate to and challenge rules of family system",
+      "sourceLine": "both accommodate to and challenge rules of family system",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       179
+      ]
+     },
+     {
+      "text": "assessment/mapping of hierarchy alignments, and boundaries",
+      "sourceLine": "assessment/mapping of hierarchy alignments, and boundaries",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       180
+      ]
+     },
+     {
+      "text": "reframing of problem to include whole system.",
+      "sourceLine": "reframing of problem to include whole system.",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       181
+      ]
+     }
+    ],
+    "middle": [
+     {
+      "text": "Highlight and modify interactions",
+      "sourceLine": "Highlight and modify interactions",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       183
+      ]
+     },
+     {
+      "text": "utilize enactments of issues to challenge participants and unbalance the system.",
+      "sourceLine": "utilize enactments of issues to challenge participants and unbalance the system.",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       184
+      ]
+     }
+    ],
+    "end": [
+     {
+      "text": "Review progress made",
+      "sourceLine": "Review progress made",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       186
+      ]
+     },
+     {
+      "text": "reinforce structural change",
+      "sourceLine": "reinforce structural change",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       187
+      ]
+     },
+     {
+      "text": "provide tools for future.",
+      "sourceLine": "provide tools for future.",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       188
+      ]
+     }
+    ]
+   },
+   "examTips": []
+  },
+  {
+   "id": "satir",
+   "name": "Satir Communications Therapy",
+   "family": [
+    "systems",
+    "humanistic"
+   ],
+   "sourceDoc": "Systems Theories Review",
+   "changeMechanism": {
+    "text": "Change happens through self-awareness and improved communication. Humanistic approach.",
+    "sourceLine": "Change happens through self-awareness and improved communication. Humanistic approach.",
+    "sourceDoc": "Systems Theories Review",
+    "blocks": [
+     191,
+     192
+    ]
+   },
+   "therapistRoles": [
+    {
+     "text": "Active facilitator",
+     "sourceLine": "Active facilitator",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      194
+     ]
+    },
+    {
+     "text": "Resource detective",
+     "sourceLine": "Resource detective",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      195
+     ]
+    },
+    {
+     "text": "Therapist is genuine and warm",
+     "sourceLine": "Therapist is genuine and warm",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      196
+     ]
+    },
+    {
+     "text": "Honest and direct",
+     "sourceLine": "Honest and direct",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      197
+     ]
+    }
+   ],
+   "goals": [
+    {
+     "text": "The goal is for clients to increase congruent communication, improve self-esteem/confidence and personal growth.",
+     "sourceLine": "The goal is for clients to increase congruent communication, improve self-esteem/confidence and personal growth.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      199,
+      200
+     ]
+    }
+   ],
+   "concepts": [
+    {
+     "term": "Incongruent Communication",
+     "definition": "Discrepancies between verbal and non-verbal cues.",
+     "sourceLine": "Incongruent Communication: Discrepancies between verbal and non-verbal cues.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      202
+     ]
+    },
+    {
+     "term": "Styles of Communication",
+     "definition": "The rules that govern family interaction function as a method of ensuring the maintenance and preservation of the family’s current functioning level.",
+     "sourceLine": "Styles of Communication: The rules that govern family interaction function as a method of ensuring the maintenance and preservation of the family’s current functioning level.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      203,
+      204
+     ]
+    },
+    {
+     "term": "Placater",
+     "definition": "Apologizing, never disagreeing, trying to please.",
+     "sourceLine": "Placater: Apologizing, never disagreeing, trying to please.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      206
+     ]
+    },
+    {
+     "term": "Blamer",
+     "definition": "Attacking others, fault finder, dictator, boss.",
+     "sourceLine": "Blamer: Attacking others, fault finder, dictator, boss.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      207
+     ]
+    },
+    {
+     "term": "Computer",
+     "definition": "Super reasonable, intellectual, distant, always correct.",
+     "sourceLine": "Computer: Super reasonable, intellectual, distant, always correct.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      208
+     ]
+    },
+    {
+     "term": "Distracter",
+     "definition": "Seeking approval by acting out, irrelevant.",
+     "sourceLine": "Distracter: Seeking approval by acting out, irrelevant.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      209
+     ]
+    },
+    {
+     "term": "Leveler",
+     "definition": "Congruent in their beliefs about self and others.",
+     "sourceLine": "Leveler: Congruent in their beliefs about self and others.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      210
+     ]
+    }
+   ],
+   "interventions": [
+    {
+     "term": "Modeling Communication",
+     "definition": "Therapist uses “I” messages; expresses thoughts and feelings directly; avoids statements about what others are thinking or feeling; is honest.",
+     "sourceLine": "Modeling Communication: Therapist uses “I” messages; expresses thoughts and feelings directly; avoids statements about what others are thinking or feeling; is honest.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      211,
+      212
+     ]
+    },
+    {
+     "term": "Family Life Chronology",
+     "definition": "Gathering history as far back as possible. Include: ideology, values, rules, disruptions, moves, and major events. What the family has been through and how those events impact the family. How past events and unresolved issues are carried out presently.",
+     "sourceLine": "Family Life Chronology: Gathering history as far back as possible. Include: ideology, values, rules, disruptions, moves, and major events. What the family has been through and how those events impact the family. How past events and unresolved issues are carried out presently.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      213,
+      214,
+      215,
+      216
+     ]
+    },
+    {
+     "term": "Family Sculpting",
+     "definition": "Put people into a spatial metaphor – a physical representation of family members characterizations.",
+     "sourceLine": "Family Sculpting: Put people into a spatial metaphor – a physical representation of family members characterizations.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      217,
+      218
+     ]
+    },
+    {
+     "term": "Take Responsibility",
+     "definition": "Encouraging clients to take responsibility for how they felt, what they experienced, what meaning they made, what feelings they had about their feelings.",
+     "sourceLine": "Take Responsibility: Encouraging clients to take responsibility for how they felt, what they experienced, what meaning they made, what feelings they had about their feelings.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      219,
+      220
+     ]
+    },
+    {
+     "term": "Metaphors and Storytelling",
+     "definition": "Used to help clients understand their roles.",
+     "sourceLine": "Metaphors and Storytelling: Used to help clients understand their roles.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      221
+     ]
+    },
+    {
+     "term": "Transforming Rules",
+     "definition": "Assisting clients to create more functional, less rigid guidelines.",
+     "sourceLine": "Transforming Rules: Assisting clients to create more functional, less rigid guidelines.",
+     "sourceDoc": "Systems Theories Review",
+     "blocks": [
+      222
+     ]
+    }
+   ],
+   "phases": {
+    "beginning": [
+     {
+      "text": "Establish rapport, a sense of equality and hope",
+      "sourceLine": "Establish rapport, a sense of equality and hope",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       225
+      ]
+     },
+     {
+      "text": "Assess communication patterns, stances, and concerns.",
+      "sourceLine": "Assess communication patterns, stances, and concerns.",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       226
+      ]
+     },
+     {
+      "text": "Identify treatment focus and goals.",
+      "sourceLine": "Identify treatment focus and goals.",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       227
+      ]
+     }
+    ],
+    "middle": [
+     {
+      "text": "Increase the family’s congruent communication",
+      "sourceLine": "Increase the family’s congruent communication",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       229
+      ]
+     },
+     {
+      "text": "Support and strengthen each individual’s sense of uniqueness and self-esteem.",
+      "sourceLine": "Support and strengthen each individual’s sense of uniqueness and self-esteem.",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       230
+      ]
+     }
+    ],
+    "end": [
+     {
+      "text": "Help family practice implement and integrate changes and increase awareness of larger familial patterns.",
+      "sourceLine": "Help family practice implement and integrate changes and increase awareness of larger familial patterns.",
+      "sourceDoc": "Systems Theories Review",
+      "blocks": [
+       232,
+       233
+      ]
+     }
+    ]
+   },
+   "examTips": []
+  },
+  {
+   "id": "narrative",
+   "name": "Narrative Therapy",
+   "family": [
+    "postmodern"
+   ],
+   "sourceDoc": "Post Modern Therapies Review",
+   "changeMechanism": {
+    "text": "Change occurs by separating the person from the problem and by creating a new narrative which emphasizes the individual’s competencies and strengths.",
+    "sourceLine": "Change occurs by separating the person from the problem and by creating a new narrative which emphasizes the individual’s competencies and strengths.",
+    "sourceDoc": "Post Modern Therapies Review",
+    "blocks": [
+     3
+    ]
+   },
+   "therapistRoles": [
+    {
+     "text": "Collaborator",
+     "sourceLine": "Collaborator",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      5
+     ]
+    },
+    {
+     "text": "Investigator",
+     "sourceLine": "Investigator",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      6
+     ]
+    },
+    {
+     "text": "Views client as expert of their own life, maintains curious stance",
+     "sourceLine": "Views client as expert of their own life, maintains curious stance",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      7
+     ]
+    },
+    {
+     "text": "Co-author of client’s new narrative",
+     "sourceLine": "Co-author of client’s new narrative",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      8
+     ]
+    }
+   ],
+   "goals": [
+    {
+     "text": "Understand the problem-saturated story and externalize the problem",
+     "sourceLine": "Understand the problem-saturated story and externalize the problem",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      10
+     ]
+    },
+    {
+     "text": "Deconstruct problem-saturated stories in order to create healthier narratives",
+     "sourceLine": "Deconstruct problem-saturated stories in order to create healthier narratives",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      11
+     ]
+    },
+    {
+     "text": "Bring greater awareness to client's strengths and competencies",
+     "sourceLine": "Bring greater awareness to client's strengths and competencies",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      12
+     ]
+    },
+    {
+     "text": "Increase client’s sense of control over the direction of their life",
+     "sourceLine": "Increase client’s sense of control over the direction of their life",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      13
+     ]
+    }
+   ],
+   "concepts": [
+    {
+     "term": "Problem-Saturated Stories",
+     "definition": "The dominant and unhealthy stories an individual tells themselves. These are often the stories that bring people to therapy.",
+     "sourceLine": "Problem-Saturated Stories: The dominant and unhealthy stories an individual tells themselves. These are often the stories that bring people to therapy.",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      15
+     ]
+    },
+    {
+     "term": "Alternate Stories",
+     "definition": "The new and preferred or healthier stories an individual develops.",
+     "sourceLine": "Alternate Stories: The new and preferred or healthier stories an individual develops.",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      16
+     ]
+    },
+    {
+     "term": "Thick Story",
+     "definition": "The dominant narrative that the person maintains. This story has been repeated over time and is very detailed and usually problem-saturated.",
+     "sourceLine": "Thick Story: The dominant narrative that the person maintains. This story has been repeated over time and is very detailed and usually problem-saturated.",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      17
+     ]
+    },
+    {
+     "term": "Thin Story",
+     "definition": "The alternate story being developed, which has minimal details. A goal is to build on this story and make it thicker.",
+     "sourceLine": "Thin Story: The alternate story being developed, which has minimal details. A goal is to build on this story and make it thicker.",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      18
+     ]
+    }
+   ],
+   "interventions": [
+    {
+     "term": "Externalizing the Problem",
+     "definition": "This is a type of intervention. The therapist asks questions that are designed to separate the person from the problem.",
+     "sourceLine": "Externalizing the Problem: This is a type of intervention. The therapist asks questions that are designed to separate the person from the problem.",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      19
+     ]
+    },
+    {
+     "term": "Deconstructive Questions",
+     "definition": "This is a type of intervention. Once the problem is externalized, the therapist will ask various questions designed to pull apart or dismantle the client’s problem-saturated stories.",
+     "sourceLine": "Deconstructive Questions: This is a type of intervention. Once the problem is externalized, the therapist will ask various questions designed to pull apart or dismantle the client’s problem-saturated stories.",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      20
+     ]
+    },
+    {
+     "term": "Mapping the Influence",
+     "definition": "This is a type of intervention. The therapist asks a series of questions to understand the effects of the problem in the client’s life.",
+     "sourceLine": "Mapping the Influence: This is a type of intervention. The therapist asks a series of questions to understand the effects of the problem in the client’s life.",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      21
+     ]
+    },
+    {
+     "term": "Unique Outcomes",
+     "definition": "This is a type of intervention. The therapist asks questions to highlight times in the client’s life when they were able to resist the effects of the problem. This is a prerequisite for re-authoring the client’s story.",
+     "sourceLine": "Unique Outcomes: This is a type of intervention. The therapist asks questions to highlight times in the client’s life when they were able to resist the effects of the problem. This is a prerequisite for re-authoring the client’s story.",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      22
+     ]
+    },
+    {
+     "term": "Enlisting a Witness",
+     "definition": "This is a type of intervention. The client invites someone in their life to hear them share the new narrative. This person bears witness to the client’s telling of the new story and becomes an ally to strengthen or thicken this new story.",
+     "sourceLine": "Enlisting a Witness: This is a type of intervention. The client invites someone in their life to hear them share the new narrative. This person bears witness to the client’s telling of the new story and becomes an ally to strengthen or thicken this new story.",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      23
+     ]
+    },
+    {
+     "term": "Written Artifact",
+     "definition": "This is a type of intervention. It is some form or written documentation that reinforces the client’s new story.",
+     "sourceLine": "Written Artifact: This is a type of intervention. It is some form or written documentation that reinforces the client’s new story.",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      24
+     ]
+    },
+    {
+     "term": "Re-authoring the story",
+     "definition": "Assist client in reauthoring their story",
+     "sourceLine": "Assist client in reauthoring their story",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      30
+     ]
+    }
+   ],
+   "phases": {
+    "beginning": [
+     {
+      "text": "Beginning: Client is invited to tell their problem-saturated stories.",
+      "sourceLine": "Beginning: Client is invited to tell their problem-saturated stories.",
+      "sourceDoc": "Post Modern Therapies Review",
+      "blocks": [
+       33
+      ]
+     }
+    ],
+    "middle": [
+     {
+      "text": "The problem is externalized",
+      "sourceLine": "The problem is externalized",
+      "sourceDoc": "Post Modern Therapies Review",
+      "blocks": [
+       35
+      ]
+     },
+     {
+      "text": "mapping the influence/effects of the problem",
+      "sourceLine": "mapping the influence/effects of the problem",
+      "sourceDoc": "Post Modern Therapies Review",
+      "blocks": [
+       36
+      ]
+     },
+     {
+      "text": "identify/explore unique outcomes",
+      "sourceLine": "identify/explore unique outcomes",
+      "sourceDoc": "Post Modern Therapies Review",
+      "blocks": [
+       37
+      ]
+     },
+     {
+      "text": "re-author story",
+      "sourceLine": "re-author story",
+      "sourceDoc": "Post Modern Therapies Review",
+      "blocks": [
+       38
+      ]
+     },
+     {
+      "text": "enlist a witness.",
+      "sourceLine": "enlist a witness.",
+      "sourceDoc": "Post Modern Therapies Review",
+      "blocks": [
+       39
+      ]
+     }
+    ],
+    "end": [
+     {
+      "text": "Create written artifacts",
+      "sourceLine": "Create written artifacts",
+      "sourceDoc": "Post Modern Therapies Review",
+      "blocks": [
+       41
+      ]
+     },
+     {
+      "text": "document and support new narrative",
+      "sourceLine": "document and support new narrative",
+      "sourceDoc": "Post Modern Therapies Review",
+      "blocks": [
+       42
+      ]
+     },
+     {
+      "text": "write letters to self and others",
+      "sourceLine": "write letters to self and others",
+      "sourceDoc": "Post Modern Therapies Review",
+      "blocks": [
+       43
+      ]
+     }
+    ]
+   },
+   "examTips": []
+  },
+  {
+   "id": "solution-focused",
+   "name": "Solution-Focused Therapy",
+   "family": [
+    "postmodern"
+   ],
+   "sourceDoc": "Post Modern Therapies Review",
+   "changeMechanism": {
+    "text": "Change occurs through accessing client’s strengths and resources. Emphasizes finding solutions to a problem, not on discovering the cause or origins of the problem.",
+    "sourceLine": "Change occurs through accessing client’s strengths and resources. Emphasizes finding solutions to a problem, not on discovering the cause or origins of the problem.",
+    "sourceDoc": "Post Modern Therapies Review",
+    "blocks": [
+     46,
+     47
+    ]
+   },
+   "therapistRoles": [
+    {
+     "text": "Therapist is a consultant, coach",
+     "sourceLine": "Therapist is a consultant, coach",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      49
+     ]
+    }
+   ],
+   "goals": [
+    {
+     "text": "Client implements small and large changes to achieve their preferred future",
+     "sourceLine": "Client implements small and large changes to achieve their preferred future",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      51
+     ]
+    },
+    {
+     "text": "Client builds on current strengths and resources",
+     "sourceLine": "Client builds on current strengths and resources",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      52
+     ]
+    }
+   ],
+   "concepts": [],
+   "interventions": [
+    {
+     "term": "Exception Questioning",
+     "definition": "The therapist asks the client to think of a time in their life when the particular problem did not exist and what the client did differently during this time. The goal here is to focus on what has worked in the past to provide the client with a positive perspective. Example: “Tell me about the times when you don’t get angry.”",
+     "sourceLine": "Exception Questioning: The therapist asks the client to think of a time in their life when the particular problem did not exist and what the client did differently during this time. The goal here is to focus on what has worked in the past to provide the client with a positive perspective. Example: “Tell me about the times when you don’t get angry.”",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      54,
+      55,
+      56
+     ]
+    },
+    {
+     "term": "Formula First Session Task (FFST)",
+     "definition": "A homework task to observe what’s already working “Between now and our next meeting, observe what happens in your life that you’d like to continue.”",
+     "sourceLine": "Formula First Session Task (FFST) A homework task to observe what’s already working “Between now and our next meeting, observe what happens in your life that you’d like to continue.”",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      57
+     ]
+    },
+    {
+     "term": "Miracle Questioning",
+     "definition": "The therapist asks the client to envision how the future will be when the problem no longer exists and what their life looks like then. Example: “Imagine that tomorrow morning you wake up and a miracle has happened. What would be different that will tell you a miracle has happened and your problem has been solved?”",
+     "sourceLine": "Miracle Questioning: The therapist asks the client to envision how the future will be when the problem no longer exists and what their life looks like then. Example: “Imagine that tomorrow morning you wake up and a miracle has happened. What would be different that will tell you a miracle has happened and your problem has been solved?”",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      58,
+      59,
+      60,
+      61
+     ]
+    },
+    {
+     "term": "Scaling Questions",
+     "definition": "The therapist asks the client to think of a scale ranging from the worst things could be to the best. The client then rates their current position on the scale and is asked to identify how they could move up or down the scale. The client is also encouraged to identify what point on the scale would be good enough or where their “perfect future” is. Example: “You said that things are between a 4 and a 5. What would need to happen so that things were between a 5 and 6?”",
+     "sourceLine": "Scaling Questions: The therapist asks the client to think of a scale ranging from the worst things could be to the best. The client then rates their current position on the scale and is asked to identify how they could move up or down the scale. The client is also encouraged to identify what point on the scale would be good enough or where their “perfect future” is. Example: “You said that things are between a 4 and a 5. What would need to happen so that things were between a 5 and 6?”",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+     ]
+    },
+    {
+     "term": "Presupposing Change",
+     "definition": "Rather than focusing on the problem that brought the client in, the therapist can ask the client questions to focus on the positive changes that have been occurring. Example: “What’s different or better since the last time we met?”",
+     "sourceLine": "Presupposing Change: Rather than focusing on the problem that brought the client in, the therapist can ask the client questions to focus on the positive changes that have been occurring. Example: “What’s different or better since the last time we met?”",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      68,
+      69,
+      70
+     ]
+    },
+    {
+     "term": "Coping Questions",
+     "definition": "If a client has trouble identifying positive change, coping questions are asked by the therapist in order to illustrate resources that the client already has. This can include validating the client’s difficulties while also showing that they are still able to get up in the morning, go to school, etc. This highlights the client’s strengths without undermining their view of reality. These questions are supportive while also challenging the client and shifting the focus away from problem-focused narratives. Example: “How do you keep going each day even when it feels like there is no hope?”",
+     "sourceLine": "Coping Questions: If a client has trouble identifying positive change, coping questions are asked by the therapist in order to illustrate resources that the client already has. This can include validating the client’s difficulties while also showing that they are still able to get up in the morning, go to school, etc. This highlights the client’s strengths without undermining their view of reality. These questions are supportive while also challenging the client and shifting the focus away from problem-focused narratives. Example: “How do you keep going each day even when it feels like there is no hope?”",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      71,
+      72
+     ]
+    },
+    {
+     "term": "Affirmations/Compliments",
+     "definition": "Regularly acknowledge progress, strengths, and resources. Example: Tell the client, \"I am impressed you are sitting in that chair again after what you just went through.\"",
+     "sourceLine": "Affirmations/Compliments: Regularly acknowledge progress, strengths, and resources. Example: Tell the client, \"I am impressed you are sitting in that chair again after what you just went through.\"",
+     "sourceDoc": "Post Modern Therapies Review",
+     "blocks": [
+      73
+     ]
+    }
+   ],
+   "phases": {
+    "beginning": [
+     {
+      "text": "Join with client competencies",
+      "sourceLine": "Join with client competencies",
+      "sourceDoc": "Post Modern Therapies Review",
+      "blocks": [
+       76
+      ]
+     },
+     {
+      "text": "envision preferred future",
+      "sourceLine": "envision preferred future",
+      "sourceDoc": "Post Modern Therapies Review",
+      "blocks": [
+       77
+      ]
+     },
+     {
+      "text": "begin to identify client’s strengths",
+      "sourceLine": "begin to identify client’s strengths",
+      "sourceDoc": "Post Modern Therapies Review",
+      "blocks": [
+       78
+      ]
+     },
+     {
+      "text": "use solution-oriented language",
+      "sourceLine": "use solution-oriented language",
+      "sourceDoc": "Post Modern Therapies Review",
+      "blocks": [
+       79
+      ]
+     },
+     {
+      "text": "come up with achievable goals.",
+      "sourceLine": "come up with achievable goals.",
+      "sourceDoc": "Post Modern Therapies Review",
+      "blocks": [
+       80
+      ]
+     }
+    ],
+    "middle": [
+     {
+      "text": "Identify strengths resources, and traits client already has used to deal with problem",
+      "sourceLine": "Identify strengths resources, and traits client already has used to deal with problem",
+      "sourceDoc": "Post Modern Therapies Review",
+      "blocks": [
+       82
+      ]
+     },
+     {
+      "text": "utilize solution-talk",
+      "sourceLine": "utilize solution-talk",
+      "sourceDoc": "Post Modern Therapies Review",
+      "blocks": [
+       83
+      ]
+     },
+     {
+      "text": "identify exceptions to problems",
+      "sourceLine": "identify exceptions to problems",
+      "sourceDoc": "Post Modern Therapies Review",
+      "blocks": [
+       84
+      ]
+     },
+     {
+      "text": "utilize scaling questions to reflect on the nature of change the client has experienced feedback to clients that include compliments and tasks",
+      "sourceLine": "utilize scaling questions to reflect on the nature of change the client has experienced feedback to clients that include compliments and tasks",
+      "sourceDoc": "Post Modern Therapies Review",
+      "blocks": [
+       85
+      ]
+     },
+     {
+      "text": "catch and highlight small changes",
+      "sourceLine": "catch and highlight small changes",
+      "sourceDoc": "Post Modern Therapies Review",
+      "blocks": [
+       86
+      ]
+     },
+     {
+      "text": "compliments/cheerleading.",
+      "sourceLine": "compliments/cheerleading.",
+      "sourceDoc": "Post Modern Therapies Review",
+      "blocks": [
+       87
+      ]
+     }
+    ],
+    "end": [
+     {
+      "text": "Assist the client to identify things they can do to continue the changes they have made identify hurdles or perceived barriers that could get in the way of the changes they made.",
+      "sourceLine": "Assist the client to identify things they can do to continue the changes they have made identify hurdles or perceived barriers that could get in the way of the changes they made.",
+      "sourceDoc": "Post Modern Therapies Review",
+      "blocks": [
+       89
+      ]
+     }
+    ]
+   },
+   "examTips": []
+  },
+  {
+   "id": "object-relations",
+   "name": "Object Relations",
+   "family": [
+    "psychodynamic"
+   ],
+   "sourceDoc": "Psychodynamic",
+   "changeMechanism": {
+    "text": "Change occurs through both reparative experiences within the treatment relationship (relationship with therapist) insight into and modification of entrenched object relations pathology.",
+    "sourceLine": "Change occurs through both reparative experiences within the treatment relationship (relationship with therapist) insight into and modification of entrenched object relations pathology.",
+    "sourceDoc": "Psychodynamic",
+    "blocks": [
+     3,
+     4
+    ]
+   },
+   "therapistRoles": [
+    {
+     "text": "Neutral",
+     "sourceLine": "Neutral",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      6
+     ]
+    },
+    {
+     "text": "Emphasis on transference and countertransference, paying attention to that",
+     "sourceLine": "Emphasis on transference and countertransference, paying attention to that",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      7
+     ]
+    },
+    {
+     "text": "Therapist as a new and good object",
+     "sourceLine": "Therapist as a new and good object",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      8
+     ]
+    }
+   ],
+   "goals": [
+    {
+     "text": "Providing reparative experiences and building new internal structures (new internal structures is the idea that person would have views of self that would allow for them to be able to rely on their own self talk and self soothing that is more positive and more resilient).",
+     "sourceLine": "Providing reparative experiences and building new internal structures (new internal structures is the idea that person would have views of self that would allow for them to be able to rely on their own self talk and self soothing that is more positive and more resilient).",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      10
+     ]
+    },
+    {
+     "text": "Gaining insight into how past relationships impact client’s functioning, how feelings and experiences are continued to be connected to their past.",
+     "sourceLine": "Gaining insight into how past relationships impact client’s functioning, how feelings and experiences are continued to be connected to their past.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      11
+     ]
+    },
+    {
+     "text": "Improving relationships with self and others",
+     "sourceLine": "Improving relationships with self and others",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      12
+     ]
+    }
+   ],
+   "concepts": [
+    {
+     "term": "Objects",
+     "definition": "Refers to persons in the external world. Individuals seek objects (others) from birth. We are inherently object seeking, wanting to connect to others.",
+     "sourceLine": "Objects: Refers to persons in the external world. Individuals seek objects (others) from birth. We are inherently object seeking, wanting to connect to others.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      14
+     ]
+    },
+    {
+     "term": "Internalization",
+     "definition": "Early infant-caretaker interactions lead to the person internalizing basic attitudes toward self and other, characteristic relational patterns, and a repertoire of defenses and internal capacities. If mom is warm and caring towards infant, then infant and child takes in that attitude about themselves and the world. A child who grew up with angry parents, the world is hostile, and the world is hostile to me, so I must be bad.",
+     "sourceLine": "Internalization: Early infant-caretaker interactions lead to the person internalizing basic attitudes toward self and other, characteristic relational patterns, and a repertoire of defenses and internal capacities. If mom is warm and caring towards infant, then infant and child takes in that attitude about themselves and the world. A child who grew up with angry parents, the world is hostile, and the world is hostile to me, so I must be bad.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      15
+     ]
+    },
+    {
+     "term": "Self- and Object-Representations",
+     "definition": "Infants form images of themselves and others. Once formed, they are fundamental internal structures that affect the ways in which individuals view themselves and others. These are created from the internalization process. Can create a false self disconnected from the true self.",
+     "sourceLine": "Self- and Object-Representations: Infants form images of themselves and others. Once formed, they are fundamental internal structures that affect the ways in which individuals view themselves and others. These are created from the internalization process. Can create a false self disconnected from the true self.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      16
+     ]
+    },
+    {
+     "term": "Ego",
+     "definition": "The structure responsible for dealing with the world, for instituting defense Mechanisms (ie projection), for internalizing external objects, and for integrating and synthesizing self-and object-representations.",
+     "sourceLine": "Ego: The structure responsible for dealing with the world, for instituting defense Mechanisms (ie projection), for internalizing external objects, and for integrating and synthesizing self-and object-representations.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      17,
+      18
+     ]
+    },
+    {
+     "term": "Splitting",
+     "definition": "When two contradictory states, such as love and hate, are compartmentalized and not integrated. Somebody is either all good, or all bad. Very extreme views of people, and it can switch quickly. Therapist will want to bring these two contradictions together: your friend did something hurtful, and there are things about them you really like. Are people allowed to make mistakes, and can we recover from that? Wanting to put these two extremes together.",
+     "sourceLine": "Splitting: When two contradictory states, such as love and hate, are compartmentalized and not integrated. Somebody is either all good, or all bad. Very extreme views of people, and it can switch quickly. Therapist will want to bring these two contradictions together: your friend did something hurtful, and there are things about them you really like. Are people allowed to make mistakes, and can we recover from that? Wanting to put these two extremes together.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      19
+     ]
+    },
+    {
+     "term": "Projection",
+     "definition": "Involves projecting undesirable feelings or emotions onto someone else, rather than admitting to or dealing with the unwanted feelings.",
+     "sourceLine": "Projection: Involves projecting undesirable feelings or emotions onto someone else, rather than admitting to or dealing with the unwanted feelings.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      20
+     ]
+    },
+    {
+     "term": "Projective Identification",
+     "definition": "(specific to object relations): Refers to a psychological process in which a person will project a thought or belief that they have onto a second person. Then, in most common definitions of projective identification, there is another action in which the second person is changed by the projection and begins to behave as though they are, in fact, actually characterized by those thoughts or beliefs that have been projected. The client is projecting onto the therapist a feeling of annoyance. What happens is the therapist realizes they feel annoyed. The therapist takes on the feeling themselves, they begin to identify with the feeling, the therapist finds themselves feeling annoyed. That’s the unconscious manipulation of the client putting those feelings onto the therapist. Sexual attraction: Therapist would say it’s really the client having those unconscious feelings towards the therapist.",
+     "sourceLine": "Projective Identification (specific to object relations): Refers to a psychological process in which a person will project a thought or belief that they have onto a second person. Then, in most common definitions of projective identification, there is another action in which the second person is changed by the projection and begins to behave as though they are, in fact, actually characterized by those thoughts or beliefs that have been projected. The client is projecting onto the therapist a feeling of annoyance. What happens is the therapist realizes they feel annoyed. The therapist takes on the feeling themselves, they begin to identify with the feeling, the therapist finds themselves feeling annoyed. That’s the unconscious manipulation of the client putting those feelings onto the therapist. Sexual attraction: Therapist would say it’s really the client having those unconscious feelings towards the therapist.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      21
+     ]
+    },
+    {
+     "term": "Introjection",
+     "definition": "Where the subject replicates in themselves behaviors, attributes, or other fragments of the surrounding world, especially of other people. An unconscious taking in of another person’s traits, behaviors, or attitudes as if they were one’s own.",
+     "sourceLine": "Introjection: Where the subject replicates in themselves behaviors, attributes, or other fragments of the surrounding world, especially of other people. An unconscious taking in of another person’s traits, behaviors, or attitudes as if they were one’s own.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      22
+     ]
+    },
+    {
+     "term": "Identification",
+     "definition": "occurs when a person not only takes on a belief or voice of another person, but also begins to identify with that individual. In this case, the husband has not merely taken on the idea that women should do the housework; rather, he sees himself as the head of his household, like his father. He is identifying with his father. Because of this identification, he expects to be treated like his father, with his wife respecting him and treating him as his mom treated his dad.",
+     "sourceLine": "Identification occurs when a person not only takes on a belief or voice of another person, but also begins to identify with that individual. In this case, the husband has not merely taken on the idea that women should do the housework; rather, he sees himself as the head of his household, like his father. He is identifying with his father. Because of this identification, he expects to be treated like his father, with his wife respecting him and treating him as his mom treated his dad.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      23
+     ]
+    }
+   ],
+   "interventions": [
+    {
+     "term": "Establish a holding environment",
+     "definition": "",
+     "sourceLine": "Establish a holding environment",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      27
+     ]
+    },
+    {
+     "term": "Interpretation",
+     "definition": "Promote insight and growth through interpretation.",
+     "sourceLine": "Promote insight and growth through interpretation.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      31
+     ]
+    },
+    {
+     "term": "Confront resistance and primitive defenses",
+     "definition": "Confront (aka bringing the issues to attention: I notice when I bring this up, you quickly change the subject) resistance and primitive defense mechanisms.",
+     "sourceLine": "Confront (aka bringing the issues to attention: I notice when I bring this up, you quickly change the subject) resistance and primitive defense mechanisms.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      32
+     ]
+    },
+    {
+     "term": "Focus on transference/countertransference",
+     "definition": "dynamic.",
+     "sourceLine": "Focus on transference/countertransference dynamic.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      33
+     ]
+    },
+    {
+     "term": "Identify and process projective identification",
+     "definition": "(T is aware of feeling so and do about the client, how would object relations therapist handle this situation, look for this term).",
+     "sourceLine": "Identify and process projective identification (T is aware of feeling so and do about the client, how would object relations therapist handle this situation, look for this term).",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      34
+     ]
+    }
+   ],
+   "phases": {
+    "beginning": [
+     {
+      "text": "Establish a holding environment",
+      "sourceLine": "Establish a holding environment",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       27
+      ]
+     },
+     {
+      "text": "Build rapport and therapeutic alliance through listening",
+      "sourceLine": "Build rapport and therapeutic alliance through listening",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       28
+      ]
+     },
+     {
+      "text": "exploration of client’s experience, empathy, and maintaining neutrality: low self disclosure",
+      "sourceLine": "exploration of client’s experience, empathy, and maintaining neutrality: low self disclosure",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       29
+      ]
+     }
+    ],
+    "middle": [
+     {
+      "text": "Promote insight and growth through interpretation.",
+      "sourceLine": "Promote insight and growth through interpretation.",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       31
+      ]
+     },
+     {
+      "text": "Confront (aka bringing the issues to attention: I notice when I bring this up, you quickly change the subject) resistance and primitive defense mechanisms.",
+      "sourceLine": "Confront (aka bringing the issues to attention: I notice when I bring this up, you quickly change the subject) resistance and primitive defense mechanisms.",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       32
+      ]
+     },
+     {
+      "text": "Focus on transference/countertransference dynamic.",
+      "sourceLine": "Focus on transference/countertransference dynamic.",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       33
+      ]
+     },
+     {
+      "text": "Identify and process projective identification (T is aware of feeling so and do about the client, how would object relations therapist handle this situation, look for this term).",
+      "sourceLine": "Identify and process projective identification (T is aware of feeling so and do about the client, how would object relations therapist handle this situation, look for this term).",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       34
+      ]
+     }
+    ],
+    "end": [
+     {
+      "text": "Work through termination and abandonment issues.",
+      "sourceLine": "Work through termination and abandonment issues.",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       36
+      ]
+     },
+     {
+      "text": "Consolidate interpretations.",
+      "sourceLine": "Consolidate interpretations.",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       37
+      ]
+     },
+     {
+      "text": "Review insights gained in therapy.",
+      "sourceLine": "Review insights gained in therapy.",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       38
+      ]
+     }
+    ]
+   },
+   "examTips": [
+    {
+     "text": "Identify and process projective identification (T is aware of feeling so and do about the client, how would object relations therapist handle this situation, look for this term).",
+     "sourceLine": "Identify and process projective identification (T is aware of feeling so and do about the client, how would object relations therapist handle this situation, look for this term).",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      34
+     ]
+    }
+   ]
+  },
+  {
+   "id": "self-psychology",
+   "name": "Self Psychology",
+   "family": [
+    "psychodynamic"
+   ],
+   "sourceDoc": "Psychodynamic",
+   "changeMechanism": {
+    "text": "Change occurs through empathetic attunement and strengthening the self-structures through optimal responsiveness. Shift away from interpretation.",
+    "sourceLine": "Change occurs through empathetic attunement and strengthening the self-structures through optimal responsiveness. Shift away from interpretation.",
+    "sourceDoc": "Psychodynamic",
+    "blocks": [
+     41,
+     42
+    ]
+   },
+   "therapistRoles": [
+    {
+     "text": "Emphasis on empathetic understanding and optimal responsiveness: reparenting the client",
+     "sourceLine": "Emphasis on empathetic understanding and optimal responsiveness: reparenting the client",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      44
+     ]
+    },
+    {
+     "text": "Allows emergence of self-object transferences and the repair of disruptions",
+     "sourceLine": "Allows emergence of self-object transferences and the repair of disruptions",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      45
+     ]
+    },
+    {
+     "text": "Repairing any disruptions",
+     "sourceLine": "Repairing any disruptions",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      46
+     ]
+    }
+   ],
+   "goals": [
+    {
+     "text": "Developing self-cohesion and self-esteem, client connects to true self",
+     "sourceLine": "Developing self-cohesion and self-esteem, client connects to true self",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      48
+     ]
+    },
+    {
+     "text": "Locating better self objects",
+     "sourceLine": "Locating better self objects",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      49
+     ]
+    }
+   ],
+   "concepts": [
+    {
+     "term": "Self-Objects",
+     "definition": "Early self-objects are those empathetic or attuned caretakers who perform vital functions for the infant that it cannot carry out itself",
+     "sourceLine": "Self-Objects: Early self-objects are those empathetic or attuned caretakers who perform vital functions for the infant that it cannot carry out itself",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      51,
+      52
+     ]
+    },
+    {
+     "term": "Self-Object Needs",
+     "definition": "Mirroring, idealization of others, twin/alter ego. Child needs these.",
+     "sourceLine": "Self-Object Needs: Mirroring, idealization of others, twin/alter ego. Child needs these.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      53
+     ]
+    },
+    {
+     "term": "Mirroring",
+     "definition": "Approving and confirming responses.",
+     "sourceLine": "Mirroring: Approving and confirming responses.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      54
+     ]
+    },
+    {
+     "term": "Optimal Frustration",
+     "definition": "When a self-object is needed, but not accessible, this will create a potential problem for the self, referred to as a \"frustration.” Healthy window where child doesn’t get needs met all the time (otherwise it results in entitlement of sorts)",
+     "sourceLine": "Optimal Frustration: When a self-object is needed, but not accessible, this will create a potential problem for the self, referred to as a \"frustration.” Healthy window where child doesn’t get needs met all the time (otherwise it results in entitlement of sorts)",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      55,
+      56
+     ]
+    },
+    {
+     "term": "Mirroring Transference",
+     "definition": "The patient seeks acceptance and confirmation of the self from the therapist.",
+     "sourceLine": "Mirroring Transference: The patient seeks acceptance and confirmation of the self from the therapist.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      57
+     ]
+    },
+    {
+     "term": "Twinship Transference",
+     "definition": "The patient experiences the therapist as someone like himself, “that person is like me.”",
+     "sourceLine": "Twinship Transference: The patient experiences the therapist as someone like himself, “that person is like me.”",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      58
+     ]
+    },
+    {
+     "term": "Idealizing Transference",
+     "definition": "The patient looks up to and admires the therapist",
+     "sourceLine": "Idealizing Transference: The patient looks up to and admires the therapist",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      59
+     ]
+    },
+    {
+     "term": "Adversarial Transference",
+     "definition": "The need for a supportive relationship that the patient can oppose in order to grow. The therapist can be a person who cares about them, but C is also allowed to disagree and push back, and this could be an important way of healing for a client who felt differential their entire life.",
+     "sourceLine": "Adversarial Transference: The need for a supportive relationship that the patient can oppose in order to grow. The therapist can be a person who cares about them, but C is also allowed to disagree and push back, and this could be an important way of healing for a client who felt differential their entire life.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      60,
+      61
+     ]
+    },
+    {
+     "term": "Experience-Near Empathy",
+     "definition": "When therapist steps into client’s shoes and imagines what it is like to be the client. The therapist really wants to step into the emotional experience, body sensations, and communicate that with the client to flesh out that experience. Taking the idea of mirroring to the extreme, that the therapist is really understanding their experience.",
+     "sourceLine": "Experience-Near Empathy: When therapist steps into client’s shoes and imagines what it is like to be the client. The therapist really wants to step into the emotional experience, body sensations, and communicate that with the client to flesh out that experience. Taking the idea of mirroring to the extreme, that the therapist is really understanding their experience.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      62,
+      63
+     ]
+    }
+   ],
+   "interventions": [
+    {
+     "term": "Establish a therapeutic holding environment",
+     "definition": "",
+     "sourceLine": "Establish a therapeutic holding environment",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      66
+     ]
+    },
+    {
+     "term": "Demonstrate containment",
+     "definition": "Demonstrate that the therapist is able to provide containment: client is getting emotional, and the T can be a warm open presence without judgement and having client feel they are able to share this information and they will not be rejected. The therapist is able to hear what client is saying without becoming overwhelmed themselves.",
+     "sourceLine": "Demonstrate that the therapist is able to provide containment: client is getting emotional, and the T can be a warm open presence without judgement and having client feel they are able to share this information and they will not be rejected. The therapist is able to hear what client is saying without becoming overwhelmed themselves.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      67
+     ]
+    },
+    {
+     "term": "Provide “experience-near” empathy",
+     "definition": "",
+     "sourceLine": "Provide “experience-near” empathy",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      68
+     ]
+    },
+    {
+     "term": "Repair disruptions of the self-object transference",
+     "definition": "",
+     "sourceLine": "Repair disruptions of the self-object transference",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      71
+     ]
+    },
+    {
+     "term": "Addressing enactments",
+     "definition": "situations in the therapy may have played out in the past, or outside in the client’s life. Being able to talk about in session together. “It sounds like what’s going on with your partner is similar to what happened with your father.”",
+     "sourceLine": "Addressing enactments: situations in the therapy may have played out in the past, or outside in the client’s life. Being able to talk about in session together. “It sounds like what’s going on with your partner is similar to what happened with your father.”",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      72
+     ]
+    },
+    {
+     "term": "Mourning loss of selfobjects",
+     "definition": "Mourning the mother they may have never had. They can grieve these losses. An acceptance of that loss, a sadness that is allowed to happen over it. Cry for their younger selves, inner child.",
+     "sourceLine": "Mourning loss of selfobjects Mourning the mother they may have never had. They can grieve these losses. An acceptance of that loss, a sadness that is allowed to happen over it. Cry for their younger selves, inner child.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      74
+     ]
+    },
+    {
+     "term": "Mourning ambitions and fantasies",
+     "definition": ". If person had ideas that their life was going to turn out a certain way, mourning those losses of those fantasies.",
+     "sourceLine": "Mourning ambitions and fantasies. If person had ideas that their life was going to turn out a certain way, mourning those losses of those fantasies.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      75
+     ]
+    },
+    {
+     "term": "Identify alternative self-objects",
+     "definition": "people they did have had positive relationship with them. Through their relationship with T they learn about different positive selfobjects, and can start to identify healthy selfobjects for themselves.",
+     "sourceLine": "Identify alternative self-objects: people they did have had positive relationship with them. Through their relationship with T they learn about different positive selfobjects, and can start to identify healthy selfobjects for themselves.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      76
+     ]
+    }
+   ],
+   "phases": {
+    "beginning": [
+     {
+      "text": "Establish a therapeutic holding environment",
+      "sourceLine": "Establish a therapeutic holding environment",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       66
+      ]
+     },
+     {
+      "text": "Demonstrate that the therapist is able to provide containment: client is getting emotional, and the T can be a warm open presence without judgement and having client feel they are able to share this information and they will not be rejected. The therapist is able to hear what client is saying without becoming overwhelmed themselves.",
+      "sourceLine": "Demonstrate that the therapist is able to provide containment: client is getting emotional, and the T can be a warm open presence without judgement and having client feel they are able to share this information and they will not be rejected. The therapist is able to hear what client is saying without becoming overwhelmed themselves.",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       67
+      ]
+     },
+     {
+      "text": "Provide “experience-near” empathy",
+      "sourceLine": "Provide “experience-near” empathy",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       68
+      ]
+     },
+     {
+      "text": "Explore the client's problem and history, including relationship history.",
+      "sourceLine": "Explore the client's problem and history, including relationship history.",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       69
+      ]
+     }
+    ],
+    "middle": [
+     {
+      "text": "Repair disruptions of the self-object transference",
+      "sourceLine": "Repair disruptions of the self-object transference",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       71
+      ]
+     },
+     {
+      "text": "Addressing enactments: situations in the therapy may have played out in the past, or outside in the client’s life. Being able to talk about in session together. “It sounds like what’s going on with your partner is similar to what happened with your father.”",
+      "sourceLine": "Addressing enactments: situations in the therapy may have played out in the past, or outside in the client’s life. Being able to talk about in session together. “It sounds like what’s going on with your partner is similar to what happened with your father.”",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       72
+      ]
+     },
+     {
+      "text": "Empathizing with losses and blows to self.",
+      "sourceLine": "Empathizing with losses and blows to self.",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       73
+      ]
+     },
+     {
+      "text": "Mourning loss of selfobjects Mourning the mother they may have never had. They can grieve these losses. An acceptance of that loss, a sadness that is allowed to happen over it. Cry for their younger selves, inner child.",
+      "sourceLine": "Mourning loss of selfobjects Mourning the mother they may have never had. They can grieve these losses. An acceptance of that loss, a sadness that is allowed to happen over it. Cry for their younger selves, inner child.",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       74
+      ]
+     },
+     {
+      "text": "Mourning ambitions and fantasies. If person had ideas that their life was going to turn out a certain way, mourning those losses of those fantasies.",
+      "sourceLine": "Mourning ambitions and fantasies. If person had ideas that their life was going to turn out a certain way, mourning those losses of those fantasies.",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       75
+      ]
+     },
+     {
+      "text": "Identify alternative self-objects: people they did have had positive relationship with them. Through their relationship with T they learn about different positive selfobjects, and can start to identify healthy selfobjects for themselves.",
+      "sourceLine": "Identify alternative self-objects: people they did have had positive relationship with them. Through their relationship with T they learn about different positive selfobjects, and can start to identify healthy selfobjects for themselves.",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       76
+      ]
+     }
+    ],
+    "end": [
+     {
+      "text": "Reflect on the treatment process",
+      "sourceLine": "Reflect on the treatment process",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       78
+      ]
+     },
+     {
+      "text": "Acknowledge and process issues related to termination.",
+      "sourceLine": "Acknowledge and process issues related to termination.",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       79
+      ]
+     }
+    ]
+   },
+   "examTips": []
+  },
+  {
+   "id": "attachment",
+   "name": "Attachment-Based Therapy (Bowlby)",
+   "family": [
+    "psychodynamic"
+   ],
+   "sourceDoc": "Psychodynamic",
+   "changeMechanism": {
+    "text": "Change occurs through exploration of past and current relational attachments and trauma in the environment of a healing, secure, and reliable relationship.",
+    "sourceLine": "Change occurs through exploration of past and current relational attachments and trauma in the environment of a healing, secure, and reliable relationship.",
+    "sourceDoc": "Psychodynamic",
+    "blocks": [
+     82,
+     83
+    ]
+   },
+   "therapistRoles": [
+    {
+     "text": "Therapist is a sufficiently secure base to enable a person to explore emotional experiences of the past and the present.",
+     "sourceLine": "Therapist is a sufficiently secure base to enable a person to explore emotional experiences of the past and the present.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      85,
+      86
+     ]
+    },
+    {
+     "text": "Create a secure, accepting, caring, non-judgmental, and reliable environment where the patient can feel comfortable sharing their most traumatic experiences and exploring the nature of the client’s attachment pattern.",
+     "sourceLine": "Create a secure, accepting, caring, non-judgmental, and reliable environment where the patient can feel comfortable sharing their most traumatic experiences and exploring the nature of the client’s attachment pattern.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      87,
+      88,
+      89
+     ]
+    }
+   ],
+   "goals": [
+    {
+     "text": "Raise awareness of client’s problematic behavioral and emotional patterns, formed in early childhood as attempts to maintain attachment to primary caregivers.",
+     "sourceLine": "Raise awareness of client’s problematic behavioral and emotional patterns, formed in early childhood as attempts to maintain attachment to primary caregivers.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      91,
+      92
+     ]
+    },
+    {
+     "text": "Repair the capacity to regulate affects.",
+     "sourceLine": "Repair the capacity to regulate affects.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      93
+     ]
+    },
+    {
+     "text": "Resolve any emotional or social disruptions within the patient’s life.",
+     "sourceLine": "Resolve any emotional or social disruptions within the patient’s life.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      94
+     ]
+    },
+    {
+     "text": "Improve quality of attachment with others.",
+     "sourceLine": "Improve quality of attachment with others.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      95
+     ]
+    }
+   ],
+   "concepts": [
+    {
+     "term": "Attachment Behavior System",
+     "definition": "The process in which infants and caregivers have an organized pattern of signals and responses that leads to the development of a protecting and trusting relationship. The emotional bond that develops between adult romantic partners is partly a function of the same motivational system - the attachment behavioral system. Relational system. Emotional bond that happens later in life repeats the behavioral systems of our childhood.",
+     "sourceLine": "Attachment Behavior System: The process in which infants and caregivers have an organized pattern of signals and responses that leads to the development of a protecting and trusting relationship. The emotional bond that develops between adult romantic partners is partly a function of the same motivational system - the attachment behavioral system. Relational system. Emotional bond that happens later in life repeats the behavioral systems of our childhood.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      97,
+      98,
+      99,
+      100,
+      101
+     ]
+    },
+    {
+     "term": "Secure Attachment",
+     "definition": "The person has easy access to a wide range of feelings and memories, positive and negative. Has a balanced view of parents and has worked through hurt and anger from the past. Has developed a strong sense of self and empathy for others.",
+     "sourceLine": "Secure Attachment: The person has easy access to a wide range of feelings and memories, positive and negative. Has a balanced view of parents and has worked through hurt and anger from the past. Has developed a strong sense of self and empathy for others.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      102,
+      103,
+      104,
+      105
+     ]
+    },
+    {
+     "term": "Preoccupied/Anxious Attachment",
+     "definition": "The person is still embroiled with anger and hurt at parents. They sometimes value intimacy to such an extent that they become overly dependent on the attachment figure both past and present. They often recall role reversal in childhood and have a hard time seeing their own responsibility in relationships. They dread abandonment.",
+     "sourceLine": "Preoccupied/Anxious Attachment: The person is still embroiled with anger and hurt at parents. They sometimes value intimacy to such an extent that they become overly dependent on the attachment figure both past and present. They often recall role reversal in childhood and have a hard time seeing their own responsibility in relationships. They dread abandonment.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      106,
+      107,
+      108,
+      109,
+      110
+     ]
+    },
+    {
+     "term": "Dismissive/Avoidant Attachment",
+     "definition": "The person dismisses the importance of love and connection – and the value of emotions in general. Often idealizes parents, but actual memories don’t corroborate. They dislike looking inward and often have a shallow, if any, self-reflection. They often are very independent, dismissive of their own emotionality, and have difficulty tolerating the heightened emotions of others.",
+     "sourceLine": "Dismissive/Avoidant Attachment: The person dismisses the importance of love and connection – and the value of emotions in general. Often idealizes parents, but actual memories don’t corroborate. They dislike looking inward and often have a shallow, if any, self-reflection. They often are very independent, dismissive of their own emotionality, and have difficulty tolerating the heightened emotions of others.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      111,
+      112,
+      113,
+      114,
+      115
+     ]
+    },
+    {
+     "term": "Fearful/Avoidant Attachment (Disorganized)",
+     "definition": "The person usually has a history of trauma and or loss. Similar to Dismissive/Avoidant, they dismiss the importance of love and connection but usually out of fear or a belief that they are unworthy of love. They have difficulty trusting others and may feel uncomfortable with emotional closeness.",
+     "sourceLine": "Fearful/Avoidant Attachment (Disorganized): The person usually has a history of trauma and or loss. Similar to Dismissive/Avoidant, they dismiss the importance of love and connection but usually out of fear or a belief that they are unworthy of love. They have difficulty trusting others and may feel uncomfortable with emotional closeness.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      116,
+      117,
+      118,
+      119
+     ]
+    }
+   ],
+   "interventions": [
+    {
+     "term": "Attunement",
+     "definition": "is the key intervention in the early stage and consists of forging a personal relationship between the therapist and the patient.",
+     "sourceLine": "Attunement is the key intervention in the early stage and consists of forging a personal relationship between the therapist and the patient.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      122
+     ]
+    },
+    {
+     "term": "Provide a secure base",
+     "definition": "The therapist provides a secure base by reliably demonstrating empathy and care.",
+     "sourceLine": "The therapist provides a secure base by reliably demonstrating empathy and care.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      123
+     ]
+    },
+    {
+     "term": "Collaboratively identifying attachment style",
+     "definition": "Collaboratively identifying client’s “attachment style,\" that is, problematic behavioral and emotional patterns, formed in early childhood as attempts to maintain attachment to primary caregivers.",
+     "sourceLine": "Collaboratively identifying client’s “attachment style,\" that is, problematic behavioral and emotional patterns, formed in early childhood as attempts to maintain attachment to primary caregivers.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      124
+     ]
+    },
+    {
+     "term": "Explore disruptions",
+     "definition": "Disruptions are explored in the middle phase. Disruptions include those in the early life of the client as well as those in current relationships, including the relationship with the therapist. Where they are having conflicts, where there is pain, disruptions in attunement. Can even apply to what happens in the therapy room, between client and the therapist.",
+     "sourceLine": "Disruptions are explored in the middle phase. Disruptions include those in the early life of the client as well as those in current relationships, including the relationship with the therapist. Where they are having conflicts, where there is pain, disruptions in attunement. Can even apply to what happens in the therapy room, between client and the therapist.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      126,
+      127
+     ]
+    },
+    {
+     "term": "Support affect regulation",
+     "definition": "Support client’s ability to regulate and express emotions in relationally difficult Situations teaching clients to have a reflective stance toward themselves.",
+     "sourceLine": "Support client’s ability to regulate and express emotions in relationally difficult Situations teaching clients to have a reflective stance toward themselves.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      128
+     ]
+    },
+    {
+     "term": "Repair",
+     "definition": "occurs during the late middle phase and the end of treatment.",
+     "sourceLine": "Repair occurs during the late middle phase and the end of treatment.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      130
+     ]
+    },
+    {
+     "term": "Repair stage",
+     "definition": "of the therapy aims to alter the patient’s current reactions to the events that cause them emotional distress by sharing their own interpretations of the event. By sharing their own subjective interpretation, the therapist helps create a new reality of the painful events for the patient in order to get rid of unwanted emotions and reactions.",
+     "sourceLine": "Repair stage of the therapy aims to alter the patient’s current reactions to the events that cause them emotional distress by sharing their own interpretations of the event. By sharing their own subjective interpretation, the therapist helps create a new reality of the painful events for the patient in order to get rid of unwanted emotions and reactions.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      131
+     ]
+    }
+   ],
+   "phases": {
+    "beginning": [
+     {
+      "text": "Attunement is the key intervention in the early stage and consists of forging a personal relationship between the therapist and the patient.",
+      "sourceLine": "Attunement is the key intervention in the early stage and consists of forging a personal relationship between the therapist and the patient.",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       122
+      ]
+     },
+     {
+      "text": "The therapist provides a secure base by reliably demonstrating empathy and care.",
+      "sourceLine": "The therapist provides a secure base by reliably demonstrating empathy and care.",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       123
+      ]
+     },
+     {
+      "text": "Collaboratively identifying client’s “attachment style,\" that is, problematic behavioral and emotional patterns, formed in early childhood as attempts to maintain attachment to primary caregivers.",
+      "sourceLine": "Collaboratively identifying client’s “attachment style,\" that is, problematic behavioral and emotional patterns, formed in early childhood as attempts to maintain attachment to primary caregivers.",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       124
+      ]
+     }
+    ],
+    "middle": [
+     {
+      "text": "Disruptions are explored in the middle phase. Disruptions include those in the early life of the client as well as those in current relationships, including the relationship with the therapist. Where they are having conflicts, where there is pain, disruptions in attunement. Can even apply to what happens in the therapy room, between client and the therapist.",
+      "sourceLine": "Disruptions are explored in the middle phase. Disruptions include those in the early life of the client as well as those in current relationships, including the relationship with the therapist. Where they are having conflicts, where there is pain, disruptions in attunement. Can even apply to what happens in the therapy room, between client and the therapist.",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       126,
+       127
+      ]
+     },
+     {
+      "text": "Support client’s ability to regulate and express emotions in relationally difficult Situations teaching clients to have a reflective stance toward themselves.",
+      "sourceLine": "Support client’s ability to regulate and express emotions in relationally difficult Situations teaching clients to have a reflective stance toward themselves.",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       128
+      ]
+     }
+    ],
+    "end": [
+     {
+      "text": "Repair occurs during the late middle phase and the end of treatment.",
+      "sourceLine": "Repair occurs during the late middle phase and the end of treatment.",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       130
+      ]
+     },
+     {
+      "text": "Repair stage of the therapy aims to alter the patient’s current reactions to the events that cause them emotional distress by sharing their own interpretations of the event. By sharing their own subjective interpretation, the therapist helps create a new reality of the painful events for the patient in order to get rid of unwanted emotions and reactions.",
+      "sourceLine": "Repair stage of the therapy aims to alter the patient’s current reactions to the events that cause them emotional distress by sharing their own interpretations of the event. By sharing their own subjective interpretation, the therapist helps create a new reality of the painful events for the patient in order to get rid of unwanted emotions and reactions.",
+      "sourceDoc": "Psychodynamic",
+      "blocks": [
+       131
+      ]
+     }
+    ]
+   },
+   "examTips": [
+    {
+     "text": "On the exam, attachment therapist is specifically focused on how that person attaches in their relationships, and how they are able to regulate their own emotions. Explore history of their interactions looked like with their early caregiver.",
+     "sourceLine": "On the exam, attachment therapist is specifically focused on how that person attaches in their relationships, and how they are able to regulate their own emotions. Explore history of their interactions looked like with their early caregiver.",
+     "sourceDoc": "Psychodynamic",
+     "blocks": [
+      132
+     ]
+    }
+   ]
+  },
+  {
+   "id": "client-centered",
+   "name": "Client Centered Therapy",
+   "family": [
+    "humanistic"
+   ],
+   "sourceDoc": "Humanistic-Existential Review",
+   "changeMechanism": {
+    "text": "Views people are always growing and inherently good. Avoids diagnosis, avoid strict adherence to what the ideal person should be. Role of therapist is nondirective, not steering client in any one direction (unlike CBT or systems theory). Driven by what the client wants to talk about. T is a facilitator who is helping the person to grow and change. This occurs by creating unconditional positive regard. Client determines the goals of therapy. Up to the client to decide how many sessions they would like as well, a lot of support for client self-determination.",
+    "sourceLine": "Views people are always growing and inherently good. Avoids diagnosis, avoid strict adherence to what the ideal person should be. Role of therapist is nondirective, not steering client in any one direction (unlike CBT or systems theory). Driven by what the client wants to talk about. T is a facilitator who is helping the person to grow and change. This occurs by creating unconditional positive regard. Client determines the goals of therapy. Up to the client to decide how many sessions they would like as well, a lot of support for client self-determination.",
+    "sourceDoc": "Humanistic-Existential Review",
+    "blocks": [
+     2
+    ]
+   },
+   "therapistRoles": [
+    {
+     "text": "is authentic",
+     "sourceLine": "is authentic",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      11
+     ]
+    },
+    {
+     "text": "models authenticity",
+     "sourceLine": "models authenticity",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      12
+     ]
+    },
+    {
+     "text": "non acceptance",
+     "sourceLine": "non acceptance",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      13
+     ]
+    },
+    {
+     "text": "nondirective",
+     "sourceLine": "nondirective",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      14
+     ]
+    },
+    {
+     "text": "non judgmental approach",
+     "sourceLine": "non judgmental approach",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      15
+     ]
+    },
+    {
+     "text": "empathy is essential, through experiencing this empathy, people are able to dive deeper into self understanding and who they are.",
+     "sourceLine": "empathy is essential, through experiencing this empathy, people are able to dive deeper into self understanding and who they are.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      16
+     ]
+    },
+    {
+     "text": "Locus of control, client can have more self-awareness about their choices, their experience, having their experience make sense to them. When T is non-judgmental about their experiences, clients can make more sense of their feelings and emotional reactions. More capable of making decisions about how they want to respond.",
+     "sourceLine": "Locus of control, client can have more self-awareness about their choices, their experience, having their experience make sense to them. When T is non-judgmental about their experiences, clients can make more sense of their feelings and emotional reactions. More capable of making decisions about how they want to respond.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      17
+     ]
+    }
+   ],
+   "goals": [
+    {
+     "text": "self-acceptance and self-actualization (Self-actualization is the process of realizing and expressing your true potential, becoming who you genuinely are, and living in alignment with your values, desires, and inner truth).",
+     "sourceLine": "self-acceptance and self-actualization (Self-actualization is the process of realizing and expressing your true potential, becoming who you genuinely are, and living in alignment with your values, desires, and inner truth).",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      4
+     ]
+    },
+    {
+     "text": "congruence between idealized self and actual self (living more authentically)",
+     "sourceLine": "congruence between idealized self and actual self (living more authentically)",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      5
+     ]
+    },
+    {
+     "text": "increased self-understanding, which can lead to self-acceptance",
+     "sourceLine": "increased self-understanding, which can lead to self-acceptance",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      6
+     ]
+    },
+    {
+     "text": "decreased level of defensiveness, insecurity and guilt.",
+     "sourceLine": "decreased level of defensiveness, insecurity and guilt.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      7
+     ]
+    },
+    {
+     "text": "more positive relationships and increased comfort with others",
+     "sourceLine": "more positive relationships and increased comfort with others",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      8
+     ]
+    },
+    {
+     "text": "experience and express feelings of the here and now, improved self-awareness skills.",
+     "sourceLine": "experience and express feelings of the here and now, improved self-awareness skills.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      9
+     ]
+    }
+   ],
+   "concepts": [],
+   "interventions": [],
+   "phases": null,
+   "examTips": [
+    {
+     "text": "No clear phases of treatment, T does not really have an agenda, due to it going against the concept of client centered. For the exam, you could have a question that asks you for initial or middle stages with client centered approach. Looking for answers that involved unconditional positive regard, client empathy, T express congruence with their reaction to the client, promotion of self-acceptance (the T can give support for self-acceptance ie when client feels shame), and congruence.",
+     "sourceLine": "No clear phases of treatment, T does not really have an agenda, due to it going against the concept of client centered. For the exam, you could have a question that asks you for initial or middle stages with client centered approach. Looking for answers that involved unconditional positive regard, client empathy, T express congruence with their reaction to the client, promotion of self-acceptance (the T can give support for self-acceptance ie when client feels shame), and congruence.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      18
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gestalt",
+   "name": "Gestalt Therapy",
+   "family": [
+    "humanistic"
+   ],
+   "sourceDoc": "Humanistic-Existential Review",
+   "changeMechanism": {
+    "text": "The idea is that change occurs through increased awareness of here and now experience and dialogic relationship between T and client. Dialogic refers to a therapeutic stance where the therapist and client engage as two authentic human beings — fully present with each other, co-creating the therapeutic process. Heavily influenced by Martin Buber’s “I-Thou” philosophy, where the therapist meets the client as a fellow human, not an object to be treated.",
+    "sourceLine": "The idea is that change occurs through increased awareness of here and now experience and dialogic relationship between T and client. Dialogic refers to a therapeutic stance where the therapist and client engage as two authentic human beings — fully present with each other, co-creating the therapeutic process. Heavily influenced by Martin Buber’s “I-Thou” philosophy, where the therapist meets the client as a fellow human, not an object to be treated.",
+    "sourceDoc": "Humanistic-Existential Review",
+    "blocks": [
+     20
+    ]
+   },
+   "therapistRoles": [
+    {
+     "text": "Authentic present other, showing up as a real person",
+     "sourceLine": "Authentic present other, showing up as a real person",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      22
+     ]
+    },
+    {
+     "text": "Nondirective",
+     "sourceLine": "Nondirective",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      23
+     ]
+    },
+    {
+     "text": "Nonjudgemental",
+     "sourceLine": "Nonjudgemental",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      24
+     ]
+    },
+    {
+     "text": "Therapist presence as a real person allows the other client to become more present – that dialogic relationship. Therapist is open to client experience, back and forth dialogical experience, each person is a real person, genuine curiousity.",
+     "sourceLine": "Therapist presence as a real person allows the other client to become more present – that dialogic relationship. Therapist is open to client experience, back and forth dialogical experience, each person is a real person, genuine curiousity.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      28
+     ]
+    }
+   ],
+   "goals": [
+    {
+     "text": "Client will become more aware of what they’re doing, how they are doing it, how they can change themselves, while learning to accept and value themselves.",
+     "sourceLine": "Client will become more aware of what they’re doing, how they are doing it, how they can change themselves, while learning to accept and value themselves.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      26
+     ]
+    }
+   ],
+   "concepts": [
+    {
+     "term": "Present moment awareness",
+     "definition": ".",
+     "sourceLine": "Present moment awareness.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      25
+     ]
+    },
+    {
+     "term": "Phenomenological description",
+     "definition": "Explaining experience of the client by using description instead of interpretation. Client is crying in session. Interpretation “you seem sad.” For Gestalt phenomenological method: “I see you tearing up, I’m wondering what you’re experiencing right now.” This allows for more expanded of what the client is experiencing. You’re asking them to really describe what they are experiencing in the moment.",
+     "sourceLine": "Explaining experience of the client by using description instead of interpretation. Client is crying in session. Interpretation “you seem sad.” For Gestalt phenomenological method: “I see you tearing up, I’m wondering what you’re experiencing right now.” This allows for more expanded of what the client is experiencing. You’re asking them to really describe what they are experiencing in the moment.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      27
+     ]
+    },
+    {
+     "term": "Body awareness",
+     "definition": "Gestalt focuses on body awareness: what are you noticing in your body. Getting in touch with the sensations and associated emotions with the sensations.",
+     "sourceLine": "Gestalt focuses on body awareness: what are you noticing in your body. Getting in touch with the sensations and associated emotions with the sensations.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      36
+     ]
+    },
+    {
+     "term": "Focus on process",
+     "definition": "Focuses on the process: how things are being sad, how the therapy is unfolding, the tons of voice, body language, the energy of the therapy, paying attention to what’s going on in the moment.",
+     "sourceLine": "Focuses on the process: how things are being sad, how the therapy is unfolding, the tons of voice, body language, the energy of the therapy, paying attention to what’s going on in the moment.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      37
+     ]
+    }
+   ],
+   "interventions": [
+    {
+     "term": "Experiments",
+     "definition": "in Gestalt: T can make suggestions of client trying something new.",
+     "sourceLine": "Experiments in Gestalt: T can make suggestions of client trying something new.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      29
+     ]
+    },
+    {
+     "term": "Repeating statement",
+     "definition": "“I’m disappointed in my partner.” T: sit up in your chair, say it a little bit louder. Check in with them about their experience. Client can say no and T can also see how they respond to the suggestion.",
+     "sourceLine": "Repeating statement: “I’m disappointed in my partner.” T: sit up in your chair, say it a little bit louder. Check in with them about their experience. Client can say no and T can also see how they respond to the suggestion.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      30
+     ]
+    },
+    {
+     "term": "Present experience while discussing the past",
+     "definition": "Paying to client’s present experience as they’re discussing the past: right now, what are experiencing as you think about that past relationship?",
+     "sourceLine": "Paying to client’s present experience as they’re discussing the past: right now, what are experiencing as you think about that past relationship?",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      31
+     ]
+    },
+    {
+     "term": "Empty chair",
+     "definition": "",
+     "sourceLine": "Empty chair",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      32
+     ]
+    },
+    {
+     "term": "Top dog / underdog dialogue",
+     "definition": "",
+     "sourceLine": "Top dog / underdog dialogue",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      33
+     ]
+    },
+    {
+     "term": "Repeating words or exaggerating gestures",
+     "definition": "Repeating words of overexaggerating gestures",
+     "sourceLine": "Repeating words of overexaggerating gestures",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      34
+     ]
+    },
+    {
+     "term": "Standing up while speaking",
+     "definition": "Somebody stands up while saying something",
+     "sourceLine": "Somebody stands up while saying something",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      35
+     ]
+    }
+   ],
+   "phases": null,
+   "examTips": []
+  },
+  {
+   "id": "existential",
+   "name": "Existential Therapy",
+   "family": [
+    "humanistic"
+   ],
+   "sourceDoc": "Humanistic-Existential Review",
+   "changeMechanism": {
+    "text": "Change occurs through finding meaning, living authentically and responsibly. The idea that the person can respond, make choices, emphasizes personal choice about how clients want to live their lives. Core question: how do I exist? Inherent meaninglessness to life and existence.",
+    "sourceLine": "Change occurs through finding meaning, living authentically and responsibly. The idea that the person can respond, make choices, emphasizes personal choice about how clients want to live their lives. Core question: how do I exist? Inherent meaninglessness to life and existence.",
+    "sourceDoc": "Humanistic-Existential Review",
+    "blocks": [
+     39
+    ]
+   },
+   "therapistRoles": [
+    {
+     "text": "To be real and authentic other",
+     "sourceLine": "To be real and authentic other",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      41
+     ]
+    }
+   ],
+   "goals": [
+    {
+     "text": "Goals: client discovers their own life meaning, what does life mean to them, confront anxiety inherent in living. Anxiety is a part of the human condition, being able to deal with it effectively instead of getting rid of it. Agency: making their own choices in life, responsibility in the construction of their life. Emphasizes empowerment of the client. Self-awareness. Freedom. Each person has unique identity that can only be known through genuine relationships with others. It’s not until you encounter someone else that you can truly know yourself – this is why T must be a true other. Client experiences their own uniqueness through that. Each person must continually recreate themselves, life is always moving forward, existence is not fixed and we are always changing.",
+     "sourceLine": "Goals: client discovers their own life meaning, what does life mean to them, confront anxiety inherent in living. Anxiety is a part of the human condition, being able to deal with it effectively instead of getting rid of it. Agency: making their own choices in life, responsibility in the construction of their life. Emphasizes empowerment of the client. Self-awareness. Freedom. Each person has unique identity that can only be known through genuine relationships with others. It’s not until you encounter someone else that you can truly know yourself – this is why T must be a true other. Client experiences their own uniqueness through that. Each person must continually recreate themselves, life is always moving forward, existence is not fixed and we are always changing.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      42
+     ]
+    }
+   ],
+   "concepts": [
+    {
+     "term": "Focus on moment to moment",
+     "definition": "during therapy, process not content.",
+     "sourceLine": "Focus on moment to moment during therapy, process not content.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      43
+     ]
+    },
+    {
+     "term": "Holding",
+     "definition": "Concept of holding: process of looking at the problem, and really holding that, remembering that in the presence of the empathetic other. Our goal is to be with them in their pain, sitting there with them. Naming that emotional pain allows that mutual encounter, the experience is not shared, person is able to now process that situation with increased support.",
+     "sourceLine": "Concept of holding: process of looking at the problem, and really holding that, remembering that in the presence of the empathetic other. Our goal is to be with them in their pain, sitting there with them. Naming that emotional pain allows that mutual encounter, the experience is not shared, person is able to now process that situation with increased support.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      44
+     ]
+    },
+    {
+     "term": "Mastering emotional pain",
+     "definition": "unique healing activities. Relating to pain as something that you have endured and has shaped who you are, so that the painful experience has meaning and significance. Being able to share your deepest wounds with a present nonjudgemental person – T is there with C in their suffering.",
+     "sourceLine": "Mastering emotional pain: unique healing activities. Relating to pain as something that you have endured and has shaped who you are, so that the painful experience has meaning and significance. Being able to share your deepest wounds with a present nonjudgemental person – T is there with C in their suffering.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      45
+     ]
+    },
+    {
+     "term": "Givens in life",
+     "definition": "death, freedom, meaningless, isolation. Encourages honesty about life’s conditions.",
+     "sourceLine": "Givens in life: death, freedom, meaningless, isolation. Encourages honesty about life’s conditions.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      46
+     ]
+    },
+    {
+     "term": "Imaginal death",
+     "definition": "“Imaginal death” exercises: Envisioning one's death to reflect on what truly matters. Brings clarity, gratitude, and urgency for authentic living.",
+     "sourceLine": "“Imaginal death” exercises: Envisioning one's death to reflect on what truly matters. Brings clarity, gratitude, and urgency for authentic living.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      47
+     ]
+    }
+   ],
+   "interventions": [
+    {
+     "term": "“Imaginal death” exercises",
+     "definition": "Envisioning one's death to reflect on what truly matters. Brings clarity, gratitude, and urgency for authentic living.",
+     "sourceLine": "“Imaginal death” exercises: Envisioning one's death to reflect on what truly matters. Brings clarity, gratitude, and urgency for authentic living.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      47
+     ]
+    }
+   ],
+   "phases": null,
+   "examTips": []
+  },
+  {
+   "id": "experiential",
+   "name": "Experiential / Symbolic Therapy (Whitaker)",
+   "family": [
+    "humanistic",
+    "systems"
+   ],
+   "sourceDoc": "Humanistic-Existential Review",
+   "changeMechanism": {
+    "text": "Change happens through the existential encounter – the authentic meeting of the therapist and the client in the present moment and by expanding the client’s range of experience. Very influenced by Gestalt therapy. Generally used with families, started by Carl Whittaker.",
+    "sourceLine": "Change happens through the existential encounter – the authentic meeting of the therapist and the client in the present moment and by expanding the client’s range of experience. Very influenced by Gestalt therapy. Generally used with families, started by Carl Whittaker.",
+    "sourceDoc": "Humanistic-Existential Review",
+    "blocks": [
+     50
+    ]
+   },
+   "therapistRoles": [
+    {
+     "text": "Authentically being with client",
+     "sourceLine": "Authentically being with client",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      52
+     ]
+    },
+    {
+     "text": "Playful, creative",
+     "sourceLine": "Playful, creative",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      53
+     ]
+    }
+   ],
+   "goals": [
+    {
+     "text": "The goal is for growth and increased flexibility (people have fixed ways of bring in the world, people can expand their own way of reacting, views of things, interactions).",
+     "sourceLine": "The goal is for growth and increased flexibility (people have fixed ways of bring in the world, people can expand their own way of reacting, views of things, interactions).",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      55
+     ]
+    }
+   ],
+   "concepts": [
+    {
+     "term": "Battle for Structure",
+     "definition": "Therapist establishes the rules and working atmosphere of treatment. Includes the need for the entire family to be in therapy (a mother and child come in for therapy and there is a question for the initial intervention an experiential therapist would use: the therapist discusses with mom the need to include entire family in therapy would be the correct answer.",
+     "sourceLine": "Battle for Structure: Therapist establishes the rules and working atmosphere of treatment. Includes the need for the entire family to be in therapy (a mother and child come in for therapy and there is a question for the initial intervention an experiential therapist would use: the therapist discusses with mom the need to include entire family in therapy would be the correct answer.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      57,
+      58
+     ]
+    },
+    {
+     "term": "Battle for Initiative",
+     "definition": "Motivation for change must come from family. Includes having a family state the agenda for each session, waiting silently for family to take initiative, allowing family to determine how change is going to happen. The therapist should not be working harder than the family. A family comes in, and nobody is speaking. What would experiential therapist do? The right answer would be the therapist would wait silently for the family to take initiative.",
+     "sourceLine": "Battle for Initiative: Motivation for change must come from family. Includes having a family state the agenda for each session, waiting silently for family to take initiative, allowing family to determine how change is going to happen. The therapist should not be working harder than the family. A family comes in, and nobody is speaking. What would experiential therapist do? The right answer would be the therapist would wait silently for the family to take initiative.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      59
+     ]
+    },
+    {
+     "term": "Trial of Labor",
+     "definition": "Understanding the roles, boundaries, beliefs, history, and levels of conflict within the family. Assessment. Family dynamic.",
+     "sourceLine": "Trial of Labor: Understanding the roles, boundaries, beliefs, history, and levels of conflict within the family. Assessment. Family dynamic.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      60
+     ]
+    },
+    {
+     "term": "Activating Constructive Anxiety",
+     "definition": "Reframing anxiety in the family as efforts toward competence (fear of failing to accomplish what one is capable of). Enhancing motivation, if you identify the positive thing they were afraid wouldn’t happen.",
+     "sourceLine": "Activating Constructive Anxiety: Reframing anxiety in the family as efforts toward competence (fear of failing to accomplish what one is capable of). Enhancing motivation, if you identify the positive thing they were afraid wouldn’t happen.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      61
+     ]
+    },
+    {
+     "term": "Play, Humor, and “Craziness”",
+     "definition": "Play, Humor, and “Craziness:” Tapping irrational side. Finding solutions in creative interactions.",
+     "sourceLine": "Play, Humor, and “Craziness:” Tapping irrational side. Finding solutions in creative interactions.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      62
+     ]
+    }
+   ],
+   "interventions": [
+    {
+     "term": "Battle for Structure",
+     "definition": "Therapist establishes the rules and working atmosphere of treatment. Includes the need for the entire family to be in therapy (a mother and child come in for therapy and there is a question for the initial intervention an experiential therapist would use: the therapist discusses with mom the need to include entire family in therapy would be the correct answer.",
+     "sourceLine": "Battle for Structure: Therapist establishes the rules and working atmosphere of treatment. Includes the need for the entire family to be in therapy (a mother and child come in for therapy and there is a question for the initial intervention an experiential therapist would use: the therapist discusses with mom the need to include entire family in therapy would be the correct answer.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      57,
+      58
+     ]
+    },
+    {
+     "term": "Battle for Initiative",
+     "definition": "Motivation for change must come from family. Includes having a family state the agenda for each session, waiting silently for family to take initiative, allowing family to determine how change is going to happen. The therapist should not be working harder than the family. A family comes in, and nobody is speaking. What would experiential therapist do? The right answer would be the therapist would wait silently for the family to take initiative.",
+     "sourceLine": "Battle for Initiative: Motivation for change must come from family. Includes having a family state the agenda for each session, waiting silently for family to take initiative, allowing family to determine how change is going to happen. The therapist should not be working harder than the family. A family comes in, and nobody is speaking. What would experiential therapist do? The right answer would be the therapist would wait silently for the family to take initiative.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      59
+     ]
+    },
+    {
+     "term": "Trial of Labor",
+     "definition": "Understanding the roles, boundaries, beliefs, history, and levels of conflict within the family. Assessment. Family dynamic.",
+     "sourceLine": "Trial of Labor: Understanding the roles, boundaries, beliefs, history, and levels of conflict within the family. Assessment. Family dynamic.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      60
+     ]
+    },
+    {
+     "term": "Activating Constructive Anxiety",
+     "definition": "Reframing anxiety in the family as efforts toward competence (fear of failing to accomplish what one is capable of). Enhancing motivation, if you identify the positive thing they were afraid wouldn’t happen.",
+     "sourceLine": "Activating Constructive Anxiety: Reframing anxiety in the family as efforts toward competence (fear of failing to accomplish what one is capable of). Enhancing motivation, if you identify the positive thing they were afraid wouldn’t happen.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      61
+     ]
+    },
+    {
+     "term": "Play, Humor, and “Craziness”",
+     "definition": "Play, Humor, and “Craziness:” Tapping irrational side. Finding solutions in creative interactions.",
+     "sourceLine": "Play, Humor, and “Craziness:” Tapping irrational side. Finding solutions in creative interactions.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      62
+     ]
+    }
+   ],
+   "phases": {
+    "beginning": [
+     {
+      "text": "Beginning: Engage family as authentic people. Battle for structure. Encourage all members to attend. Family wins battle of initiative. Gather information about boundaries, coalitions, roles, and level of conflict.",
+      "sourceLine": "Beginning: Engage family as authentic people. Battle for structure. Encourage all members to attend. Family wins battle of initiative. Gather information about boundaries, coalitions, roles, and level of conflict.",
+      "sourceDoc": "Humanistic-Existential Review",
+      "blocks": [
+       64
+      ]
+     }
+    ],
+    "middle": [
+     {
+      "text": "Middle: Develop sense of cohesion. Create alternative interactions. Highlight inappropriate boundaries (highlighting when family member pushes their world view on others for example). Role-play situations. Use play and “craziness.”",
+      "sourceLine": "Middle: Develop sense of cohesion. Create alternative interactions. Highlight inappropriate boundaries (highlighting when family member pushes their world view on others for example). Role-play situations. Use play and “craziness.”",
+      "sourceDoc": "Humanistic-Existential Review",
+      "blocks": [
+       65
+      ]
+     }
+    ],
+    "end": [
+     {
+      "text": "End: Highlight accomplishments and reflect on growth. Identify possible blocks to future growth. Role-play future scenarios. Each member expresses feelings about their experience of therapy.",
+      "sourceLine": "End: Highlight accomplishments and reflect on growth. Identify possible blocks to future growth. Role-play future scenarios. Each member expresses feelings about their experience of therapy.",
+      "sourceDoc": "Humanistic-Existential Review",
+      "blocks": [
+       66,
+       67
+      ]
+     }
+    ]
+   },
+   "examTips": [
+    {
+     "text": "Battle for Structure: Therapist establishes the rules and working atmosphere of treatment. Includes the need for the entire family to be in therapy (a mother and child come in for therapy and there is a question for the initial intervention an experiential therapist would use: the therapist discusses with mom the need to include entire family in therapy would be the correct answer.",
+     "sourceLine": "Battle for Structure: Therapist establishes the rules and working atmosphere of treatment. Includes the need for the entire family to be in therapy (a mother and child come in for therapy and there is a question for the initial intervention an experiential therapist would use: the therapist discusses with mom the need to include entire family in therapy would be the correct answer.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      57,
+      58
+     ]
+    },
+    {
+     "text": "Battle for Initiative: Motivation for change must come from family. Includes having a family state the agenda for each session, waiting silently for family to take initiative, allowing family to determine how change is going to happen. The therapist should not be working harder than the family. A family comes in, and nobody is speaking. What would experiential therapist do? The right answer would be the therapist would wait silently for the family to take initiative.",
+     "sourceLine": "Battle for Initiative: Motivation for change must come from family. Includes having a family state the agenda for each session, waiting silently for family to take initiative, allowing family to determine how change is going to happen. The therapist should not be working harder than the family. A family comes in, and nobody is speaking. What would experiential therapist do? The right answer would be the therapist would wait silently for the family to take initiative.",
+     "sourceDoc": "Humanistic-Existential Review",
+     "blocks": [
+      59
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cbt",
+   "name": "CBT (interventions)",
+   "family": [
+    "cognitive-behavioral"
+   ],
+   "sourceDoc": "CBT interventions notes",
+   "changeMechanism": null,
+   "therapistRoles": null,
+   "goals": null,
+   "concepts": [],
+   "interventions": [
+    {
+     "term": "Psychoeducation on the negative triad",
+     "definition": "Teach the client about negative triad, done in first session as well as psychoeducation about how CBT works.",
+     "sourceLine": "Teach the client about negative triad, done in first session as well as psychoeducation about how CBT works.",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      1
+     ]
+    },
+    {
+     "term": "Socratic Questioning",
+     "definition": "Questioning allows the therapist to stimulate the client’s self-awareness, focus on the problem definition, expose the client’s belief system, and challenge irrational beliefs while revealing the client’s cognitive processes. Questions that dive below surface to collect evidence for someone’s thinking. What evidence led you to believe this? Are there alternate ways of thinking about the situation? How did you get to this answer, what is the evidence that led you there?",
+     "sourceLine": "Socratic Questioning: Questioning allows the therapist to stimulate the client’s self-awareness, focus on the problem definition, expose the client’s belief system, and challenge irrational beliefs while revealing the client’s cognitive processes. Questions that dive below surface to collect evidence for someone’s thinking. What evidence led you to believe this? Are there alternate ways of thinking about the situation? How did you get to this answer, what is the evidence that led you there?",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      2,
+      3
+     ]
+    },
+    {
+     "term": "Reframing",
+     "definition": "Thinking differently by “reframing” negative or untrue assumptions and thoughts into ones that promote adaptive behavior and lessen anxiety and depression. A way of thinking differently about certain assumptions that allows people to think about and feel differently and less in their anxiety and depression. “no one likes me. I must be boring or weird” vs “maybe people were shy too or didn't know what to say.\"",
+     "sourceLine": "Reframing: Thinking differently by “reframing” negative or untrue assumptions and thoughts into ones that promote adaptive behavior and lessen anxiety and depression. A way of thinking differently about certain assumptions that allows people to think about and feel differently and less in their anxiety and depression. “no one likes me. I must be boring or weird” vs “maybe people were shy too or didn't know what to say.\"",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      4,
+      5
+     ]
+    },
+    {
+     "term": "Cognitive Restructuring",
+     "definition": "Teaches the client to identify irrational, distorted, or maladaptive beliefs, question the evidence for the belief, and generate alternative responses. Teach client to identify their beliefs, question their beliefs, and generate alternative responses.",
+     "sourceLine": "Cognitive Restructuring: Teaches the client to identify irrational, distorted, or maladaptive beliefs, question the evidence for the belief, and generate alternative responses. Teach client to identify their beliefs, question their beliefs, and generate alternative responses.",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      6,
+      7
+     ]
+    },
+    {
+     "term": "Homework",
+     "definition": "To assist with cognitive restructuring, clients are often assigned homework. Typical CBT homework assignments may include activities in behavioral activation, monitoring automatic thoughts, reviewing the previous therapy session, and preparing for the next therapy session.",
+     "sourceLine": "Homework: To assist with cognitive restructuring, clients are often assigned homework. Typical CBT homework assignments may include activities in behavioral activation, monitoring automatic thoughts, reviewing the previous therapy session, and preparing for the next therapy session.",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      8
+     ]
+    },
+    {
+     "term": "Self-Monitoring",
+     "definition": "Also called diary work, self-monitoring is used to record the amount and degree of thoughts and behaviors. This provides the client and therapist information regarding the degree of a client’s negative affirmations. Teaching client how to do self-monitoring, thought record.",
+     "sourceLine": "Self-Monitoring: Also called diary work, self-monitoring is used to record the amount and degree of thoughts and behaviors. This provides the client and therapist information regarding the degree of a client’s negative affirmations. Teaching client how to do self-monitoring, thought record.",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      9
+     ]
+    },
+    {
+     "term": "Behavioral Experiments",
+     "definition": "The experiment process includes experiencing, observing, reflecting, and planning. These steps are conducted through thought testing, discovery, activity, and/or observation. People can test out their assumptions about certain things. Some behavioral experiments include exposure (e.g., testing a fear by facing it), but the intention differs:",
+     "sourceLine": "Behavioral Experiments: The experiment process includes experiencing, observing, reflecting, and planning. These steps are conducted through thought testing, discovery, activity, and/or observation. People can test out their assumptions about certain things. Some behavioral experiments include exposure (e.g., testing a fear by facing it), but the intention differs:",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      10,
+      11
+     ]
+    },
+    {
+     "term": "Systematic Desensitization",
+     "definition": "Systematic desensitization pairs relaxation with exposure to something stressful. Clients are taught to relax in anxiety producing situations. People taught how to relax, exposed to stressful situation, then exposed and use those techniques can be real life or imagery. A type of Counterconditioning: replacing fear with relaxation. - Create fear hierarchy - Relaxation training - Gradual exposure (in imagination or real life) Systematic Desensitization = “Let’s gradually face your fear, while staying relaxed, until it no longer feels threatening.”",
+     "sourceLine": "Systematic Desensitization: Systematic desensitization pairs relaxation with exposure to something stressful. Clients are taught to relax in anxiety producing situations. People taught how to relax, exposed to stressful situation, then exposed and use those techniques can be real life or imagery. A type of Counterconditioning: replacing fear with relaxation. - Create fear hierarchy - Relaxation training - Gradual exposure (in imagination or real life) Systematic Desensitization = “Let’s gradually face your fear, while staying relaxed, until it no longer feels threatening.”",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      14,
+      15,
+      19,
+      20,
+      21
+     ]
+    },
+    {
+     "term": "Anxiety Management Training",
+     "definition": "Teaches skills for specific situations using imagery. The client practices relaxation until anxiety is reduced then continues with imagery. Uses a lot of imagery and practicing relaxation skills. Teaches general coping skills. - Diaphragmatic breathing - Progressive muscle relaxation - Cognitive reframing - Coping self-statements - Thought-stopping - Self-monitoring of anxiety - Coping self-statements - Problem-solving training Skill acquisition, done early in therapy. Anxiety Management Training = “Learn how to calm your mind and body when anxiety hits — anytime, anywhere.”",
+     "sourceLine": "Anxiety Management Training: Teaches skills for specific situations using imagery. The client practices relaxation until anxiety is reduced then continues with imagery. Uses a lot of imagery and practicing relaxation skills. Teaches general coping skills. - Diaphragmatic breathing - Progressive muscle relaxation - Cognitive reframing - Coping self-statements - Thought-stopping - Self-monitoring of anxiety - Coping self-statements - Problem-solving training Skill acquisition, done early in therapy. Anxiety Management Training = “Learn how to calm your mind and body when anxiety hits — anytime, anywhere.”",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      22,
+      23,
+      26,
+      27,
+      28,
+      29
+     ]
+    },
+    {
+     "term": "Assertiveness Training",
+     "definition": "Teaches the client to specify desires and needs using minimally effective responses to assert their position. Used with unassertive or overly aggressive clients. Intervention for both overly aggressive or unassertive people. Express thoughts, feelings, needs, and boundaries in a direct but respectful way, reduce anxiety, guilt, or fear associated with self-expression, challenge maladaptive beliefs (e.g., \"If I say no, they’ll hate me\"), replace passive, aggressive, or passive-aggressive communication styles with assertive behavior. Teaches people to specify their needs, the least they need to do in order to convey their needs and wants, minimally effective responses to assert their position. I-statements being clear about thoughts and desires involves a lot of role-playing with client.",
+     "sourceLine": "Assertiveness Training: Teaches the client to specify desires and needs using minimally effective responses to assert their position. Used with unassertive or overly aggressive clients. Intervention for both overly aggressive or unassertive people. Express thoughts, feelings, needs, and boundaries in a direct but respectful way, reduce anxiety, guilt, or fear associated with self-expression, challenge maladaptive beliefs (e.g., \"If I say no, they’ll hate me\"), replace passive, aggressive, or passive-aggressive communication styles with assertive behavior. Teaches people to specify their needs, the least they need to do in order to convey their needs and wants, minimally effective responses to assert their position. I-statements being clear about thoughts and desires involves a lot of role-playing with client.",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      30,
+      31,
+      32,
+      33,
+      34
+     ]
+    },
+    {
+     "term": "Behavioral Activation",
+     "definition": "Increases activity for depressed or passive clients by using activity scheduling and incentives. Incentives planned for activities that are difficult for people to accomplish.",
+     "sourceLine": "Behavioral Activation: Increases activity for depressed or passive clients by using activity scheduling and incentives. Incentives planned for activities that are difficult for people to accomplish.",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      35
+     ]
+    },
+    {
+     "term": "Communication Skills Training",
+     "definition": "Used in couples therapy to help couples talk about feelings and problems. CBT therapist working with couples. Managing conflict. I-statements, assertiveness training, teaching people how to listen, teaching people how to listen and not jump in with problem solving, teaching people how to identify when they are getting overly aroused so that they know when to take time-outs.",
+     "sourceLine": "Communication Skills Training: Used in couples therapy to help couples talk about feelings and problems. CBT therapist working with couples. Managing conflict. I-statements, assertiveness training, teaching people how to listen, teaching people how to listen and not jump in with problem solving, teaching people how to identify when they are getting overly aroused so that they know when to take time-outs.",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      36
+     ]
+    },
+    {
+     "term": "Downward Arrow",
+     "definition": "Used to uncover underlying assumptions. “If this is true, what does it mean about you and your life?” Therapist moved downwards – people didn’t like me at the party. What was the evidence for that? What did that mean to you? I wasn’t important, and what does that mean about yourself? I am worthless. If that’s true, what does that mean about you and your life. Moves down to core belief person has.",
+     "sourceLine": "Downward Arrow: Used to uncover underlying assumptions. “If this is true, what does it mean about you and your life?” Therapist moved downwards – people didn’t like me at the party. What was the evidence for that? What did that mean to you? I wasn’t important, and what does that mean about yourself? I am worthless. If that’s true, what does that mean about you and your life. Moves down to core belief person has.",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      37,
+      38
+     ]
+    },
+    {
+     "term": "Exposure",
+     "definition": "Client faces fear stimuli without resorting to escape or avoidance maneuvers. Can be done in real life or with imagery",
+     "sourceLine": "Exposure: Client faces fear stimuli without resorting to escape or avoidance maneuvers. Can be done in real life or with imagery",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      39
+     ]
+    },
+    {
+     "term": "Finding Alternatives",
+     "definition": "Clients review all possible options and alternatives for either interpreting a situation or resolving a problem.",
+     "sourceLine": "Finding Alternatives: Clients review all possible options and alternatives for either interpreting a situation or resolving a problem.",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      40
+     ]
+    },
+    {
+     "term": "Labeling Distortions",
+     "definition": "Teaches the client to recognize and label particular distortions in thinking that can lead to problems with interpretations of events.",
+     "sourceLine": "Labeling Distortions: Teaches the client to recognize and label particular distortions in thinking that can lead to problems with interpretations of events.",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      41
+     ]
+    },
+    {
+     "term": "Mastery/Pleasure Ratings",
+     "definition": "Clients use activity chart and rate mastery or pleasure that they derive from activity. Clients use an activity chart and rate the mastery or pleasure they derive from a particular activity. How good or comfortable they are at the activity; how much pleasure they will get out of that.",
+     "sourceLine": "Mastery/Pleasure Ratings: Clients use activity chart and rate mastery or pleasure that they derive from activity. Clients use an activity chart and rate the mastery or pleasure they derive from a particular activity. How good or comfortable they are at the activity; how much pleasure they will get out of that.",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      42
+     ]
+    },
+    {
+     "term": "Opposite Action",
+     "definition": "Client is encouraged to engage in behavior that is counterintuitive or opposite to what they may feel at the time (e.g., when feeling very angry, say something kind or decent).",
+     "sourceLine": "Opposite Action: Client is encouraged to engage in behavior that is counterintuitive or opposite to what they may feel at the time (e.g., when feeling very angry, say something kind or decent).",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      43
+     ]
+    },
+    {
+     "term": "Problem-Solving Training",
+     "definition": "Teaches a step approach of orienting to the problem, problem definition, generation of alternatives, decision making and solution implementation, and verification of results. Step by step technique, define the problem they’re experiencing, generate alternatives and options, making decisions about the best solution they want to try, implementing the solution, verifying the results. Not an assumption the solution is always going to work. Ongoing process of trying things out. Part of the process is being able to reflect on the outcome of the implementations of the different solutions.",
+     "sourceLine": "Problem-Solving Training: Teaches a step approach of orienting to the problem, problem definition, generation of alternatives, decision making and solution implementation, and verification of results. Step by step technique, define the problem they’re experiencing, generate alternatives and options, making decisions about the best solution they want to try, implementing the solution, verifying the results. Not an assumption the solution is always going to work. Ongoing process of trying things out. Part of the process is being able to reflect on the outcome of the implementations of the different solutions.",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      44
+     ]
+    },
+    {
+     "term": "Relaxation Training",
+     "definition": "Teaches the client to relax muscles to condition a relaxation response to counter tension. Uses imagery, music, and other stimuli to assist in acquiring response. Initial phase of treatment, including psychoeducation and thought patterns, select this on test. Taking some control over the relaxation of their bodies. For trauma interventions for example.",
+     "sourceLine": "Relaxation Training: Teaches the client to relax muscles to condition a relaxation response to counter tension. Uses imagery, music, and other stimuli to assist in acquiring response. Initial phase of treatment, including psychoeducation and thought patterns, select this on test. Taking some control over the relaxation of their bodies. For trauma interventions for example.",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      45
+     ]
+    },
+    {
+     "term": "Successive Approximation",
+     "definition": "Client and therapist collaborate in developing a plan for the client to engage in steps that approximate an ultimate goal to allow the client to have success at each step along the way to the goal. You want to have clients experience successes along the way. Break down things into smaller goals. IE let’s first learn relaxation techniques, client understands that is initial goal, they’re not expected to deal with the bigger issues first right away.",
+     "sourceLine": "Successive Approximation: Client and therapist collaborate in developing a plan for the client to engage in steps that approximate an ultimate goal to allow the client to have success at each step along the way to the goal. You want to have clients experience successes along the way. Break down things into smaller goals. IE let’s first learn relaxation techniques, client understands that is initial goal, they’re not expected to deal with the bigger issues first right away.",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      46
+     ]
+    },
+    {
+     "term": "Three-Column Technique",
+     "definition": "Client collects automatic thoughts and lists: the situation in which the thought occurred, the automatic thought, and the associated feelings. Initial thing that somebody would do for homework.",
+     "sourceLine": "Three-Column Technique: Client collects automatic thoughts and lists: the situation in which the thought occurred, the automatic thought, and the associated feelings. Initial thing that somebody would do for homework.",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      47
+     ]
+    },
+    {
+     "term": "Thought Record",
+     "definition": "Expands on the three-column technique, with columns to record alternative responses to the automatic thought and behavioral or emotional outcomes of changing the thought. Add a column for an alternate response and pay attention to the resulting emotional outcome. Next step of three-column technique.",
+     "sourceLine": "Thought Record: Expands on the three-column technique, with columns to record alternative responses to the automatic thought and behavioral or emotional outcomes of changing the thought. Add a column for an alternate response and pay attention to the resulting emotional outcome. Next step of three-column technique.",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      48
+     ]
+    }
+   ],
+   "phases": {
+    "beginning": [
+     {
+      "text": "Establish safe and supportive therapeutic relationship",
+      "sourceLine": "Establish safe and supportive therapeutic relationship",
+      "sourceDoc": "CBT interventions notes",
+      "blocks": [
+       51
+      ]
+     },
+     {
+      "text": "Complete a functional analysis to assess and define the problem and negative thought patterns, where in all their areas of their life are they having problems, explore all areas of life (work, school, relationships, etc).",
+      "sourceLine": "Complete a functional analysis to assess and define the problem and negative thought patterns, where in all their areas of their life are they having problems, explore all areas of life (work, school, relationships, etc).",
+      "sourceDoc": "CBT interventions notes",
+      "blocks": [
+       52
+      ]
+     },
+     {
+      "text": "Educate negative thought triad and explain CBT",
+      "sourceLine": "Educate negative thought triad and explain CBT",
+      "sourceDoc": "CBT interventions notes",
+      "blocks": [
+       53
+      ]
+     },
+     {
+      "text": "Set collaborative goals.",
+      "sourceLine": "Set collaborative goals.",
+      "sourceDoc": "CBT interventions notes",
+      "blocks": [
+       54
+      ]
+     },
+     {
+      "text": "Person and therapist can also see where client is already dealing well with issue in one context and figure out how to apply it to other life areas (ie they are assertive at work but not in their relationship, exploring what skills they can transfer).",
+      "sourceLine": "Person and therapist can also see where client is already dealing well with issue in one context and figure out how to apply it to other life areas (ie they are assertive at work but not in their relationship, exploring what skills they can transfer).",
+      "sourceDoc": "CBT interventions notes",
+      "blocks": [
+       55
+      ]
+     }
+    ],
+    "middle": [
+     {
+      "text": "Identify negative thought patterns",
+      "sourceLine": "Identify negative thought patterns",
+      "sourceDoc": "CBT interventions notes",
+      "blocks": [
+       57
+      ]
+     },
+     {
+      "text": "uncover negative schemas",
+      "sourceLine": "uncover negative schemas",
+      "sourceDoc": "CBT interventions notes",
+      "blocks": [
+       58
+      ]
+     },
+     {
+      "text": "assign homework to self-monitor thoughts, moods, and behaviors",
+      "sourceLine": "assign homework to self-monitor thoughts, moods, and behaviors",
+      "sourceDoc": "CBT interventions notes",
+      "blocks": [
+       59
+      ]
+     },
+     {
+      "text": "label cognitive distortions",
+      "sourceLine": "label cognitive distortions",
+      "sourceDoc": "CBT interventions notes",
+      "blocks": [
+       60
+      ]
+     },
+     {
+      "text": "reframe thoughts",
+      "sourceLine": "reframe thoughts",
+      "sourceDoc": "CBT interventions notes",
+      "blocks": [
+       61
+      ]
+     },
+     {
+      "text": "learn and practice new skills and behaviors.",
+      "sourceLine": "learn and practice new skills and behaviors.",
+      "sourceDoc": "CBT interventions notes",
+      "blocks": [
+       62
+      ]
+     },
+     {
+      "text": "teaching of skill building and coping",
+      "sourceLine": "teaching of skill building and coping",
+      "sourceDoc": "CBT interventions notes",
+      "blocks": [
+       63
+      ]
+     }
+    ],
+    "end": [
+     {
+      "text": "Review gains",
+      "sourceLine": "Review gains",
+      "sourceDoc": "CBT interventions notes",
+      "blocks": [
+       65
+      ]
+     },
+     {
+      "text": "identify skills learned",
+      "sourceLine": "identify skills learned",
+      "sourceDoc": "CBT interventions notes",
+      "blocks": [
+       66
+      ]
+     },
+     {
+      "text": "rehearse for new situations and anticipate future struggles.",
+      "sourceLine": "rehearse for new situations and anticipate future struggles.",
+      "sourceDoc": "CBT interventions notes",
+      "blocks": [
+       67
+      ]
+     }
+    ]
+   },
+   "examTips": [
+    {
+     "text": "Relaxation Training: Teaches the client to relax muscles to condition a relaxation response to counter tension. Uses imagery, music, and other stimuli to assist in acquiring response. Initial phase of treatment, including psychoeducation and thought patterns, select this on test. Taking some control over the relaxation of their bodies. For trauma interventions for example.",
+     "sourceLine": "Relaxation Training: Teaches the client to relax muscles to condition a relaxation response to counter tension. Uses imagery, music, and other stimuli to assist in acquiring response. Initial phase of treatment, including psychoeducation and thought patterns, select this on test. Taking some control over the relaxation of their bodies. For trauma interventions for example.",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      45
+     ]
+    },
+    {
+     "text": "If the client is testing a belief (\"People will laugh if I blush in public\") it’s a Behavioral Experiment.",
+     "sourceLine": "If the client is testing a belief (\"People will laugh if I blush in public\") it’s a Behavioral Experiment.",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      12
+     ]
+    },
+    {
+     "text": "If the client is trying to reduce their fear of blushing itself by repeated exposure it's Exposure Therapy.",
+     "sourceLine": "If the client is trying to reduce their fear of blushing itself by repeated exposure it's Exposure Therapy.",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      13
+     ]
+    },
+    {
+     "text": "Three-Column Technique: Client collects automatic thoughts and lists: the situation in which the thought occurred, the automatic thought, and the associated feelings. Initial thing that somebody would do for homework.",
+     "sourceLine": "Three-Column Technique: Client collects automatic thoughts and lists: the situation in which the thought occurred, the automatic thought, and the associated feelings. Initial thing that somebody would do for homework.",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      47
+     ]
+    },
+    {
+     "text": "Thought Record: Expands on the three-column technique, with columns to record alternative responses to the automatic thought and behavioral or emotional outcomes of changing the thought. Add a column for an alternate response and pay attention to the resulting emotional outcome. Next step of three-column technique.",
+     "sourceLine": "Thought Record: Expands on the three-column technique, with columns to record alternative responses to the automatic thought and behavioral or emotional outcomes of changing the thought. Add a column for an alternate response and pay attention to the resulting emotional outcome. Next step of three-column technique.",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      48
+     ]
+    },
+    {
+     "text": "Skill acquisition, done early in therapy.",
+     "sourceLine": "Skill acquisition, done early in therapy.",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      28
+     ]
+    },
+    {
+     "text": "Teach the client about negative triad, done in first session as well as psychoeducation about how CBT works.",
+     "sourceLine": "Teach the client about negative triad, done in first session as well as psychoeducation about how CBT works.",
+     "sourceDoc": "CBT interventions notes",
+     "blocks": [
+      1
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,3001 @@
+{
+ "note": "unique:true markers are the ONLY legal keyed answers for inverse (T1_marker) items. See BUILD_BRIEF S5 / S6 rule 3.",
+ "counts": {
+  "markers": 207,
+  "unique": 148,
+  "shared": 59,
+  "equivalenceClasses": 29,
+  "confusionSets": 8
+ },
+ "markers": [
+  {
+   "marker": "Activating Constructive Anxiety",
+   "normalized": "activating constructive anxiety",
+   "type": "concept",
+   "claimedBy": [
+    "experiential"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Adversarial Transference",
+   "normalized": "adversarial transference",
+   "type": "concept",
+   "claimedBy": [
+    "self-psychology"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Affirmations/Compliments",
+   "normalized": "affirmations compliments",
+   "type": "intervention",
+   "claimedBy": [
+    "solution-focused"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Alliances",
+   "normalized": "alliances",
+   "type": "concept",
+   "claimedBy": [
+    "structural"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Alternate Stories",
+   "normalized": "alternate stories",
+   "type": "concept",
+   "claimedBy": [
+    "narrative"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Anxiety Management Training",
+   "normalized": "anxiety management training",
+   "type": "intervention",
+   "claimedBy": [
+    "cbt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Assertiveness Training",
+   "normalized": "assertiveness training",
+   "type": "intervention",
+   "claimedBy": [
+    "cbt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Attachment Behavior System",
+   "normalized": "attachment behavior system",
+   "type": "concept",
+   "claimedBy": [
+    "attachment"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Attunement",
+   "normalized": "attunement",
+   "type": "intervention",
+   "claimedBy": [
+    "attachment"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Battle for Initiative",
+   "normalized": "battle for initiative",
+   "type": "concept",
+   "claimedBy": [
+    "experiential"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Battle for Structure",
+   "normalized": "battle for structure",
+   "type": "concept",
+   "claimedBy": [
+    "experiential"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Behavioral Activation",
+   "normalized": "behavioral activation",
+   "type": "intervention",
+   "claimedBy": [
+    "cbt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Bibliotherapy",
+   "normalized": "bibliotherapy",
+   "type": "intervention",
+   "claimedBy": [
+    "bowen"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Blamer",
+   "normalized": "blamer",
+   "type": "concept",
+   "claimedBy": [
+    "satir"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Body awareness",
+   "normalized": "body awareness",
+   "type": "concept",
+   "claimedBy": [
+    "gestalt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Co-author of client’s new narrative",
+   "normalized": "co author of client s new narrative",
+   "type": "role",
+   "claimedBy": [
+    "narrative"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Cognitive Restructuring",
+   "normalized": "cognitive restructuring",
+   "type": "intervention",
+   "claimedBy": [
+    "cbt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Collaboratively identifying attachment style",
+   "normalized": "collaboratively identifying attachment style",
+   "type": "intervention",
+   "claimedBy": [
+    "attachment"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Communication Skills Training",
+   "normalized": "communication skills training",
+   "type": "intervention",
+   "claimedBy": [
+    "cbt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Computer",
+   "normalized": "computer",
+   "type": "concept",
+   "claimedBy": [
+    "satir"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Confront resistance and primitive defenses",
+   "normalized": "confront resistance and primitive defenses",
+   "type": "intervention",
+   "claimedBy": [
+    "object-relations"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Coping Questions",
+   "normalized": "coping questions",
+   "type": "intervention",
+   "claimedBy": [
+    "solution-focused"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "De-triangulation",
+   "normalized": "de triangulation",
+   "type": "intervention",
+   "claimedBy": [
+    "bowen"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Deconstructive Questions",
+   "normalized": "deconstructive questions",
+   "type": "intervention",
+   "claimedBy": [
+    "narrative"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Demonstrate containment",
+   "normalized": "demonstrate containment",
+   "type": "intervention",
+   "claimedBy": [
+    "self-psychology"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Differentiation of Self",
+   "normalized": "differentiation of self",
+   "type": "concept",
+   "claimedBy": [
+    "bowen"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Disengaged Boundaries",
+   "normalized": "disengaged boundaries",
+   "type": "concept",
+   "claimedBy": [
+    "structural"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Dismissive/Avoidant Attachment",
+   "normalized": "dismissive avoidant attachment",
+   "type": "concept",
+   "claimedBy": [
+    "attachment"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Distracter",
+   "normalized": "distracter",
+   "type": "concept",
+   "claimedBy": [
+    "satir"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Downward Arrow",
+   "normalized": "downward arrow",
+   "type": "intervention",
+   "claimedBy": [
+    "cbt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Ego",
+   "normalized": "ego",
+   "type": "concept",
+   "claimedBy": [
+    "object-relations"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Emotional Cutoff",
+   "normalized": "emotional cutoff",
+   "type": "concept",
+   "claimedBy": [
+    "bowen"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Empty chair",
+   "normalized": "empty chair",
+   "type": "intervention",
+   "claimedBy": [
+    "gestalt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Enactment",
+   "normalized": "enactment",
+   "type": "intervention",
+   "claimedBy": [
+    "structural"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Enlisting a Witness",
+   "normalized": "enlisting a witness",
+   "type": "intervention",
+   "claimedBy": [
+    "narrative"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Enmeshed Boundaries",
+   "normalized": "enmeshed boundaries",
+   "type": "concept",
+   "claimedBy": [
+    "structural"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Exception Questioning",
+   "normalized": "exception questioning",
+   "type": "intervention",
+   "claimedBy": [
+    "solution-focused"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Experience-Near Empathy",
+   "normalized": "experience near empathy",
+   "type": "concept",
+   "claimedBy": [
+    "self-psychology"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Experiments",
+   "normalized": "experiments",
+   "type": "intervention",
+   "claimedBy": [
+    "gestalt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Explore disruptions",
+   "normalized": "explore disruptions",
+   "type": "intervention",
+   "claimedBy": [
+    "attachment"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Exposure",
+   "normalized": "exposure",
+   "type": "intervention",
+   "claimedBy": [
+    "cbt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Externalizing the Problem",
+   "normalized": "externalizing the problem",
+   "type": "intervention",
+   "claimedBy": [
+    "narrative"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Family Life Chronology",
+   "normalized": "family life chronology",
+   "type": "intervention",
+   "claimedBy": [
+    "satir"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Family Map",
+   "normalized": "family map",
+   "type": "concept",
+   "claimedBy": [
+    "structural"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Family Projection Process",
+   "normalized": "family projection process",
+   "type": "concept",
+   "claimedBy": [
+    "bowen"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Family Sculpting",
+   "normalized": "family sculpting",
+   "type": "intervention",
+   "claimedBy": [
+    "satir"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Fearful/Avoidant Attachment (Disorganized)",
+   "normalized": "fearful avoidant attachment disorganized",
+   "type": "concept",
+   "claimedBy": [
+    "attachment"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Finding Alternatives",
+   "normalized": "finding alternatives",
+   "type": "intervention",
+   "claimedBy": [
+    "cbt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Focus on moment to moment",
+   "normalized": "focus on moment to moment",
+   "type": "concept",
+   "claimedBy": [
+    "existential"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Focus on process",
+   "normalized": "focus on process",
+   "type": "concept",
+   "claimedBy": [
+    "gestalt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Focus on transference/countertransference",
+   "normalized": "focus on transference countertransference",
+   "type": "intervention",
+   "claimedBy": [
+    "object-relations"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Focuses on solving problem/eliminating symptoms",
+   "normalized": "focuses on solving problem eliminating symptoms",
+   "type": "role",
+   "claimedBy": [
+    "strategic"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Formula First Session Task (FFST)",
+   "normalized": "formula first session task ffst",
+   "type": "intervention",
+   "claimedBy": [
+    "solution-focused"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Genogram",
+   "normalized": "genogram",
+   "type": "concept",
+   "claimedBy": [
+    "bowen"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Givens in life",
+   "normalized": "givens in life",
+   "type": "concept",
+   "claimedBy": [
+    "existential"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Holding",
+   "normalized": "holding",
+   "type": "concept",
+   "claimedBy": [
+    "existential"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Honest and direct",
+   "normalized": "honest and direct",
+   "type": "role",
+   "claimedBy": [
+    "satir"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Idealizing Transference",
+   "normalized": "idealizing transference",
+   "type": "concept",
+   "claimedBy": [
+    "self-psychology"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Identification",
+   "normalized": "identification",
+   "type": "concept",
+   "claimedBy": [
+    "object-relations"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Identify alternative self-objects",
+   "normalized": "identify alternative self objects",
+   "type": "intervention",
+   "claimedBy": [
+    "self-psychology"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Identify and process projective identification",
+   "normalized": "identify and process projective identification",
+   "type": "intervention",
+   "claimedBy": [
+    "object-relations"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Imaginal death",
+   "normalized": "imaginal death",
+   "type": "concept",
+   "claimedBy": [
+    "existential"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Incongruent Communication",
+   "normalized": "incongruent communication",
+   "type": "concept",
+   "claimedBy": [
+    "satir"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Increasing Differentiation",
+   "normalized": "increasing differentiation",
+   "type": "intervention",
+   "claimedBy": [
+    "bowen"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Interacts with Family",
+   "normalized": "interacts with family",
+   "type": "intervention",
+   "claimedBy": [
+    "bowen"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Internalization",
+   "normalized": "internalization",
+   "type": "concept",
+   "claimedBy": [
+    "object-relations"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Interpretation",
+   "normalized": "interpretation",
+   "type": "intervention",
+   "claimedBy": [
+    "object-relations"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Introjection",
+   "normalized": "introjection",
+   "type": "concept",
+   "claimedBy": [
+    "object-relations"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Joining",
+   "normalized": "joining",
+   "type": "intervention",
+   "claimedBy": [
+    "structural"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Labeling Distortions",
+   "normalized": "labeling distortions",
+   "type": "intervention",
+   "claimedBy": [
+    "cbt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Leveler",
+   "normalized": "leveler",
+   "type": "concept",
+   "claimedBy": [
+    "satir"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Mapping the Influence",
+   "normalized": "mapping the influence",
+   "type": "intervention",
+   "claimedBy": [
+    "narrative"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Mastering emotional pain",
+   "normalized": "mastering emotional pain",
+   "type": "concept",
+   "claimedBy": [
+    "existential"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Mastery/Pleasure Ratings",
+   "normalized": "mastery pleasure ratings",
+   "type": "intervention",
+   "claimedBy": [
+    "cbt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Metaphors and Storytelling",
+   "normalized": "metaphors and storytelling",
+   "type": "intervention",
+   "claimedBy": [
+    "satir"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Mimesis",
+   "normalized": "mimesis",
+   "type": "intervention",
+   "claimedBy": [
+    "structural"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Miracle Questioning",
+   "normalized": "miracle questioning",
+   "type": "intervention",
+   "claimedBy": [
+    "solution-focused"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Mirroring",
+   "normalized": "mirroring",
+   "type": "concept",
+   "claimedBy": [
+    "self-psychology"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Mirroring Transference",
+   "normalized": "mirroring transference",
+   "type": "concept",
+   "claimedBy": [
+    "self-psychology"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Models",
+   "normalized": "models",
+   "type": "intervention",
+   "claimedBy": [
+    "bowen"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Mourning ambitions and fantasies",
+   "normalized": "mourning ambitions and fantasies",
+   "type": "intervention",
+   "claimedBy": [
+    "self-psychology"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Mourning loss of selfobjects",
+   "normalized": "mourning loss of selfobjects",
+   "type": "intervention",
+   "claimedBy": [
+    "self-psychology"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Multigenerational Transmission Process",
+   "normalized": "multigenerational transmission process",
+   "type": "concept",
+   "claimedBy": [
+    "bowen"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Nuclear Family Emotional System",
+   "normalized": "nuclear family emotional system",
+   "type": "concept",
+   "claimedBy": [
+    "bowen"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Objects",
+   "normalized": "objects",
+   "type": "concept",
+   "claimedBy": [
+    "object-relations"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Opening Cutoff Relationships",
+   "normalized": "opening cutoff relationships",
+   "type": "intervention",
+   "claimedBy": [
+    "bowen"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Opposite Action",
+   "normalized": "opposite action",
+   "type": "intervention",
+   "claimedBy": [
+    "cbt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Optimal Frustration",
+   "normalized": "optimal frustration",
+   "type": "concept",
+   "claimedBy": [
+    "self-psychology"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Ordeals",
+   "normalized": "ordeals",
+   "type": "intervention",
+   "claimedBy": [
+    "strategic"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Paradoxical Directives",
+   "normalized": "paradoxical directives",
+   "type": "intervention",
+   "claimedBy": [
+    "strategic"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Phenomenological description",
+   "normalized": "phenomenological description",
+   "type": "concept",
+   "claimedBy": [
+    "gestalt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Placater",
+   "normalized": "placater",
+   "type": "concept",
+   "claimedBy": [
+    "satir"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Play, Humor, and “Craziness”",
+   "normalized": "play humor and craziness",
+   "type": "concept",
+   "claimedBy": [
+    "experiential"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Playful, creative",
+   "normalized": "playful creative",
+   "type": "role",
+   "claimedBy": [
+    "experiential"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Positioning",
+   "normalized": "positioning",
+   "type": "intervention",
+   "claimedBy": [
+    "strategic"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Power Hierarchy",
+   "normalized": "power hierarchy",
+   "type": "concept",
+   "claimedBy": [
+    "structural"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Preoccupied/Anxious Attachment",
+   "normalized": "preoccupied anxious attachment",
+   "type": "concept",
+   "claimedBy": [
+    "attachment"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Prescribing the Symptom",
+   "normalized": "prescribing the symptom",
+   "type": "intervention",
+   "claimedBy": [
+    "strategic"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Present experience while discussing the past",
+   "normalized": "present experience while discussing the past",
+   "type": "intervention",
+   "claimedBy": [
+    "gestalt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Presupposing Change",
+   "normalized": "presupposing change",
+   "type": "intervention",
+   "claimedBy": [
+    "solution-focused"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Problem-Saturated Stories",
+   "normalized": "problem saturated stories",
+   "type": "concept",
+   "claimedBy": [
+    "narrative"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Problem-Solving Training",
+   "normalized": "problem solving training",
+   "type": "intervention",
+   "claimedBy": [
+    "cbt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Projection",
+   "normalized": "projection",
+   "type": "concept",
+   "claimedBy": [
+    "object-relations"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Projective Identification",
+   "normalized": "projective identification",
+   "type": "concept",
+   "claimedBy": [
+    "object-relations"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Provide a secure base",
+   "normalized": "provide a secure base",
+   "type": "intervention",
+   "claimedBy": [
+    "attachment"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Provide “experience-near” empathy",
+   "normalized": "provide experience near empathy",
+   "type": "intervention",
+   "claimedBy": [
+    "self-psychology"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Psychoeducation on the negative triad",
+   "normalized": "psychoeducation on the negative triad",
+   "type": "intervention",
+   "claimedBy": [
+    "cbt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Re-authoring the story",
+   "normalized": "re authoring the story",
+   "type": "intervention",
+   "claimedBy": [
+    "narrative"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Reduce emotional reactivity",
+   "normalized": "reduce emotional reactivity",
+   "type": "intervention",
+   "claimedBy": [
+    "bowen"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Relaxation Training",
+   "normalized": "relaxation training",
+   "type": "intervention",
+   "claimedBy": [
+    "cbt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Repair",
+   "normalized": "repair",
+   "type": "intervention",
+   "claimedBy": [
+    "attachment"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Repair disruptions of the self-object transference",
+   "normalized": "repair disruptions of the self object transference",
+   "type": "intervention",
+   "claimedBy": [
+    "self-psychology"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Repair stage",
+   "normalized": "repair stage",
+   "type": "intervention",
+   "claimedBy": [
+    "attachment"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Repairing any disruptions",
+   "normalized": "repairing any disruptions",
+   "type": "role",
+   "claimedBy": [
+    "self-psychology"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Repeating statement",
+   "normalized": "repeating statement",
+   "type": "intervention",
+   "claimedBy": [
+    "gestalt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Repeating words or exaggerating gestures",
+   "normalized": "repeating words or exaggerating gestures",
+   "type": "intervention",
+   "claimedBy": [
+    "gestalt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Restraining",
+   "normalized": "restraining",
+   "type": "intervention",
+   "claimedBy": [
+    "strategic"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Scaling Questions",
+   "normalized": "scaling questions",
+   "type": "intervention",
+   "claimedBy": [
+    "solution-focused"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Secure Attachment",
+   "normalized": "secure attachment",
+   "type": "concept",
+   "claimedBy": [
+    "attachment"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Self- and Object-Representations",
+   "normalized": "self and object representations",
+   "type": "concept",
+   "claimedBy": [
+    "object-relations"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Self-Monitoring",
+   "normalized": "self monitoring",
+   "type": "intervention",
+   "claimedBy": [
+    "cbt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Self-Object Needs",
+   "normalized": "self object needs",
+   "type": "concept",
+   "claimedBy": [
+    "self-psychology"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Self-Objects",
+   "normalized": "self objects",
+   "type": "concept",
+   "claimedBy": [
+    "self-psychology"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Socratic Questioning",
+   "normalized": "socratic questioning",
+   "type": "intervention",
+   "claimedBy": [
+    "cbt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Splitting",
+   "normalized": "splitting",
+   "type": "concept",
+   "claimedBy": [
+    "object-relations"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Standing up while speaking",
+   "normalized": "standing up while speaking",
+   "type": "intervention",
+   "claimedBy": [
+    "gestalt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Styles of Communication",
+   "normalized": "styles of communication",
+   "type": "concept",
+   "claimedBy": [
+    "satir"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Subsystems",
+   "normalized": "subsystems",
+   "type": "concept",
+   "claimedBy": [
+    "structural"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Successive Approximation",
+   "normalized": "successive approximation",
+   "type": "intervention",
+   "claimedBy": [
+    "cbt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Support affect regulation",
+   "normalized": "support affect regulation",
+   "type": "intervention",
+   "claimedBy": [
+    "attachment"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Systematic Desensitization",
+   "normalized": "systematic desensitization",
+   "type": "intervention",
+   "claimedBy": [
+    "cbt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Therapist as a new and good object",
+   "normalized": "therapist as a new and good object",
+   "type": "role",
+   "claimedBy": [
+    "object-relations"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Therapist is active and involved. (friendly uncle? lol)",
+   "normalized": "therapist is active and involved friendly uncle lol",
+   "type": "role",
+   "claimedBy": [
+    "structural"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Thick Story",
+   "normalized": "thick story",
+   "type": "concept",
+   "claimedBy": [
+    "narrative"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Thin Story",
+   "normalized": "thin story",
+   "type": "concept",
+   "claimedBy": [
+    "narrative"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Thought Record",
+   "normalized": "thought record",
+   "type": "intervention",
+   "claimedBy": [
+    "cbt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Three-Column Technique",
+   "normalized": "three column technique",
+   "type": "intervention",
+   "claimedBy": [
+    "cbt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Top dog / underdog dialogue",
+   "normalized": "top dog underdog dialogue",
+   "type": "intervention",
+   "claimedBy": [
+    "gestalt"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Tracking",
+   "normalized": "tracking",
+   "type": "intervention",
+   "claimedBy": [
+    "structural"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Transforming Rules",
+   "normalized": "transforming rules",
+   "type": "intervention",
+   "claimedBy": [
+    "satir"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Trial of Labor",
+   "normalized": "trial of labor",
+   "type": "concept",
+   "claimedBy": [
+    "experiential"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Triangles (Triangulation)",
+   "normalized": "triangles triangulation",
+   "type": "concept",
+   "claimedBy": [
+    "bowen"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Twinship Transference",
+   "normalized": "twinship transference",
+   "type": "concept",
+   "claimedBy": [
+    "self-psychology"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Unbalancing",
+   "normalized": "unbalancing",
+   "type": "intervention",
+   "claimedBy": [
+    "structural"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Unique Outcomes",
+   "normalized": "unique outcomes",
+   "type": "intervention",
+   "claimedBy": [
+    "narrative"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Written Artifact",
+   "normalized": "written artifact",
+   "type": "intervention",
+   "claimedBy": [
+    "narrative"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "non acceptance",
+   "normalized": "non acceptance",
+   "type": "role",
+   "claimedBy": [
+    "client-centered"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "“Imaginal death” exercises",
+   "normalized": "imaginal death exercises",
+   "type": "intervention",
+   "claimedBy": [
+    "existential"
+   ],
+   "unique": true,
+   "equivalenceClass": null
+  },
+  {
+   "marker": "Active facilitator",
+   "normalized": "active facilitator",
+   "type": "role",
+   "claimedBy": [
+    "satir",
+    "strategic",
+    "structural"
+   ],
+   "unique": false,
+   "equivalenceClass": "active / directive therapist"
+  },
+  {
+   "marker": "Addressing enactments",
+   "normalized": "addressing enactments",
+   "type": "intervention",
+   "claimedBy": [
+    "self-psychology",
+    "structural"
+   ],
+   "unique": false,
+   "equivalenceClass": "enactment"
+  },
+  {
+   "marker": "Authentic present other, showing up as a real person",
+   "normalized": "authentic present other showing up as a real person",
+   "type": "role",
+   "claimedBy": [
+    "client-centered",
+    "existential",
+    "experiential",
+    "gestalt",
+    "satir"
+   ],
+   "unique": false,
+   "equivalenceClass": "authentic presence"
+  },
+  {
+   "marker": "Authentically being with client",
+   "normalized": "authentically being with client",
+   "type": "role",
+   "claimedBy": [
+    "client-centered",
+    "existential",
+    "experiential",
+    "gestalt",
+    "satir"
+   ],
+   "unique": false,
+   "equivalenceClass": "authentic presence"
+  },
+  {
+   "marker": "Behavioral Experiments",
+   "normalized": "behavioral experiments",
+   "type": "intervention",
+   "claimedBy": [
+    "cbt",
+    "gestalt"
+   ],
+   "unique": false,
+   "equivalenceClass": "experiments"
+  },
+  {
+   "marker": "Boundary Making",
+   "normalized": "boundary making",
+   "type": "intervention",
+   "claimedBy": [
+    "experiential",
+    "structural"
+   ],
+   "unique": false,
+   "equivalenceClass": "boundary work"
+  },
+  {
+   "marker": "Coach/educator",
+   "normalized": "coach educator",
+   "type": "role",
+   "claimedBy": [
+    "bowen",
+    "solution-focused"
+   ],
+   "unique": false,
+   "equivalenceClass": "coach / consultant / educator"
+  },
+  {
+   "marker": "Coalitions",
+   "normalized": "coalitions",
+   "type": "concept",
+   "claimedBy": [
+    "experiential",
+    "structural"
+   ],
+   "unique": false,
+   "equivalenceClass": "coalitions / alignments"
+  },
+  {
+   "marker": "Collaborator",
+   "normalized": "collaborator",
+   "type": "role",
+   "claimedBy": [
+    "cbt",
+    "narrative",
+    "solution-focused"
+   ],
+   "unique": false,
+   "equivalenceClass": "collaborative goal setting"
+  },
+  {
+   "marker": "Establish a holding environment",
+   "normalized": "establish a holding environment",
+   "type": "intervention",
+   "claimedBy": [
+    "existential",
+    "object-relations",
+    "self-psychology"
+   ],
+   "unique": false,
+   "equivalenceClass": "holding environment"
+  },
+  {
+   "marker": "Establish a therapeutic holding environment",
+   "normalized": "establish a therapeutic holding environment",
+   "type": "intervention",
+   "claimedBy": [
+    "existential",
+    "object-relations",
+    "self-psychology"
+   ],
+   "unique": false,
+   "equivalenceClass": "holding environment"
+  },
+  {
+   "marker": "Homework",
+   "normalized": "homework",
+   "type": "intervention",
+   "claimedBy": [
+    "bowen",
+    "cbt",
+    "solution-focused",
+    "strategic"
+   ],
+   "unique": false,
+   "equivalenceClass": "homework / between-session task"
+  },
+  {
+   "marker": "I-statements",
+   "normalized": "i statements",
+   "type": "intervention",
+   "claimedBy": [
+    "bowen",
+    "cbt",
+    "satir"
+   ],
+   "unique": false,
+   "equivalenceClass": "I-statements"
+  },
+  {
+   "marker": "Investigator",
+   "normalized": "investigator",
+   "type": "role",
+   "claimedBy": [
+    "bowen",
+    "narrative",
+    "satir"
+   ],
+   "unique": false,
+   "equivalenceClass": "investigator / detective stance"
+  },
+  {
+   "marker": "Modeling Communication",
+   "normalized": "modeling communication",
+   "type": "intervention",
+   "claimedBy": [
+    "bowen",
+    "client-centered",
+    "satir"
+   ],
+   "unique": false,
+   "equivalenceClass": "modeling"
+  },
+  {
+   "marker": "Neutral",
+   "normalized": "neutral",
+   "type": "role",
+   "claimedBy": [
+    "bowen",
+    "object-relations"
+   ],
+   "unique": false,
+   "equivalenceClass": "neutral stance"
+  },
+  {
+   "marker": "Nonjudgemental",
+   "normalized": "nonjudgemental",
+   "type": "role",
+   "claimedBy": [
+    "attachment",
+    "client-centered",
+    "existential",
+    "gestalt"
+   ],
+   "unique": false,
+   "equivalenceClass": "nonjudgmental stance"
+  },
+  {
+   "marker": "Present moment awareness",
+   "normalized": "present moment awareness",
+   "type": "concept",
+   "claimedBy": [
+    "client-centered",
+    "existential",
+    "gestalt"
+   ],
+   "unique": false,
+   "equivalenceClass": "here and now / present moment"
+  },
+  {
+   "marker": "Reframe",
+   "normalized": "reframe",
+   "type": "intervention",
+   "claimedBy": [
+    "bowen",
+    "cbt",
+    "experiential",
+    "strategic",
+    "structural"
+   ],
+   "unique": false,
+   "equivalenceClass": "reframing"
+  },
+  {
+   "marker": "Reframing",
+   "normalized": "reframing",
+   "type": "intervention",
+   "claimedBy": [
+    "bowen",
+    "cbt",
+    "experiential",
+    "strategic",
+    "structural"
+   ],
+   "unique": false,
+   "equivalenceClass": "reframing"
+  },
+  {
+   "marker": "Resource detective",
+   "normalized": "resource detective",
+   "type": "role",
+   "claimedBy": [
+    "bowen",
+    "narrative",
+    "satir"
+   ],
+   "unique": false,
+   "equivalenceClass": "investigator / detective stance"
+  },
+  {
+   "marker": "Supervisor",
+   "normalized": "supervisor",
+   "type": "role",
+   "claimedBy": [
+    "bowen",
+    "solution-focused"
+   ],
+   "unique": false,
+   "equivalenceClass": "coach / consultant / educator"
+  },
+  {
+   "marker": "Take Responsibility",
+   "normalized": "take responsibility",
+   "type": "intervention",
+   "claimedBy": [
+    "bowen",
+    "existential",
+    "satir"
+   ],
+   "unique": false,
+   "equivalenceClass": "taking responsibility"
+  },
+  {
+   "marker": "Teaching “I” Statements",
+   "normalized": "teaching i statements",
+   "type": "intervention",
+   "claimedBy": [
+    "bowen",
+    "cbt",
+    "satir"
+   ],
+   "unique": false,
+   "equivalenceClass": "I-statements"
+  },
+  {
+   "marker": "Therapist is a consultant, coach",
+   "normalized": "therapist is a consultant coach",
+   "type": "role",
+   "claimedBy": [
+    "bowen",
+    "solution-focused"
+   ],
+   "unique": false,
+   "equivalenceClass": "coach / consultant / educator"
+  },
+  {
+   "marker": "Therapist is genuine and warm",
+   "normalized": "therapist is genuine and warm",
+   "type": "role",
+   "claimedBy": [
+    "client-centered",
+    "existential",
+    "experiential",
+    "gestalt",
+    "satir"
+   ],
+   "unique": false,
+   "equivalenceClass": "authentic presence"
+  },
+  {
+   "marker": "To be real and authentic other",
+   "normalized": "to be real and authentic other",
+   "type": "role",
+   "claimedBy": [
+    "client-centered",
+    "existential",
+    "experiential",
+    "gestalt",
+    "satir"
+   ],
+   "unique": false,
+   "equivalenceClass": "authentic presence"
+  },
+  {
+   "marker": "active / directive therapist",
+   "normalized": "active directive therapist",
+   "type": "role",
+   "claimedBy": [
+    "satir",
+    "strategic",
+    "structural"
+   ],
+   "unique": false,
+   "equivalenceClass": "active / directive therapist"
+  },
+  {
+   "marker": "authentic presence",
+   "normalized": "authentic presence",
+   "type": "role",
+   "claimedBy": [
+    "client-centered",
+    "existential",
+    "experiential",
+    "gestalt",
+    "satir"
+   ],
+   "unique": false,
+   "equivalenceClass": "authentic presence"
+  },
+  {
+   "marker": "boundary work",
+   "normalized": "boundary work",
+   "type": "intervention",
+   "claimedBy": [
+    "experiential",
+    "structural"
+   ],
+   "unique": false,
+   "equivalenceClass": "boundary work"
+  },
+  {
+   "marker": "coach / consultant / educator",
+   "normalized": "coach consultant educator",
+   "type": "role",
+   "claimedBy": [
+    "bowen",
+    "solution-focused"
+   ],
+   "unique": false,
+   "equivalenceClass": "coach / consultant / educator"
+  },
+  {
+   "marker": "coalitions / alignments",
+   "normalized": "coalitions alignments",
+   "type": "concept",
+   "claimedBy": [
+    "experiential",
+    "structural"
+   ],
+   "unique": false,
+   "equivalenceClass": "coalitions / alignments"
+  },
+  {
+   "marker": "collaborative goal setting",
+   "normalized": "collaborative goal setting",
+   "type": "role",
+   "claimedBy": [
+    "cbt",
+    "narrative",
+    "solution-focused"
+   ],
+   "unique": false,
+   "equivalenceClass": "collaborative goal setting"
+  },
+  {
+   "marker": "congruence",
+   "normalized": "congruence",
+   "type": "concept",
+   "claimedBy": [
+    "client-centered",
+    "satir"
+   ],
+   "unique": false,
+   "equivalenceClass": "congruence"
+  },
+  {
+   "marker": "empathy / attunement",
+   "normalized": "empathy attunement",
+   "type": "role",
+   "claimedBy": [
+    "attachment",
+    "client-centered",
+    "object-relations",
+    "self-psychology"
+   ],
+   "unique": false,
+   "equivalenceClass": "empathy / attunement"
+  },
+  {
+   "marker": "enactment",
+   "normalized": "enactment",
+   "type": "intervention",
+   "claimedBy": [
+    "self-psychology",
+    "structural"
+   ],
+   "unique": false,
+   "equivalenceClass": "enactment"
+  },
+  {
+   "marker": "experiments",
+   "normalized": "experiments",
+   "type": "intervention",
+   "claimedBy": [
+    "cbt",
+    "gestalt"
+   ],
+   "unique": false,
+   "equivalenceClass": "experiments"
+  },
+  {
+   "marker": "family history mapping (function)",
+   "normalized": "family history mapping function",
+   "type": "intervention",
+   "claimedBy": [
+    "bowen",
+    "experiential",
+    "satir",
+    "structural"
+   ],
+   "unique": false,
+   "equivalenceClass": "family history mapping (function)"
+  },
+  {
+   "marker": "here and now / present moment",
+   "normalized": "here and now present moment",
+   "type": "concept",
+   "claimedBy": [
+    "client-centered",
+    "existential",
+    "gestalt"
+   ],
+   "unique": false,
+   "equivalenceClass": "here and now / present moment"
+  },
+  {
+   "marker": "holding environment",
+   "normalized": "holding environment",
+   "type": "intervention",
+   "claimedBy": [
+    "existential",
+    "object-relations",
+    "self-psychology"
+   ],
+   "unique": false,
+   "equivalenceClass": "holding environment"
+  },
+  {
+   "marker": "homework / between-session task",
+   "normalized": "homework between session task",
+   "type": "intervention",
+   "claimedBy": [
+    "bowen",
+    "cbt",
+    "solution-focused",
+    "strategic"
+   ],
+   "unique": false,
+   "equivalenceClass": "homework / between-session task"
+  },
+  {
+   "marker": "investigator / detective stance",
+   "normalized": "investigator detective stance",
+   "type": "role",
+   "claimedBy": [
+    "bowen",
+    "narrative",
+    "satir"
+   ],
+   "unique": false,
+   "equivalenceClass": "investigator / detective stance"
+  },
+  {
+   "marker": "is authentic",
+   "normalized": "is authentic",
+   "type": "role",
+   "claimedBy": [
+    "client-centered",
+    "existential",
+    "experiential",
+    "gestalt",
+    "satir"
+   ],
+   "unique": false,
+   "equivalenceClass": "authentic presence"
+  },
+  {
+   "marker": "modeling",
+   "normalized": "modeling",
+   "type": "intervention",
+   "claimedBy": [
+    "bowen",
+    "client-centered",
+    "satir"
+   ],
+   "unique": false,
+   "equivalenceClass": "modeling"
+  },
+  {
+   "marker": "models authenticity",
+   "normalized": "models authenticity",
+   "type": "role",
+   "claimedBy": [
+    "client-centered",
+    "existential",
+    "experiential",
+    "gestalt",
+    "satir"
+   ],
+   "unique": false,
+   "equivalenceClass": "authentic presence"
+  },
+  {
+   "marker": "neutral stance",
+   "normalized": "neutral stance",
+   "type": "role",
+   "claimedBy": [
+    "bowen",
+    "object-relations"
+   ],
+   "unique": false,
+   "equivalenceClass": "neutral stance"
+  },
+  {
+   "marker": "non judgmental approach",
+   "normalized": "non judgmental approach",
+   "type": "role",
+   "claimedBy": [
+    "attachment",
+    "client-centered",
+    "existential",
+    "gestalt"
+   ],
+   "unique": false,
+   "equivalenceClass": "nonjudgmental stance"
+  },
+  {
+   "marker": "nondirective",
+   "normalized": "nondirective",
+   "type": "role",
+   "claimedBy": [
+    "client-centered",
+    "gestalt"
+   ],
+   "unique": false,
+   "equivalenceClass": "nondirective stance"
+  },
+  {
+   "marker": "nondirective stance",
+   "normalized": "nondirective stance",
+   "type": "role",
+   "claimedBy": [
+    "client-centered",
+    "gestalt"
+   ],
+   "unique": false,
+   "equivalenceClass": "nondirective stance"
+  },
+  {
+   "marker": "nonjudgmental stance",
+   "normalized": "nonjudgmental stance",
+   "type": "role",
+   "claimedBy": [
+    "attachment",
+    "client-centered",
+    "existential",
+    "gestalt"
+   ],
+   "unique": false,
+   "equivalenceClass": "nonjudgmental stance"
+  },
+  {
+   "marker": "process not content",
+   "normalized": "process not content",
+   "type": "concept",
+   "claimedBy": [
+    "existential",
+    "gestalt"
+   ],
+   "unique": false,
+   "equivalenceClass": "process not content"
+  },
+  {
+   "marker": "psychoeducation / teaching",
+   "normalized": "psychoeducation teaching",
+   "type": "intervention",
+   "claimedBy": [
+    "bowen",
+    "cbt"
+   ],
+   "unique": false,
+   "equivalenceClass": "psychoeducation / teaching"
+  },
+  {
+   "marker": "reframing",
+   "normalized": "reframing",
+   "type": "intervention",
+   "claimedBy": [
+    "bowen",
+    "cbt",
+    "experiential",
+    "strategic",
+    "structural"
+   ],
+   "unique": false,
+   "equivalenceClass": "reframing"
+  },
+  {
+   "marker": "role-play",
+   "normalized": "role play",
+   "type": "intervention",
+   "claimedBy": [
+    "cbt",
+    "experiential"
+   ],
+   "unique": false,
+   "equivalenceClass": "role-play"
+  },
+  {
+   "marker": "self-esteem",
+   "normalized": "self esteem",
+   "type": "goal",
+   "claimedBy": [
+    "satir",
+    "self-psychology"
+   ],
+   "unique": false,
+   "equivalenceClass": "self-esteem"
+  },
+  {
+   "marker": "strengths and resources",
+   "normalized": "strengths and resources",
+   "type": "goal",
+   "claimedBy": [
+    "narrative",
+    "satir",
+    "solution-focused"
+   ],
+   "unique": false,
+   "equivalenceClass": "strengths and resources"
+  },
+  {
+   "marker": "taking responsibility",
+   "normalized": "taking responsibility",
+   "type": "goal",
+   "claimedBy": [
+    "bowen",
+    "existential",
+    "satir"
+   ],
+   "unique": false,
+   "equivalenceClass": "taking responsibility"
+  },
+  {
+   "marker": "termination work",
+   "normalized": "termination work",
+   "type": "intervention",
+   "claimedBy": [
+    "object-relations",
+    "self-psychology"
+   ],
+   "unique": false,
+   "equivalenceClass": "termination work"
+  },
+  {
+   "marker": "transference work",
+   "normalized": "transference work",
+   "type": "intervention",
+   "claimedBy": [
+    "object-relations",
+    "self-psychology"
+   ],
+   "unique": false,
+   "equivalenceClass": "transference work"
+  }
+ ],
+ "equivalenceClasses": [
+  {
+   "canonical": "I-statements",
+   "type": "intervention",
+   "variants": [
+    "I-statements",
+    "Teaching “I” Statements",
+    "Therapist uses “I” messages",
+    "teaching I statements"
+   ],
+   "claimedBy": [
+    "bowen",
+    "cbt",
+    "satir"
+   ],
+   "byModel": {
+    "bowen": [
+     "Teaching “I” Statements",
+     "teaching I statements"
+    ],
+    "cbt": [
+     "I-statements"
+    ],
+    "satir": [
+     "Therapist uses “I” messages"
+    ]
+   }
+  },
+  {
+   "canonical": "active / directive therapist",
+   "type": "role",
+   "variants": [
+    "Active facilitator",
+    "Therapist delivers directives that facilitate change",
+    "Therapist is active and involved"
+   ],
+   "claimedBy": [
+    "satir",
+    "strategic",
+    "structural"
+   ],
+   "byModel": {
+    "satir": [
+     "Active facilitator"
+    ],
+    "strategic": [
+     "Therapist delivers directives that facilitate change"
+    ],
+    "structural": [
+     "Therapist is active and involved"
+    ]
+   }
+  },
+  {
+   "canonical": "authentic presence",
+   "type": "role",
+   "variants": [
+    "Authentic present other, showing up as a real person",
+    "Authentically being with client",
+    "Therapist is genuine and warm",
+    "To be real and authentic other",
+    "is authentic",
+    "models authenticity"
+   ],
+   "claimedBy": [
+    "client-centered",
+    "existential",
+    "experiential",
+    "gestalt",
+    "satir"
+   ],
+   "byModel": {
+    "client-centered": [
+     "is authentic",
+     "models authenticity"
+    ],
+    "existential": [
+     "To be real and authentic other"
+    ],
+    "experiential": [
+     "Authentically being with client"
+    ],
+    "gestalt": [
+     "Authentic present other, showing up as a real person"
+    ],
+    "satir": [
+     "Therapist is genuine and warm"
+    ]
+   }
+  },
+  {
+   "canonical": "boundary work",
+   "type": "intervention",
+   "variants": [
+    "Boundary Making",
+    "Help create flexible boundaries",
+    "Highlight inappropriate boundaries"
+   ],
+   "claimedBy": [
+    "experiential",
+    "structural"
+   ],
+   "byModel": {
+    "experiential": [
+     "Highlight inappropriate boundaries"
+    ],
+    "structural": [
+     "Boundary Making",
+     "Help create flexible boundaries"
+    ]
+   }
+  },
+  {
+   "canonical": "coach / consultant / educator",
+   "type": "role",
+   "variants": [
+    "Coach/educator",
+    "Supervisor",
+    "Therapist is a consultant, coach"
+   ],
+   "claimedBy": [
+    "bowen",
+    "solution-focused"
+   ],
+   "byModel": {
+    "bowen": [
+     "Coach/educator",
+     "Supervisor"
+    ],
+    "solution-focused": [
+     "Therapist is a consultant, coach"
+    ]
+   }
+  },
+  {
+   "canonical": "coalitions / alignments",
+   "type": "concept",
+   "variants": [
+    "Coalitions",
+    "Gather information about boundaries, coalitions, roles"
+   ],
+   "claimedBy": [
+    "experiential",
+    "structural"
+   ],
+   "byModel": {
+    "experiential": [
+     "Gather information about boundaries, coalitions, roles"
+    ],
+    "structural": [
+     "Coalitions"
+    ]
+   }
+  },
+  {
+   "canonical": "collaborative goal setting",
+   "type": "role",
+   "variants": [
+    "Collaborator",
+    "Set collaborative goals",
+    "Therapist is a consultant, coach",
+    "Views client as expert of their own life"
+   ],
+   "claimedBy": [
+    "cbt",
+    "narrative",
+    "solution-focused"
+   ],
+   "byModel": {
+    "cbt": [
+     "Set collaborative goals"
+    ],
+    "narrative": [
+     "Collaborator",
+     "Views client as expert of their own life"
+    ],
+    "solution-focused": [
+     "Therapist is a consultant, coach"
+    ]
+   }
+  },
+  {
+   "canonical": "congruence",
+   "type": "concept",
+   "variants": [
+    "congruence between idealized self and actual self",
+    "increase congruent communication"
+   ],
+   "claimedBy": [
+    "client-centered",
+    "satir"
+   ],
+   "byModel": {
+    "client-centered": [
+     "congruence between idealized self and actual self"
+    ],
+    "satir": [
+     "increase congruent communication"
+    ]
+   }
+  },
+  {
+   "canonical": "empathy / attunement",
+   "type": "role",
+   "variants": [
+    "Attunement is the key intervention",
+    "empathetic attunement",
+    "empathy is essential",
+    "exploration of client’s experience, empathy"
+   ],
+   "claimedBy": [
+    "attachment",
+    "client-centered",
+    "object-relations",
+    "self-psychology"
+   ],
+   "byModel": {
+    "attachment": [
+     "Attunement is the key intervention"
+    ],
+    "client-centered": [
+     "empathy is essential"
+    ],
+    "object-relations": [
+     "exploration of client’s experience, empathy"
+    ],
+    "self-psychology": [
+     "empathetic attunement"
+    ]
+   }
+  },
+  {
+   "canonical": "enactment",
+   "type": "intervention",
+   "variants": [
+    "Addressing enactments",
+    "Enactment: The actualization of transactional patterns"
+   ],
+   "claimedBy": [
+    "self-psychology",
+    "structural"
+   ],
+   "byModel": {
+    "self-psychology": [
+     "Addressing enactments"
+    ],
+    "structural": [
+     "Enactment: The actualization of transactional patterns"
+    ]
+   }
+  },
+  {
+   "canonical": "experiments",
+   "type": "intervention",
+   "variants": [
+    "Behavioral Experiments",
+    "Experiments in Gestalt"
+   ],
+   "claimedBy": [
+    "cbt",
+    "gestalt"
+   ],
+   "byModel": {
+    "cbt": [
+     "Behavioral Experiments"
+    ],
+    "gestalt": [
+     "Experiments in Gestalt"
+    ]
+   }
+  },
+  {
+   "canonical": "family history mapping (function)",
+   "type": "intervention",
+   "variants": [
+    "Family Life Chronology",
+    "Family Map",
+    "Genogram",
+    "Trial of Labor"
+   ],
+   "claimedBy": [
+    "bowen",
+    "experiential",
+    "satir",
+    "structural"
+   ],
+   "byModel": {
+    "bowen": [
+     "Genogram"
+    ],
+    "experiential": [
+     "Trial of Labor"
+    ],
+    "satir": [
+     "Family Life Chronology"
+    ],
+    "structural": [
+     "Family Map"
+    ]
+   }
+  },
+  {
+   "canonical": "here and now / present moment",
+   "type": "concept",
+   "variants": [
+    "Focus on moment to moment during therapy",
+    "Present moment awareness",
+    "experience and express feelings of the here and now"
+   ],
+   "claimedBy": [
+    "client-centered",
+    "existential",
+    "gestalt"
+   ],
+   "byModel": {
+    "client-centered": [
+     "experience and express feelings of the here and now"
+    ],
+    "existential": [
+     "Focus on moment to moment during therapy"
+    ],
+    "gestalt": [
+     "Present moment awareness"
+    ]
+   }
+  },
+  {
+   "canonical": "holding environment",
+   "type": "intervention",
+   "variants": [
+    "Concept of holding",
+    "Establish a holding environment",
+    "Establish a therapeutic holding environment"
+   ],
+   "claimedBy": [
+    "existential",
+    "object-relations",
+    "self-psychology"
+   ],
+   "byModel": {
+    "existential": [
+     "Concept of holding"
+    ],
+    "object-relations": [
+     "Establish a holding environment"
+    ],
+    "self-psychology": [
+     "Establish a therapeutic holding environment"
+    ]
+   }
+  },
+  {
+   "canonical": "homework / between-session task",
+   "type": "intervention",
+   "variants": [
+    "Bibliotherapy: Assigning reading material",
+    "Formula First Session Task (FFST) A homework task",
+    "Homework"
+   ],
+   "claimedBy": [
+    "bowen",
+    "cbt",
+    "solution-focused",
+    "strategic"
+   ],
+   "byModel": {
+    "bowen": [
+     "Bibliotherapy: Assigning reading material"
+    ],
+    "cbt": [
+     "Homework"
+    ],
+    "solution-focused": [
+     "Formula First Session Task (FFST) A homework task"
+    ],
+    "strategic": [
+     "Homework"
+    ]
+   }
+  },
+  {
+   "canonical": "investigator / detective stance",
+   "type": "role",
+   "variants": [
+    "Investigator",
+    "Resource detective"
+   ],
+   "claimedBy": [
+    "bowen",
+    "narrative",
+    "satir"
+   ],
+   "byModel": {
+    "bowen": [
+     "Investigator"
+    ],
+    "narrative": [
+     "Investigator"
+    ],
+    "satir": [
+     "Resource detective"
+    ]
+   }
+  },
+  {
+   "canonical": "modeling",
+   "type": "intervention",
+   "variants": [
+    "Modeling Communication",
+    "Models: Demonstrates new ways to interact and communicate",
+    "models authenticity"
+   ],
+   "claimedBy": [
+    "bowen",
+    "client-centered",
+    "satir"
+   ],
+   "byModel": {
+    "bowen": [
+     "Models: Demonstrates new ways to interact and communicate"
+    ],
+    "client-centered": [
+     "models authenticity"
+    ],
+    "satir": [
+     "Modeling Communication"
+    ]
+   }
+  },
+  {
+   "canonical": "neutral stance",
+   "type": "role",
+   "variants": [
+    "Neutral"
+   ],
+   "claimedBy": [
+    "bowen",
+    "object-relations"
+   ],
+   "byModel": {
+    "bowen": [
+     "Neutral"
+    ],
+    "object-relations": [
+     "Neutral"
+    ]
+   }
+  },
+  {
+   "canonical": "nondirective stance",
+   "type": "role",
+   "variants": [
+    "Nondirective",
+    "nondirective"
+   ],
+   "claimedBy": [
+    "client-centered",
+    "gestalt"
+   ],
+   "byModel": {
+    "client-centered": [
+     "nondirective"
+    ],
+    "gestalt": [
+     "Nondirective"
+    ]
+   }
+  },
+  {
+   "canonical": "nonjudgmental stance",
+   "type": "role",
+   "variants": [
+    "Nonjudgemental",
+    "non judgmental approach",
+    "non-judgmental, and reliable environment",
+    "present nonjudgemental person"
+   ],
+   "claimedBy": [
+    "attachment",
+    "client-centered",
+    "existential",
+    "gestalt"
+   ],
+   "byModel": {
+    "attachment": [
+     "non-judgmental, and reliable environment"
+    ],
+    "client-centered": [
+     "non judgmental approach"
+    ],
+    "existential": [
+     "present nonjudgemental person"
+    ],
+    "gestalt": [
+     "Nonjudgemental"
+    ]
+   }
+  },
+  {
+   "canonical": "process not content",
+   "type": "concept",
+   "variants": [
+    "Focuses on the process",
+    "process not content"
+   ],
+   "claimedBy": [
+    "existential",
+    "gestalt"
+   ],
+   "byModel": {
+    "existential": [
+     "process not content"
+    ],
+    "gestalt": [
+     "Focuses on the process"
+    ]
+   }
+  },
+  {
+   "canonical": "psychoeducation / teaching",
+   "type": "intervention",
+   "variants": [
+    "Coach/educator",
+    "Teach and model differentiation",
+    "psychoeducation about how CBT works"
+   ],
+   "claimedBy": [
+    "bowen",
+    "cbt"
+   ],
+   "byModel": {
+    "bowen": [
+     "Coach/educator",
+     "Teach and model differentiation"
+    ],
+    "cbt": [
+     "psychoeducation about how CBT works"
+    ]
+   }
+  },
+  {
+   "canonical": "reframing",
+   "type": "intervention",
+   "variants": [
+    "Activating Constructive Anxiety: Reframing anxiety in the family",
+    "Reframe",
+    "Reframing",
+    "Reframing issues as multigenerational issue",
+    "relabel behavior"
+   ],
+   "claimedBy": [
+    "bowen",
+    "cbt",
+    "experiential",
+    "strategic",
+    "structural"
+   ],
+   "byModel": {
+    "bowen": [
+     "Reframing issues as multigenerational issue"
+    ],
+    "cbt": [
+     "Reframing"
+    ],
+    "experiential": [
+     "Activating Constructive Anxiety: Reframing anxiety in the family"
+    ],
+    "strategic": [
+     "relabel behavior"
+    ],
+    "structural": [
+     "Reframe"
+    ]
+   }
+  },
+  {
+   "canonical": "role-play",
+   "type": "intervention",
+   "variants": [
+    "Role-play situations",
+    "involves a lot of role-playing with client"
+   ],
+   "claimedBy": [
+    "cbt",
+    "experiential"
+   ],
+   "byModel": {
+    "cbt": [
+     "involves a lot of role-playing with client"
+    ],
+    "experiential": [
+     "Role-play situations"
+    ]
+   }
+  },
+  {
+   "canonical": "self-esteem",
+   "type": "goal",
+   "variants": [
+    "Developing self-cohesion and self-esteem",
+    "improve self-esteem/confidence"
+   ],
+   "claimedBy": [
+    "satir",
+    "self-psychology"
+   ],
+   "byModel": {
+    "satir": [
+     "improve self-esteem/confidence"
+    ],
+    "self-psychology": [
+     "Developing self-cohesion and self-esteem"
+    ]
+   }
+  },
+  {
+   "canonical": "strengths and resources",
+   "type": "goal",
+   "variants": [
+    "Bring greater awareness to client's strengths and competencies",
+    "Client builds on current strengths and resources",
+    "Resource detective"
+   ],
+   "claimedBy": [
+    "narrative",
+    "satir",
+    "solution-focused"
+   ],
+   "byModel": {
+    "narrative": [
+     "Bring greater awareness to client's strengths and competencies"
+    ],
+    "satir": [
+     "Resource detective"
+    ],
+    "solution-focused": [
+     "Client builds on current strengths and resources"
+    ]
+   }
+  },
+  {
+   "canonical": "taking responsibility",
+   "type": "goal",
+   "variants": [
+    "Take Responsibility",
+    "responsibility in the construction of their life",
+    "teach the family how to take responsibility"
+   ],
+   "claimedBy": [
+    "bowen",
+    "existential",
+    "satir"
+   ],
+   "byModel": {
+    "bowen": [
+     "teach the family how to take responsibility"
+    ],
+    "existential": [
+     "responsibility in the construction of their life"
+    ],
+    "satir": [
+     "Take Responsibility"
+    ]
+   }
+  },
+  {
+   "canonical": "termination work",
+   "type": "intervention",
+   "variants": [
+    "Acknowledge and process issues related to termination",
+    "Work through termination and abandonment issues"
+   ],
+   "claimedBy": [
+    "object-relations",
+    "self-psychology"
+   ],
+   "byModel": {
+    "object-relations": [
+     "Work through termination and abandonment issues"
+    ],
+    "self-psychology": [
+     "Acknowledge and process issues related to termination"
+    ]
+   }
+  },
+  {
+   "canonical": "transference work",
+   "type": "intervention",
+   "variants": [
+    "Allows emergence of self-object transferences",
+    "Emphasis on transference and countertransference"
+   ],
+   "claimedBy": [
+    "object-relations",
+    "self-psychology"
+   ],
+   "byModel": {
+    "object-relations": [
+     "Emphasis on transference and countertransference"
+    ],
+    "self-psychology": [
+     "Allows emergence of self-object transferences"
+    ]
+   }
+  }
+ ],
+ "confusionSets": [
+  {
+   "name": "Psychodynamic four-way (flagged in packet)",
+   "scope": [
+    "object-relations"
+   ],
+   "terms": [
+    "Projection",
+    "Projective Identification",
+    "Introjection",
+    "Identification"
+   ]
+  },
+  {
+   "name": "Behavioral experiment vs exposure",
+   "scope": [
+    "cbt"
+   ],
+   "terms": [
+    "Behavioral Experiments",
+    "Exposure"
+   ]
+  },
+  {
+   "name": "Systematic desensitization vs anxiety management training",
+   "scope": [
+    "cbt"
+   ],
+   "terms": [
+    "Systematic Desensitization",
+    "Anxiety Management Training"
+   ]
+  },
+  {
+   "name": "Three-column vs thought record",
+   "scope": [
+    "cbt"
+   ],
+   "terms": [
+    "Three-Column Technique",
+    "Thought Record"
+   ]
+  },
+  {
+   "name": "Self-object transference types",
+   "scope": [
+    "self-psychology"
+   ],
+   "terms": [
+    "Mirroring Transference",
+    "Twinship Transference",
+    "Idealizing Transference",
+    "Adversarial Transference"
+   ]
+  },
+  {
+   "name": "Attachment styles",
+   "scope": [
+    "attachment"
+   ],
+   "terms": [
+    "Secure Attachment",
+    "Preoccupied/Anxious Attachment",
+    "Dismissive/Avoidant Attachment",
+    "Fearful/Avoidant Attachment (Disorganized)"
+   ]
+  },
+  {
+   "name": "Satir communication stances",
+   "scope": [
+    "satir"
+   ],
+   "terms": [
+    "Placater",
+    "Blamer",
+    "Computer",
+    "Distracter",
+    "Leveler"
+   ]
+  },
+  {
+   "name": "Structural boundary types",
+   "scope": [
+    "structural"
+   ],
+   "terms": [
+    "Disengaged Boundaries",
+    "Enmeshed Boundaries"
+   ]
+  }
+ ]
+}

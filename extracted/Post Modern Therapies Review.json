@@ -1,0 +1,2272 @@
+{
+ "sourceDoc": "Post Modern Therapies Review",
+ "file": "Copy of Copy of Post Modern Therapies Review.docx",
+ "blocks": [
+  {
+   "i": 0,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "Post Modern Therapies Review",
+   "bold_spans": [
+    "Post Modern Therapies Review"
+   ],
+   "runs": [
+    {
+     "text": "Post Modern Therapies Review",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "Narrative Therapy",
+   "bold_spans": [
+    "Narrative Therapy"
+   ],
+   "runs": [
+    {
+     "text": "Narrative Therapy",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "kind": "p",
+   "style": "p1",
+   "level": null,
+   "text": "Theory of Change",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Theory of Change",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "kind": "p",
+   "style": "p2",
+   "level": null,
+   "text": "Change occurs by separating the person from the problem and by creating a new narrative which emphasizes the individual’s competencies and strengths.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Change occurs by separating the person from the problem and by creating a new narrative",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "which emphasizes the individual’s competencies and strengths.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 4,
+   "kind": "p",
+   "style": "p1",
+   "level": null,
+   "text": "Role of Therapist",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Role of Therapist",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Collaborator",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Collaborator",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 6,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Investigator",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Investigator",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 7,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Views client as expert of their own life, maintains curious stance",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Views client as expert of their own life, maintains curious stance",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 8,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Co-author of client’s new narrative",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Co-author of client’s new narrative",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 9,
+   "kind": "p",
+   "style": "p1",
+   "level": null,
+   "text": "Treatment Goals",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Treatment Goals",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 10,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Understand the problem-saturated story and externalize the problem",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Understand the problem-saturated story and externalize the problem",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 11,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Deconstruct problem-saturated stories in order to create healthier narratives",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Deconstruct problem-saturated stories ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "in order to",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " create healthier narratives",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 12,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Bring greater awareness to client's strengths and competencies",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Bring greater awareness to client's strengths and competencies",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 13,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Increase client’s sense of control over the direction of their life",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Increase client’s sense of control over the direction of their life",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 14,
+   "kind": "p",
+   "style": "p1",
+   "level": null,
+   "text": "Main Concepts",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Main Concepts",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 15,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Problem-Saturated Stories: The dominant and unhealthy stories an individual tells themselves. These are often the stories that bring people to therapy.",
+   "bold_spans": [
+    "Problem-Saturated Stories"
+   ],
+   "runs": [
+    {
+     "text": "Problem-Saturated Stories",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": The dominant and unhealthy stories an individual tells themselves.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "These are often the stories that bring people to therapy.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 16,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Alternate Stories: The new and preferred or healthier stories an individual develops.",
+   "bold_spans": [
+    "Alternate",
+    "Stories"
+   ],
+   "runs": [
+    {
+     "text": "Alternate",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Stories",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": The new and preferred or healthier stories an individual develops.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 17,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Thick Story: The dominant narrative that the person maintains. This story has been repeated over time and is very detailed and usually problem-saturated.",
+   "bold_spans": [
+    "Thick",
+    "Story"
+   ],
+   "runs": [
+    {
+     "text": "Thick",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Story",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": The dominant narrative that the person maintains. This story has been repeated",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "over time and is very detailed and usually ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "problem-saturated",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ".",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 18,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Thin Story: The alternate story being developed, which has minimal details. A goal is to build on this story and make it thicker.",
+   "bold_spans": [
+    "Thin",
+    "Story"
+   ],
+   "runs": [
+    {
+     "text": "Thin",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Story",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": The alternate story being developed, which has minimal details. A goal is to build on",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "this story and make it thicker.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 19,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Externalizing the Problem: This is a type of intervention. The therapist asks questions that are designed to separate the person from the problem.",
+   "bold_spans": [
+    "Externalizing",
+    "the",
+    "Problem"
+   ],
+   "runs": [
+    {
+     "text": "Externalizing",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "the",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Problem",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": This is a type of intervention. The therapist asks questions that are",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "designed to separate the person from the problem.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 20,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Deconstructive Questions: This is a type of intervention. Once the problem is externalized, the therapist will ask various questions designed to pull apart or dismantle the client’s problem-saturated stories.",
+   "bold_spans": [
+    "Deconstructive",
+    "Questions"
+   ],
+   "runs": [
+    {
+     "text": "Deconstructive",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Questions",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": This is a type of intervention. Once the problem is externalized, the",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "therapist will ask various questions designed to pull apart or dismantle the client’s",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "problem-saturated stories.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 21,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Mapping the Influence: This is a type of intervention. The therapist asks a series of questions to understand the effects of the problem in the client’s life.",
+   "bold_spans": [
+    "Mapping",
+    "the",
+    "Influence"
+   ],
+   "runs": [
+    {
+     "text": "Mapping",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "the",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Influence",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": This is a type of intervention. The therapist asks a series of questions to",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "understand the effects of the problem in the client’s life.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 22,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Unique Outcomes: This is a type of intervention. The therapist asks questions to highlight times in the client’s life when they were able to resist the effects of the problem. This is a prerequisite for re-authoring the client’s story.",
+   "bold_spans": [
+    "Unique",
+    "Outcomes"
+   ],
+   "runs": [
+    {
+     "text": "Unique",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Outcomes",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": This is a type of intervention. The therapist asks questions to highlight times",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "in the client’s life when they were able to resist the effects of the problem. This is a prerequisite",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "for re-authoring the client’s story.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 23,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Enlisting a Witness: This is a type of intervention. The client invites someone in their life to hear them share the new narrative. This person bears witness to the client’s telling of the new story and becomes an ally to strengthen or thicken this new story.",
+   "bold_spans": [
+    "Enlisting",
+    "a Witness"
+   ],
+   "runs": [
+    {
+     "text": "Enlisting",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "a Witness",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": This is a type of intervention. The client invites someone in their life to hear",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "them share the new narrative. This person bears witness to the client’s telling of the new story",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "and becomes an ally to strengthen or thicken this new story.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 24,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Written Artifact: This is a type of intervention. It is some form or written documentation that reinforces the client’s new story.",
+   "bold_spans": [
+    "Written",
+    "Artifact"
+   ],
+   "runs": [
+    {
+     "text": "Written",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Artifact",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": This is a type of intervention. It is some form or written",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "documentation that",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "reinforces the client’s new story.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 25,
+   "kind": "p",
+   "style": "p1",
+   "level": null,
+   "text": "Interventions",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Interventions",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 26,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Invite the client to share their problem-saturated story",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Invite the client to share their problem-saturated story",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 27,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Ask questions designed to externalize the presenting problem",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Ask questions designed to externalize the presenting problem",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 28,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Map out the influence of the problem on the client’s life",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Map out the influence of the problem on the client’s life",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 29,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Explore unique outcomes",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Explore unique outcomes",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 30,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Assist client in reauthoring their story",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Assist client in reauthoring their story",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 31,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Enlist a witness to hear the client’s new story",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Enlist a witness to hear the client’s new story",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 32,
+   "kind": "p",
+   "style": "p1",
+   "level": null,
+   "text": "Phases of Treatment",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Phases of Treatment",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 33,
+   "kind": "p",
+   "style": "p2",
+   "level": null,
+   "text": "Beginning: Client is invited to tell their problem-saturated stories.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Beginning: Client is invited to tell their problem-saturated stories.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 34,
+   "kind": "p",
+   "style": "p2",
+   "level": null,
+   "text": "Early/Middle:",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Early/Middle: ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 35,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "The problem is externalized",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "The problem is externalized",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 36,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "mapping the influence/effects of the problem",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "mapping the influence/effects of the problem",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 37,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "identify/explore unique outcomes",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "identify/explore unique outcomes",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 38,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "re-author story",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "re-author story",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 39,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "enlist a witness.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "enlist a witness.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 40,
+   "kind": "p",
+   "style": "p2",
+   "level": null,
+   "text": "End:",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "End: ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 41,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "Create written artifacts",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Create written artifacts",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 42,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "document and support new narrative",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "document and support new narrative",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 43,
+   "kind": "p",
+   "style": "p2",
+   "level": 0,
+   "text": "write letters to self and others",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "write letters to self and",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "others",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 44,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "Solution-Focused Therapy",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Solution-Focused Therapy",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 45,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "Theory of Change",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Theory of Change",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 46,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "Change occurs through accessing client’s strengths and resources. Emphasizes finding",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Change occurs through accessing client’s strengths and resources. Emphasizes finding",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 47,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "solutions to a problem, not on discovering the cause or origins of the problem.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "solutions to a problem, not on discovering the cause or origins of the problem.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 48,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "Therapist’s Role",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Therapist’s Role",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 49,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "Therapist is a consultant, coach",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Therapist is a consultant, coach",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 50,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "Treatment Goals",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Treatment Goals",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 51,
+   "kind": "p",
+   "style": "List Paragraph",
+   "level": 0,
+   "text": "Client implements small and large changes to achieve their preferred future",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Client implements small and large changes to achieve their preferred future",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 52,
+   "kind": "p",
+   "style": "List Paragraph",
+   "level": 0,
+   "text": "Client builds on current strengths and resources",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Client builds on current strengths and resources",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 53,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "Interventions",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Interventions",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 54,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "Exception Questioning: The therapist asks the client to think of a time in their life when the particular problem did not exist and what the client did differently during this time.",
+   "bold_spans": [
+    "Exception Questioning"
+   ],
+   "runs": [
+    {
+     "text": "Exception Questioning",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": The therapist asks the client to think of a time in their life when",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "the ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "particular problem",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " did not exist and what the client did differently during this time.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 55,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "The goal here is to focus on what has worked in the past to provide the client with a",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "The goal here is to focus on what has worked in the past to provide the client with a",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 56,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "positive perspective. Example: “Tell me about the times when you don’t get angry.”",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "positive perspective. Example: “Tell me about the times when you don’t get angry.”",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 57,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "Formula First Session Task (FFST) A homework task to observe what’s already working “Between now and our next meeting, observe what happens in your life that you’d like to continue.”",
+   "bold_spans": [
+    "Formula First Session Task (FFST)"
+   ],
+   "runs": [
+    {
+     "text": "Formula First Session Task (FFST)",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " A ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "homework ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "task to observe what’s already working “Between now and our next meeting, observe what happens in your life that you’d like to continue.”",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 58,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "Miracle Questioning: The therapist asks the client to envision how the future will be",
+   "bold_spans": [
+    "Miracle",
+    "Questioning"
+   ],
+   "runs": [
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Miracle",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Questioning",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": The therapist asks the client to envision how the future will be",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 59,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "when the problem no longer exists and what their life looks like then. Example: “Imagine",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "when the problem no longer exists and what their life looks like then. Example: “Imagine",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 60,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "that tomorrow morning you wake up and a miracle has happened. What would be",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "that tomorrow morning you wake up and a miracle has happened. What would be",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 61,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "different that will tell you a miracle has happened and your problem has been solved?”",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "different that will tell you a miracle has ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "happened",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " and your problem has been solved?”",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 62,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "Scaling Questions: The therapist asks the client to think of a scale ranging from the",
+   "bold_spans": [
+    "Scaling",
+    "Questions"
+   ],
+   "runs": [
+    {
+     "text": "Scaling",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Questions",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": The therapist asks the client to think of a scale ranging from the",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 63,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "worst things could be to the best. The client then rates their current position on the scale",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "worst things could be to the best. The client then rates their current position on the scale",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 64,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "and is asked to identify how they could move up or down the scale. The client is also",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "and is asked to identify how they could move up or down the scale. The client is also",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 65,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "encouraged to identify what point on the scale would be good enough or where their",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "encouraged to identify what point on the scale would be good enough or where ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "their",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 66,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "“perfect future” is. Example: “You said that things are between a 4 and a 5. What would",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "“",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "perfect",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " future” is. Example: “You said that things are between a 4 and a 5. What would",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 67,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "need to happen so that things were between a 5 and 6?”",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "need to happen so that things were between a 5 and 6?”",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 68,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "Presupposing Change: Rather than focusing on the problem that brought the client in,",
+   "bold_spans": [
+    "Presupposing",
+    "Change"
+   ],
+   "runs": [
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Presupposing",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Change",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": Rather than focusing on the problem that brought the client in,",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 69,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "the therapist can ask the client questions to focus on the positive changes that have",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "the therapist can ask the client questions to focus on the positive changes that have",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 70,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "been occurring. Example: “What’s different or better since the last time we met?”",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "been occurring. Example: “What’s different or better since the last time we met?”",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 71,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "Coping Questions: If a client has trouble identifying positive change, coping questions",
+   "bold_spans": [
+    "Coping",
+    "Questions"
+   ],
+   "runs": [
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Coping",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Questions",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": If a client has trouble identifying positive change, coping questions",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 72,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "are asked by the therapist in order to illustrate resources that the client already has. This can include validating the client’s diﬃculties while also showing that they are still able to get up in the morning, go to school, etc. This highlights the client’s strengths without undermining their view of reality. These questions are supportive while also challenging the client and shifting the focus away from problem-focused narratives. Example: “How do you keep going each day even when it feels like there is no hope?”",
+   "bold_spans": [
+    "in order to",
+    " illustrate resources that the client already has"
+   ],
+   "runs": [
+    {
+     "text": "are asked by the therapist ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "in order to",
+     "bold": true,
+     "italic": true,
+     "underline": false
+    },
+    {
+     "text": " illustrate resources that the client already has",
+     "bold": true,
+     "italic": true,
+     "underline": false
+    },
+    {
+     "text": ". This",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "can include validating the client’s di",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "ﬃ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "culties while also showing that they are still able to",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "get up in the morning, go to school, etc. This highlights the client’s strengths without",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "undermining their view of reality. These questions are supportive while also challenging",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "the client and shifting the focus away from problem-focused narratives. Example: “How",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "do you keep going each day even when it feels like there is no hope?”",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 73,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "Aﬃrmations/Compliments: Regularly acknowledge progress, strengths, and resources. Example: Tell the client, \"I am impressed you are sitting in that chair again after what you just went through.\"",
+   "bold_spans": [
+    "A",
+    "ﬃ",
+    "rmations/Compliments"
+   ],
+   "runs": [
+    {
+     "text": "A",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "ﬃ",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "rmations/Compliments",
+     "bold": true,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": ": Regularly acknowledge progress, strengths, and resources.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "Example: Tell the client,",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "\"I am impressed you are sitting in that chair again after what you",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "just went through.\"",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 74,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "Phases of Treatment",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Phases of Treatment",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 75,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "Beginning:",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Beginning: ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 76,
+   "kind": "p",
+   "style": "List Paragraph",
+   "level": 0,
+   "text": "Join with client competencies",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Join with client competencies",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 77,
+   "kind": "p",
+   "style": "List Paragraph",
+   "level": 0,
+   "text": "envision preferred future",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "envision preferred future",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 78,
+   "kind": "p",
+   "style": "List Paragraph",
+   "level": 0,
+   "text": "begin to identify client’s strengths",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "begin to identify client’s",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "strengths",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 79,
+   "kind": "p",
+   "style": "List Paragraph",
+   "level": 0,
+   "text": "use solution-oriented language",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "use solution-oriented language",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 80,
+   "kind": "p",
+   "style": "List Paragraph",
+   "level": 0,
+   "text": "come up with achievable goals.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "come up with achievable goals.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 81,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "Middle:",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Middle: ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 82,
+   "kind": "p",
+   "style": "List Paragraph",
+   "level": 0,
+   "text": "Identify strengths resources, and traits client already has used to deal with problem",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Identify strengths",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "resources, and traits client already has used to deal with problem",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 83,
+   "kind": "p",
+   "style": "List Paragraph",
+   "level": 0,
+   "text": "utilize solution-talk",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "utilize solution-talk",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 84,
+   "kind": "p",
+   "style": "List Paragraph",
+   "level": 0,
+   "text": "identify exceptions to problems",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "identify exceptions to problems",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 85,
+   "kind": "p",
+   "style": "List Paragraph",
+   "level": 0,
+   "text": "utilize scaling questions to reflect on the nature of change the client has experienced feedback to clients that include compliments and tasks",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "utilize scaling questions to reflect on the",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "nature of change the client has experienced feedback to clients that include compliments and",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "tasks",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 86,
+   "kind": "p",
+   "style": "List Paragraph",
+   "level": 0,
+   "text": "catch and highlight small changes",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "catch and highlight small changes",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 87,
+   "kind": "p",
+   "style": "List Paragraph",
+   "level": 0,
+   "text": "compliments/cheerleading.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "compliments/cheerleading.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 88,
+   "kind": "p",
+   "style": "Normal",
+   "level": null,
+   "text": "End:",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "End: ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  },
+  {
+   "i": 89,
+   "kind": "p",
+   "style": "List Paragraph",
+   "level": 0,
+   "text": "Assist the client to identify things they can do to continue the changes they have made identify hurdles or perceived barriers that could get in the way of the changes they made.",
+   "bold_spans": [],
+   "runs": [
+    {
+     "text": "Assist the client to identify things they can do to continue the changes they have made",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": " ",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    },
+    {
+     "text": "identify hurdles or perceived barriers that could get in the way of the changes they made.",
+     "bold": false,
+     "italic": false,
+     "underline": false
+    }
+   ]
+  }
+ ]
+}
