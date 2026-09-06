@@ -68,8 +68,7 @@ It ran twice. The first pass exposed real item ids, which encode the model
 second pass re-ran the highest-risk items with **opaque ids** (`q001`…), so the
 grader had nothing but the stem and the options.
 
-**150 of the 200 shipped items (75%) were blind-graded**, including *every*
-item of every type except `T3_concept`:
+**All 200 shipped items (100%) were blind-graded**, every type covered:
 
 | Type | Graded | |
 |---|---|---|
@@ -79,12 +78,13 @@ item of every type except `T3_concept`:
 | `T2_examtip` | 11/11 | the instructor's own flagged content |
 | `T1_change` | 9/9 | |
 | `T1_marker` | 5/5 | |
-| `T3_concept` | 0/50 | verbatim definition matching, lowest risk |
+| `T3_concept` | 50/50 | verbatim definition matching |
 
-**Across all 150, no grader ever disagreed with the answer key.** Every gate-1
-kill is an item a grader answered correctly but flagged as having two
-defensible options. The keys are sound; ambiguity was the real defect, and
-the second pass — with the id confound removed — found none remaining.
+**Across all 267 blind judgements, no grader ever disagreed with the answer
+key.** Every gate-1 kill is an item a grader answered correctly but flagged as
+having two defensible options. The keys are sound; ambiguity was the real
+defect, and the opaque-id passes — with the leak confound removed — found none
+remaining in the shipped bank.
 
 ---
 

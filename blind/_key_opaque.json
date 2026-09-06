@@ -326,5 +326,205 @@
  "q082": [
   "v_cbt_downward_arrow",
   "A"
+ ],
+ "q083": [
+  "t3_bowen_reduceemotionalreact",
+  "C"
+ ],
+ "q084": [
+  "t3_strategic_positioning",
+  "C"
+ ],
+ "q085": [
+  "t3_structural_familymap",
+  "B"
+ ],
+ "q086": [
+  "t3_satir_computer",
+  "C"
+ ],
+ "q087": [
+  "t3_narrative_thickstory",
+  "C"
+ ],
+ "q088": [
+  "t3_solution-focused_miraclequestioning",
+  "B"
+ ],
+ "q089": [
+  "t3_object-relations_objects",
+  "D"
+ ],
+ "q090": [
+  "t3_self-psychology_selfobjects",
+  "B"
+ ],
+ "q091": [
+  "t3_attachment_supportaffectregulat",
+  "A"
+ ],
+ "q092": [
+  "t3_gestalt_presentexperiencewhi",
+  "C"
+ ],
+ "q093": [
+  "t3_existential_masteringemotionalpa",
+  "A"
+ ],
+ "q094": [
+  "t3_experiential_playhumorandcrazines",
+  "D"
+ ],
+ "q095": [
+  "t3_cbt_selfmonitoring",
+  "D"
+ ],
+ "q096": [
+  "t3_bowen_increasingdifferenti",
+  "C"
+ ],
+ "q097": [
+  "t3_strategic_prescribingthesympto",
+  "C"
+ ],
+ "q098": [
+  "t3_structural_reframe",
+  "C"
+ ],
+ "q099": [
+  "t3_satir_familysculpting",
+  "D"
+ ],
+ "q100": [
+  "t3_narrative_deconstructivequesti",
+  "A"
+ ],
+ "q101": [
+  "t3_solution-focused_affirmationscomplime",
+  "C"
+ ],
+ "q102": [
+  "t3_object-relations_splitting",
+  "D"
+ ],
+ "q103": [
+  "t3_self-psychology_mirroringtransferenc",
+  "D"
+ ],
+ "q104": [
+  "t3_attachment_provideasecurebase",
+  "A"
+ ],
+ "q105": [
+  "t3_gestalt_bodyawareness",
+  "C"
+ ],
+ "q106": [
+  "t3_existential_imaginaldeath",
+  "A"
+ ],
+ "q107": [
+  "t3_experiential_activatingconstructi",
+  "D"
+ ],
+ "q108": [
+  "t3_cbt_oppositeaction",
+  "A"
+ ],
+ "q109": [
+  "t3_bowen_nuclearfamilyemotion",
+  "C"
+ ],
+ "q110": [
+  "t3_strategic_ordeals",
+  "A"
+ ],
+ "q111": [
+  "t3_structural_unbalancing",
+  "D"
+ ],
+ "q112": [
+  "t3_satir_takeresponsibility",
+  "C"
+ ],
+ "q113": [
+  "t3_narrative_writtenartifact",
+  "A"
+ ],
+ "q114": [
+  "t3_solution-focused_scalingquestions",
+  "A"
+ ],
+ "q115": [
+  "t3_object-relations_selfandobjectreprese",
+  "D"
+ ],
+ "q116": [
+  "t3_self-psychology_experiencenearempath",
+  "D"
+ ],
+ "q117": [
+  "t3_attachment_preoccupiedanxiousat",
+  "D"
+ ],
+ "q118": [
+  "t3_gestalt_focusonprocess",
+  "D"
+ ],
+ "q119": [
+  "t3_existential_holding",
+  "D"
+ ],
+ "q120": [
+  "t3_experiential_battleforinitiative",
+  "C"
+ ],
+ "q121": [
+  "t3_cbt_exposure",
+  "D"
+ ],
+ "q122": [
+  "t3_bowen_reframing",
+  "A"
+ ],
+ "q123": [
+  "t3_strategic_restraining",
+  "C"
+ ],
+ "q124": [
+  "t3_structural_enactment",
+  "D"
+ ],
+ "q125": [
+  "t3_satir_stylesofcommunicatio",
+  "B"
+ ],
+ "q126": [
+  "t3_narrative_externalizingtheprob",
+  "D"
+ ],
+ "q127": [
+  "t3_solution-focused_copingquestions",
+  "A"
+ ],
+ "q128": [
+  "t3_object-relations_projection",
+  "C"
+ ],
+ "q129": [
+  "t3_self-psychology_twinshiptransference",
+  "C"
+ ],
+ "q130": [
+  "t3_attachment_secureattachment",
+  "A"
+ ],
+ "q131": [
+  "t3_gestalt_phenomenologicaldesc",
+  "C"
+ ],
+ "q132": [
+  "t3_existential_imaginaldeathexercis",
+  "D"
  ]
 }

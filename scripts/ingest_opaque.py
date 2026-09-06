@@ -17,7 +17,7 @@ I, KL = load("items.json"), load("kill_log.json")
 
 picks, ambig, files = {}, set(), 0
 for fn in sorted(os.listdir(os.path.join(ROOT, "blind"))):
-    if fn in ("answers_10.json", "answers_11.json"):
+    if fn in ("answers_10.json", "answers_11.json", "answers_12.json"):
         d = load("blind/" + fn)
         picks.update(d.get("answers", {})); ambig |= set(d.get("ambiguous", []))
         files += 1

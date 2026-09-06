@@ -1,0 +1,505 @@
+{
+ "instructions": "Pick the single best option per question, strictly from the packets. Output {\"answers\":{id:LETTER},\"ambiguous\":[id]}.",
+ "questions": [
+  {
+   "id": "q083",
+   "stem": "Which term does the packet define this way?\n\n“Reduce emotional reactivity by having family members talk to the therapist.”",
+   "options": {
+    "A": "Restraining",
+    "B": "Power Hierarchy",
+    "C": "Reduce emotional reactivity",
+    "D": "Emotional Cutoff"
+   }
+  },
+  {
+   "id": "q084",
+   "stem": "Which term does the packet define this way?\n\n“Therapist takes a more exaggerated and extreme view of the problem and the family is obligated to rebel. That leads to them seeing the ways in which they have Competency. (T says your family is completely hopeless w hopes they’d say no its not)”",
+   "options": {
+    "A": "Prescribing the Symptom",
+    "B": "Opening Cutoff Relationships",
+    "C": "Positioning",
+    "D": "Bibliotherapy"
+   }
+  },
+  {
+   "id": "q085",
+   "stem": "Which term does the packet define this way?\n\n“A tool the therapist will use to depict the relationship dynamics in the family including sub-systems, alliances, coalitions and boundaries. This tool is used to conceptualize the case outside of the actual therapy. It is not used or shared with the family.”",
+   "options": {
+    "A": "Opening Cutoff Relationships",
+    "B": "Family Map",
+    "C": "Tracking",
+    "D": "Homework"
+   }
+  },
+  {
+   "id": "q086",
+   "stem": "Which term does the packet define this way?\n\n“Super reasonable, intellectual, distant, always correct.”",
+   "options": {
+    "A": "Blamer",
+    "B": "Take Responsibility",
+    "C": "Computer",
+    "D": "Family Map"
+   }
+  },
+  {
+   "id": "q087",
+   "stem": "Which term does the packet define this way?\n\n“The dominant narrative that the person maintains. This story has been repeated over time and is very detailed and usually problem-saturated.”",
+   "options": {
+    "A": "Computer",
+    "B": "Alternate Stories",
+    "C": "Thick Story",
+    "D": "Deconstructive Questions"
+   }
+  },
+  {
+   "id": "q088",
+   "stem": "Which term does the packet define this way?\n\n“The therapist asks the client to envision how the future will be when the problem no longer exists and what their life looks like then. Example: “Imagine that tomorrow morning you wake up and a miracle has happened. What would be different that will tell you a miracle has happened and your problem has been solved?”””",
+   "options": {
+    "A": "Three-Column Technique",
+    "B": "Miracle Questioning",
+    "C": "Alternate Stories",
+    "D": "Re-authoring the story"
+   }
+  },
+  {
+   "id": "q089",
+   "stem": "Which term does the packet define this way?\n\n“Refers to persons in the external world. Individuals seek objects (others) from birth. We are inherently object seeking, wanting to connect to others.”",
+   "options": {
+    "A": "Twinship Transference",
+    "B": "Self-Objects",
+    "C": "Adversarial Transference",
+    "D": "Objects"
+   }
+  },
+  {
+   "id": "q090",
+   "stem": "Which term does the packet define this way?\n\n“Early self-objects are those empathetic or attuned caretakers who perform vital functions for the infant that it cannot carry out itself”",
+   "options": {
+    "A": "Demonstrate containment",
+    "B": "Self-Objects",
+    "C": "Dismissive/Avoidant Attachment",
+    "D": "Mourning ambitions and fantasies"
+   }
+  },
+  {
+   "id": "q091",
+   "stem": "Which term does the packet define this way?\n\n“Support client’s ability to regulate and express emotions in relationally difficult Situations teaching clients to have a reflective stance toward themselves.”",
+   "options": {
+    "A": "Support affect regulation",
+    "B": "Interpretation",
+    "C": "Identification",
+    "D": "Introjection"
+   }
+  },
+  {
+   "id": "q092",
+   "stem": "Which term does the packet define this way?\n\n“Paying to client’s present experience as they’re discussing the past: right now, what are experiencing as you think about that past relationship?”",
+   "options": {
+    "A": "Phenomenological description",
+    "B": "Battle for Initiative",
+    "C": "Present experience while discussing the past",
+    "D": "Focus on process"
+   }
+  },
+  {
+   "id": "q093",
+   "stem": "Which term does the packet define this way?\n\n“Mastering emotional pain: unique healing activities. Relating to pain as something that you have endured and has shaped who you are, so that the painful experience has meaning and significance. Being able to share your deepest wounds with a present nonjudgemental person – T is there with C in their suffering.”",
+   "options": {
+    "A": "Mastering emotional pain",
+    "B": "Trial of Labor",
+    "C": "Battle for Structure",
+    "D": "Battle for Initiative"
+   }
+  },
+  {
+   "id": "q094",
+   "stem": "Which term does the packet define this way?\n\n“Play, Humor, and “Craziness:” Tapping irrational side. Finding solutions in creative interactions.” Tapping irrational side. Finding solutions in creative interactions.”",
+   "options": {
+    "A": "Present experience while discussing the past",
+    "B": "Holding",
+    "C": "Mastering emotional pain",
+    "D": "Play, Humor, and “Craziness”"
+   }
+  },
+  {
+   "id": "q095",
+   "stem": "Which term does the packet define this way?\n\n“Also called diary work, self-monitoring is used to record the amount and degree of thoughts and behaviors. This provides the client and therapist information regarding the degree of a client’s negative affirmations. Teaching client how to do self-monitoring, thought record.”",
+   "options": {
+    "A": "Opposite Action",
+    "B": "Communication Skills Training",
+    "C": "Three-Column Technique",
+    "D": "Self-Monitoring"
+   }
+  },
+  {
+   "id": "q096",
+   "stem": "Which term does the packet define this way?\n\n“By forming supportive relationship with family members to explore the origins and effects of their families beliefs and behaviors.”",
+   "options": {
+    "A": "Disengaged Boundaries",
+    "B": "Multigenerational Transmission Process",
+    "C": "Increasing Differentiation",
+    "D": "Triangles (Triangulation)"
+   }
+  },
+  {
+   "id": "q097",
+   "stem": "Which term does the packet define this way?\n\n“A strategy in which the therapist encourages or instructs the client to engage in or practice the symptom. ie schedule a fight or schedule a worry time.”",
+   "options": {
+    "A": "Disengaged Boundaries",
+    "B": "Reframing",
+    "C": "Prescribing the Symptom",
+    "D": "Interacts with Family"
+   }
+  },
+  {
+   "id": "q098",
+   "stem": "Which term does the packet define this way?\n\n“Putting the presenting problem in a perspective that is both different from what the family brings and more workable.”",
+   "options": {
+    "A": "Enmeshed Boundaries",
+    "B": "Modeling Communication",
+    "C": "Reframe",
+    "D": "Reframing"
+   }
+  },
+  {
+   "id": "q099",
+   "stem": "Which term does the packet define this way?\n\n“Put people into a spatial metaphor – a physical representation of family members characterizations.”",
+   "options": {
+    "A": "Leveler",
+    "B": "Prescribing the Symptom",
+    "C": "Teaching “I” Statements",
+    "D": "Family Sculpting"
+   }
+  },
+  {
+   "id": "q100",
+   "stem": "Which term does the packet define this way?\n\n“This is a type of intervention. Once the problem is externalized, the therapist will ask various questions designed to pull apart or dismantle the client’s problem-saturated stories.”",
+   "options": {
+    "A": "Deconstructive Questions",
+    "B": "Scaling Questions",
+    "C": "Incongruent Communication",
+    "D": "Mapping the Influence"
+   }
+  },
+  {
+   "id": "q101",
+   "stem": "Which term does the packet define this way?\n\n“Regularly acknowledge progress, strengths, and resources. Example: Tell the client, \"I am impressed you are sitting in that chair again after what you just went through.\"”",
+   "options": {
+    "A": "Assertiveness Training",
+    "B": "Distracter",
+    "C": "Affirmations/Compliments",
+    "D": "Unique Outcomes"
+   }
+  },
+  {
+   "id": "q102",
+   "stem": "Which term does the packet define this way?\n\n“When two contradictory states, such as love and hate, are compartmentalized and not integrated. Somebody is either all good, or all bad. Very extreme views of people, and it can switch quickly. Therapist will want to bring these two contradictions together: your friend did something hurtful, and there are things about them you really like. Are people allowed to make mistakes, and can we recover from that? Wanting to put these two extremes together.”",
+   "options": {
+    "A": "Demonstrate containment",
+    "B": "Repair stage",
+    "C": "Interpretation",
+    "D": "Splitting"
+   }
+  },
+  {
+   "id": "q103",
+   "stem": "Which term does the packet define this way?\n\n“The patient seeks acceptance and confirmation of the self from the therapist.”",
+   "options": {
+    "A": "Repair",
+    "B": "Explore disruptions",
+    "C": "Mourning ambitions and fantasies",
+    "D": "Mirroring Transference"
+   }
+  },
+  {
+   "id": "q104",
+   "stem": "Which term does the packet define this way?\n\n“The therapist provides a secure base by reliably demonstrating empathy and care.”",
+   "options": {
+    "A": "Provide a secure base",
+    "B": "Projection",
+    "C": "Splitting",
+    "D": "Interpretation"
+   }
+  },
+  {
+   "id": "q105",
+   "stem": "Which term does the packet define this way?\n\n“Gestalt focuses on body awareness: what are you noticing in your body. Getting in touch with the sensations and associated emotions with the sensations.”",
+   "options": {
+    "A": "Trial of Labor",
+    "B": "Activating Constructive Anxiety",
+    "C": "Body awareness",
+    "D": "Standing up while speaking"
+   }
+  },
+  {
+   "id": "q106",
+   "stem": "Which term does the packet define this way?\n\n““Imaginal death” exercises: Envisioning one's death to reflect on what truly matters. Brings clarity, gratitude, and urgency for authentic living.” exercises: Envisioning one's death to reflect on what truly matters. Brings clarity, gratitude, and urgency for authentic living.”",
+   "options": {
+    "A": "Imaginal death",
+    "B": "Play, Humor, and “Craziness”",
+    "C": "Givens in life",
+    "D": "Repeating statement"
+   }
+  },
+  {
+   "id": "q107",
+   "stem": "Which term does the packet define this way?\n\n“Reframing anxiety in the family as efforts toward competence (fear of failing to accomplish what one is capable of). Enhancing motivation, if you identify the positive thing they were afraid wouldn’t happen.”",
+   "options": {
+    "A": "Battle for Structure",
+    "B": "“Imaginal death” exercises",
+    "C": "Givens in life",
+    "D": "Activating Constructive Anxiety"
+   }
+  },
+  {
+   "id": "q108",
+   "stem": "Which term does the packet define this way?\n\n“Client is encouraged to engage in behavior that is counterintuitive or opposite to what they may feel at the time (e.g., when feeling very angry, say something kind or decent).”",
+   "options": {
+    "A": "Opposite Action",
+    "B": "Positioning",
+    "C": "Finding Alternatives",
+    "D": "Miracle Questioning"
+   }
+  },
+  {
+   "id": "q109",
+   "stem": "Which term does the packet define this way?\n\n“The concept of the nuclear family emotional system describes four basic relationship patterns that govern where problems develop in a family. Effects overall differentiation. Emotional distance, dysfunction in parent or impairment in child, conflict.”",
+   "options": {
+    "A": "Blamer",
+    "B": "Disengaged Boundaries",
+    "C": "Nuclear Family Emotional System",
+    "D": "Interacts with Family"
+   }
+  },
+  {
+   "id": "q110",
+   "stem": "Which term does the packet define this way?\n\n“Particular type of symptom prescription in which clients are encouraged to carry out harmless but unpleasant tasks whenever symptoms occur; example: having to get up and clean the basement every time the client cannot sleep.”",
+   "options": {
+    "A": "Ordeals",
+    "B": "Teaching “I” Statements",
+    "C": "Models",
+    "D": "Homework"
+   }
+  },
+  {
+   "id": "q111",
+   "stem": "Which term does the packet define this way?\n\n“Supporting someone who is in a one-down position, thus changing hierarchical position.”",
+   "options": {
+    "A": "Placater",
+    "B": "Increasing Differentiation",
+    "C": "Nuclear Family Emotional System",
+    "D": "Unbalancing"
+   }
+  },
+  {
+   "id": "q112",
+   "stem": "Which term does the packet define this way?\n\n“Encouraging clients to take responsibility for how they felt, what they experienced, what meaning they made, what feelings they had about their feelings.”",
+   "options": {
+    "A": "Family Projection Process",
+    "B": "Differentiation of Self",
+    "C": "Take Responsibility",
+    "D": "Incongruent Communication"
+   }
+  },
+  {
+   "id": "q113",
+   "stem": "Which term does the packet define this way?\n\n“This is a type of intervention. It is some form or written documentation that reinforces the client’s new story.”",
+   "options": {
+    "A": "Written Artifact",
+    "B": "Thin Story",
+    "C": "Take Responsibility",
+    "D": "Metaphors and Storytelling"
+   }
+  },
+  {
+   "id": "q114",
+   "stem": "Which term does the packet define this way?\n\n“The therapist asks the client to think of a scale ranging from the worst things could be to the best. The client then rates their current position on the scale and is asked to identify how they could move up or down the scale. The client is also encouraged to identify what point on the scale would be good enough or where their “perfect future” is. Example: “You said that things are between a 4 and a 5. What would need to happen so that things were between a 5 and 6?”” is. Example: “You said that things are between a 4 and a 5. What would nee”",
+   "options": {
+    "A": "Scaling Questions",
+    "B": "Assertiveness Training",
+    "C": "Problem-Solving Training",
+    "D": "Take Responsibility"
+   }
+  },
+  {
+   "id": "q115",
+   "stem": "Which term does the packet define this way?\n\n“Infants form images of themselves and others. Once formed, they are fundamental internal structures that affect the ways in which individuals view themselves and others. These are created from the internalization process. Can create a false self disconnected from the true self.”",
+   "options": {
+    "A": "Repair",
+    "B": "Identification",
+    "C": "Mourning loss of selfobjects",
+    "D": "Self- and Object-Representations"
+   }
+  },
+  {
+   "id": "q116",
+   "stem": "Which term does the packet define this way?\n\n“When therapist steps into client’s shoes and imagines what it is like to be the client. The therapist really wants to step into the emotional experience, body sensations, and communicate that with the client to flesh out that experience. Taking the idea of mirroring to the extreme, that the therapist is really understanding their experience.”",
+   "options": {
+    "A": "Establish a holding environment",
+    "B": "Self-Object Needs",
+    "C": "Optimal Frustration",
+    "D": "Experience-Near Empathy"
+   }
+  },
+  {
+   "id": "q117",
+   "stem": "Which term does the packet define this way?\n\n“The person is still embroiled with anger and hurt at parents. They sometimes value intimacy to such an extent that they become overly dependent on the attachment figure both past and present. They often recall role reversal in childhood and have a hard time seeing their own responsibility in relationships. They dread abandonment.”",
+   "options": {
+    "A": "Splitting",
+    "B": "Fearful/Avoidant Attachment (Disorganized)",
+    "C": "Internalization",
+    "D": "Preoccupied/Anxious Attachment"
+   }
+  },
+  {
+   "id": "q118",
+   "stem": "Which term does the packet define this way?\n\n“Focuses on the process: how things are being sad, how the therapy is unfolding, the tons of voice, body language, the energy of the therapy, paying attention to what’s going on in the moment.”",
+   "options": {
+    "A": "Repeating words or exaggerating gestures",
+    "B": "Activating Constructive Anxiety",
+    "C": "Body awareness",
+    "D": "Focus on process"
+   }
+  },
+  {
+   "id": "q119",
+   "stem": "Which term does the packet define this way?\n\n“Concept of holding: process of looking at the problem, and really holding that, remembering that in the presence of the empathetic other. Our goal is to be with them in their pain, sitting there with them. Naming that emotional pain allows that mutual encounter, the experience is not shared, person is able to now process that situation with increased support.”",
+   "options": {
+    "A": "Phenomenological description",
+    "B": "“Imaginal death” exercises",
+    "C": "Repeating words or exaggerating gestures",
+    "D": "Holding"
+   }
+  },
+  {
+   "id": "q120",
+   "stem": "Which term does the packet define this way?\n\n“Motivation for change must come from family. Includes having a family state the agenda for each session, waiting silently for family to take initiative, allowing family to determine how change is going to happen. The therapist should not be working harder than the family. A family comes in, and nobody is speaking. What would experiential therapist do? The right answer would be the therapist would wait silently for the family to take initiative.”",
+   "options": {
+    "A": "Family Sculpting",
+    "B": "Standing up while speaking",
+    "C": "Battle for Initiative",
+    "D": "Blamer"
+   }
+  },
+  {
+   "id": "q121",
+   "stem": "Which term does the packet define this way?\n\n“Client faces fear stimuli without resorting to escape or avoidance maneuvers. Can be done in real life or with imagery”",
+   "options": {
+    "A": "Reduce emotional reactivity",
+    "B": "Opposite Action",
+    "C": "Formula First Session Task (FFST)",
+    "D": "Exposure"
+   }
+  },
+  {
+   "id": "q122",
+   "stem": "Which term does the packet define this way?\n\n“The presenting problem as a multigenerational problem that is caused by factors beyond the individual. Reframing issues as multigenerational issue.”",
+   "options": {
+    "A": "Reframing",
+    "B": "Incongruent Communication",
+    "C": "Take Responsibility",
+    "D": "Teaching “I” Statements"
+   }
+  },
+  {
+   "id": "q123",
+   "stem": "Which term does the packet define this way?\n\n“The therapist will discourage change or changing too quickly in an effort to elicit the desire to change from the client.”",
+   "options": {
+    "A": "Incongruent Communication",
+    "B": "Teaching “I” Statements",
+    "C": "Restraining",
+    "D": "Joining"
+   }
+  },
+  {
+   "id": "q124",
+   "stem": "Which term does the packet define this way?\n\n“The actualization of transactional patterns under the control of the therapist. It allows the therapist to observe how family members mutually regulate their behaviors, and to determine the place of the problem behavior within the sequence of transactions.”",
+   "options": {
+    "A": "Joining",
+    "B": "Blamer",
+    "C": "Disengaged Boundaries",
+    "D": "Enactment"
+   }
+  },
+  {
+   "id": "q125",
+   "stem": "Which term does the packet define this way?\n\n“The rules that govern family interaction function as a method of ensuring the maintenance and preservation of the family’s current functioning level.”",
+   "options": {
+    "A": "Computer",
+    "B": "Styles of Communication",
+    "C": "Enmeshed Boundaries",
+    "D": "Family Sculpting"
+   }
+  },
+  {
+   "id": "q126",
+   "stem": "Which term does the packet define this way?\n\n“This is a type of intervention. The therapist asks questions that are designed to separate the person from the problem.”",
+   "options": {
+    "A": "Blamer",
+    "B": "Thin Story",
+    "C": "Incongruent Communication",
+    "D": "Externalizing the Problem"
+   }
+  },
+  {
+   "id": "q127",
+   "stem": "Which term does the packet define this way?\n\n“If a client has trouble identifying positive change, coping questions are asked by the therapist in order to illustrate resources that the client already has. This can include validating the client’s difficulties while also showing that they are still able to get up in the morning, go to school, etc. This highlights the client’s strengths without undermining their view of reality. These questions are supportive while also challenging the client and shifting the focus away from problem-focused narratives. Example: “How do you keep going each day even when it feels like there is no hope?””",
+   "options": {
+    "A": "Coping Questions",
+    "B": "Scaling Questions",
+    "C": "Thought Record",
+    "D": "Problem-Solving Training"
+   }
+  },
+  {
+   "id": "q128",
+   "stem": "Which term does the packet define this way?\n\n“Involves projecting undesirable feelings or emotions onto someone else, rather than admitting to or dealing with the unwanted feelings.”",
+   "options": {
+    "A": "Ego",
+    "B": "Objects",
+    "C": "Projection",
+    "D": "Establish a holding environment"
+   }
+  },
+  {
+   "id": "q129",
+   "stem": "Which term does the packet define this way?\n\n“The patient experiences the therapist as someone like himself, “that person is like me.”””",
+   "options": {
+    "A": "Establish a therapeutic holding environment",
+    "B": "Mirroring Transference",
+    "C": "Twinship Transference",
+    "D": "Experience-Near Empathy"
+   }
+  },
+  {
+   "id": "q130",
+   "stem": "Which term does the packet define this way?\n\n“The person has easy access to a wide range of feelings and memories, positive and negative. Has a balanced view of parents and has worked through hurt and anger from the past. Has developed a strong sense of self and empathy for others.”",
+   "options": {
+    "A": "Secure Attachment",
+    "B": "Projection",
+    "C": "Focus on transference/countertransference",
+    "D": "Demonstrate containment"
+   }
+  },
+  {
+   "id": "q131",
+   "stem": "Which term does the packet define this way?\n\n“Explaining experience of the client by using description instead of interpretation. Client is crying in session. Interpretation “you seem sad.” For Gestalt phenomenological method: “I see you tearing up, I’m wondering what you’re experiencing right now.” This allows for more expanded of what the client is experiencing. You’re asking them to really describe what they are experiencing in the moment.” For Gestalt phenomenological method: “I see you tearing up, I’m wondering what you’re experiencing right now.” This allows for more expanded of what the client is experiencing. You’re asking them to really describe what they are experiencing in the moment.”",
+   "options": {
+    "A": "Repeating words or exaggerating gestures",
+    "B": "Top dog / underdog dialogue",
+    "C": "Phenomenological description",
+    "D": "Play, Humor, and “Craziness”"
+   }
+  },
+  {
+   "id": "q132",
+   "stem": "Which term does the packet define this way?\n\n“Envisioning one's death to reflect on what truly matters. Brings clarity, gratitude, and urgency for authentic living.”",
+   "options": {
+    "A": "Repeating words or exaggerating gestures",
+    "B": "Repeating statement",
+    "C": "Trial of Labor",
+    "D": "“Imaginal death” exercises"
+   }
+  }
+ ]
+}
