@@ -355,7 +355,15 @@ function choose(it, i){
     ${!right && chosen.belongsTo !== it.models[0]
       ? `<p class="note">What you picked belongs to <b>${esc(NAME(chosen.belongsTo))}</b>.</p>` : ""}
     <div class="src"><b>verbatim from your packet</b>${esc(it.sourceLine)}</div>
-    <p class="note" style="margin-top:12px">If this item looks wrong to you, trust your packet over the app.</p>`;
+    <p class="note" style="margin-top:12px">If this item looks wrong to you, trust your packet over the app.
+    <button class="reopen" id="flag">Flag this question</button></p>`;
+  document.getElementById("flag").onclick = () => feedback({
+    label: "This question (" + it.id + ") will be attached so Tannen can find it.",
+    detail: "item: " + it.id + "\nmodel: " + NAME(it.models[0])
+          + "\nstem: " + it.stem.replace(/\s+/g, " ").slice(0, 240)
+          + "\nkeyed answer: " + it.options.filter(o => o.correct)[0].text.slice(0, 120)
+          + "\nshe answered: " + chosen.text.slice(0, 120) + (right ? " (correct)" : " (wrong)")
+  });
   foot.hidden = false;
   frow.innerHTML = `<span class="note">Did you know it, or guess?</span>
     <button class="btn ghost" data-k="0">Guessed</button>
@@ -409,8 +417,10 @@ function renderProgress(){
       <li><b>green</b> every item retired: 3 correct on 3 different days</li>
     </ul>
     <div class="row"><button class="btn ghost" id="reset">Reset all progress</button>
-    <button class="reopen" id="renote">Read the note again</button></div>`;
+    <button class="reopen" id="renote">Read the note again</button>
+    <button class="reopen" id="fbopen">Send feedback</button></div>`;
   document.getElementById("renote").onclick = () => welcome();
+  document.getElementById("fbopen").onclick = () => feedback(null);
   document.getElementById("reset").onclick = () => {
     if (confirm("Erase all progress on this device?")){ S = {concepts:{}, learned:{}}; save(); renderNav(); render(); }
   };
@@ -440,6 +450,55 @@ function renderGrid(){
       return `<td>${v === null ? '<span class="null">not in packet</span>' : esc(v.length>150 ? v.slice(0,150)+"…" : v)}</td>`;
     }).join("")}</tr>`).join("")}</tbody></table></div>
     <p class="note">Built ${esc(BUILT)} from your five packets.</p>`;
+}
+
+/* ---------- feedback ----------
+   Static site, so there is no backend to POST to. mailto is the only route
+   that works with no signup and no third party. The address is assembled at
+   runtime rather than sitting in the HTML, so scrapers of this public repo
+   do not get a plain-text address. */
+function fbAddr(){ return ["tannen",".","skriver","@","gmail",".","com"].join(""); }
+function feedback(prefill){
+  const d = document.createElement("div");
+  d.className = "overlay";
+  d.innerHTML = `<div class="modal" role="dialog" aria-modal="true" aria-label="Send feedback">
+    <h2>Send feedback</h2>
+    <p class="lede">Goes to Tannen. If a question looks wrong, say so — the
+    packet wins over this app, and a bad item is worth catching.</p>
+    <textarea id="fbtext" rows="7" placeholder="What happened?"
+      style="width:100%;padding:12px;border-radius:11px;border:1px solid var(--line);
+      background:var(--bg);color:var(--ink);font:inherit;resize:vertical"></textarea>
+    ${prefill ? `<div class="src"><b>attached automatically</b>${esc(prefill.label)}</div>` : ""}
+    <div class="row" style="margin-top:14px">
+      <button class="btn" id="fbsend">Open email</button>
+      <button class="btn ghost" id="fbcopy">Copy instead</button>
+      <button class="btn ghost" id="fbclose">Cancel</button>
+    </div>
+    <p class="byline" id="fbnote">“Open email” opens your mail app with it ready to send.
+    If nothing opens, use Copy instead and paste it into a text.</p>
+  </div>`;
+  document.body.appendChild(d);
+  const ta = d.querySelector("#fbtext");
+  ta.focus();
+  const compose = () => {
+    let b = ta.value.trim() || "(no message)";
+    if (prefill) b += "\n\n---\n" + prefill.detail;
+    b += "\n\nbuild " + BUILT;
+    return b;
+  };
+  d.querySelector("#fbclose").onclick = () => d.remove();
+  d.querySelector("#fbsend").onclick = () => {
+    window.location.href = "mailto:" + fbAddr()
+      + "?subject=" + encodeURIComponent("LMFT tool feedback")
+      + "&body=" + encodeURIComponent(compose());
+  };
+  d.querySelector("#fbcopy").onclick = () => {
+    const t = compose() + "\n\n(send to " + fbAddr() + ")";
+    const done = () => d.querySelector("#fbnote").textContent =
+      "Copied. Paste it into a text or email to Tannen.";
+    if (navigator.clipboard) navigator.clipboard.writeText(t).then(done, done);
+    else { ta.value = t; ta.select(); try{document.execCommand("copy");}catch(e){} done(); }
+  };
 }
 
 /* ---------- first-run welcome ---------- */
