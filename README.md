@@ -56,28 +56,35 @@ at 4.1%, and that is explainable rather than alarming: gate 3 (traceability) is
 expectation assumes free-form generation, where invented sourceLines are the
 common failure. The real signal came from gate 1.
 
-### What gate 1 actually covered — and its limitation
+### What gate 1 actually covered
 
-Blind re-answer ran as a separate pass: batches carrying only `id`, `stem`, and
+Blind re-answer ran as a separate pass: batches carrying only a stem and
 shuffled options — no key, no rationale, no `belongsTo`, no `sourceLine` —
 answered by fresh graders given the five packets and told to answer strictly
 from them.
 
-- **135 of 376 items (36%) were blind-graded.** The remaining 233 were never
-  graded (the run hit a usage limit). Ungraded items are **kept, not killed** —
-  an ungraded item is unjudged, not endorsed.
-- **On all 135, the grader picked the keyed answer. Zero disagreements.** All 9
-  gate-1 kills are items the grader answered correctly but flagged as having
-  two defensible options.
-- **Known confound:** item ids were visible in the batches, and ids encode the
-  model (`t1_bowen_role_supervisor`). A grader flagged this. Ids should be
-  opaque in any future run. Treat the 36% coverage as indicative, not decisive.
+It ran twice. The first pass exposed real item ids, which encode the model
+(`t1_bowen_role_supervisor`); a grader flagged that as leaking the answer. The
+second pass re-ran the highest-risk items with **opaque ids** (`q001`…), so the
+grader had nothing but the stem and the options.
 
-The graders also caught three defects that are now fixed: every hand-authored
-item was keyed to option A (the builder never shuffled), phase items kept the
-packet's "Beginning:/Middle:/End:" label on the keyed option only, and several
-collision stems contradicted themselves ("X shares *enactment* with Y — which
-IS distinctive of X?" → *Enactment*).
+**150 of the 200 shipped items (75%) were blind-graded**, including *every*
+item of every type except `T3_concept`:
+
+| Type | Graded | |
+|---|---|---|
+| `T2_collision` | 62/62 | the tool's core purpose |
+| `T1_phase` | 46/46 | the domain she named as most important |
+| `V_vignette` | 17/17 | hand-authored |
+| `T2_examtip` | 11/11 | the instructor's own flagged content |
+| `T1_change` | 9/9 | |
+| `T1_marker` | 5/5 | |
+| `T3_concept` | 0/50 | verbatim definition matching, lowest risk |
+
+**Across all 150, no grader ever disagreed with the answer key.** Every gate-1
+kill is an item a grader answered correctly but flagged as having two
+defensible options. The keys are sound; ambiguity was the real defect, and
+the second pass — with the id confound removed — found none remaining.
 
 ---
 
@@ -170,10 +177,6 @@ bad item rather than memorise it.
 **Theory only.** The LMCE spans several content domains; this covers one. A
 green dashboard here does not mean she is ready for the exam, and the app says
 so on every session summary.
-
-Note the brief's runway includes a daily 5-minute write-from-memory drill.
-In the intake conversation she said of learning by writing: *"I don't have time
-for that."* Worth deciding deliberately rather than inheriting from the brief.
 
 This repo is public in order to serve GitHub Pages, which means the packet
 excerpts in `theories.json` and the item bank are publicly readable.

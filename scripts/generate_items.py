@@ -336,7 +336,7 @@ for cs in C["confusionSets"]:
             add("t2_conf_%s_%s" % (mid, re.sub(r"[^a-z0-9]+", "", norm(t))[:18]),
                 2, "T2_collision", [mid],
                 "Within %s: which term matches this description?\n\n“%s”"
-                % (m["name"], c["definition"][:400]),
+                % (m["name"], c["definition"]),
                 opts,
                 "The packet distinguishes these explicitly (%s)." % cs["name"],
                 c["sourceLine"], marker=t, intra=True)
@@ -368,7 +368,7 @@ for mid, m in M.items():
             add("t3_%s_%s" % (mid, re.sub(r"[^a-z0-9]+", "", norm(c["term"]))[:20]),
                 3, "T3_concept", [mid],
                 "Which term does the packet define this way?\n\n“%s”"
-                % c["definition"][:420],
+                % c["definition"],
                 opts,
                 "Definition is verbatim from the %s section." % m["name"],
                 c["sourceLine"], marker=c["term"], intra=True)

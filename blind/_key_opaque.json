@@ -1,0 +1,330 @@
+{
+ "q001": [
+  "t2_coll_existential_takingresponsibi",
+  "A"
+ ],
+ "q002": [
+  "t2_coll_strategic_homeworkbetweens",
+  "A"
+ ],
+ "q003": [
+  "t2_coll_narrative_strengthsandreso",
+  "A"
+ ],
+ "q004": [
+  "t2_coll_self-psychology_enactment",
+  "D"
+ ],
+ "q005": [
+  "t2_coll_existential_hereandnowpresen",
+  "B"
+ ],
+ "q006": [
+  "t2_coll_strategic_reframing",
+  "D"
+ ],
+ "q007": [
+  "t2_coll_structural_boundarywork",
+  "B"
+ ],
+ "q008": [
+  "t2_coll_narrative_investigatordete",
+  "D"
+ ],
+ "q009": [
+  "t2_coll_solution-focused_strengthsandreso",
+  "A"
+ ],
+ "q010": [
+  "t2_coll_self-psychology_transferencework",
+  "B"
+ ],
+ "q011": [
+  "t2_coll_gestalt_experiments",
+  "D"
+ ],
+ "q012": [
+  "t2_coll_existential_nonjudgmentalsta",
+  "B"
+ ],
+ "q013": [
+  "t2_coll_experiential_familyhistorymap",
+  "D"
+ ],
+ "q014": [
+  "t2_coll_structural_reframing",
+  "A"
+ ],
+ "q015": [
+  "t2_coll_narrative_collaborativegoa",
+  "A"
+ ],
+ "q016": [
+  "t2_coll_solution-focused_homeworkbetweens",
+  "D"
+ ],
+ "q017": [
+  "t2_coll_object-relations_terminationwork",
+  "B"
+ ],
+ "q018": [
+  "t2_coll_self-psychology_selfesteem",
+  "D"
+ ],
+ "q019": [
+  "t2_conf_attachment_secureattachment",
+  "B"
+ ],
+ "q020": [
+  "t2_coll_gestalt_nonjudgmentalsta",
+  "A"
+ ],
+ "q021": [
+  "t2_coll_existential_holdingenvironme",
+  "D"
+ ],
+ "q022": [
+  "t2_coll_experiential_roleplay",
+  "D"
+ ],
+ "q023": [
+  "t2_coll_bowen_takingresponsibi",
+  "D"
+ ],
+ "q024": [
+  "t2_coll_structural_coalitionsalignm",
+  "A"
+ ],
+ "q025": [
+  "t2_conf_object-relations_projection",
+  "B"
+ ],
+ "q026": [
+  "t2_conf_self-psychology_idealizingtransfer",
+  "D"
+ ],
+ "q027": [
+  "t2_conf_attachment_fearfulavoidantatt",
+  "D"
+ ],
+ "q028": [
+  "t2_coll_gestalt_hereandnowpresen",
+  "C"
+ ],
+ "q029": [
+  "t2_coll_existential_processnotconten",
+  "C"
+ ],
+ "q030": [
+  "t2_coll_experiential_boundarywork",
+  "D"
+ ],
+ "q031": [
+  "t2_coll_bowen_homeworkbetweens",
+  "D"
+ ],
+ "q032": [
+  "t2_coll_structural_enactment",
+  "D"
+ ],
+ "q033": [
+  "t2_coll_satir_investigatordete",
+  "D"
+ ],
+ "q034": [
+  "t2_conf_object-relations_introjection",
+  "A"
+ ],
+ "q035": [
+  "t2_conf_self-psychology_adversarialtransfe",
+  "D"
+ ],
+ "q036": [
+  "t2_conf_attachment_dismissiveavoidant",
+  "B"
+ ],
+ "q037": [
+  "t2_coll_gestalt_processnotconten",
+  "C"
+ ],
+ "q038": [
+  "t2_coll_experiential_coalitionsalignm",
+  "D"
+ ],
+ "q039": [
+  "t2_coll_bowen_psychoeducationt",
+  "B"
+ ],
+ "q040": [
+  "t2_coll_satir_familyhistorymap",
+  "A"
+ ],
+ "q041": [
+  "t2_coll_object-relations_holdingenvironme",
+  "D"
+ ],
+ "q042": [
+  "t2_coll_self-psychology_terminationwork",
+  "D"
+ ],
+ "q043": [
+  "t2_coll_attachment_nonjudgmentalsta",
+  "D"
+ ],
+ "q044": [
+  "t2_coll_bowen_modeling",
+  "C"
+ ],
+ "q045": [
+  "t2_coll_satir_strengthsandreso",
+  "C"
+ ],
+ "q046": [
+  "t2_conf_object-relations_identification",
+  "A"
+ ],
+ "q047": [
+  "t2_coll_self-psychology_holdingenvironme",
+  "D"
+ ],
+ "q048": [
+  "t2_conf_attachment_preoccupiedanxious",
+  "A"
+ ],
+ "q049": [
+  "t2_coll_bowen_investigatordete",
+  "B"
+ ],
+ "q050": [
+  "t2_conf_satir_placater",
+  "A"
+ ],
+ "q051": [
+  "t2_coll_object-relations_neutralstance",
+  "B"
+ ],
+ "q052": [
+  "t2_conf_self-psychology_twinshiptransferen",
+  "B"
+ ],
+ "q053": [
+  "t2_coll_bowen_familyhistorymap",
+  "B"
+ ],
+ "q054": [
+  "t2_conf_satir_blamer",
+  "D"
+ ],
+ "q055": [
+  "v_narrative_externalize",
+  "B"
+ ],
+ "q056": [
+  "v_sft_miracle",
+  "D"
+ ],
+ "q057": [
+  "e_objrel_look_for_term",
+  "A"
+ ],
+ "q058": [
+  "v_selfpsych_enactment",
+  "C"
+ ],
+ "q059": [
+  "e_attachment_exam_focus",
+  "A"
+ ],
+ "q060": [
+  "e_cc_no_phases",
+  "B"
+ ],
+ "q061": [
+  "v_experiential_whole_family",
+  "D"
+ ],
+ "q062": [
+  "e_bowen_three_generations",
+  "D"
+ ],
+ "q063": [
+  "v_structural_chair",
+  "D"
+ ],
+ "q064": [
+  "v_sft_coping",
+  "D"
+ ],
+ "q065": [
+  "v_objrel_annoyed",
+  "C"
+ ],
+ "q066": [
+  "v_attachment_dismissive",
+  "D"
+ ],
+ "q067": [
+  "v_gestalt_tearing_up",
+  "B"
+ ],
+ "q068": [
+  "v_experiential_silent_family",
+  "C"
+ ],
+ "q069": [
+  "e_cbt_first_session",
+  "C"
+ ],
+ "q070": [
+  "v_bowen_cutoff",
+  "C"
+ ],
+ "q071": [
+  "v_objrel_identification",
+  "B"
+ ],
+ "q072": [
+  "v_attachment_preoccupied",
+  "C"
+ ],
+ "q073": [
+  "e_cbt_amt_early",
+  "C"
+ ],
+ "q074": [
+  "v_bowen_projection",
+  "B"
+ ],
+ "q075": [
+  "v_satir_computer",
+  "A"
+ ],
+ "q076": [
+  "e_cbt_be_vs_exposure_fear",
+  "B"
+ ],
+ "q077": [
+  "v_satir_blamer",
+  "B"
+ ],
+ "q078": [
+  "e_cbt_thought_record_next",
+  "D"
+ ],
+ "q079": [
+  "e_cbt_relaxation_initial",
+  "C"
+ ],
+ "q080": [
+  "e_cbt_be_vs_exposure_belief",
+  "A"
+ ],
+ "q081": [
+  "e_cbt_three_column_first",
+  "A"
+ ],
+ "q082": [
+  "v_cbt_downward_arrow",
+  "A"
+ ]
+}

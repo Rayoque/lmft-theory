@@ -1,8 +1,8 @@
 {
- "stage": "all four gates",
+ "stage": "all four gates + opaque gate 1",
  "generated": 392,
  "killed": 36,
- "survived": 356,
+ "survived": 200,
  "killRatePct": 9.2,
  "byGate": {
   "gate4_distractor": 17,

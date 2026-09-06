@@ -1,0 +1,325 @@
+{
+ "instructions": "Pick the single best option per question, strictly from the packets. Output {\"answers\":{id:LETTER},\"ambiguous\":[id]}.",
+ "questions": [
+  {
+   "id": "q051",
+   "stem": "Object Relations share the marker “neutral stance” with Bowen Family Systems, so that marker cannot tell them apart. Which of these IS distinctive of Object Relations?",
+   "options": {
+    "A": "Models",
+    "B": "Interpretation",
+    "C": "Emotional Cutoff",
+    "D": "Multigenerational Transmission Process"
+   }
+  },
+  {
+   "id": "q052",
+   "stem": "Within Self Psychology: which term matches this description?\n\n“The patient experiences the therapist as someone like himself, “that person is like me.””",
+   "options": {
+    "A": "Idealizing Transference",
+    "B": "Twinship Transference",
+    "C": "Mirroring Transference",
+    "D": "Adversarial Transference"
+   }
+  },
+  {
+   "id": "q053",
+   "stem": "Bowen Family Systems share the marker “family history mapping (function)” with Experiential / Symbolic Therapy (Whitaker), Satir Communications Therapy, Structural Family Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Bowen Family Systems?",
+   "options": {
+    "A": "Joining",
+    "B": "Triangles (Triangulation)",
+    "C": "Disengaged Boundaries",
+    "D": "Subsystems"
+   }
+  },
+  {
+   "id": "q054",
+   "stem": "Within Satir Communications Therapy: which term matches this description?\n\n“Attacking others, fault finder, dictator, boss.”",
+   "options": {
+    "A": "Distracter",
+    "B": "Computer",
+    "C": "Placater",
+    "D": "Blamer"
+   }
+  },
+  {
+   "id": "q055",
+   "stem": "A therapist asks a series of questions designed to separate the person from the problem, so the client stops experiencing the problem as who they are.\n\nIn Narrative therapy this is:",
+   "options": {
+    "A": "Transforming Rules",
+    "B": "Externalizing the Problem",
+    "C": "Client Centered Therapy",
+    "D": "Exception Questioning"
+   }
+  },
+  {
+   "id": "q056",
+   "stem": "A therapist asks: “Imagine that tomorrow morning you wake up and a miracle has happened. What would be different that will tell you a miracle has happened and your problem has been solved?”\n\nThis is:",
+   "options": {
+    "A": "“Imaginal death” exercises",
+    "B": "Unique Outcomes",
+    "C": "Finding Alternatives",
+    "D": "Miracle Questioning"
+   }
+  },
+  {
+   "id": "q057",
+   "stem": "A therapist becomes aware of strong feelings arising in themselves about a client. The packet flags this as an exam cue and names the term to look for.\n\nHow would an Object Relations therapist handle this?",
+   "options": {
+    "A": "Identify and process projective identification",
+    "B": "Mirroring",
+    "C": "Attunement",
+    "D": "Optimal Frustration"
+   }
+  },
+  {
+   "id": "q058",
+   "stem": "A therapist says: “It sounds like what's going on with your partner is similar to what happened with your father.”\n\nIn Self Psychology this is:",
+   "options": {
+    "A": "Explore disruptions",
+    "B": "Confront resistance and primitive defenses",
+    "C": "Addressing enactments",
+    "D": "Interpretation"
+   }
+  },
+  {
+   "id": "q059",
+   "stem": "The packet gives explicit exam guidance about what an attachment-based therapist focuses on.\n\nOn the exam, an attachment therapist is specifically focused on:",
+   "options": {
+    "A": "How the person attaches in relationships and how they regulate their own emotions, exploring their early caregiver interactions",
+    "B": "Twinship Transference",
+    "C": "Splitting",
+    "D": "Top dog / underdog dialogue"
+   }
+  },
+  {
+   "id": "q060",
+   "stem": "Client Centered therapy has no clear phases of treatment, and the packet says so. It also warns that the exam may still ask what a Client Centered therapist does in the initial or middle stage.\n\nWhat answer shape is correct there?",
+   "options": {
+    "A": "Empty chair",
+    "B": "Unconditional positive regard, empathy, therapist congruence, and promotion of self-acceptance",
+    "C": "Battle for Structure",
+    "D": "“Imaginal death” exercises"
+   }
+  },
+  {
+   "id": "q061",
+   "stem": "A mother brings her child to therapy. Both are in the room. The therapist works from Experiential/Symbolic therapy.\n\nWhat is the therapist's initial intervention?",
+   "options": {
+    "A": "Empty chair",
+    "B": "Joining",
+    "C": "Family Sculpting",
+    "D": "Discuss with the mother the need to include the entire family in therapy"
+   }
+  },
+  {
+   "id": "q062",
+   "stem": "The packet singles out one model as the only therapy concerned with the past three generations of the family.\n\nWhich model?",
+   "options": {
+    "A": "Satir Communications Therapy",
+    "B": "Structural Family Therapy",
+    "C": "Strategic Therapy",
+    "D": "Bowen Family Systems"
+   }
+  },
+  {
+   "id": "q063",
+   "stem": "A son habitually sits in the chair between his two parents. The therapist asks him to move to a chair on the opposite side of the room so he is not caught in the middle.\n\nThis Structural intervention is:",
+   "options": {
+    "A": "De-triangulation",
+    "B": "Family Sculpting",
+    "C": "Ordeals",
+    "D": "Boundary Making"
+   }
+  },
+  {
+   "id": "q064",
+   "stem": "A client cannot identify any positive change. The therapist asks: “How do you keep going each day even when it feels like there is no hope?”\n\nThis is:",
+   "options": {
+    "A": "Scaling Questions",
+    "B": "Exception Questioning",
+    "C": "Presupposing Change",
+    "D": "Coping Questions"
+   }
+  },
+  {
+   "id": "q065",
+   "stem": "During sessions with a particular client, the therapist repeatedly notices that they themselves feel annoyed. On reflection the therapist recognises the annoyance did not originate with them; they have taken on and begun to identify with a feeling the client put onto them.\n\nAn Object Relations therapist would name this:",
+   "options": {
+    "A": "Adversarial Transference",
+    "B": "Mirroring Transference",
+    "C": "Projective Identification",
+    "D": "Attunement"
+   }
+  },
+  {
+   "id": "q066",
+   "stem": "A client dismisses the importance of love and connection, idealizes their parents although actual memories do not corroborate it, dislikes looking inward, and has difficulty tolerating heightened emotions in others.\n\nThis attachment pattern is:",
+   "options": {
+    "A": "Secure Attachment",
+    "B": "Fearful/Avoidant Attachment (Disorganized)",
+    "C": "Preoccupied/Anxious Attachment",
+    "D": "Dismissive/Avoidant Attachment"
+   }
+  },
+  {
+   "id": "q067",
+   "stem": "A client begins to cry in session. Rather than saying “you seem sad,” the therapist says: “I see you tearing up, I'm wondering what you're experiencing right now.”\n\nThis illustrates which Gestalt method?",
+   "options": {
+    "A": "Holding",
+    "B": "Phenomenological description",
+    "C": "Activating Constructive Anxiety",
+    "D": "Experience-Near Empathy"
+   }
+  },
+  {
+   "id": "q068",
+   "stem": "A family comes in for therapy and nobody is speaking.\n\nWhat would an Experiential/Symbolic therapist do?",
+   "options": {
+    "A": "Paradoxical Directives",
+    "B": "Enactment",
+    "C": "Wait silently for the family to take initiative",
+    "D": "Modeling Communication"
+   }
+  },
+  {
+   "id": "q069",
+   "stem": "According to the packet, what is taught in the first CBT session, alongside psychoeducation about how CBT works?",
+   "options": {
+    "A": "Assertiveness Training",
+    "B": "Problem-Solving Training",
+    "C": "Psychoeducation on the negative triad",
+    "D": "Downward Arrow"
+   }
+  },
+  {
+   "id": "q070",
+   "stem": "A grandmother learned to avoid conflict by emotionally shutting down. Her daughter grew up with a distant mother and became overly enmeshed with her own daughter. That granddaughter is now emotionally reactive under stress, has moved far away to escape the family, and married someone equally distant.\n\nA Bowen therapist would name this pattern:",
+   "options": {
+    "A": "Family Life Chronology",
+    "B": "Restraining",
+    "C": "Multigenerational Transmission Process",
+    "D": "Power Hierarchy"
+   }
+  },
+  {
+   "id": "q071",
+   "stem": "A husband has not merely taken on the idea that women should do the housework. He sees himself as head of the household, like his father, and expects his wife to treat him as his mother treated his dad.\n\nThis is:",
+   "options": {
+    "A": "Twinship Transference",
+    "B": "Identification",
+    "C": "Idealizing Transference",
+    "D": "Attachment Behavior System"
+   }
+  },
+  {
+   "id": "q072",
+   "stem": "A client is still embroiled with anger and hurt at their parents, becomes overly dependent on attachment figures, recalls role reversal in childhood, and dreads abandonment.\n\nThis attachment pattern is:",
+   "options": {
+    "A": "Fearful/Avoidant Attachment (Disorganized)",
+    "B": "Secure Attachment",
+    "C": "Preoccupied/Anxious Attachment",
+    "D": "Dismissive/Avoidant Attachment"
+   }
+  },
+  {
+   "id": "q073",
+   "stem": "The packet notes that one CBT intervention is skill acquisition done early in therapy, teaching general coping skills with a lot of imagery and relaxation practice.\n\nWhich is it?",
+   "options": {
+    "A": "Behavioral Activation",
+    "B": "Exposure",
+    "C": "Anxiety Management Training",
+    "D": "Systematic Desensitization"
+   }
+  },
+  {
+   "id": "q074",
+   "stem": "Maria becomes preoccupied with her daughter Emily's emotions. When Emily cries after a bad test grade, Maria reads it as evidence that Emily is emotionally fragile. Maria begins hovering, solving problems for her, and calling teachers to complain about stressful assignments.\n\nA Bowen therapist would identify this as:",
+   "options": {
+    "A": "Positioning",
+    "B": "Family Projection Process",
+    "C": "Enmeshed Boundaries",
+    "D": "Incongruent Communication"
+   }
+  },
+  {
+   "id": "q075",
+   "stem": "A family member responds to every emotional question by being super reasonable, intellectual, and distant, and is always correct.\n\nSatir would call this stance:",
+   "options": {
+    "A": "Computer",
+    "B": "Leveler",
+    "C": "Placater",
+    "D": "Blamer"
+   }
+  },
+  {
+   "id": "q076",
+   "stem": "A client who fears blushing is repeatedly exposed to blushing in order to reduce the fear of blushing itself.\n\nThe packet says this is:",
+   "options": {
+    "A": "Successive Approximation",
+    "B": "Exposure",
+    "C": "Opposite Action",
+    "D": "Behavioral Experiments"
+   }
+  },
+  {
+   "id": "q077",
+   "stem": "In a family session one member consistently attacks the others, finds fault, and speaks like a boss or dictator.\n\nIn Satir's terms this communication stance is:",
+   "options": {
+    "A": "Placater",
+    "B": "Blamer",
+    "C": "Computer",
+    "D": "Distracter"
+   }
+  },
+  {
+   "id": "q078",
+   "stem": "Which CBT technique expands the three-column technique by adding columns for an alternative response and the resulting emotional outcome?",
+   "options": {
+    "A": "Finding Alternatives",
+    "B": "Three-Column Technique",
+    "C": "Labeling Distortions",
+    "D": "Thought Record"
+   }
+  },
+  {
+   "id": "q079",
+   "stem": "The packet flags one CBT technique with the note “select this on test” for questions about the initial phase of treatment.\n\nWhich technique belongs to the initial phase, alongside psychoeducation and thought patterns?",
+   "options": {
+    "A": "Thought Record",
+    "B": "Opposite Action",
+    "C": "Relaxation Training",
+    "D": "Mastery/Pleasure Ratings"
+   }
+  },
+  {
+   "id": "q080",
+   "stem": "A client who fears blushing in public is asked to test the belief “people will laugh if I blush in public.”\n\nThe packet says this is:",
+   "options": {
+    "A": "Behavioral Experiments",
+    "B": "Exposure",
+    "C": "Systematic Desensitization",
+    "D": "Anxiety Management Training"
+   }
+  },
+  {
+   "id": "q081",
+   "stem": "Which CBT technique does the packet describe as the initial homework assignment, collecting the situation, the automatic thought, and the associated feelings?",
+   "options": {
+    "A": "Three-Column Technique",
+    "B": "Mastery/Pleasure Ratings",
+    "C": "Thought Record",
+    "D": "Self-Monitoring"
+   }
+  },
+  {
+   "id": "q082",
+   "stem": "A client says people did not like them at a party. The therapist asks what that meant to them; the client says they were not important. The therapist asks what that means about them; the client says they are worthless.\n\nWhich CBT technique is the therapist using?",
+   "options": {
+    "A": "Downward Arrow",
+    "B": "Socratic Questioning",
+    "C": "Finding Alternatives",
+    "D": "Labeling Distortions"
+   }
+  }
+ ]
+}
