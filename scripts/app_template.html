@@ -494,7 +494,11 @@ function welcome(){
     d.remove();
   };
 }
-try { if (!localStorage.getItem(WKEY)) welcome(); } catch(e){ welcome(); }
+// Only the storage read is guarded. Retrying welcome() inside a catch would
+// throw twice if welcome() itself were the thing that failed.
+let seenWelcome = false;
+try { seenWelcome = !!localStorage.getItem(WKEY); } catch(e){}
+if (!seenWelcome && document.body) welcome();
 
 renderNav();
 render();
