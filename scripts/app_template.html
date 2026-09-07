@@ -113,7 +113,8 @@ button.opt[disabled]{cursor:default;opacity:1}
 table.grid{border-collapse:collapse;font-size:11.5px;width:100%;table-layout:fixed}
 table.grid th,table.grid td{border:1px solid var(--line);padding:6px 7px;vertical-align:top;text-align:left}
 table.grid th{background:var(--src);font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--dim)}
-table.grid td:first-child,table.grid th:first-child{font-weight:700;width:12.5%}
+table.grid td:first-child,table.grid th:first-child{font-weight:700;width:11%}
+table.grid td{line-height:1.5}
 table.grid td:first-child{white-space:normal}
 .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
 .kv{font-size:14.5px;line-height:1.6}
@@ -447,27 +448,33 @@ function renderProgress(){
 }
 
 /* ---------- the grid: 14 models x 6 columns, one page ---------- */
-const COLS = ["Change mechanism","Therapist role","Signature intervention","Beginning","Middle","End"];
+const COLS = ["Change mechanism","Therapist role","Interventions","Beginning","Middle","End"];
 function cell(m, c){
-  const first = a => (a && a.length ? a[0].text : null);
+  // Every cell shows everything the packet has for that model. The old version
+  // showed only the FIRST entry of each list -- and "signature intervention"
+  // was not a curated pick, it was just interventions[0], whichever the packet
+  // happened to list first. Since the bank now drills whole sets of
+  // techniques, the grid has to show whole sets too.
+  const all = a => (a && a.length ? a.map(x => x.text).join(" · ") : null);
   switch(c){
     case 0: return m.changeMechanism ? m.changeMechanism.text : null;
-    case 1: return m.therapistRoles === null ? null : first(m.therapistRoles);
-    case 2: return m.interventions.length ? m.interventions[0].term : null;
+    case 1: return m.therapistRoles === null ? null : all(m.therapistRoles);
+    case 2: return m.interventions.length
+      ? m.interventions.map(x => x.term).join(" · ") : null;
     default: {
       if (m.phases === null) return null;
       const k = ["beginning","middle","end"][c-3];
-      return first(m.phases[k]);
+      return all(m.phases[k]);
     }
   }
 }
 function renderGrid(){
   el.innerHTML = `<h2>The grid</h2>
-    <p class="note">Fourteen models, six columns, one page. Screenshot it to your lock screen. Blank cells are blank in your packet — nothing has been invented to fill them.</p>
+    <p class="note">Fourteen models, six columns. Every cell shows everything your packet has for that model — all the interventions, not just one, and every phase bullet. Nothing is truncated and nothing has been invented; a blank cell is blank in your packet.</p>
     <div class="card scroll"><table class="grid"><thead><tr><th>Model</th>${COLS.map(c=>`<th>${c}</th>`).join("")}</tr></thead>
     <tbody>${MODELS.map(m=>`<tr><td>${esc(m.name)}</td>${COLS.map((_,i)=>{
       const v = cell(m,i);
-      return `<td>${v === null ? '<span class="null">not in packet</span>' : esc(v.length>260 ? v.slice(0,260)+"…" : v)}</td>`;
+      return `<td>${v === null ? '<span class="null">not in packet</span>' : esc(v)}</td>`;
     }).join("")}</tr>`).join("")}</tbody></table></div>
     <p class="note">Built ${esc(BUILT)} from your five packets.</p>`;
 }
