@@ -18,7 +18,7 @@ const { JSDOM } = require(path.join(
 
 const HTML = fs.readFileSync(path.join(__dirname, "..", "index.html"), "utf8");
 
-let pass = 0, fail = 0;
+let pass = 0, fail = 0, pending = 0;
 const ok = (n, c, extra) => { c ? pass++ : fail++;
   console.log("  " + (c ? "PASS" : "FAIL") + "  " + n +
               (!c && extra ? "  <- " + extra : "")); };
@@ -531,5 +531,42 @@ head("milestone chimes");
   ok("and it is the longer one", played.length >= 10, String(played.length));
 }
 
-console.log("\n" + pass + " passed, " + fail + " failed\n");
-process.exit(fail ? 1 : 0);
+head("audio survives a suspended context");
+{
+  const { w, d } = boot();
+  const played = [];
+  let resumed = false, silentBuffer = false;
+  w.AudioContext = function(){
+    const a = {
+      state: "suspended",                       // how a phone hands it to you
+      currentTime: 0,
+      resume(){ resumed = true; a.state = "running"; return Promise.resolve(); },
+      createBuffer(){ silentBuffer = true; return {}; },
+      createBufferSource(){ return {buffer:null, connect(){}, start(){}}; },
+      createOscillator(){ return {frequency:{setValueAtTime(f){ played.push(Math.round(f)); }},
+        connect(){}, start(){}, stop(){}}; },
+      createGain(){ return {gain:{setValueAtTime(){}, linearRampToValueAtTime(){},
+        exponentialRampToValueAtTime(){}}, connect(){}}; },
+      destination: {}
+    };
+    return a;
+  };
+  d.dispatchEvent(new w.Event("pointerdown", {bubbles:true}));
+  ok("first touch unlocks with a silent buffer", silentBuffer);
+  ok("and resumes the context", resumed);
+
+  tab(d, "Drill").click();
+  answer(w, d, true, false);
+  pending++;
+  setTimeout(function(){
+    ok("notes still play once the context resumes", played.length === 3, played.join(","));
+    pending--; finish();
+  }, 25);
+}
+
+function finish(){
+  if (pending) return;
+  console.log("\n" + pass + " passed, " + fail + " failed\n");
+  process.exit(fail ? 1 : 0);
+}
+finish();
