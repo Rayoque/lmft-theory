@@ -567,6 +567,44 @@ head("audio plays as media, not Web Audio");
   }, 25);
 }
 
+
+head("progress page");
+{
+  const { w, d } = boot();
+  tab(d, "Progress").click();
+
+  const keys = [...d.querySelectorAll(".legend .key")];
+  ok("a key for every state", keys.length === 5, String(keys.length));
+  const states = keys.map(k => [...k.classList].find(c => c.indexOf("s-") === 0)).sort();
+  ok("all five states named", states.join() === "s-learning,s-new,s-shaky,s-solid,s-today",
+     states.join());
+  ok("blue state is explained", txt(d).indexOf("Done for today") >= 0);
+  ok("each key carries a swatch", keys.every(k => !!k.querySelector(".dot")));
+
+  const tiles = [...d.querySelectorAll(".grid14 .tile")];
+  ok("fourteen model tiles", tiles.length === 14, String(tiles.length));
+  ok("every tile shows both counts",
+     tiles.every(t => /\d+ of \d+ today/.test(t.textContent) &&
+                      /\d+ locked in/.test(t.textContent)),
+     tiles[0].textContent.replace(/\s+/g, " ").trim());
+  ok("tiles carry a state dot", tiles.every(t => !!t.querySelector(".dot")));
+
+  // the counts have to move when she actually answers something
+  tab(d, "Learn").click();
+  d.querySelector('[data-m="client-centered"]').click();
+  d.querySelector("#start").click();
+  while (d.querySelector("#opts")) answer(w, d, true, false);
+  tab(d, "Progress").click();
+  const cc = [...d.querySelectorAll(".grid14 .tile")]
+    .find(t => t.textContent.indexOf("Client Centered") >= 0);
+  ok("today count reflects the session", /3 of 3 today/.test(cc.textContent),
+     cc.textContent.replace(/\s+/g, " ").trim());
+  ok("but nothing is locked in on day one", /0 locked in/.test(cc.textContent));
+  ok("and the tile turns blue", cc.classList.contains("s-today"), cc.className);
+
+  ok("reset rebuilds done{}", w.eval("typeof S.done") === "object");
+}
+
 function finish(){
   if (pending) return;
   console.log("\n" + pass + " passed, " + fail + " failed\n");
