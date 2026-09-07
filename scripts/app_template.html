@@ -300,7 +300,7 @@ function render(){
 
 function renderLearnPicker(){
   el.innerHTML = `<h2>Learn</h2>
-    <p class="note">Read the brief, then answer three questions on that model straight away, before you leave it. Start anywhere. ${MODELS.filter(m=>S.learned[m.id]).length} of ${MODELS.length} done.</p>
+    <p class="note">${MODELS.filter(m=>S.learned[m.id]).length} of ${MODELS.length} opened.</p>
     <div class="grid14">${MODELS.map(m => {
       const st = modelState(m.id);
       return `<button class="tile s-${st.k}" data-m="${m.id}">
@@ -371,13 +371,11 @@ function choose(it, i){
   });
   const chosen = it.options[i];
   document.getElementById("reveal").innerHTML = `
-    <div class="banner ${right?"ok":"bad"}">${right ? "Correct." : "Not this one. The answer is highlighted above."}</div>
-    <p>${esc(it.rationale)}</p>
+    ${it.rationale ? `<p>${esc(it.rationale)}</p>` : ""}
     ${!right && chosen.belongsTo !== it.models[0]
       ? `<p class="note">What you picked belongs to <b>${esc(NAME(chosen.belongsTo))}</b>.</p>` : ""}
     <div class="src"><b>verbatim from your packet</b>${esc(it.sourceLine)}</div>
-    <p class="note" style="margin-top:12px">If this item looks wrong to you, trust your packet over the app.
-    <button class="reopen" id="flag">Flag this question</button></p>`;
+    <p class="note" style="margin-top:12px"><button class="reopen" id="flag">Flag this question</button></p>`;
   document.getElementById("flag").onclick = () => feedback({
     label: "This question (" + it.id + ") will be attached so Tannen can find it.",
     detail: "item: " + it.id + "\nmodel: " + NAME(it.models[0])
@@ -386,8 +384,7 @@ function choose(it, i){
           + "\nshe answered: " + chosen.text.slice(0, 120) + (right ? " (correct)" : " (wrong)")
   });
   foot.hidden = false;
-  frow.innerHTML = `<span class="note">Did you know it, or guess?</span>
-    <button class="btn ghost" data-k="0">Guessed</button>
+  frow.innerHTML = `<button class="btn ghost" data-k="0">Guessed</button>
     <button class="btn" data-k="1">Knew it</button>`;
   frow.querySelectorAll("[data-k]").forEach(b => b.onclick = () => {
     const knew = b.dataset.k === "1";
@@ -403,21 +400,20 @@ function renderSummary(){
   const n = stats.right + stats.wrong;
   const acc = n ? Math.round(stats.right / n * 100) : 0;
   let msg = "";
-  if (acc > 90) msg = `<div class="banner ok"><b>${acc}% — that is above the useful band.</b> You are being asked things you already own. Switch to Drill, which weights the collision set heavily, or start a model you have not opened.</div>`;
-  else if (acc < 70) msg = `<div class="banner warn"><b>${acc}%.</b> This is mixed practice — questions from different models are deliberately shuffled together, and that always scores lower than drilling one model at a time. It feels worse and it works better. 70–80% is the band you want. A low number here is not a verdict on you.</div>`;
-  else msg = `<div class="banner ok"><b>${acc}%.</b> That is the target band.</div>`;
+  if (acc > 90) msg = `<div class="banner ok"><b>${acc}%.</b> Above the useful band — try Drill, or a model you have not opened.</div>`;
+  else if (acc < 70) msg = `<div class="banner warn"><b>${acc}%.</b> Mixed practice scores lower than blocked practice by design. 70–80% is the band.</div>`;
+  else msg = `<div class="banner ok"><b>${acc}%.</b> Target band.</div>`;
   el.innerHTML = `<h2>Session done</h2>${msg}
     <div class="card"><ul class="kv">
       <li><b>${stats.right}</b> right, <b>${stats.wrong}</b> wrong</li>
-      <li><b>${stats.confidentWrong}</b> confidently wrong ${stats.confidentWrong ? "— these come back twice as often, on purpose. That is the collision trap: a familiar word fires before you check." : ""}</li>
+      <li><b>${stats.confidentWrong}</b> confidently wrong ${stats.confidentWrong ? "— back twice as often" : ""}</li>
       <li>${MODELS.filter(m=>S.learned[m.id]).length} of ${MODELS.length} models opened in Learn</li>
     </ul></div>
     <div class="row">
       <button class="btn" id="again">Another ${mode==="learn"?"3":"20"}</button>
       <button class="btn ghost" id="toGrid">See the grid</button>
       ${mode==="learn"?'<button class="btn ghost" id="pick">Another model</button>':""}
-    </div>
-    <p class="note" style="margin-top:14px">Theory is one content domain of this exam. A green dashboard here does not mean you are ready for the whole LMCE.</p>`;
+    </div>`;
   document.getElementById("again").onclick = () => { Q = []; render(); };
   document.getElementById("toGrid").onclick = () => go("grid");
   const p = document.getElementById("pick"); if (p) p.onclick = () => { learnModel = null; Q = []; render(); };
@@ -425,7 +421,7 @@ function renderSummary(){
 
 function renderProgress(){
   el.innerHTML = `<h2>Progress</h2>
-    <p class="note">One state per model. Not a percentage — what matters is which models you cannot yet tell apart.</p>
+    <p class="note">Theory is one domain of the LMCE. Green here is not ready for the exam.</p>
     <div class="grid14">${MODELS.map(m=>{
       const st = modelState(m.id);
       return `<div class="tile s-${st.k}"><b>${esc(m.name)}</b><span>${st.label}</span></div>`;
@@ -470,7 +466,7 @@ function cell(m, c){
 }
 function renderGrid(){
   el.innerHTML = `<h2>The grid</h2>
-    <p class="note">Fourteen models, six columns. Every cell shows everything your packet has for that model — all the interventions, not just one, and every phase bullet. Nothing is truncated and nothing has been invented; a blank cell is blank in your packet.</p>
+    <p class="note">A blank cell is blank in your packet.</p>
     <div class="card scroll"><table class="grid"><thead><tr><th>Model</th>${COLS.map(c=>`<th>${c}</th>`).join("")}</tr></thead>
     <tbody>${MODELS.map(m=>`<tr><td>${esc(m.name)}</td>${COLS.map((_,i)=>{
       const v = cell(m,i);
