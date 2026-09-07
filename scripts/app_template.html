@@ -4,14 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="theme-color" content="#14181f">
+<meta name="theme-color" content="#f1f5fa">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2032%2032%27%3E%3Crect%20width%3D%2732%27%20height%3D%2732%27%20rx%3D%278%27%20fill%3D%27%232f5c8f%27%2F%3E%3Cpath%20d%3D%27M16%2010.5%20L10%2021%20M16%2010.5%20L22%2021%20M10%2021%20L22%2021%27%20stroke%3D%27%23eaf2fb%27%20stroke-width%3D%271.9%27%20stroke-linecap%3D%27round%27%20fill%3D%27none%27%2F%3E%3Ccircle%20cx%3D%2716%27%20cy%3D%2710.5%27%20r%3D%273.6%27%20fill%3D%27%23eaf2fb%27%2F%3E%3Ccircle%20cx%3D%2710%27%20cy%3D%2721%27%20r%3D%273.6%27%20fill%3D%27%23eaf2fb%27%2F%3E%3Ccircle%20cx%3D%2722%27%20cy%3D%2721%27%20r%3D%273.6%27%20fill%3D%27%23eaf2fb%27%2F%3E%3C%2Fsvg%3E">
 <title>LMFT Theory</title>
 <style>
 :root{
-  --bg:#f6f7f9; --card:#ffffff; --ink:#161a21; --dim:#5d6673; --line:#e2e6ec;
-  --accent:#2f5fd0; --accent-ink:#fff; --ok:#1c7a4a; --okbg:#e6f5ec;
-  --bad:#b3261e; --badbg:#fdeceb; --warn:#8a5a00; --warnbg:#fdf3e0;
-  --src:#f2f4f8; --radius:14px; --wrap:760px;
+  --bg:#f1f5fa; --card:#fdfeff; --ink:#13253d; --dim:#5f7085; --line:#d9e3ef;
+  --accent:#2f5c8f; --accent-ink:#fff; --ok:#2f7355; --okbg:#e4f1e9;
+  --bad:#9e4740; --badbg:#f8e8e5; --warn:#8a5a00; --warnbg:#fdf3e0;
+  --src:#e9f0f8; --radius:16px; --wrap:760px;
+  --sh:0 1px 2px rgba(19,37,61,.06), 0 8px 20px rgba(19,37,61,.06);
 }
 /* Dark tokens live in a named block so both the system preference and an
    explicit choice can pull from the same place. The media query is guarded so
@@ -19,17 +21,17 @@
    choosing Dark beats a light OS. */
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]){
-    --bg:#0f1319; --card:#171d26; --ink:#e8ecf2; --dim:#98a2b1; --line:#28313d;
-    --accent:#6f9bff; --accent-ink:#0f1319; --ok:#6ddb9f; --okbg:#122e20;
-    --bad:#ff9b93; --badbg:#38191a; --warn:#f0c274; --warnbg:#33280f;
-    --src:#111721;
+    --bg:#0c1521; --card:#142030; --ink:#e4edf8; --dim:#8ea0b6; --line:#213145;
+    --accent:#86b6e8; --accent-ink:#0c1521; --ok:#79c79b; --okbg:#14271d;
+    --bad:#e0968e; --badbg:#2b1b18; --warn:#f0c274; --warnbg:#33280f;
+    --src:#0f1926; --sh:0 6px 18px rgba(0,0,0,.30);
   }
 }
 :root[data-theme="dark"]{
-  --bg:#0f1319; --card:#171d26; --ink:#e8ecf2; --dim:#98a2b1; --line:#28313d;
-  --accent:#6f9bff; --accent-ink:#0f1319; --ok:#6ddb9f; --okbg:#122e20;
-  --bad:#ff9b93; --badbg:#38191a; --warn:#f0c274; --warnbg:#33280f;
-  --src:#111721;
+    --bg:#0c1521; --card:#142030; --ink:#e4edf8; --dim:#8ea0b6; --line:#213145;
+  --accent:#86b6e8; --accent-ink:#0c1521; --ok:#79c79b; --okbg:#14271d;
+  --bad:#e0968e; --badbg:#2b1b18; --warn:#f0c274; --warnbg:#33280f;
+  --src:#0f1926; --sh:0 6px 18px rgba(0,0,0,.30);
 }
 .theme{margin-left:10px;background:none;border:1px solid var(--line);
   color:var(--dim);font:inherit;font-size:12px;line-height:1;cursor:pointer;
@@ -48,7 +50,8 @@ body{
    Header, nav and content share one knob so they never fall out of line. */
 body[data-wide] .wrap,body[data-wide] .hrow,body[data-wide] nav,body[data-wide] .frow{--wrap:1500px}
 h1{font-size:17px;margin:0;letter-spacing:-.01em}
-h2{font-size:20px;margin:0 0 10px;letter-spacing:-.02em}
+h2{font:600 21px/1.25 Georgia,'Iowan Old Style','Times New Roman',serif;
+  margin:0 0 10px;letter-spacing:-.01em}
 h3{font-size:13px;text-transform:uppercase;letter-spacing:.07em;color:var(--dim);margin:18px 0 7px}
 p{margin:0 0 10px}
 header{
@@ -65,13 +68,27 @@ nav button{
 }
 nav button[aria-current="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
 nav button:disabled{opacity:.4}
-.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;margin-bottom:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:16px;margin-bottom:12px;box-shadow:var(--sh)}
 button.opt{
-  display:block;width:100%;text-align:left;background:var(--card);color:var(--ink);
+  display:flex;align-items:flex-start;gap:11px;width:100%;text-align:left;
+  background:var(--card);color:var(--ink);
   user-select:text;-webkit-user-select:text;
-  border:1px solid var(--line);border-radius:12px;padding:13px 15px;margin-bottom:9px;
-  font:inherit;cursor:pointer;line-height:1.45;
+  border:1px solid var(--line);border-radius:calc(var(--radius) - 4px);
+  padding:12px 14px;margin-bottom:9px;font:inherit;cursor:pointer;line-height:1.45;
+  box-shadow:var(--sh);
 }
+button.opt .ch{
+  flex:0 0 auto;width:21px;height:21px;margin-top:1px;border-radius:50%;
+  border:1px solid var(--line);display:grid;place-items:center;
+  font-size:11px;font-weight:700;color:var(--dim);user-select:none;
+}
+button.opt .ot{flex:1;min-width:0}
+button.opt .mk{flex:0 0 auto;font-size:14px;font-weight:700;line-height:1.3;user-select:none}
+button.opt.correct .ch{border-color:var(--ok);color:var(--ok)}
+button.opt.correct .mk{color:var(--ok)}
+button.opt.wrong .ch{border-color:var(--bad);color:var(--bad)}
+button.opt.wrong .mk{color:var(--bad)}
 button.opt:active{transform:scale(.995)}
 button.opt:focus-visible,.btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 button.opt.correct{border-color:var(--ok);background:var(--okbg)}
@@ -83,14 +100,15 @@ button.opt.done{cursor:default}
 }
 .btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
 .row{display:flex;gap:9px;flex-wrap:wrap}
-.stem{font-size:17px;line-height:1.5;white-space:pre-wrap;margin-bottom:14px}
+.stem{font:600 17px/1.5 Georgia,'Iowan Old Style','Times New Roman',serif;
+  white-space:pre-wrap;margin-bottom:14px}
 .tag{
   display:inline-block;font-size:11px;font-weight:700;letter-spacing:.05em;
   text-transform:uppercase;color:var(--dim);border:1px solid var(--line);
-  border-radius:6px;padding:2px 7px;margin-bottom:10px;
+  border-radius:999px;padding:3px 10px;margin-bottom:10px;
 }
 .src{
-  background:var(--src);border-left:3px solid var(--accent);border-radius:0 8px 8px 0;
+  background:var(--src);border-left:3px solid var(--accent);border-radius:0 10px 10px 0;
   padding:11px 13px;font-size:14px;line-height:1.55;color:var(--ink);margin-top:10px;
 }
 .src b{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--dim);margin-bottom:5px;font-weight:700}
@@ -99,7 +117,8 @@ button.opt.done{cursor:default}
 .grid14{display:grid;grid-template-columns:repeat(auto-fill,minmax(158px,1fr));gap:9px}
 .tile{
   background:var(--card);border:1px solid var(--line);border-left-width:4px;
-  border-radius:11px;padding:11px 12px;cursor:pointer;text-align:left;font:inherit;color:var(--ink);
+  border-radius:13px;padding:11px 12px;cursor:pointer;text-align:left;font:inherit;
+  color:var(--ink);box-shadow:var(--sh);
 }
 .tile b{display:block;font-size:14.5px;line-height:1.3;margin-bottom:4px}
 .tile span{font-size:12px;color:var(--dim)}
@@ -448,7 +467,7 @@ function renderItem(){
     <div class="card">
       <span class="tag">${esc(it.type.replace(/^[TV]\d?_/,"").replace("_"," ").replace("examtip","exam tip"))}</span>
       <div class="stem">${esc(it.stem)}</div>
-      <div id="opts">${it.options.map((o,i)=>`<button class="opt" data-i="${i}" title="Arrow keys to move, space to choose">${esc(o.text)}</button>`).join("")}</div>
+      <div id="opts">${it.options.map((o,i)=>`<button class="opt" data-i="${i}" title="Press ${'ABCD'[i]}, or arrow keys and space"><span class="ch">${"ABCD"[i]}</span><span class="ot">${esc(o.text)}</span></button>`).join("")}</div>
       <div id="reveal"></div>
     </div>`;
   const bk = document.getElementById("back");
@@ -474,8 +493,15 @@ function choose(it, i){
   if (!right) stats.missed.push(it);
   el.querySelectorAll(".opt").forEach((b,j) => {
     b.classList.add("done");
-    if (it.options[j].correct) b.classList.add("correct");
-    else if (j === i) b.classList.add("wrong");
+    // a mark as well as a colour: the result should not depend on telling
+    // red from green, and it reads faster than the tint alone
+    if (it.options[j].correct){
+      b.classList.add("correct");
+      b.insertAdjacentHTML("beforeend", '<span class="mk">\u2713</span>');
+    } else if (j === i){
+      b.classList.add("wrong");
+      b.insertAdjacentHTML("beforeend", '<span class="mk">\u2715</span>');
+    }
   });
   const chosen = it.options[i];
   document.getElementById("reveal").innerHTML = `
@@ -614,7 +640,7 @@ function applyTheme(v){
   const dark = v === "dark" || (v === "auto" &&
     window.matchMedia && window.matchMedia("(prefers-color-scheme:dark)").matches);
   const meta = document.querySelector('meta[name="theme-color"]');
-  if (meta) meta.setAttribute("content", dark ? "#0f1319" : "#f6f7f9");
+  if (meta) meta.setAttribute("content", dark ? "#0c1521" : "#f1f5fa");
 }
 function readTheme(){
   try { return localStorage.getItem(TKEY) || "auto"; } catch(e){ return "auto"; }
@@ -718,8 +744,8 @@ function welcome(){
     theories at once. Those questions come back twice as often.</p>
 
     <p class="pt"><b>4 · You can do this from the keyboard.</b>
-    Arrow keys move between the choices, space picks one. Same for the two
-    confidence buttons afterwards.</p>
+    Press A, B, C or D to answer, or use the arrow keys and space. Same for the
+    two confidence buttons afterwards.</p>
 
     <p class="pt"><b>5 · If a question looks wrong to you, trust your packet.</b>
     Every answer shows its source line so you can check. A few of those lines
@@ -762,6 +788,12 @@ function liveChoices(){
 }
 document.addEventListener("keydown", e => {
   if (e.key === "Backspace" && undoStack.length && !d_typing(e)){ e.preventDefault(); undo(); return; }
+  // the chips show A-D, so those keys have to actually work
+  if (!d_typing(e) && !e.metaKey && !e.ctrlKey && !e.altKey && /^[a-d]$/i.test(e.key)){
+    const opts = [...document.querySelectorAll("#opts button.opt:not(.done)")];
+    const b = opts["abcd".indexOf(e.key.toLowerCase())];
+    if (b){ e.preventDefault(); b.click(); return; }
+  }
   if (!["ArrowDown","ArrowUp","ArrowRight","ArrowLeft"].includes(e.key)) return;
   const list = liveChoices();
   if (!list.length) return;

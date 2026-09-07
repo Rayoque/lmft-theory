@@ -341,5 +341,26 @@ head("picker marks a model finished for today");
   ok("untouched models unaffected", other.textContent.includes("not started"));
 }
 
+
+head("harbor theme");
+{
+  const { w, d } = boot();
+  tab(d, "Drill").click();
+  const chips = [...d.querySelectorAll("#opts button.opt .ch")].map(c => c.textContent);
+  ok("options carry A-D chips", chips.join("") === "ABCD".slice(0, chips.length), chips.join(""));
+
+  const key = k => d.dispatchEvent(new w.KeyboardEvent("keydown", {key:k, bubbles:true}));
+  key("c");
+  ok("pressing C answers the third option",
+     d.querySelectorAll("#opts button.opt.done").length > 0);
+  ok("result gets a mark, not just a colour",
+     !!d.querySelector("#opts button.opt.correct .mk"),
+     d.querySelector("#opts button.opt.correct").textContent.slice(-3));
+
+  ok("favicon is inlined", /rel="icon" href="data:image\/svg/.test(d.head.innerHTML));
+  ok("stem is serif",
+     /Georgia/.test(d.querySelector("style, head").textContent || ""));
+}
+
 console.log("\n" + pass + " passed, " + fail + " failed\n");
 process.exit(fail ? 1 : 0);
