@@ -243,5 +243,46 @@ head("keyboard navigation");
 }
 
 /* ------------------------------------------------------------------ */
+
+head("no same-day repeats");
+{
+  const { w, d } = boot();
+  tab(d, "Learn").click();
+  [...d.querySelectorAll("[data-n]")].find(b => b.dataset.n == "5").click();
+  d.querySelector('[data-m="bowen"]').click();
+  d.querySelector("#start").click();
+
+  const seen = [];
+  for (let round = 0; round < 3; round++){
+    while (d.querySelector("#opts")){
+      seen.push(w.eval("Q[qi].id"));
+      answer(w, d, true, false);           // always correct
+    }
+    const again = d.querySelector("#again");
+    if (!again) break;
+    again.click();
+  }
+  ok("no item served twice in a day", new Set(seen).size === seen.length,
+     (seen.length - new Set(seen).size) + " repeats across " + seen.length);
+  ok("weight drops to 0 once correct today",
+     w.eval("weight(" + JSON.stringify(seen[0]) + ")") === 0);
+  ok("unseen items outrank seen ones", w.eval("weight('nope_not_an_id')") === 3);
+}
+
+head("exhausted states differ");
+{
+  const { w, d } = boot();
+  tab(d, "Learn").click();
+  d.querySelector('[data-m="client-centered"]').click();
+  d.querySelector("#start").click();
+  while (d.querySelector("#opts")) answer(w, d, true, false);
+  const again = d.querySelector("#again");
+  if (again) again.click();
+  const t = txt(d);
+  ok("says done for today, not locked in",
+     t.includes("Done here for today") && !t.includes("Nothing left here"),
+     t.slice(0, 90));
+}
+
 console.log("\n" + pass + " passed, " + fail + " failed\n");
 process.exit(fail ? 1 : 0);

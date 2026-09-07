@@ -198,8 +198,12 @@ const retired = id => (S.concepts[id] ? S.concepts[id].correctDates.length >= 3 
 /* a confidently wrong answer is the most dangerous state on the board */
 function weight(id){
   const r = S.concepts[id];
-  if (!r) return 2;                       // unseen
+  if (!r) return 3;                       // unseen: show these first
   if (retired(id)) return 0;
+  // Already answered correctly today. Asking again the same day is what made
+  // it feel like the same questions on a loop; it also teaches nothing. The
+  // item returns tomorrow, which is the spacing that makes it stick.
+  if (r.correctDates.includes(today())) return 0;
   let w = 1 + r.confidentWrong * 2;       // double weight per confident miss
   if (r.seen && r.correct / r.seen < .5) w += 1;
   return w;
@@ -220,12 +224,15 @@ function sessionN(mode, modelId){
   const want = mode === "learn" ? learnN() : SESSION;
   return Math.min(want, poolFor(mode, modelId).length);
 }
-function poolFor(mode, modelId){
-  let p = ITEMS.filter(i => weight(i.id) > 0);
+function scopeFor(mode, modelId){
+  let p = ITEMS.slice();
   if (mode === "learn" && modelId) p = p.filter(i => i.models[0] === modelId);
   if (mode === "vignette")        p = p.filter(i => i.type === "V_vignette");
   if (mode === "drill")           p = p.filter(i => i.type !== "V_vignette");
   return p;
+}
+function poolFor(mode, modelId){
+  return scopeFor(mode, modelId).filter(i => weight(i.id) > 0);
 }
 function shuffle(a){ for(let i=a.length-1;i>0;i--){const j=(Math.random()*(i+1))|0;[a[i],a[j]]=[a[j],a[i]];} return a; }
 
@@ -327,9 +334,18 @@ function render(){
 function renderExhausted(){
   const what = mode === "learn" && learnModel ? NAME(learnModel)
              : mode === "vignette" ? "the vignettes" : "this set";
-  el.innerHTML = `<h2>Nothing left here</h2>
-    <div class="card"><p>Every item in ${esc(what)} is retired — three correct on three
-    separate days.</p></div>
+  // Two different empty pools, and conflating them would be a lie: everything
+  // locked in for good, versus everything answered correctly today.
+  const left = scopeFor(mode, learnModel).filter(i => !retired(i.id)).length;
+  el.innerHTML = left
+    ? `<h2>Done here for today</h2>
+       <div class="card"><p>You have answered everything in ${esc(what)} correctly
+       today. It comes back tomorrow — spacing it out over days is what makes it
+       stick, and repeating it now would not.</p></div>`
+    : `<h2>Nothing left here</h2>
+       <div class="card"><p>Every item in ${esc(what)} is locked in — three correct
+       on three separate days.</p></div>`;
+  el.innerHTML += `
     <div class="row">
       ${mode === "learn" ? '<button class="btn ghost" id="pick">Another model</button>' : ""}
       <button class="btn" id="toDrill">Drill</button>
