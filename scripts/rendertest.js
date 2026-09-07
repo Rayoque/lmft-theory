@@ -387,5 +387,28 @@ head("grid on a phone");
      !d.querySelector(".gnarrow table"));
 }
 
+
+head("mobile answering flow");
+{
+  const { w, d } = boot();
+  let scrolls = 0;
+  w.scrollTo = () => { scrolls++; };
+  tab(d, "Drill").click();
+  const before = scrolls;
+
+  ok("confidence bar hidden before answering", d.querySelector("footer").hidden);
+  ok("no space reserved for it yet", !d.body.hasAttribute("data-foot"));
+
+  d.querySelector("#opts button.opt").click();
+  ok("bar appears after answering", !d.querySelector("footer").hidden);
+  ok("space reserved while it is up", d.body.hasAttribute("data-foot"));
+  ok("answering does not jump the page", scrolls === before);
+
+  d.querySelector('footer [data-k="1"]').click();
+  ok("bar hidden again on the next question", d.querySelector("footer").hidden);
+  ok("reserved space released", !d.body.hasAttribute("data-foot"));
+  ok("new question scrolls to top", scrolls === before + 1, String(scrolls - before));
+}
+
 console.log("\n" + pass + " passed, " + fail + " failed\n");
 process.exit(fail ? 1 : 0);
