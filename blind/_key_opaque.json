@@ -694,5 +694,105 @@
  "q174": [
   "g_self-psychology_inv_1",
   "B"
+ ],
+ "q175": [
+  "t1_bowen_marker_nuclearfamilyemoti",
+  "A"
+ ],
+ "q176": [
+  "t1_strategic_marker_restraining",
+  "C"
+ ],
+ "q177": [
+  "t1_structural_marker_familymap",
+  "D"
+ ],
+ "q178": [
+  "t1_satir_marker_placater",
+  "A"
+ ],
+ "q179": [
+  "t1_narrative_marker_thinstory",
+  "A"
+ ],
+ "q180": [
+  "t1_solution-focused_marker_copingquestions",
+  "B"
+ ],
+ "q181": [
+  "t1_object-relations_marker_objects",
+  "B"
+ ],
+ "q182": [
+  "t1_self-psychology_marker_repairdisruptionso",
+  "A"
+ ],
+ "q183": [
+  "t1_attachment_marker_collaborativelyide",
+  "A"
+ ],
+ "q184": [
+  "t1_gestalt_marker_repeatingwordsorex",
+  "A"
+ ],
+ "q185": [
+  "t1_experiential_marker_battleforstructure",
+  "A"
+ ],
+ "q186": [
+  "t1_cbt_marker_socraticquestionin",
+  "D"
+ ],
+ "q187": [
+  "t1_bowen_marker_bibliotherapy",
+  "A"
+ ],
+ "q188": [
+  "t1_strategic_marker_positioning",
+  "C"
+ ],
+ "q189": [
+  "t1_structural_marker_subsystems",
+  "D"
+ ],
+ "q190": [
+  "t1_satir_marker_stylesofcommunicat",
+  "C"
+ ],
+ "q191": [
+  "t1_narrative_marker_externalizingthepr",
+  "B"
+ ],
+ "q192": [
+  "t1_solution-focused_marker_affirmationscompli",
+  "B"
+ ],
+ "q193": [
+  "t1_object-relations_marker_internalization",
+  "C"
+ ],
+ "q194": [
+  "t1_self-psychology_marker_mirroringtransfere",
+  "B"
+ ],
+ "q195": [
+  "t1_experiential_marker_activatingconstruc",
+  "C"
+ ],
+ "q196": [
+  "t1_cbt_marker_communicationskill",
+  "A"
+ ],
+ "q197": [
+  "t1_bowen_role_supervisor",
+  "B"
+ ],
+ "q198": [
+  "t1_strategic_marker_prescribingthesymp",
+  "D"
+ ],
+ "q199": [
+  "t1_structural_marker_tracking",
+  "B"
  ]
 }

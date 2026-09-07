@@ -1,16 +1,16 @@
 {
  "note": "Verified item bank. Every option carries belongsTo and a verbatim sourceLine from the five packets.",
  "counts": {
-  "total": 200,
+  "total": 225,
   "byTier": {
-   "1": 60,
+   "1": 85,
    "2": 132,
    "3": 8
   },
   "byType": {
    "T1_phase": 46,
    "T1_change": 9,
-   "T1_marker": 5,
+   "T1_marker": 30,
    "T2_collision": 62,
    "V_vignette": 17,
    "T2_examtip": 11,
@@ -18,23 +18,23 @@
    "T2_group": 42
   },
   "byModel": {
-   "bowen": 19,
-   "strategic": 12,
-   "structural": 15,
-   "satir": 19,
-   "narrative": 13,
-   "solution-focused": 13,
-   "object-relations": 17,
-   "self-psychology": 17,
+   "bowen": 23,
+   "strategic": 15,
+   "structural": 18,
+   "satir": 21,
+   "narrative": 15,
+   "solution-focused": 15,
+   "object-relations": 20,
+   "self-psychology": 20,
    "attachment": 16,
    "client-centered": 3,
    "gestalt": 14,
-   "existential": 13,
-   "experiential": 13,
-   "cbt": 16
+   "existential": 12,
+   "experiential": 15,
+   "cbt": 18
   },
-  "blindGraded": 68,
-  "blindGradedPct": 34.0
+  "blindGraded": 225,
+  "blindGradedPct": 100.0
  },
  "items": [
   {
@@ -7732,6 +7732,956 @@
    ],
    "rationale": "",
    "sourceLine": "Addressing enactments: Addressing enactments: situations in the therapy may have played out in the past, or outside in the client’s life. Being able to talk about in session together. “It sounds like what’s going on with your partner is similar to what happened with your father.” | Repair disruptions of the self-object transference: Repair disruptions of the self-object transference | Demonstrate containment: Demonstrate that the therapist is able to provide containment: client is getting emotional, and the T can be a warm open presence without judgement and having client feel they are able to share this information and they will not be rejected. The therapist is able to hear what client is saying without becoming overwhelmed themselves. | Provide “experience-near” empathy: Provide “experience-near” empathy"
+  },
+  {
+   "id": "t1_attachment_marker_collaborativelyide",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "attachment"
+   ],
+   "stem": "“Collaboratively identifying attachment style” is a signature term of which model?",
+   "options": [
+    {
+     "text": "Attachment-Based Therapy (Bowlby)",
+     "correct": true,
+     "belongsTo": "attachment",
+     "sourceLine": "Collaboratively identifying client’s “attachment style,\" that is, problematic behavioral and emotional patterns, formed in early childhood as attempts to maintain attachment to primary caregivers."
+    },
+    {
+     "text": "Object Relations",
+     "correct": false,
+     "belongsTo": "object-relations",
+     "sourceLine": "Change occurs through both reparative experiences within the treatment relationship (relationship with therapist) insight into and modification of entrenched object relations pathology."
+    },
+    {
+     "text": "Client Centered Therapy",
+     "correct": false,
+     "belongsTo": "client-centered",
+     "sourceLine": "Views people are always growing and inherently good. Avoids diagnosis, avoid strict adherence to what the ideal person should be. Role of therapist is nondirective, not steering client in any one direction (unlike CBT or systems theory). Driven by what the client wants to talk about. T is a facilitator who is helping the person to grow and change. This occurs by creating unconditional positive regard. Client determines the goals of therapy. Up to the client to decide how many sessions they would like as well, a lot of support for client self-determination."
+    },
+    {
+     "text": "Self Psychology",
+     "correct": false,
+     "belongsTo": "self-psychology",
+     "sourceLine": "Change occurs through empathetic attunement and strengthening the self-structures through optimal responsiveness. Shift away from interpretation."
+    }
+   ],
+   "rationale": "Collaboratively identifying attachment style belongs to Attachment-Based Therapy (Bowlby) and is not claimed by any other model in the packet.",
+   "sourceLine": "Collaboratively identifying client’s “attachment style,\" that is, problematic behavioral and emotional patterns, formed in early childhood as attempts to maintain attachment to primary caregivers.",
+   "marker": "Collaboratively identifying attachment style"
+  },
+  {
+   "id": "t1_bowen_marker_bibliotherapy",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "bowen"
+   ],
+   "stem": "“Bibliotherapy” is a signature term of which model?",
+   "options": [
+    {
+     "text": "Bowen Family Systems",
+     "correct": true,
+     "belongsTo": "bowen",
+     "sourceLine": "Bibliotherapy: Assigning reading material."
+    },
+    {
+     "text": "Structural Family Therapy",
+     "correct": false,
+     "belongsTo": "structural",
+     "sourceLine": "Change occurs through restructuring the family’s organization. Very focused on entire organization of the whole family system. Looking at bigger picture of the family interactions."
+    },
+    {
+     "text": "Satir Communications Therapy",
+     "correct": false,
+     "belongsTo": "satir",
+     "sourceLine": "Change happens through self-awareness and improved communication. Humanistic approach."
+    },
+    {
+     "text": "Strategic Therapy",
+     "correct": false,
+     "belongsTo": "strategic",
+     "sourceLine": "Change occurs through action-oriented directives and paradoxical interventions. Very focused on specific problems."
+    }
+   ],
+   "rationale": "Bibliotherapy belongs to Bowen Family Systems and is not claimed by any other model in the packet.",
+   "sourceLine": "Bibliotherapy: Assigning reading material.",
+   "marker": "Bibliotherapy"
+  },
+  {
+   "id": "t1_bowen_marker_nuclearfamilyemoti",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "bowen"
+   ],
+   "stem": "“Nuclear Family Emotional System” is a signature term of which model?",
+   "options": [
+    {
+     "text": "Bowen Family Systems",
+     "correct": true,
+     "belongsTo": "bowen",
+     "sourceLine": "Nuclear Family Emotional System: The concept of the nuclear family emotional system describes four basic relationship patterns that govern where problems develop in a family. Effects overall differentiation. Emotional distance, dysfunction in parent or impairment in child, conflict."
+    },
+    {
+     "text": "Strategic Therapy",
+     "correct": false,
+     "belongsTo": "strategic",
+     "sourceLine": "Change occurs through action-oriented directives and paradoxical interventions. Very focused on specific problems."
+    },
+    {
+     "text": "Satir Communications Therapy",
+     "correct": false,
+     "belongsTo": "satir",
+     "sourceLine": "Change happens through self-awareness and improved communication. Humanistic approach."
+    },
+    {
+     "text": "Structural Family Therapy",
+     "correct": false,
+     "belongsTo": "structural",
+     "sourceLine": "Change occurs through restructuring the family’s organization. Very focused on entire organization of the whole family system. Looking at bigger picture of the family interactions."
+    }
+   ],
+   "rationale": "Nuclear Family Emotional System belongs to Bowen Family Systems and is not claimed by any other model in the packet.",
+   "sourceLine": "Nuclear Family Emotional System: The concept of the nuclear family emotional system describes four basic relationship patterns that govern where problems develop in a family. Effects overall differentiation. Emotional distance, dysfunction in parent or impairment in child, conflict.",
+   "marker": "Nuclear Family Emotional System"
+  },
+  {
+   "id": "t1_bowen_role_supervisor",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "bowen"
+   ],
+   "stem": "Which model describes the therapist's role this way?\n\n“Supervisor”",
+   "options": [
+    {
+     "text": "Structural Family Therapy",
+     "correct": false,
+     "belongsTo": "structural",
+     "sourceLine": "Change occurs through restructuring the family’s organization. Very focused on entire organization of the whole family system. Looking at bigger picture of the family interactions."
+    },
+    {
+     "text": "Bowen Family Systems",
+     "correct": true,
+     "belongsTo": "bowen",
+     "sourceLine": "Supervisor"
+    },
+    {
+     "text": "Strategic Therapy",
+     "correct": false,
+     "belongsTo": "strategic",
+     "sourceLine": "Change occurs through action-oriented directives and paradoxical interventions. Very focused on specific problems."
+    },
+    {
+     "text": "Satir Communications Therapy",
+     "correct": false,
+     "belongsTo": "satir",
+     "sourceLine": "Change happens through self-awareness and improved communication. Humanistic approach."
+    }
+   ],
+   "rationale": "“Supervisor” is listed under Bowen Family Systems's therapist role and is not claimed by another model in the packet.",
+   "sourceLine": "Supervisor",
+   "marker": "Supervisor"
+  },
+  {
+   "id": "t1_cbt_marker_communicationskill",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "cbt"
+   ],
+   "stem": "“Communication Skills Training” is a signature term of which model?",
+   "options": [
+    {
+     "text": "CBT (interventions)",
+     "correct": true,
+     "belongsTo": "cbt",
+     "sourceLine": "Communication Skills Training: Used in couples therapy to help couples talk about feelings and problems. CBT therapist working with couples. Managing conflict. I-statements, assertiveness training, teaching people how to listen, teaching people how to listen and not jump in with problem solving, teaching people how to identify when they are getting overly aroused so that they know when to take time-outs."
+    },
+    {
+     "text": "Solution-Focused Therapy",
+     "correct": false,
+     "belongsTo": "solution-focused",
+     "sourceLine": "Change occurs through accessing client’s strengths and resources. Emphasizes finding solutions to a problem, not on discovering the cause or origins of the problem."
+    },
+    {
+     "text": "Strategic Therapy",
+     "correct": false,
+     "belongsTo": "strategic",
+     "sourceLine": "Change occurs through action-oriented directives and paradoxical interventions. Very focused on specific problems."
+    },
+    {
+     "text": "Bowen Family Systems",
+     "correct": false,
+     "belongsTo": "bowen",
+     "sourceLine": "Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family."
+    }
+   ],
+   "rationale": "Communication Skills Training belongs to CBT (interventions) and is not claimed by any other model in the packet.",
+   "sourceLine": "Communication Skills Training: Used in couples therapy to help couples talk about feelings and problems. CBT therapist working with couples. Managing conflict. I-statements, assertiveness training, teaching people how to listen, teaching people how to listen and not jump in with problem solving, teaching people how to identify when they are getting overly aroused so that they know when to take time-outs.",
+   "marker": "Communication Skills Training"
+  },
+  {
+   "id": "t1_cbt_marker_socraticquestionin",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "cbt"
+   ],
+   "stem": "“Socratic Questioning” is a signature term of which model?",
+   "options": [
+    {
+     "text": "Bowen Family Systems",
+     "correct": false,
+     "belongsTo": "bowen",
+     "sourceLine": "Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family."
+    },
+    {
+     "text": "Strategic Therapy",
+     "correct": false,
+     "belongsTo": "strategic",
+     "sourceLine": "Change occurs through action-oriented directives and paradoxical interventions. Very focused on specific problems."
+    },
+    {
+     "text": "Solution-Focused Therapy",
+     "correct": false,
+     "belongsTo": "solution-focused",
+     "sourceLine": "Change occurs through accessing client’s strengths and resources. Emphasizes finding solutions to a problem, not on discovering the cause or origins of the problem."
+    },
+    {
+     "text": "CBT (interventions)",
+     "correct": true,
+     "belongsTo": "cbt",
+     "sourceLine": "Socratic Questioning: Questioning allows the therapist to stimulate the client’s self-awareness, focus on the problem definition, expose the client’s belief system, and challenge irrational beliefs while revealing the client’s cognitive processes. Questions that dive below surface to collect evidence for someone’s thinking. What evidence led you to believe this? Are there alternate ways of thinking about the situation? How did you get to this answer, what is the evidence that led you there?"
+    }
+   ],
+   "rationale": "Socratic Questioning belongs to CBT (interventions) and is not claimed by any other model in the packet.",
+   "sourceLine": "Socratic Questioning: Questioning allows the therapist to stimulate the client’s self-awareness, focus on the problem definition, expose the client’s belief system, and challenge irrational beliefs while revealing the client’s cognitive processes. Questions that dive below surface to collect evidence for someone’s thinking. What evidence led you to believe this? Are there alternate ways of thinking about the situation? How did you get to this answer, what is the evidence that led you there?",
+   "marker": "Socratic Questioning"
+  },
+  {
+   "id": "t1_experiential_marker_activatingconstruc",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "experiential"
+   ],
+   "stem": "“Activating Constructive Anxiety” is a signature term of which model?",
+   "options": [
+    {
+     "text": "Satir Communications Therapy",
+     "correct": false,
+     "belongsTo": "satir",
+     "sourceLine": "Change happens through self-awareness and improved communication. Humanistic approach."
+    },
+    {
+     "text": "Existential Therapy",
+     "correct": false,
+     "belongsTo": "existential",
+     "sourceLine": "Change occurs through finding meaning, living authentically and responsibly. The idea that the person can respond, make choices, emphasizes personal choice about how clients want to live their lives. Core question: how do I exist? Inherent meaninglessness to life and existence."
+    },
+    {
+     "text": "Experiential / Symbolic Therapy (Whitaker)",
+     "correct": true,
+     "belongsTo": "experiential",
+     "sourceLine": "Activating Constructive Anxiety: Reframing anxiety in the family as efforts toward competence (fear of failing to accomplish what one is capable of). Enhancing motivation, if you identify the positive thing they were afraid wouldn’t happen."
+    },
+    {
+     "text": "Gestalt Therapy",
+     "correct": false,
+     "belongsTo": "gestalt",
+     "sourceLine": "The idea is that change occurs through increased awareness of here and now experience and dialogic relationship between T and client. Dialogic refers to a therapeutic stance where the therapist and client engage as two authentic human beings — fully present with each other, co-creating the therapeutic process. Heavily influenced by Martin Buber’s “I-Thou” philosophy, where the therapist meets the client as a fellow human, not an object to be treated."
+    }
+   ],
+   "rationale": "Activating Constructive Anxiety belongs to Experiential / Symbolic Therapy (Whitaker) and is not claimed by any other model in the packet.",
+   "sourceLine": "Activating Constructive Anxiety: Reframing anxiety in the family as efforts toward competence (fear of failing to accomplish what one is capable of). Enhancing motivation, if you identify the positive thing they were afraid wouldn’t happen.",
+   "marker": "Activating Constructive Anxiety"
+  },
+  {
+   "id": "t1_experiential_marker_battleforstructure",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "experiential"
+   ],
+   "stem": "“Battle for Structure” is a signature term of which model?",
+   "options": [
+    {
+     "text": "Experiential / Symbolic Therapy (Whitaker)",
+     "correct": true,
+     "belongsTo": "experiential",
+     "sourceLine": "Battle for Structure: Therapist establishes the rules and working atmosphere of treatment. Includes the need for the entire family to be in therapy (a mother and child come in for therapy and there is a question for the initial intervention an experiential therapist would use: the therapist discusses with mom the need to include entire family in therapy would be the correct answer."
+    },
+    {
+     "text": "Existential Therapy",
+     "correct": false,
+     "belongsTo": "existential",
+     "sourceLine": "Change occurs through finding meaning, living authentically and responsibly. The idea that the person can respond, make choices, emphasizes personal choice about how clients want to live their lives. Core question: how do I exist? Inherent meaninglessness to life and existence."
+    },
+    {
+     "text": "Satir Communications Therapy",
+     "correct": false,
+     "belongsTo": "satir",
+     "sourceLine": "Change happens through self-awareness and improved communication. Humanistic approach."
+    },
+    {
+     "text": "Gestalt Therapy",
+     "correct": false,
+     "belongsTo": "gestalt",
+     "sourceLine": "The idea is that change occurs through increased awareness of here and now experience and dialogic relationship between T and client. Dialogic refers to a therapeutic stance where the therapist and client engage as two authentic human beings — fully present with each other, co-creating the therapeutic process. Heavily influenced by Martin Buber’s “I-Thou” philosophy, where the therapist meets the client as a fellow human, not an object to be treated."
+    }
+   ],
+   "rationale": "Battle for Structure belongs to Experiential / Symbolic Therapy (Whitaker) and is not claimed by any other model in the packet.",
+   "sourceLine": "Battle for Structure: Therapist establishes the rules and working atmosphere of treatment. Includes the need for the entire family to be in therapy (a mother and child come in for therapy and there is a question for the initial intervention an experiential therapist would use: the therapist discusses with mom the need to include entire family in therapy would be the correct answer.",
+   "marker": "Battle for Structure"
+  },
+  {
+   "id": "t1_gestalt_marker_repeatingwordsorex",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "gestalt"
+   ],
+   "stem": "“Repeating words or exaggerating gestures” is a signature term of which model?",
+   "options": [
+    {
+     "text": "Gestalt Therapy",
+     "correct": true,
+     "belongsTo": "gestalt",
+     "sourceLine": "Repeating words of overexaggerating gestures"
+    },
+    {
+     "text": "Existential Therapy",
+     "correct": false,
+     "belongsTo": "existential",
+     "sourceLine": "Change occurs through finding meaning, living authentically and responsibly. The idea that the person can respond, make choices, emphasizes personal choice about how clients want to live their lives. Core question: how do I exist? Inherent meaninglessness to life and existence."
+    },
+    {
+     "text": "Experiential / Symbolic Therapy (Whitaker)",
+     "correct": false,
+     "belongsTo": "experiential",
+     "sourceLine": "Change happens through the existential encounter – the authentic meeting of the therapist and the client in the present moment and by expanding the client’s range of experience. Very influenced by Gestalt therapy. Generally used with families, started by Carl Whittaker."
+    },
+    {
+     "text": "Client Centered Therapy",
+     "correct": false,
+     "belongsTo": "client-centered",
+     "sourceLine": "Views people are always growing and inherently good. Avoids diagnosis, avoid strict adherence to what the ideal person should be. Role of therapist is nondirective, not steering client in any one direction (unlike CBT or systems theory). Driven by what the client wants to talk about. T is a facilitator who is helping the person to grow and change. This occurs by creating unconditional positive regard. Client determines the goals of therapy. Up to the client to decide how many sessions they would like as well, a lot of support for client self-determination."
+    }
+   ],
+   "rationale": "Repeating words or exaggerating gestures belongs to Gestalt Therapy and is not claimed by any other model in the packet.",
+   "sourceLine": "Repeating words of overexaggerating gestures",
+   "marker": "Repeating words or exaggerating gestures"
+  },
+  {
+   "id": "t1_narrative_marker_externalizingthepr",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "narrative"
+   ],
+   "stem": "“Externalizing the Problem” is a signature term of which model?",
+   "options": [
+    {
+     "text": "Solution-Focused Therapy",
+     "correct": false,
+     "belongsTo": "solution-focused",
+     "sourceLine": "Change occurs through accessing client’s strengths and resources. Emphasizes finding solutions to a problem, not on discovering the cause or origins of the problem."
+    },
+    {
+     "text": "Narrative Therapy",
+     "correct": true,
+     "belongsTo": "narrative",
+     "sourceLine": "Externalizing the Problem: This is a type of intervention. The therapist asks questions that are designed to separate the person from the problem."
+    },
+    {
+     "text": "Satir Communications Therapy",
+     "correct": false,
+     "belongsTo": "satir",
+     "sourceLine": "Change happens through self-awareness and improved communication. Humanistic approach."
+    },
+    {
+     "text": "Client Centered Therapy",
+     "correct": false,
+     "belongsTo": "client-centered",
+     "sourceLine": "Views people are always growing and inherently good. Avoids diagnosis, avoid strict adherence to what the ideal person should be. Role of therapist is nondirective, not steering client in any one direction (unlike CBT or systems theory). Driven by what the client wants to talk about. T is a facilitator who is helping the person to grow and change. This occurs by creating unconditional positive regard. Client determines the goals of therapy. Up to the client to decide how many sessions they would like as well, a lot of support for client self-determination."
+    }
+   ],
+   "rationale": "Externalizing the Problem belongs to Narrative Therapy and is not claimed by any other model in the packet.",
+   "sourceLine": "Externalizing the Problem: This is a type of intervention. The therapist asks questions that are designed to separate the person from the problem.",
+   "marker": "Externalizing the Problem"
+  },
+  {
+   "id": "t1_narrative_marker_thinstory",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "narrative"
+   ],
+   "stem": "“Thin Story” is a signature term of which model?",
+   "options": [
+    {
+     "text": "Narrative Therapy",
+     "correct": true,
+     "belongsTo": "narrative",
+     "sourceLine": "Thin Story: The alternate story being developed, which has minimal details. A goal is to build on this story and make it thicker."
+    },
+    {
+     "text": "Client Centered Therapy",
+     "correct": false,
+     "belongsTo": "client-centered",
+     "sourceLine": "Views people are always growing and inherently good. Avoids diagnosis, avoid strict adherence to what the ideal person should be. Role of therapist is nondirective, not steering client in any one direction (unlike CBT or systems theory). Driven by what the client wants to talk about. T is a facilitator who is helping the person to grow and change. This occurs by creating unconditional positive regard. Client determines the goals of therapy. Up to the client to decide how many sessions they would like as well, a lot of support for client self-determination."
+    },
+    {
+     "text": "Solution-Focused Therapy",
+     "correct": false,
+     "belongsTo": "solution-focused",
+     "sourceLine": "Change occurs through accessing client’s strengths and resources. Emphasizes finding solutions to a problem, not on discovering the cause or origins of the problem."
+    },
+    {
+     "text": "Satir Communications Therapy",
+     "correct": false,
+     "belongsTo": "satir",
+     "sourceLine": "Change happens through self-awareness and improved communication. Humanistic approach."
+    }
+   ],
+   "rationale": "Thin Story belongs to Narrative Therapy and is not claimed by any other model in the packet.",
+   "sourceLine": "Thin Story: The alternate story being developed, which has minimal details. A goal is to build on this story and make it thicker.",
+   "marker": "Thin Story"
+  },
+  {
+   "id": "t1_object-relations_marker_internalization",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "object-relations"
+   ],
+   "stem": "“Internalization” is a signature term of which model?",
+   "options": [
+    {
+     "text": "Bowen Family Systems",
+     "correct": false,
+     "belongsTo": "bowen",
+     "sourceLine": "Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family."
+    },
+    {
+     "text": "Attachment-Based Therapy (Bowlby)",
+     "correct": false,
+     "belongsTo": "attachment",
+     "sourceLine": "Change occurs through exploration of past and current relational attachments and trauma in the environment of a healing, secure, and reliable relationship."
+    },
+    {
+     "text": "Object Relations",
+     "correct": true,
+     "belongsTo": "object-relations",
+     "sourceLine": "Internalization: Early infant-caretaker interactions lead to the person internalizing basic attitudes toward self and other, characteristic relational patterns, and a repertoire of defenses and internal capacities. If mom is warm and caring towards infant, then infant and child takes in that attitude about themselves and the world. A child who grew up with angry parents, the world is hostile, and the world is hostile to me, so I must be bad."
+    },
+    {
+     "text": "Self Psychology",
+     "correct": false,
+     "belongsTo": "self-psychology",
+     "sourceLine": "Change occurs through empathetic attunement and strengthening the self-structures through optimal responsiveness. Shift away from interpretation."
+    }
+   ],
+   "rationale": "Internalization belongs to Object Relations and is not claimed by any other model in the packet.",
+   "sourceLine": "Internalization: Early infant-caretaker interactions lead to the person internalizing basic attitudes toward self and other, characteristic relational patterns, and a repertoire of defenses and internal capacities. If mom is warm and caring towards infant, then infant and child takes in that attitude about themselves and the world. A child who grew up with angry parents, the world is hostile, and the world is hostile to me, so I must be bad.",
+   "marker": "Internalization"
+  },
+  {
+   "id": "t1_object-relations_marker_objects",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "object-relations"
+   ],
+   "stem": "“Objects” is a signature term of which model?",
+   "options": [
+    {
+     "text": "Self Psychology",
+     "correct": false,
+     "belongsTo": "self-psychology",
+     "sourceLine": "Change occurs through empathetic attunement and strengthening the self-structures through optimal responsiveness. Shift away from interpretation."
+    },
+    {
+     "text": "Object Relations",
+     "correct": true,
+     "belongsTo": "object-relations",
+     "sourceLine": "Objects: Refers to persons in the external world. Individuals seek objects (others) from birth. We are inherently object seeking, wanting to connect to others."
+    },
+    {
+     "text": "Attachment-Based Therapy (Bowlby)",
+     "correct": false,
+     "belongsTo": "attachment",
+     "sourceLine": "Change occurs through exploration of past and current relational attachments and trauma in the environment of a healing, secure, and reliable relationship."
+    },
+    {
+     "text": "Bowen Family Systems",
+     "correct": false,
+     "belongsTo": "bowen",
+     "sourceLine": "Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family."
+    }
+   ],
+   "rationale": "Objects belongs to Object Relations and is not claimed by any other model in the packet.",
+   "sourceLine": "Objects: Refers to persons in the external world. Individuals seek objects (others) from birth. We are inherently object seeking, wanting to connect to others.",
+   "marker": "Objects"
+  },
+  {
+   "id": "t1_satir_marker_placater",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "satir"
+   ],
+   "stem": "“Placater” is a signature term of which model?",
+   "options": [
+    {
+     "text": "Satir Communications Therapy",
+     "correct": true,
+     "belongsTo": "satir",
+     "sourceLine": "Placater: Apologizing, never disagreeing, trying to please."
+    },
+    {
+     "text": "Bowen Family Systems",
+     "correct": false,
+     "belongsTo": "bowen",
+     "sourceLine": "Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family."
+    },
+    {
+     "text": "Strategic Therapy",
+     "correct": false,
+     "belongsTo": "strategic",
+     "sourceLine": "Change occurs through action-oriented directives and paradoxical interventions. Very focused on specific problems."
+    },
+    {
+     "text": "Structural Family Therapy",
+     "correct": false,
+     "belongsTo": "structural",
+     "sourceLine": "Change occurs through restructuring the family’s organization. Very focused on entire organization of the whole family system. Looking at bigger picture of the family interactions."
+    }
+   ],
+   "rationale": "Placater belongs to Satir Communications Therapy and is not claimed by any other model in the packet.",
+   "sourceLine": "Placater: Apologizing, never disagreeing, trying to please.",
+   "marker": "Placater"
+  },
+  {
+   "id": "t1_satir_marker_stylesofcommunicat",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "satir"
+   ],
+   "stem": "“Styles of Communication” is a signature term of which model?",
+   "options": [
+    {
+     "text": "Strategic Therapy",
+     "correct": false,
+     "belongsTo": "strategic",
+     "sourceLine": "Change occurs through action-oriented directives and paradoxical interventions. Very focused on specific problems."
+    },
+    {
+     "text": "Bowen Family Systems",
+     "correct": false,
+     "belongsTo": "bowen",
+     "sourceLine": "Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family."
+    },
+    {
+     "text": "Satir Communications Therapy",
+     "correct": true,
+     "belongsTo": "satir",
+     "sourceLine": "Styles of Communication: The rules that govern family interaction function as a method of ensuring the maintenance and preservation of the family’s current functioning level."
+    },
+    {
+     "text": "Structural Family Therapy",
+     "correct": false,
+     "belongsTo": "structural",
+     "sourceLine": "Change occurs through restructuring the family’s organization. Very focused on entire organization of the whole family system. Looking at bigger picture of the family interactions."
+    }
+   ],
+   "rationale": "Styles of Communication belongs to Satir Communications Therapy and is not claimed by any other model in the packet.",
+   "sourceLine": "Styles of Communication: The rules that govern family interaction function as a method of ensuring the maintenance and preservation of the family’s current functioning level.",
+   "marker": "Styles of Communication"
+  },
+  {
+   "id": "t1_self-psychology_marker_mirroringtransfere",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "self-psychology"
+   ],
+   "stem": "“Mirroring Transference” is a signature term of which model?",
+   "options": [
+    {
+     "text": "Bowen Family Systems",
+     "correct": false,
+     "belongsTo": "bowen",
+     "sourceLine": "Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family."
+    },
+    {
+     "text": "Self Psychology",
+     "correct": true,
+     "belongsTo": "self-psychology",
+     "sourceLine": "Mirroring Transference: The patient seeks acceptance and confirmation of the self from the therapist."
+    },
+    {
+     "text": "Attachment-Based Therapy (Bowlby)",
+     "correct": false,
+     "belongsTo": "attachment",
+     "sourceLine": "Change occurs through exploration of past and current relational attachments and trauma in the environment of a healing, secure, and reliable relationship."
+    },
+    {
+     "text": "Object Relations",
+     "correct": false,
+     "belongsTo": "object-relations",
+     "sourceLine": "Change occurs through both reparative experiences within the treatment relationship (relationship with therapist) insight into and modification of entrenched object relations pathology."
+    }
+   ],
+   "rationale": "Mirroring Transference belongs to Self Psychology and is not claimed by any other model in the packet.",
+   "sourceLine": "Mirroring Transference: The patient seeks acceptance and confirmation of the self from the therapist.",
+   "marker": "Mirroring Transference"
+  },
+  {
+   "id": "t1_self-psychology_marker_repairdisruptionso",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "self-psychology"
+   ],
+   "stem": "“Repair disruptions of the self-object transference” is a signature term of which model?",
+   "options": [
+    {
+     "text": "Self Psychology",
+     "correct": true,
+     "belongsTo": "self-psychology",
+     "sourceLine": "Repair disruptions of the self-object transference"
+    },
+    {
+     "text": "Object Relations",
+     "correct": false,
+     "belongsTo": "object-relations",
+     "sourceLine": "Change occurs through both reparative experiences within the treatment relationship (relationship with therapist) insight into and modification of entrenched object relations pathology."
+    },
+    {
+     "text": "Bowen Family Systems",
+     "correct": false,
+     "belongsTo": "bowen",
+     "sourceLine": "Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family."
+    },
+    {
+     "text": "Attachment-Based Therapy (Bowlby)",
+     "correct": false,
+     "belongsTo": "attachment",
+     "sourceLine": "Change occurs through exploration of past and current relational attachments and trauma in the environment of a healing, secure, and reliable relationship."
+    }
+   ],
+   "rationale": "Repair disruptions of the self-object transference belongs to Self Psychology and is not claimed by any other model in the packet.",
+   "sourceLine": "Repair disruptions of the self-object transference",
+   "marker": "Repair disruptions of the self-object transference"
+  },
+  {
+   "id": "t1_solution-focused_marker_affirmationscompli",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "solution-focused"
+   ],
+   "stem": "“Affirmations/Compliments” is a signature term of which model?",
+   "options": [
+    {
+     "text": "Satir Communications Therapy",
+     "correct": false,
+     "belongsTo": "satir",
+     "sourceLine": "Change happens through self-awareness and improved communication. Humanistic approach."
+    },
+    {
+     "text": "Solution-Focused Therapy",
+     "correct": true,
+     "belongsTo": "solution-focused",
+     "sourceLine": "Affirmations/Compliments: Regularly acknowledge progress, strengths, and resources. Example: Tell the client, \"I am impressed you are sitting in that chair again after what you just went through.\""
+    },
+    {
+     "text": "CBT (interventions)",
+     "correct": false,
+     "belongsTo": "cbt",
+     "sourceLine": "Teach the client about negative triad, done in first session as well as psychoeducation about how CBT works."
+    },
+    {
+     "text": "Narrative Therapy",
+     "correct": false,
+     "belongsTo": "narrative",
+     "sourceLine": "Change occurs by separating the person from the problem and by creating a new narrative which emphasizes the individual’s competencies and strengths."
+    }
+   ],
+   "rationale": "Affirmations/Compliments belongs to Solution-Focused Therapy and is not claimed by any other model in the packet.",
+   "sourceLine": "Affirmations/Compliments: Regularly acknowledge progress, strengths, and resources. Example: Tell the client, \"I am impressed you are sitting in that chair again after what you just went through.\"",
+   "marker": "Affirmations/Compliments"
+  },
+  {
+   "id": "t1_solution-focused_marker_copingquestions",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "solution-focused"
+   ],
+   "stem": "“Coping Questions” is a signature term of which model?",
+   "options": [
+    {
+     "text": "CBT (interventions)",
+     "correct": false,
+     "belongsTo": "cbt",
+     "sourceLine": "Teach the client about negative triad, done in first session as well as psychoeducation about how CBT works."
+    },
+    {
+     "text": "Solution-Focused Therapy",
+     "correct": true,
+     "belongsTo": "solution-focused",
+     "sourceLine": "Coping Questions: If a client has trouble identifying positive change, coping questions are asked by the therapist in order to illustrate resources that the client already has. This can include validating the client’s difficulties while also showing that they are still able to get up in the morning, go to school, etc. This highlights the client’s strengths without undermining their view of reality. These questions are supportive while also challenging the client and shifting the focus away from problem-focused narratives. Example: “How do you keep going each day even when it feels like there is no hope?”"
+    },
+    {
+     "text": "Narrative Therapy",
+     "correct": false,
+     "belongsTo": "narrative",
+     "sourceLine": "Change occurs by separating the person from the problem and by creating a new narrative which emphasizes the individual’s competencies and strengths."
+    },
+    {
+     "text": "Satir Communications Therapy",
+     "correct": false,
+     "belongsTo": "satir",
+     "sourceLine": "Change happens through self-awareness and improved communication. Humanistic approach."
+    }
+   ],
+   "rationale": "Coping Questions belongs to Solution-Focused Therapy and is not claimed by any other model in the packet.",
+   "sourceLine": "Coping Questions: If a client has trouble identifying positive change, coping questions are asked by the therapist in order to illustrate resources that the client already has. This can include validating the client’s difficulties while also showing that they are still able to get up in the morning, go to school, etc. This highlights the client’s strengths without undermining their view of reality. These questions are supportive while also challenging the client and shifting the focus away from problem-focused narratives. Example: “How do you keep going each day even when it feels like there is no hope?”",
+   "marker": "Coping Questions"
+  },
+  {
+   "id": "t1_strategic_marker_positioning",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "strategic"
+   ],
+   "stem": "“Positioning” is a signature term of which model?",
+   "options": [
+    {
+     "text": "Bowen Family Systems",
+     "correct": false,
+     "belongsTo": "bowen",
+     "sourceLine": "Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family."
+    },
+    {
+     "text": "Satir Communications Therapy",
+     "correct": false,
+     "belongsTo": "satir",
+     "sourceLine": "Change happens through self-awareness and improved communication. Humanistic approach."
+    },
+    {
+     "text": "Strategic Therapy",
+     "correct": true,
+     "belongsTo": "strategic",
+     "sourceLine": "Positioning: Therapist takes a more exaggerated and extreme view of the problem and the family is obligated to rebel. That leads to them seeing the ways in which they have Competency. (T says your family is completely hopeless w hopes they’d say no its not)"
+    },
+    {
+     "text": "Structural Family Therapy",
+     "correct": false,
+     "belongsTo": "structural",
+     "sourceLine": "Change occurs through restructuring the family’s organization. Very focused on entire organization of the whole family system. Looking at bigger picture of the family interactions."
+    }
+   ],
+   "rationale": "Positioning belongs to Strategic Therapy and is not claimed by any other model in the packet.",
+   "sourceLine": "Positioning: Therapist takes a more exaggerated and extreme view of the problem and the family is obligated to rebel. That leads to them seeing the ways in which they have Competency. (T says your family is completely hopeless w hopes they’d say no its not)",
+   "marker": "Positioning"
+  },
+  {
+   "id": "t1_strategic_marker_prescribingthesymp",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "strategic"
+   ],
+   "stem": "“Prescribing the Symptom” is a signature term of which model?",
+   "options": [
+    {
+     "text": "Satir Communications Therapy",
+     "correct": false,
+     "belongsTo": "satir",
+     "sourceLine": "Change happens through self-awareness and improved communication. Humanistic approach."
+    },
+    {
+     "text": "Bowen Family Systems",
+     "correct": false,
+     "belongsTo": "bowen",
+     "sourceLine": "Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family."
+    },
+    {
+     "text": "Structural Family Therapy",
+     "correct": false,
+     "belongsTo": "structural",
+     "sourceLine": "Change occurs through restructuring the family’s organization. Very focused on entire organization of the whole family system. Looking at bigger picture of the family interactions."
+    },
+    {
+     "text": "Strategic Therapy",
+     "correct": true,
+     "belongsTo": "strategic",
+     "sourceLine": "Prescribing the Symptom: A strategy in which the therapist encourages or instructs the client to engage in or practice the symptom. ie schedule a fight or schedule a worry time."
+    }
+   ],
+   "rationale": "Prescribing the Symptom belongs to Strategic Therapy and is not claimed by any other model in the packet.",
+   "sourceLine": "Prescribing the Symptom: A strategy in which the therapist encourages or instructs the client to engage in or practice the symptom. ie schedule a fight or schedule a worry time.",
+   "marker": "Prescribing the Symptom"
+  },
+  {
+   "id": "t1_strategic_marker_restraining",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "strategic"
+   ],
+   "stem": "“Restraining” is a signature term of which model?",
+   "options": [
+    {
+     "text": "Satir Communications Therapy",
+     "correct": false,
+     "belongsTo": "satir",
+     "sourceLine": "Change happens through self-awareness and improved communication. Humanistic approach."
+    },
+    {
+     "text": "Structural Family Therapy",
+     "correct": false,
+     "belongsTo": "structural",
+     "sourceLine": "Change occurs through restructuring the family’s organization. Very focused on entire organization of the whole family system. Looking at bigger picture of the family interactions."
+    },
+    {
+     "text": "Strategic Therapy",
+     "correct": true,
+     "belongsTo": "strategic",
+     "sourceLine": "Restraining: The therapist will discourage change or changing too quickly in an effort to elicit the desire to change from the client."
+    },
+    {
+     "text": "Bowen Family Systems",
+     "correct": false,
+     "belongsTo": "bowen",
+     "sourceLine": "Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family."
+    }
+   ],
+   "rationale": "Restraining belongs to Strategic Therapy and is not claimed by any other model in the packet.",
+   "sourceLine": "Restraining: The therapist will discourage change or changing too quickly in an effort to elicit the desire to change from the client.",
+   "marker": "Restraining"
+  },
+  {
+   "id": "t1_structural_marker_familymap",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "structural"
+   ],
+   "stem": "“Family Map” is a signature term of which model?",
+   "options": [
+    {
+     "text": "Bowen Family Systems",
+     "correct": false,
+     "belongsTo": "bowen",
+     "sourceLine": "Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family."
+    },
+    {
+     "text": "Strategic Therapy",
+     "correct": false,
+     "belongsTo": "strategic",
+     "sourceLine": "Change occurs through action-oriented directives and paradoxical interventions. Very focused on specific problems."
+    },
+    {
+     "text": "Satir Communications Therapy",
+     "correct": false,
+     "belongsTo": "satir",
+     "sourceLine": "Change happens through self-awareness and improved communication. Humanistic approach."
+    },
+    {
+     "text": "Structural Family Therapy",
+     "correct": true,
+     "belongsTo": "structural",
+     "sourceLine": "Family Map: A tool the therapist will use to depict the relationship dynamics in the family including sub-systems, alliances, coalitions and boundaries. This tool is used to conceptualize the case outside of the actual therapy. It is not used or shared with the family."
+    }
+   ],
+   "rationale": "Family Map belongs to Structural Family Therapy and is not claimed by any other model in the packet.",
+   "sourceLine": "Family Map: A tool the therapist will use to depict the relationship dynamics in the family including sub-systems, alliances, coalitions and boundaries. This tool is used to conceptualize the case outside of the actual therapy. It is not used or shared with the family.",
+   "marker": "Family Map"
+  },
+  {
+   "id": "t1_structural_marker_subsystems",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "structural"
+   ],
+   "stem": "“Subsystems” is a signature term of which model?",
+   "options": [
+    {
+     "text": "Bowen Family Systems",
+     "correct": false,
+     "belongsTo": "bowen",
+     "sourceLine": "Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family."
+    },
+    {
+     "text": "Satir Communications Therapy",
+     "correct": false,
+     "belongsTo": "satir",
+     "sourceLine": "Change happens through self-awareness and improved communication. Humanistic approach."
+    },
+    {
+     "text": "Strategic Therapy",
+     "correct": false,
+     "belongsTo": "strategic",
+     "sourceLine": "Change occurs through action-oriented directives and paradoxical interventions. Very focused on specific problems."
+    },
+    {
+     "text": "Structural Family Therapy",
+     "correct": true,
+     "belongsTo": "structural",
+     "sourceLine": "Subsystems: Families organize themselves by generation, relationship, and necessity. Examples: marital subsystem – spouses; parental subsystem: parents; executive subsystem: people who run the family; sibling subsystem – kids."
+    }
+   ],
+   "rationale": "Subsystems belongs to Structural Family Therapy and is not claimed by any other model in the packet.",
+   "sourceLine": "Subsystems: Families organize themselves by generation, relationship, and necessity. Examples: marital subsystem – spouses; parental subsystem: parents; executive subsystem: people who run the family; sibling subsystem – kids.",
+   "marker": "Subsystems"
+  },
+  {
+   "id": "t1_structural_marker_tracking",
+   "tier": 1,
+   "type": "T1_marker",
+   "models": [
+    "structural"
+   ],
+   "stem": "“Tracking” is a signature term of which model?",
+   "options": [
+    {
+     "text": "Strategic Therapy",
+     "correct": false,
+     "belongsTo": "strategic",
+     "sourceLine": "Change occurs through action-oriented directives and paradoxical interventions. Very focused on specific problems."
+    },
+    {
+     "text": "Structural Family Therapy",
+     "correct": true,
+     "belongsTo": "structural",
+     "sourceLine": "Tracking: The therapist pays close attention to family members and how they relate to one another during an enactment or spontaneous behavioral sequence, noticing boundaries, coalitions, roles, rules, etc."
+    },
+    {
+     "text": "Bowen Family Systems",
+     "correct": false,
+     "belongsTo": "bowen",
+     "sourceLine": "Change occurs by understanding multigenerational dynamics and increasing differentiation. The only therapy that is concerned with the past three generations of the family. People’s issues are transmitted through the family."
+    },
+    {
+     "text": "Satir Communications Therapy",
+     "correct": false,
+     "belongsTo": "satir",
+     "sourceLine": "Change happens through self-awareness and improved communication. Humanistic approach."
+    }
+   ],
+   "rationale": "Tracking belongs to Structural Family Therapy and is not claimed by any other model in the packet.",
+   "sourceLine": "Tracking: The therapist pays close attention to family members and how they relate to one another during an enactment or spontaneous behavioral sequence, noticing boundaries, coalitions, roles, rules, etc.",
+   "marker": "Tracking"
   }
  ]
 }

@@ -1,0 +1,255 @@
+{
+ "instructions": "Pick the single best option per question, strictly from the packets.",
+ "questions": [
+  {
+   "id": "q175",
+   "stem": "“Nuclear Family Emotional System” is a signature term of which model?",
+   "options": {
+    "A": "Bowen Family Systems",
+    "B": "Strategic Therapy",
+    "C": "Satir Communications Therapy",
+    "D": "Structural Family Therapy"
+   }
+  },
+  {
+   "id": "q176",
+   "stem": "“Restraining” is a signature term of which model?",
+   "options": {
+    "A": "Satir Communications Therapy",
+    "B": "Structural Family Therapy",
+    "C": "Strategic Therapy",
+    "D": "Bowen Family Systems"
+   }
+  },
+  {
+   "id": "q177",
+   "stem": "“Family Map” is a signature term of which model?",
+   "options": {
+    "A": "Bowen Family Systems",
+    "B": "Strategic Therapy",
+    "C": "Satir Communications Therapy",
+    "D": "Structural Family Therapy"
+   }
+  },
+  {
+   "id": "q178",
+   "stem": "“Placater” is a signature term of which model?",
+   "options": {
+    "A": "Satir Communications Therapy",
+    "B": "Bowen Family Systems",
+    "C": "Strategic Therapy",
+    "D": "Structural Family Therapy"
+   }
+  },
+  {
+   "id": "q179",
+   "stem": "“Thin Story” is a signature term of which model?",
+   "options": {
+    "A": "Narrative Therapy",
+    "B": "Client Centered Therapy",
+    "C": "Solution-Focused Therapy",
+    "D": "Satir Communications Therapy"
+   }
+  },
+  {
+   "id": "q180",
+   "stem": "“Coping Questions” is a signature term of which model?",
+   "options": {
+    "A": "CBT (interventions)",
+    "B": "Solution-Focused Therapy",
+    "C": "Narrative Therapy",
+    "D": "Satir Communications Therapy"
+   }
+  },
+  {
+   "id": "q181",
+   "stem": "“Objects” is a signature term of which model?",
+   "options": {
+    "A": "Self Psychology",
+    "B": "Object Relations",
+    "C": "Attachment-Based Therapy (Bowlby)",
+    "D": "Bowen Family Systems"
+   }
+  },
+  {
+   "id": "q182",
+   "stem": "“Repair disruptions of the self-object transference” is a signature term of which model?",
+   "options": {
+    "A": "Self Psychology",
+    "B": "Object Relations",
+    "C": "Bowen Family Systems",
+    "D": "Attachment-Based Therapy (Bowlby)"
+   }
+  },
+  {
+   "id": "q183",
+   "stem": "“Collaboratively identifying attachment style” is a signature term of which model?",
+   "options": {
+    "A": "Attachment-Based Therapy (Bowlby)",
+    "B": "Object Relations",
+    "C": "Client Centered Therapy",
+    "D": "Self Psychology"
+   }
+  },
+  {
+   "id": "q184",
+   "stem": "“Repeating words or exaggerating gestures” is a signature term of which model?",
+   "options": {
+    "A": "Gestalt Therapy",
+    "B": "Existential Therapy",
+    "C": "Experiential / Symbolic Therapy (Whitaker)",
+    "D": "Client Centered Therapy"
+   }
+  },
+  {
+   "id": "q185",
+   "stem": "“Battle for Structure” is a signature term of which model?",
+   "options": {
+    "A": "Experiential / Symbolic Therapy (Whitaker)",
+    "B": "Existential Therapy",
+    "C": "Satir Communications Therapy",
+    "D": "Gestalt Therapy"
+   }
+  },
+  {
+   "id": "q186",
+   "stem": "“Socratic Questioning” is a signature term of which model?",
+   "options": {
+    "A": "Bowen Family Systems",
+    "B": "Strategic Therapy",
+    "C": "Solution-Focused Therapy",
+    "D": "CBT (interventions)"
+   }
+  },
+  {
+   "id": "q187",
+   "stem": "“Bibliotherapy” is a signature term of which model?",
+   "options": {
+    "A": "Bowen Family Systems",
+    "B": "Structural Family Therapy",
+    "C": "Satir Communications Therapy",
+    "D": "Strategic Therapy"
+   }
+  },
+  {
+   "id": "q188",
+   "stem": "“Positioning” is a signature term of which model?",
+   "options": {
+    "A": "Bowen Family Systems",
+    "B": "Satir Communications Therapy",
+    "C": "Strategic Therapy",
+    "D": "Structural Family Therapy"
+   }
+  },
+  {
+   "id": "q189",
+   "stem": "“Subsystems” is a signature term of which model?",
+   "options": {
+    "A": "Bowen Family Systems",
+    "B": "Satir Communications Therapy",
+    "C": "Strategic Therapy",
+    "D": "Structural Family Therapy"
+   }
+  },
+  {
+   "id": "q190",
+   "stem": "“Styles of Communication” is a signature term of which model?",
+   "options": {
+    "A": "Strategic Therapy",
+    "B": "Bowen Family Systems",
+    "C": "Satir Communications Therapy",
+    "D": "Structural Family Therapy"
+   }
+  },
+  {
+   "id": "q191",
+   "stem": "“Externalizing the Problem” is a signature term of which model?",
+   "options": {
+    "A": "Solution-Focused Therapy",
+    "B": "Narrative Therapy",
+    "C": "Satir Communications Therapy",
+    "D": "Client Centered Therapy"
+   }
+  },
+  {
+   "id": "q192",
+   "stem": "“Affirmations/Compliments” is a signature term of which model?",
+   "options": {
+    "A": "Satir Communications Therapy",
+    "B": "Solution-Focused Therapy",
+    "C": "CBT (interventions)",
+    "D": "Narrative Therapy"
+   }
+  },
+  {
+   "id": "q193",
+   "stem": "“Internalization” is a signature term of which model?",
+   "options": {
+    "A": "Bowen Family Systems",
+    "B": "Attachment-Based Therapy (Bowlby)",
+    "C": "Object Relations",
+    "D": "Self Psychology"
+   }
+  },
+  {
+   "id": "q194",
+   "stem": "“Mirroring Transference” is a signature term of which model?",
+   "options": {
+    "A": "Bowen Family Systems",
+    "B": "Self Psychology",
+    "C": "Attachment-Based Therapy (Bowlby)",
+    "D": "Object Relations"
+   }
+  },
+  {
+   "id": "q195",
+   "stem": "“Activating Constructive Anxiety” is a signature term of which model?",
+   "options": {
+    "A": "Satir Communications Therapy",
+    "B": "Existential Therapy",
+    "C": "Experiential / Symbolic Therapy (Whitaker)",
+    "D": "Gestalt Therapy"
+   }
+  },
+  {
+   "id": "q196",
+   "stem": "“Communication Skills Training” is a signature term of which model?",
+   "options": {
+    "A": "CBT (interventions)",
+    "B": "Solution-Focused Therapy",
+    "C": "Strategic Therapy",
+    "D": "Bowen Family Systems"
+   }
+  },
+  {
+   "id": "q197",
+   "stem": "Which model describes the therapist's role this way?\n\n“Supervisor”",
+   "options": {
+    "A": "Structural Family Therapy",
+    "B": "Bowen Family Systems",
+    "C": "Strategic Therapy",
+    "D": "Satir Communications Therapy"
+   }
+  },
+  {
+   "id": "q198",
+   "stem": "“Prescribing the Symptom” is a signature term of which model?",
+   "options": {
+    "A": "Satir Communications Therapy",
+    "B": "Bowen Family Systems",
+    "C": "Structural Family Therapy",
+    "D": "Strategic Therapy"
+   }
+  },
+  {
+   "id": "q199",
+   "stem": "“Tracking” is a signature term of which model?",
+   "options": {
+    "A": "Strategic Therapy",
+    "B": "Structural Family Therapy",
+    "C": "Bowen Family Systems",
+    "D": "Satir Communications Therapy"
+   }
+  }
+ ]
+}
