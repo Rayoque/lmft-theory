@@ -486,5 +486,50 @@ head("answer options read as sentences");
   ok("every item still carries its packet line", src);
 }
 
+
+head("milestone chimes");
+{
+  const { w, d } = boot();
+  const played = [];
+  w.AudioContext = function(){
+    return { state:"running", currentTime:0, resume(){},
+      createOscillator(){ return {frequency:{setValueAtTime(f){ played.push(Math.round(f)); }},
+        connect(){}, start(){}, stop(){}}; },
+      createGain(){ return {gain:{setValueAtTime(){}, linearRampToValueAtTime(){},
+        exponentialRampToValueAtTime(){}}, connect(){}}; },
+      destination:{} };
+  };
+  // clear Client Centered for the day: 3 items, all correct
+  tab(d, "Learn").click();
+  d.querySelector('[data-m="client-centered"]').click();
+  d.querySelector("#start").click();
+  while (d.querySelector("#opts")) answer(w, d, true, false);
+  played.length = 0;
+  const again = d.querySelector("#again");
+  if (again) again.click();
+  ok("clearing a model for the day chimes", played.length >= 6, String(played.length));
+  ok("and it reaches the octave above", played.indexOf(3136) >= 0, played.join(","));
+
+  played.length = 0;
+  tab(d, "Learn").click();
+  d.querySelector('[data-m="client-centered"]').click();
+  const s2 = d.querySelector("#start");
+  if (s2) s2.click();
+  ok("does not chime again the same day", played.length === 0, String(played.length));
+
+  // now retire them for good: three distinct days
+  played.length = 0;
+  w.eval(`Object.keys(S.concepts).forEach(function(k){
+    S.concepts[k].correctDates = ["2026-09-05","2026-09-06","2026-09-07"]; });
+    S.done = {}; save();`);
+  tab(d, "Drill").click();
+  tab(d, "Learn").click();
+  d.querySelector('[data-m="client-centered"]').click();
+  const s3 = d.querySelector("#start");
+  if (s3) s3.click();
+  ok("fully locking a model chimes low", played.indexOf(65) >= 0, played.join(","));
+  ok("and it is the longer one", played.length >= 10, String(played.length));
+}
+
 console.log("\n" + pass + " passed, " + fail + " failed\n");
 process.exit(fail ? 1 : 0);

@@ -210,7 +210,8 @@ footer{padding:0 14px calc(28px + env(safe-area-inset-bottom))}
   <div class="hrow">
     <h1>LMFT Theory</h1>
     <span class="days" id="days"></span>
-    <button class="theme" id="theme" title="Light, dark, or follow your Mac"></button>
+    <button class="theme" id="sound" title="Chimes on a right answer, at the end of a session, and when a model is finished"></button>
+    <button class="theme" id="theme" title="Light, dark, or follow the system"></button>
   </div>
   <nav id="nav"></nav>
 </header>
@@ -237,8 +238,10 @@ const today = () => {
 };
 let S = load();
 function load(){
-  try { return JSON.parse(localStorage.getItem(KEY)) || {concepts:{}, learned:{}}; }
-  catch(e){ return {concepts:{}, learned:{}}; }
+  try { const v = JSON.parse(localStorage.getItem(KEY)) || {};
+    return {concepts: v.concepts || {}, learned: v.learned || {},
+            done: v.done || {}}; }
+  catch(e){ return {concepts:{}, learned:{}, done:{}}; }
 }
 function save(){ try { localStorage.setItem(KEY, JSON.stringify(S)); } catch(e){} }
 function rec(id){ return S.concepts[id] || (S.concepts[id] = {seen:0, correct:0, correctDates:[], confidentWrong:0}); }
@@ -425,6 +428,15 @@ function render(){
 function renderExhausted(){
   const what = mode === "learn" && learnModel ? NAME(learnModel)
              : mode === "vignette" ? "the vignettes" : "this set";
+  // Sound the milestone once, not every time she lands back on this screen.
+  if (mode === "learn" && learnModel){
+    const done = scopeFor(mode, learnModel).every(i => retired(i.id));
+    const mark = done ? "locked" : "day:" + today();
+    if (S.done[learnModel] !== "locked" && S.done[learnModel] !== mark){
+      S.done[learnModel] = mark; save();
+      (done ? chimeLocked : chimeDayClear)();
+    }
+  }
   // Two different empty pools, and conflating them would be a lie: everything
   // locked in for good, versus everything answered correctly today.
   const left = scopeFor(mode, learnModel).filter(i => !retired(i.id)).length;
@@ -529,6 +541,7 @@ function choose(it, i){
   answered = i;
   const right = it.options[i].correct;
   snapshot(it);
+  if (right) chime();
   right ? stats.right++ : stats.wrong++;
   // Persist immediately. Scoring only inside the confidence handler meant an
   // answer was silently discarded if the reveal was read and then another
@@ -579,6 +592,7 @@ function choose(it, i){
 }
 
 function renderSummary(){
+  chimeDone();
   const n = stats.right + stats.wrong;
   const acc = n ? Math.round(stats.right / n * 100) : 0;
   let msg = "";
@@ -687,6 +701,102 @@ function renderGrid(){
     </details>`).join("")}</div>
 
     <p class="note">Built ${esc(BUILT)} from your five packets.</p>`;
+}
+
+/* ---------- sound ----------
+   One toggle governs both chimes. A study tool that cannot be silenced in a
+   library is worse than a silent one. */
+const SKEY = "lmft.sound";
+let AC = null;
+function soundOn(){
+  try { return localStorage.getItem(SKEY) !== "0"; } catch(e){ return true; }
+}
+function actx(){
+  const C = window.AudioContext || window.webkitAudioContext;
+  if (!C) return null;
+  AC = AC || new C();
+  if (AC.state === "suspended") AC.resume();
+  return AC;
+}
+/* one voice: wave, Hz, delay from now, length, peak gain */
+function voice(a, type, f, delay, len, peak){
+  const t = a.currentTime + delay;
+  const osc = a.createOscillator(), g = a.createGain();
+  osc.type = type;
+  osc.frequency.setValueAtTime(f, t);
+  g.gain.setValueAtTime(0.0001, t);
+  g.gain.linearRampToValueAtTime(peak, t + 0.010);
+  g.gain.exponentialRampToValueAtTime(0.0001, t + len);
+  osc.connect(g); g.connect(a.destination);
+  osc.start(t); osc.stop(t + len + 0.02);
+}
+const C2 = 65.41, C3 = 130.81, C5 = 523.25, E5 = 659.25, F5 = 698.46, G5 = 783.99;
+const C6 = 1046.50, E6 = 1318.51, G6 = 1567.98, C7 = 2093.00,
+      E7 = 2637.02, G7 = 3135.96;
+/* right answer: C-E-G rising, 145ms */
+function chime(){
+  if (!soundOn()) return;
+  try {
+    const a = actx(); if (!a) return;
+    voice(a, "sine", C6, 0,     0.10, 0.038);
+    voice(a, "sine", E6, 0.045, 0.10, 0.038);
+    voice(a, "sine", G6, 0.090, 0.11, 0.038);
+  } catch(e){}                       // audio must never break answering
+}
+/* session finished: the same run carried up to the octave */
+function chimeDone(){
+  if (!soundOn()) return;
+  try {
+    const a = actx(); if (!a) return;
+    voice(a, "sine", C6, 0,     0.10, 0.036);
+    voice(a, "sine", E6, 0.055, 0.10, 0.036);
+    voice(a, "sine", G6, 0.110, 0.10, 0.036);
+    voice(a, "sine", C7, 0.170, 0.25, 0.040);
+  } catch(e){}
+}
+/* Cleared a model for the day: the session chime with two notes flicked
+   above it. */
+function chimeDayClear(){
+  if (!soundOn()) return;
+  try {
+    const a = actx(); if (!a) return;
+    voice(a, "sine", C6, 0,     0.10, 0.034);
+    voice(a, "sine", E6, 0.055, 0.10, 0.034);
+    voice(a, "sine", G6, 0.110, 0.10, 0.034);
+    voice(a, "sine", C7, 0.170, 0.22, 0.038);
+    voice(a, "sine", E7, 0.320, 0.11, 0.026);
+    voice(a, "sine", G7, 0.390, 0.24, 0.026);
+  } catch(e){}
+}
+/* Locked a model for good. Struck on a suspension -- F5 sits where the third
+   belongs -- which hands over to E5 half a second in and then holds. The
+   sound is unstable, resolves, and stops moving, which is what locking is. */
+function chimeLocked(){
+  if (!soundOn()) return;
+  try {
+    const a = actx(); if (!a) return;
+    voice(a, "sine", C2, 0, 0.070, 0.070);            // the latch
+    voice(a, "sine", C3, 0, 3.40, 0.032);
+    [[C5,1],[G5,1],[C6,1],[C5,1.006],[C6,1.004]].forEach(function(pr){
+      voice(a, "sine", pr[0]*pr[1], 0, 3.20, 0.017); });
+    voice(a, "sine", F5, 0.02, 0.62, 0.020);          // suspension
+    voice(a, "sine", E5, 0.50, 2.85, 0.020);          // resolves, and holds
+    voice(a, "sine", E5*0.994, 0.50, 2.85, 0.012);
+    [C6,E6,G6].forEach(function(f,i){
+      voice(a, "sine", f, 0.62 + i*0.085, 0.30, 0.019); });
+    voice(a, "sine", C7, 0.88, 2.20, 0.022);
+  } catch(e){}
+}
+function initSound(){
+  const b = document.getElementById("sound");
+  if (!b) return;
+  const paint = () => { b.textContent = soundOn() ? "\u266a On" : "\u266a Off"; };
+  paint();
+  b.onclick = () => {
+    try { localStorage.setItem(SKEY, soundOn() ? "0" : "1"); } catch(e){}
+    paint();
+    if (soundOn()) chime();          // hear what was just switched on
+  };
 }
 
 /* ---------- theme ----------
@@ -843,6 +953,7 @@ try { seenWelcome = !!localStorage.getItem(WKEY); } catch(e){}
 if (!seenWelcome && document.body) welcome();
 
 initTheme();
+initSound();
 /* Arrow keys move focus between the live choices; space and enter already
    activate a focused button, so nothing extra is needed to pick one. Before
    an answer is given the live choices are the options; after, the two confidence
