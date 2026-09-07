@@ -13,14 +13,28 @@
   --bad:#b3261e; --badbg:#fdeceb; --warn:#8a5a00; --warnbg:#fdf3e0;
   --src:#f2f4f8; --radius:14px;
 }
+/* Dark tokens live in a named block so both the system preference and an
+   explicit choice can pull from the same place. The media query is guarded so
+   choosing Light beats a dark OS; the [data-theme] rule after it means
+   choosing Dark beats a light OS. */
 @media (prefers-color-scheme:dark){
-  :root{
+  :root:not([data-theme="light"]){
     --bg:#0f1319; --card:#171d26; --ink:#e8ecf2; --dim:#98a2b1; --line:#28313d;
     --accent:#6f9bff; --accent-ink:#0f1319; --ok:#6ddb9f; --okbg:#122e20;
     --bad:#ff9b93; --badbg:#38191a; --warn:#f0c274; --warnbg:#33280f;
     --src:#111721;
   }
 }
+:root[data-theme="dark"]{
+  --bg:#0f1319; --card:#171d26; --ink:#e8ecf2; --dim:#98a2b1; --line:#28313d;
+  --accent:#6f9bff; --accent-ink:#0f1319; --ok:#6ddb9f; --okbg:#122e20;
+  --bad:#ff9b93; --badbg:#38191a; --warn:#f0c274; --warnbg:#33280f;
+  --src:#111721;
+}
+.theme{margin-left:10px;background:none;border:1px solid var(--line);
+  color:var(--dim);font:inherit;font-size:12px;line-height:1;cursor:pointer;
+  padding:6px 9px;border-radius:999px;white-space:nowrap}
+.theme:hover{color:var(--ink);border-color:var(--dim)}
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
 body{
@@ -131,6 +145,7 @@ footer{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:
   <div class="hrow">
     <h1>LMFT Theory</h1>
     <span class="days" id="days"></span>
+    <button class="theme" id="theme" title="Light, dark, or follow your Mac"></button>
   </div>
   <nav id="nav"></nav>
 </header>
@@ -452,6 +467,49 @@ function renderGrid(){
     <p class="note">Built ${esc(BUILT)} from your five packets.</p>`;
 }
 
+/* ---------- theme ----------
+   Three states, not two. "Auto" is the default so the app follows her Mac's
+   own light/dark schedule; the other two are explicit overrides that win in
+   both directions. */
+const TKEY = "lmft.theme";
+const THEMES = [
+  {v:"auto",  label:"◐ Auto"},
+  {v:"light", label:"☀ Light"},
+  {v:"dark",  label:"☾ Dark"},
+];
+function applyTheme(v){
+  const root = document.documentElement;
+  if (v === "auto") root.removeAttribute("data-theme");
+  else root.setAttribute("data-theme", v);
+  const btn = document.getElementById("theme");
+  if (btn) btn.textContent = (THEMES.find(t => t.v === v) || THEMES[0]).label;
+  // keep the iOS/macOS browser chrome in step with the page
+  const dark = v === "dark" || (v === "auto" &&
+    window.matchMedia && window.matchMedia("(prefers-color-scheme:dark)").matches);
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) meta.setAttribute("content", dark ? "#0f1319" : "#f6f7f9");
+}
+function readTheme(){
+  try { return localStorage.getItem(TKEY) || "auto"; } catch(e){ return "auto"; }
+}
+function initTheme(){
+  applyTheme(readTheme());
+  const btn = document.getElementById("theme");
+  if (btn) btn.onclick = () => {
+    const i = THEMES.findIndex(t => t.v === readTheme());
+    const next = THEMES[(i + 1) % THEMES.length].v;
+    try { localStorage.setItem(TKEY, next); } catch(e){}
+    applyTheme(next);
+  };
+  // while on Auto, follow the OS if it flips mid-session
+  if (window.matchMedia){
+    const mq = window.matchMedia("(prefers-color-scheme:dark)");
+    const onFlip = () => { if (readTheme() === "auto") applyTheme("auto"); };
+    if (mq.addEventListener) mq.addEventListener("change", onFlip);
+    else if (mq.addListener) mq.addListener(onFlip);
+  }
+}
+
 /* ---------- feedback ----------
    Static site, so there is no backend to POST to. mailto is the only route
    that works with no signup and no third party. The address is assembled at
@@ -559,6 +617,7 @@ let seenWelcome = false;
 try { seenWelcome = !!localStorage.getItem(WKEY); } catch(e){}
 if (!seenWelcome && document.body) welcome();
 
+initTheme();
 renderNav();
 render();
 </script>
