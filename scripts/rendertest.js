@@ -90,7 +90,7 @@ for (const size of [3, 5, 10]){
   const totals = new Set();
   let n = 0;
   while (d.querySelector("#opts") && n < size + 5){
-    totals.add(d.querySelector(".note").textContent.split(" of ")[1]);
+    totals.add((d.querySelector(".note").textContent.match(/of (\d+)/) || [])[1]);
     answer(w, d, n !== 0, false);
     n++;
   }
@@ -282,6 +282,46 @@ head("exhausted states differ");
   ok("says done for today, not locked in",
      t.includes("Done here for today") && !t.includes("Nothing left here"),
      t.slice(0, 90));
+}
+
+
+head("undo and space-to-confirm");
+{
+  const { w, d } = boot();
+  tab(d, "Drill").click();
+  const firstId = w.eval("Q[qi].id");
+  ok("no Back on the first question", !d.getElementById("back"));
+
+  answer(w, d, true, true);                       // right, tapped Knew it
+  ok("Back appears after answering", !!d.getElementById("back"));
+  ok("moved to question 2", w.eval("qi") === 1);
+  ok("first answer recorded",
+     w.eval("S.concepts[" + JSON.stringify(firstId) + "].seen") === 1);
+
+  d.getElementById("back").click();
+  ok("Back returns to question 1", w.eval("qi") === 0);
+  ok("Back un-reveals it", !d.querySelector("#opts button.opt.done"));
+  ok("Back undoes the record",
+     w.eval("!S.concepts[" + JSON.stringify(firstId) + "]"));
+  ok("Back undoes the tally", w.eval("stats.right") === 0);
+
+  // a correct answer parks focus on Knew it so a second space confirms
+  answer(w, d, true, false);
+  d.querySelector("#opts button.opt").click();     // no-op, already answered
+  const { w: w2, d: d2 } = boot();
+  tab(d2, "Drill").click();
+  const correct = w2.eval("Q[qi].options.findIndex(o => o.correct)");
+  [...d2.querySelectorAll("#opts button.opt")][correct].click();
+  ok("right answer focuses Knew it",
+     d2.activeElement === d2.querySelector('footer [data-k="1"]'));
+
+  const { w: w3, d: d3 } = boot();
+  tab(d3, "Drill").click();
+  const c3 = w3.eval("Q[qi].options.findIndex(o => o.correct)");
+  const opts3 = [...d3.querySelectorAll("#opts button.opt")];
+  opts3[c3 === 0 ? opts3.length - 1 : 0].click();  // wrong on purpose
+  ok("wrong answer does NOT preselect Knew it",
+     d3.activeElement !== d3.querySelector('footer [data-k="1"]'));
 }
 
 console.log("\n" + pass + " passed, " + fail + " failed\n");

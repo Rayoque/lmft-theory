@@ -276,6 +276,29 @@ function buildQueue(mode, modelId, n){
 
 /* ---------- session ---------- */
 let Q = [], qi = 0, mode = "learn", learnModel = null, answered = null;
+/* One snapshot per answer, so Back can put the record and the tally back
+   exactly as they were. score() mutates S.concepts in place, so a shallow
+   copy would not survive the undo. */
+let undoStack = [];
+function snapshot(it){
+  undoStack.push({
+    qi: qi,
+    stats: Object.assign({}, stats, {missed: stats.missed.slice()}),
+    id: it.id,
+    rec: S.concepts[it.id] ? JSON.parse(JSON.stringify(S.concepts[it.id])) : null,
+  });
+}
+function undo(){
+  const u = undoStack.pop();
+  if (!u) return;
+  qi = u.qi;
+  stats = u.stats;
+  if (u.rec === null) delete S.concepts[u.id]; else S.concepts[u.id] = u.rec;
+  save();
+  answered = null;
+  foot.hidden = true;
+  render();
+}
 let stats = {right:0, wrong:0, confidentWrong:0, missed:[]};
 
 const el = document.getElementById("view");
@@ -300,7 +323,7 @@ document.getElementById("nav").onclick = e => {
   const b = e.target.closest("button[data-tab]"); if (!b || b.disabled) return;
   go(b.dataset.tab);
 };
-function go(tab){ mode = tab; learnModel = null; Q = []; qi = 0; renderNav(); render(); }
+function go(tab){ mode = tab; learnModel = null; Q = []; qi = 0; undoStack = []; renderNav(); render(); }
 
 /* ---------- model state for the dashboard ---------- */
 function modelState(id){
@@ -322,7 +345,7 @@ function render(){
   if (mode === "grid")     return renderGrid();
   if (mode === "progress") return renderProgress();
   if (mode === "learn" && !learnModel) return renderLearnPicker();
-  if (!Q.length){ Q = buildQueue(mode, learnModel, sessionN(mode, learnModel)); qi = 0; stats = {right:0,wrong:0,confidentWrong:0,missed:[]}; }
+  if (!Q.length){ Q = buildQueue(mode, learnModel, sessionN(mode, learnModel)); qi = 0; undoStack = []; stats = {right:0,wrong:0,confidentWrong:0,missed:[]}; }
   // An empty queue means every item here is retired. Falling through to the
   // summary would report "0%" for a session she never had, and "Another"
   // would rebuild the same empty queue forever.
@@ -405,7 +428,7 @@ function renderBrief(){
   document.getElementById("back").onclick = () => { learnModel = null; render(); };
   document.getElementById("start").onclick = () => {
     S.learned[learnModel] = today(); save(); renderNav();
-    Q = buildQueue("learn", learnModel, sessionN("learn", learnModel)); qi = 0;
+    Q = buildQueue("learn", learnModel, sessionN("learn", learnModel)); qi = 0; undoStack = [];
     stats = {right:0,wrong:0,confidentWrong:0,missed:[]}; render();
   };
 }
@@ -414,13 +437,16 @@ function renderItem(){
   const it = Q[qi]; answered = null;
   el.innerHTML = `
     <div class="bar"><i style="width:${(qi/Q.length)*100}%"></i></div>
-    <div class="note">${qi+1} of ${Q.length}${mode!=="learn"?" · "+esc(NAME(it.models[0])):""}</div>
+    <div class="note">${qi+1} of ${Q.length}${mode!=="learn"?" · "+esc(NAME(it.models[0])):""}${
+      undoStack.length ? ` · <button class="reopen" id="back" title="Undo the last answer (backspace)">Back</button>` : ""}</div>
     <div class="card">
       <span class="tag">${esc(it.type.replace(/^[TV]\d?_/,"").replace("_"," ").replace("examtip","exam tip"))}</span>
       <div class="stem">${esc(it.stem)}</div>
       <div id="opts">${it.options.map((o,i)=>`<button class="opt" data-i="${i}" title="Arrow keys to move, space to choose">${esc(o.text)}</button>`).join("")}</div>
       <div id="reveal"></div>
     </div>`;
+  const bk = document.getElementById("back");
+  if (bk) bk.onclick = () => undo();
   el.querySelectorAll(".opt").forEach(b => b.onclick = () => {
     // dragging across the text to select it should not count as answering
     const sel = window.getSelection && window.getSelection();
@@ -433,6 +459,7 @@ function choose(it, i){
   if (answered !== null) return;
   answered = i;
   const right = it.options[i].correct;
+  snapshot(it);
   right ? stats.right++ : stats.wrong++;
   // Persist immediately. Scoring only inside the confidence handler meant an
   // answer was silently discarded if she read the reveal and then tapped
@@ -461,6 +488,7 @@ function choose(it, i){
   foot.hidden = false;
   frow.innerHTML = `<button class="btn ghost" data-k="0" title="Arrow keys to move, space to choose">Guessed</button>
     <button class="btn" data-k="1" title="Arrow keys to move, space to choose">Knew it</button>`;
+  if (right) frow.querySelector('[data-k="1"]').focus();
   frow.querySelectorAll("[data-k]").forEach(b => b.onclick = () => {
     const knew = b.dataset.k === "1";
     // the attempt is already recorded; confidence only adds the danger flag
@@ -496,7 +524,7 @@ function renderSummary(){
   document.getElementById("again").onclick = () => { Q = []; render(); };
   const rt = document.getElementById("retry");
   if (rt) rt.onclick = () => {
-    Q = interleave(stats.missed.slice()); qi = 0;
+    Q = interleave(stats.missed.slice()); qi = 0; undoStack = [];
     stats = {right:0,wrong:0,confidentWrong:0,missed:[]};
     render();
   };
@@ -718,11 +746,16 @@ initTheme();
    activate a focused button, so nothing extra is needed to pick one. Before
    she answers the live choices are the options; after, the two confidence
    buttons. */
+function d_typing(e){
+  const t = e.target;
+  return t && (t.tagName === "TEXTAREA" || t.tagName === "INPUT");
+}
 function liveChoices(){
   const opts = [...document.querySelectorAll("#opts button.opt:not(.done)")];
   return opts.length ? opts : [...document.querySelectorAll("footer [data-k]")];
 }
 document.addEventListener("keydown", e => {
+  if (e.key === "Backspace" && undoStack.length && !d_typing(e)){ e.preventDefault(); undo(); return; }
   if (!["ArrowDown","ArrowUp","ArrowRight","ArrowLeft"].includes(e.key)) return;
   const list = liveChoices();
   if (!list.length) return;
