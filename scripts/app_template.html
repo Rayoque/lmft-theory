@@ -257,7 +257,7 @@ function buildQueue(mode, modelId, n){
 
 /* ---------- session ---------- */
 let Q = [], qi = 0, mode = "learn", learnModel = null, answered = null;
-let stats = {right:0, wrong:0, confidentWrong:0};
+let stats = {right:0, wrong:0, confidentWrong:0, missed:[]};
 
 const el = document.getElementById("view");
 const foot = document.getElementById("foot"), frow = document.getElementById("frow");
@@ -304,8 +304,29 @@ function render(){
   if (mode === "progress") return renderProgress();
   if (mode === "learn" && !learnModel) return renderLearnPicker();
   if (!Q.length){ Q = buildQueue(mode, learnModel, mode === "learn" ? learnN() : SESSION); qi = 0; stats = {right:0,wrong:0,confidentWrong:0,missed:[]}; }
+  // An empty queue means every item here is retired. Falling through to the
+  // summary would report "0%" for a session she never had, and "Another"
+  // would rebuild the same empty queue forever.
+  if (!Q.length) return renderExhausted();
   if (qi >= Q.length) return renderSummary();
   renderItem();
+}
+
+function renderExhausted(){
+  const what = mode === "learn" && learnModel ? NAME(learnModel)
+             : mode === "vignette" ? "the vignettes" : "this set";
+  el.innerHTML = `<h2>Nothing left here</h2>
+    <div class="card"><p>Every item in ${esc(what)} is retired — three correct on three
+    separate days.</p></div>
+    <div class="row">
+      ${mode === "learn" ? '<button class="btn ghost" id="pick">Another model</button>' : ""}
+      <button class="btn" id="toDrill">Drill</button>
+      <button class="btn ghost" id="toGrid">The grid</button>
+    </div>`;
+  const pk = document.getElementById("pick");
+  if (pk) pk.onclick = () => { learnModel = null; Q = []; render(); };
+  document.getElementById("toDrill").onclick = () => go("drill");
+  document.getElementById("toGrid").onclick  = () => go("grid");
 }
 
 function renderLearnPicker(){
@@ -351,7 +372,7 @@ function renderBrief(){
         : ["beginning","middle","end"].map(k => `<p><b>${k}.</b> ${esc((ph[k]||[]).map(f=>f.text).join(" "))||"—"}</p>`).join("")}
       ${m.examTips.length ? `<h3>Flagged for the exam</h3>${m.examTips.map(t=>`<div class="src"><b>from your packet</b>${esc(t.sourceLine)}</div>`).join("")}` : ""}
     </div>
-    <div class="row"><button class="btn" id="start">Answer 3 questions on this</button>
+    <div class="row"><button class="btn" id="start">Answer ${learnN()} question${learnN()===1?"":"s"} on this</button>
     <button class="btn ghost" id="back">All models</button></div>`;
   document.getElementById("back").onclick = () => { learnModel = null; render(); };
   document.getElementById("start").onclick = () => {
@@ -612,7 +633,7 @@ function welcome(){
     <p class="lede">Short version, so nothing here surprises you later.</p>
 
     <p class="pt"><b>1 · Start in Learn, one model at a time.</b>
-    Read the brief, then answer the three questions right there before moving on.
+    Read the brief, then answer the questions right there before moving on.
     It's built around the thing you said — that you learn the answer while you're
     taking it. Every answer shows the reasoning <i>and</i> the exact line from
     your own packet.</p>
