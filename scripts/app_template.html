@@ -141,6 +141,9 @@ footer{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:
 .byline{font-size:12.5px;color:var(--dim);border-top:1px solid var(--line);
   padding-top:13px;margin-top:19px;line-height:1.6}
 #again2{width:100%;margin-top:6px;padding:14px}
+.sz{background:none;border:1px solid var(--line);color:var(--dim);font:inherit;
+  font-size:12px;cursor:pointer;padding:3px 9px;border-radius:999px;margin-left:5px}
+.sz.on{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
 .reopen{background:none;border:0;color:var(--dim);font:inherit;font-size:12.5px;
   text-decoration:underline;cursor:pointer;padding:0}
 </style>
@@ -198,6 +201,12 @@ function weight(id){
 
 /* ---------- queue ---------- */
 const SESSION = 20;
+const LKEY = "lmft.learnN";
+const LEARN_SIZES = [3, 5, 10];
+function learnN(){
+  try { const v = parseInt(localStorage.getItem(LKEY), 10);
+        return LEARN_SIZES.includes(v) ? v : 3; } catch(e){ return 3; }
+}
 function poolFor(mode, modelId){
   let p = ITEMS.filter(i => weight(i.id) > 0);
   if (mode === "learn" && modelId) p = p.filter(i => i.models[0] === modelId);
@@ -293,20 +302,25 @@ function render(){
   if (mode === "grid")     return renderGrid();
   if (mode === "progress") return renderProgress();
   if (mode === "learn" && !learnModel) return renderLearnPicker();
-  if (!Q.length){ Q = buildQueue(mode, learnModel, mode === "learn" ? 3 : SESSION); qi = 0; stats = {right:0,wrong:0,confidentWrong:0}; }
+  if (!Q.length){ Q = buildQueue(mode, learnModel, mode === "learn" ? learnN() : SESSION); qi = 0; stats = {right:0,wrong:0,confidentWrong:0,missed:[]}; }
   if (qi >= Q.length) return renderSummary();
   renderItem();
 }
 
 function renderLearnPicker(){
   el.innerHTML = `<h2>Learn</h2>
-    <p class="note">${MODELS.filter(m=>S.learned[m.id]).length} of ${MODELS.length} opened.</p>
+    <p class="note">${MODELS.filter(m=>S.learned[m.id]).length} of ${MODELS.length} opened. Questions per model:
+      ${LEARN_SIZES.map(n=>`<button class="sz${n===learnN()?" on":""}" data-n="${n}">${n}</button>`).join("")}</p>
     <div class="grid14">${MODELS.map(m => {
       const st = modelState(m.id);
       return `<button class="tile s-${st.k}" data-m="${m.id}">
         <b>${esc(m.name)}</b><span>${S.learned[m.id] ? "✓ " : ""}${st.label}</span></button>`;
     }).join("")}</div>`;
   el.querySelectorAll("[data-m]").forEach(b => b.onclick = () => { learnModel = b.dataset.m; renderBrief(); });
+  el.querySelectorAll("[data-n]").forEach(b => b.onclick = () => {
+    try { localStorage.setItem(LKEY, b.dataset.n); } catch(e){}
+    renderLearnPicker();
+  });
 }
 
 function factList(arr, empty){
@@ -390,8 +404,12 @@ function choose(it, i){
     const knew = b.dataset.k === "1";
     if (!right && knew) stats.confidentWrong++;
     score(it.id, right, knew);
-    // a miss goes back near the front of the queue, and returns tomorrow
-    if (!right) Q.splice(Math.min(qi + 2, Q.length), 0, it);
+    // A miss is collected for an opt-in retry at the end, not spliced back
+    // into the live queue: growing the denominator mid-session moves the
+    // goalposts, and re-asking two items later tests memory of an answer read
+    // ten seconds ago. The return that matters is the next calendar day, and
+    // that is handled by the mastery state.
+    if (!right) stats.missed.push(it);
     qi++; foot.hidden = true; render();
   });
 }
@@ -410,11 +428,18 @@ function renderSummary(){
       <li>${MODELS.filter(m=>S.learned[m.id]).length} of ${MODELS.length} models opened in Learn</li>
     </ul></div>
     <div class="row">
-      <button class="btn" id="again">Another ${mode==="learn"?"3":"20"}</button>
+      ${stats.missed.length ? `<button class="btn" id="retry">Retry the ${stats.missed.length} you missed</button>` : ""}
+      <button class="btn${stats.missed.length?" ghost":""}" id="again">Another ${mode==="learn"?learnN():SESSION}</button>
       <button class="btn ghost" id="toGrid">See the grid</button>
       ${mode==="learn"?'<button class="btn ghost" id="pick">Another model</button>':""}
     </div>`;
   document.getElementById("again").onclick = () => { Q = []; render(); };
+  const rt = document.getElementById("retry");
+  if (rt) rt.onclick = () => {
+    Q = interleave(stats.missed.slice()); qi = 0;
+    stats = {right:0,wrong:0,confidentWrong:0,missed:[]};
+    render();
+  };
   document.getElementById("toGrid").onclick = () => go("grid");
   const p = document.getElementById("pick"); if (p) p.onclick = () => { learnModel = null; Q = []; render(); };
 }
