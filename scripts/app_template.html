@@ -446,9 +446,9 @@ function renderSummary(){
   const n = stats.right + stats.wrong;
   const acc = n ? Math.round(stats.right / n * 100) : 0;
   let msg = "";
-  if (acc > 90) msg = `<div class="banner ok"><b>${acc}%.</b> Above the useful band — try Drill, or a model you have not opened.</div>`;
-  else if (acc < 70) msg = `<div class="banner warn"><b>${acc}%.</b> Mixed practice scores lower than blocked practice by design. 70–80% is the band.</div>`;
-  else msg = `<div class="banner ok"><b>${acc}%.</b> Target band.</div>`;
+  if (acc > 90) msg = `<div class="banner ok"><b>${acc}%.</b> Too easy — try Drill, or a model you have not opened.</div>`;
+  else if (acc < 70) msg = `<div class="banner warn"><b>${acc}%.</b> Questions from different models are mixed together on purpose, which always scores lower than one model at a time. Aim for 70–80%.</div>`;
+  else msg = `<div class="banner ok"><b>${acc}%.</b> Right where you want to be.</div>`;
   el.innerHTML = `<h2>Session done</h2>${msg}
     <div class="card"><ul class="kv">
       <li><b>${stats.right}</b> right, <b>${stats.wrong}</b> wrong</li>
