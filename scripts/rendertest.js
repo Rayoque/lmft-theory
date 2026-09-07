@@ -429,5 +429,37 @@ head("no build-brief jargon on screen");
      [...tags].join(", "));
 }
 
+
+head("phase questions stay within their phase");
+{
+  const { w } = boot();
+  const bad = w.eval(`(function(){
+    const P = {};
+    THEORIES.models.forEach(m => {
+      if (!m.phases) return;
+      Object.keys(m.phases).forEach(ph =>
+        m.phases[ph].forEach(f => { P[f.text.trim()] = ph; }));
+    });
+    const out = [];
+    ITEMS.filter(i => i.type === "T1_phase").forEach(i => {
+      const st = i.stem.toLowerCase();
+      const want = st.indexOf("middle") >= 0 ? "middle"
+                 : st.indexOf("beginning") >= 0 ? "beginning" : null;
+      i.options.forEach(o => {
+        if (o.correct) return;                       // key may carry a stripped label
+        const got = P[o.text.trim()];
+        if (got && got !== want) out.push(i.id + " offers a " + got + " option");
+      });
+    });
+    return out;
+  })()`);
+  ok("no distractor from another phase", bad.length === 0, bad.slice(0,3).join("; "));
+  const ends = w.eval(`ITEMS.filter(i => i.type === "T1_phase" &&
+    i.stem.toLowerCase().indexOf("end phase") >= 0).length`);
+  ok("no end-phase questions", ends === 0, String(ends));
+  const grid = w.eval(`COLS.indexOf("End") >= 0`);
+  ok("End still shown in the grid", grid);
+}
+
 console.log("\n" + pass + " passed, " + fail + " failed\n");
 process.exit(fail ? 1 : 0);

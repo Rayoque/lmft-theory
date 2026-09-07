@@ -32,7 +32,7 @@ are blank in the packet.
 | Items generated | **392** |
 | Killed by verification | **36 (9.2%)** |
 | Passed all gates | 356 |
-| **Shipped in the app** | **225** (85 Tier 1 / 132 Tier 2 / 8 Tier 3) |
+| **Shipped in the app** | **213** (73 Tier 1 / 132 Tier 2 / 8 Tier 3) |
 
 The 356 → 200 step is **selection, not killing.** The brief caps the bank
 deliberately: the corpus is ~366 facts, the learner has 8 days, and a tool that serves
@@ -68,12 +68,12 @@ It ran twice. The first pass exposed real item ids, which encode the model
 second pass re-ran the highest-risk items with **opaque ids** (`q001`…), so the
 grader had nothing but the stem and the options.
 
-**All 225 shipped items (100%) were blind-graded**, every type covered:
+**All 213 shipped items (100%) were blind-graded**, every type covered:
 
 | Type | Graded | |
 |---|---|---|
 | `T2_collision` | 62/62 | the tool's core purpose |
-| `T1_phase` | 46/46 | the domain named as most important |
+| `T1_phase` | 34/34 | beginning and middle only, see below |
 | `V_vignette` | 17/17 | hand-authored |
 | `T2_examtip` | 11/11 | the instructor's own flagged content |
 | `T1_change` | 9/9 | |

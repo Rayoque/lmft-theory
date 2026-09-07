@@ -1,14 +1,14 @@
 {
  "note": "Verified item bank. Every option carries belongsTo and a verbatim sourceLine from the five packets.",
  "counts": {
-  "total": 225,
+  "total": 213,
   "byTier": {
-   "1": 85,
+   "1": 73,
    "2": 132,
    "3": 8
   },
   "byType": {
-   "T1_phase": 46,
+   "T1_phase": 34,
    "T1_change": 9,
    "T1_marker": 30,
    "T2_collision": 62,
@@ -18,22 +18,22 @@
    "T2_group": 42
   },
   "byModel": {
-   "bowen": 23,
-   "strategic": 15,
-   "structural": 18,
-   "satir": 21,
+   "bowen": 22,
+   "strategic": 14,
+   "satir": 20,
    "narrative": 15,
-   "solution-focused": 15,
-   "object-relations": 20,
-   "self-psychology": 20,
-   "attachment": 16,
+   "solution-focused": 14,
+   "attachment": 15,
    "client-centered": 3,
    "gestalt": 14,
    "existential": 12,
-   "experiential": 15,
-   "cbt": 18
+   "experiential": 14,
+   "cbt": 17,
+   "self-psychology": 19,
+   "structural": 16,
+   "object-relations": 18
   },
-  "blindGraded": 225,
+  "blindGraded": 213,
   "blindGradedPct": 100.0
  },
  "items": [
@@ -110,43 +110,6 @@
    ],
    "rationale": "",
    "sourceLine": "Define the problem"
-  },
-  {
-   "id": "t1_structural_phase_end_1",
-   "tier": 1,
-   "type": "T1_phase",
-   "models": [
-    "structural"
-   ],
-   "stem": "In the end phase of treatment, what would a Structural Family Therapy therapist do?",
-   "options": [
-    {
-     "text": "Help family practice implement and integrate changes and increase awareness of larger familial patterns.",
-     "correct": false,
-     "belongsTo": "satir",
-     "sourceLine": "Help family practice implement and integrate changes and increase awareness of larger familial patterns."
-    },
-    {
-     "text": "Plan for maintenance of new behavior",
-     "correct": false,
-     "belongsTo": "strategic",
-     "sourceLine": "Plan for maintenance of new behavior"
-    },
-    {
-     "text": "reinforce structural change",
-     "correct": true,
-     "belongsTo": "structural",
-     "sourceLine": "reinforce structural change"
-    },
-    {
-     "text": "emphasize positive changes made.",
-     "correct": false,
-     "belongsTo": "strategic",
-     "sourceLine": "emphasize positive changes made."
-    }
-   ],
-   "rationale": "",
-   "sourceLine": "reinforce structural change"
   },
   {
    "id": "t1_satir_phase_beginning_0",
@@ -258,80 +221,6 @@
    ],
    "rationale": "",
    "sourceLine": "envision preferred future"
-  },
-  {
-   "id": "t1_object-relations_phase_end_1",
-   "tier": 1,
-   "type": "T1_phase",
-   "models": [
-    "object-relations"
-   ],
-   "stem": "In the end phase of treatment, what would a Object Relations therapist do?",
-   "options": [
-    {
-     "text": "Repair occurs during the late middle phase and the end of treatment.",
-     "correct": false,
-     "belongsTo": "attachment",
-     "sourceLine": "Repair occurs during the late middle phase and the end of treatment."
-    },
-    {
-     "text": "Consolidate interpretations.",
-     "correct": true,
-     "belongsTo": "object-relations",
-     "sourceLine": "Consolidate interpretations."
-    },
-    {
-     "text": "Acknowledge and process issues related to termination.",
-     "correct": false,
-     "belongsTo": "self-psychology",
-     "sourceLine": "Acknowledge and process issues related to termination."
-    },
-    {
-     "text": "Reflect on the treatment process",
-     "correct": false,
-     "belongsTo": "self-psychology",
-     "sourceLine": "Reflect on the treatment process"
-    }
-   ],
-   "rationale": "",
-   "sourceLine": "Consolidate interpretations."
-  },
-  {
-   "id": "t1_self-psychology_phase_end_1",
-   "tier": 1,
-   "type": "T1_phase",
-   "models": [
-    "self-psychology"
-   ],
-   "stem": "In the end phase of treatment, what would a Self Psychology therapist do?",
-   "options": [
-    {
-     "text": "Consolidate interpretations.",
-     "correct": false,
-     "belongsTo": "object-relations",
-     "sourceLine": "Consolidate interpretations."
-    },
-    {
-     "text": "Repair stage of the therapy aims to alter the patient’s current reactions to the events that cause them emotional distress by sharing their own interpretations of the event. By sharing their own subjective interpretation, the therapist helps create a new reality of the painful events for the patient in order to get rid of unwanted emotions and reactions.",
-     "correct": false,
-     "belongsTo": "attachment",
-     "sourceLine": "Repair stage of the therapy aims to alter the patient’s current reactions to the events that cause them emotional distress by sharing their own interpretations of the event. By sharing their own subjective interpretation, the therapist helps create a new reality of the painful events for the patient in order to get rid of unwanted emotions and reactions."
-    },
-    {
-     "text": "Repair occurs during the late middle phase and the end of treatment.",
-     "correct": false,
-     "belongsTo": "attachment",
-     "sourceLine": "Repair occurs during the late middle phase and the end of treatment."
-    },
-    {
-     "text": "Acknowledge and process issues related to termination.",
-     "correct": true,
-     "belongsTo": "self-psychology",
-     "sourceLine": "Acknowledge and process issues related to termination."
-    }
-   ],
-   "rationale": "",
-   "sourceLine": "Acknowledge and process issues related to termination."
   },
   {
    "id": "t1_attachment_phase_middle_1",
@@ -556,43 +445,6 @@
    "sourceLine": "uncover negative schemas"
   },
   {
-   "id": "t1_bowen_phase_end_0",
-   "tier": 1,
-   "type": "T1_phase",
-   "models": [
-    "bowen"
-   ],
-   "stem": "In the end phase of treatment, what would a Bowen Family Systems therapist do?",
-   "options": [
-    {
-     "text": "Review progress made",
-     "correct": false,
-     "belongsTo": "structural",
-     "sourceLine": "Review progress made"
-    },
-    {
-     "text": "Review new skills and knowledge gained in therapy.",
-     "correct": true,
-     "belongsTo": "bowen",
-     "sourceLine": "Review new skills and knowledge gained in therapy."
-    },
-    {
-     "text": "Plan for maintenance of new behavior",
-     "correct": false,
-     "belongsTo": "strategic",
-     "sourceLine": "Plan for maintenance of new behavior"
-    },
-    {
-     "text": "emphasize positive changes made.",
-     "correct": false,
-     "belongsTo": "strategic",
-     "sourceLine": "emphasize positive changes made."
-    }
-   ],
-   "rationale": "",
-   "sourceLine": "Review new skills and knowledge gained in therapy."
-  },
-  {
    "id": "t1_strategic_phase_middle_0",
    "tier": 1,
    "type": "T1_phase",
@@ -628,43 +480,6 @@
    ],
    "rationale": "",
    "sourceLine": "Review attempted solutions"
-  },
-  {
-   "id": "t1_structural_phase_end_0",
-   "tier": 1,
-   "type": "T1_phase",
-   "models": [
-    "structural"
-   ],
-   "stem": "In the end phase of treatment, what would a Structural Family Therapy therapist do?",
-   "options": [
-    {
-     "text": "Review progress made",
-     "correct": true,
-     "belongsTo": "structural",
-     "sourceLine": "Review progress made"
-    },
-    {
-     "text": "plan for future challenges",
-     "correct": false,
-     "belongsTo": "strategic",
-     "sourceLine": "plan for future challenges"
-    },
-    {
-     "text": "Plan for maintenance of new behavior",
-     "correct": false,
-     "belongsTo": "strategic",
-     "sourceLine": "Plan for maintenance of new behavior"
-    },
-    {
-     "text": "Help family practice implement and integrate changes and increase awareness of larger familial patterns.",
-     "correct": false,
-     "belongsTo": "satir",
-     "sourceLine": "Help family practice implement and integrate changes and increase awareness of larger familial patterns."
-    }
-   ],
-   "rationale": "",
-   "sourceLine": "Review progress made"
   },
   {
    "id": "t1_satir_phase_middle_0",
@@ -776,43 +591,6 @@
    ],
    "rationale": "",
    "sourceLine": "Identify strengths resources, and traits client already has used to deal with problem"
-  },
-  {
-   "id": "t1_object-relations_phase_end_0",
-   "tier": 1,
-   "type": "T1_phase",
-   "models": [
-    "object-relations"
-   ],
-   "stem": "In the end phase of treatment, what would a Object Relations therapist do?",
-   "options": [
-    {
-     "text": "Repair occurs during the late middle phase and the end of treatment.",
-     "correct": false,
-     "belongsTo": "attachment",
-     "sourceLine": "Repair occurs during the late middle phase and the end of treatment."
-    },
-    {
-     "text": "Acknowledge and process issues related to termination.",
-     "correct": false,
-     "belongsTo": "self-psychology",
-     "sourceLine": "Acknowledge and process issues related to termination."
-    },
-    {
-     "text": "Reflect on the treatment process",
-     "correct": false,
-     "belongsTo": "self-psychology",
-     "sourceLine": "Reflect on the treatment process"
-    },
-    {
-     "text": "Work through termination and abandonment issues.",
-     "correct": true,
-     "belongsTo": "object-relations",
-     "sourceLine": "Work through termination and abandonment issues."
-    }
-   ],
-   "rationale": "",
-   "sourceLine": "Work through termination and abandonment issues."
   },
   {
    "id": "t1_self-psychology_phase_beginning_0",
@@ -1000,80 +778,6 @@
    "sourceLine": "Change occurs through finding meaning, living authentically and responsibly. The idea that the person can respond, make choices, emphasizes personal choice about how clients want to live their lives. Core question: how do I exist? Inherent meaninglessness to life and existence."
   },
   {
-   "id": "t1_experiential_phase_end_0",
-   "tier": 1,
-   "type": "T1_phase",
-   "models": [
-    "experiential"
-   ],
-   "stem": "In the end phase of treatment, what would a Experiential / Symbolic Therapy (Whitaker) therapist do?",
-   "options": [
-    {
-     "text": "provide tools for future.",
-     "correct": false,
-     "belongsTo": "structural",
-     "sourceLine": "provide tools for future."
-    },
-    {
-     "text": "Help family practice implement and integrate changes and increase awareness of larger familial patterns.",
-     "correct": false,
-     "belongsTo": "satir",
-     "sourceLine": "Help family practice implement and integrate changes and increase awareness of larger familial patterns."
-    },
-    {
-     "text": "Highlight accomplishments and reflect on growth. Identify possible blocks to future growth. Role-play future scenarios. Each member expresses feelings about their experience of therapy.",
-     "correct": true,
-     "belongsTo": "experiential",
-     "sourceLine": "End: Highlight accomplishments and reflect on growth. Identify possible blocks to future growth. Role-play future scenarios. Each member expresses feelings about their experience of therapy."
-    },
-    {
-     "text": "reinforce structural change",
-     "correct": false,
-     "belongsTo": "structural",
-     "sourceLine": "reinforce structural change"
-    }
-   ],
-   "rationale": "",
-   "sourceLine": "End: Highlight accomplishments and reflect on growth. Identify possible blocks to future growth. Role-play future scenarios. Each member expresses feelings about their experience of therapy."
-  },
-  {
-   "id": "t1_cbt_phase_end_1",
-   "tier": 1,
-   "type": "T1_phase",
-   "models": [
-    "cbt"
-   ],
-   "stem": "In the end phase of treatment, what would a CBT (interventions) therapist do?",
-   "options": [
-    {
-     "text": "Assist the client to identify things they can do to continue the changes they have made identify hurdles or perceived barriers that could get in the way of the changes they made.",
-     "correct": false,
-     "belongsTo": "solution-focused",
-     "sourceLine": "Assist the client to identify things they can do to continue the changes they have made identify hurdles or perceived barriers that could get in the way of the changes they made."
-    },
-    {
-     "text": "identify skills learned",
-     "correct": true,
-     "belongsTo": "cbt",
-     "sourceLine": "identify skills learned"
-    },
-    {
-     "text": "Plan for maintenance of new behavior",
-     "correct": false,
-     "belongsTo": "strategic",
-     "sourceLine": "Plan for maintenance of new behavior"
-    },
-    {
-     "text": "emphasize positive changes made.",
-     "correct": false,
-     "belongsTo": "strategic",
-     "sourceLine": "emphasize positive changes made."
-    }
-   ],
-   "rationale": "",
-   "sourceLine": "identify skills learned"
-  },
-  {
    "id": "t1_bowen_phase_middle_0",
    "tier": 1,
    "type": "T1_phase",
@@ -1259,43 +963,6 @@
    "sourceLine": "mapping the influence/effects of the problem"
   },
   {
-   "id": "t1_solution-focused_phase_end_0",
-   "tier": 1,
-   "type": "T1_phase",
-   "models": [
-    "solution-focused"
-   ],
-   "stem": "In the end phase of treatment, what would a Solution-Focused Therapy therapist do?",
-   "options": [
-    {
-     "text": "Help family practice implement and integrate changes and increase awareness of larger familial patterns.",
-     "correct": false,
-     "belongsTo": "satir",
-     "sourceLine": "Help family practice implement and integrate changes and increase awareness of larger familial patterns."
-    },
-    {
-     "text": "document and support new narrative",
-     "correct": false,
-     "belongsTo": "narrative",
-     "sourceLine": "document and support new narrative"
-    },
-    {
-     "text": "Create written artifacts",
-     "correct": false,
-     "belongsTo": "narrative",
-     "sourceLine": "Create written artifacts"
-    },
-    {
-     "text": "Assist the client to identify things they can do to continue the changes they have made identify hurdles or perceived barriers that could get in the way of the changes they made.",
-     "correct": true,
-     "belongsTo": "solution-focused",
-     "sourceLine": "Assist the client to identify things they can do to continue the changes they have made identify hurdles or perceived barriers that could get in the way of the changes they made."
-    }
-   ],
-   "rationale": "",
-   "sourceLine": "Assist the client to identify things they can do to continue the changes they have made identify hurdles or perceived barriers that could get in the way of the changes they made."
-  },
-  {
    "id": "t1_object-relations_phase_beginning_0",
    "tier": 1,
    "type": "T1_phase",
@@ -1368,43 +1035,6 @@
    ],
    "rationale": "",
    "sourceLine": "Demonstrate that the therapist is able to provide containment: client is getting emotional, and the T can be a warm open presence without judgement and having client feel they are able to share this information and they will not be rejected. The therapist is able to hear what client is saying without becoming overwhelmed themselves."
-  },
-  {
-   "id": "t1_attachment_phase_end_0",
-   "tier": 1,
-   "type": "T1_phase",
-   "models": [
-    "attachment"
-   ],
-   "stem": "In the end phase of treatment, what would a Attachment-Based Therapy (Bowlby) therapist do?",
-   "options": [
-    {
-     "text": "Consolidate interpretations.",
-     "correct": false,
-     "belongsTo": "object-relations",
-     "sourceLine": "Consolidate interpretations."
-    },
-    {
-     "text": "Work through termination and abandonment issues.",
-     "correct": false,
-     "belongsTo": "object-relations",
-     "sourceLine": "Work through termination and abandonment issues."
-    },
-    {
-     "text": "Review insights gained in therapy.",
-     "correct": false,
-     "belongsTo": "object-relations",
-     "sourceLine": "Review insights gained in therapy."
-    },
-    {
-     "text": "Repair occurs during the late middle phase and the end of treatment.",
-     "correct": true,
-     "belongsTo": "attachment",
-     "sourceLine": "Repair occurs during the late middle phase and the end of treatment."
-    }
-   ],
-   "rationale": "",
-   "sourceLine": "Repair occurs during the late middle phase and the end of treatment."
   },
   {
    "id": "t1_gestalt_marker_presentexperiencew",
@@ -1594,43 +1224,6 @@
    "sourceLine": "Create a family diagram of multigenerational emotional connections, genogram"
   },
   {
-   "id": "t1_strategic_phase_end_1",
-   "tier": 1,
-   "type": "T1_phase",
-   "models": [
-    "strategic"
-   ],
-   "stem": "In the end phase of treatment, what would a Strategic Therapy therapist do?",
-   "options": [
-    {
-     "text": "Review new skills and knowledge gained in therapy.",
-     "correct": false,
-     "belongsTo": "bowen",
-     "sourceLine": "Review new skills and knowledge gained in therapy."
-    },
-    {
-     "text": "Review progress made",
-     "correct": false,
-     "belongsTo": "structural",
-     "sourceLine": "Review progress made"
-    },
-    {
-     "text": "Help family practice implement and integrate changes and increase awareness of larger familial patterns.",
-     "correct": false,
-     "belongsTo": "satir",
-     "sourceLine": "Help family practice implement and integrate changes and increase awareness of larger familial patterns."
-    },
-    {
-     "text": "plan for future challenges",
-     "correct": true,
-     "belongsTo": "strategic",
-     "sourceLine": "plan for future challenges"
-    }
-   ],
-   "rationale": "",
-   "sourceLine": "plan for future challenges"
-  },
-  {
    "id": "t1_structural_phase_middle_1",
    "tier": 1,
    "type": "T1_phase",
@@ -1666,43 +1259,6 @@
    ],
    "rationale": "",
    "sourceLine": "utilize enactments of issues to challenge participants and unbalance the system."
-  },
-  {
-   "id": "t1_satir_phase_end_0",
-   "tier": 1,
-   "type": "T1_phase",
-   "models": [
-    "satir"
-   ],
-   "stem": "In the end phase of treatment, what would a Satir Communications Therapy therapist do?",
-   "options": [
-    {
-     "text": "Review new skills and knowledge gained in therapy.",
-     "correct": false,
-     "belongsTo": "bowen",
-     "sourceLine": "Review new skills and knowledge gained in therapy."
-    },
-    {
-     "text": "provide tools for future.",
-     "correct": false,
-     "belongsTo": "structural",
-     "sourceLine": "provide tools for future."
-    },
-    {
-     "text": "Help family practice implement and integrate changes and increase awareness of larger familial patterns.",
-     "correct": true,
-     "belongsTo": "satir",
-     "sourceLine": "Help family practice implement and integrate changes and increase awareness of larger familial patterns."
-    },
-    {
-     "text": "Plan for maintenance of new behavior",
-     "correct": false,
-     "belongsTo": "strategic",
-     "sourceLine": "Plan for maintenance of new behavior"
-    }
-   ],
-   "rationale": "",
-   "sourceLine": "Help family practice implement and integrate changes and increase awareness of larger familial patterns."
   },
   {
    "id": "t1_narrative_change_fwd",
