@@ -433,19 +433,19 @@ function tallies(id){
 }
 function modelState(id){
   const its = ITEMS.filter(i => i.models[0] === id);
-  if (!its.length) return {k:"new", label:"no items"};
+  if (!its.length) return {k:"new", label:"No items"};
   const seen = its.filter(i => S.concepts[i.id]);
-  if (!seen.length) return {k:"new", label:"not started"};
+  if (!seen.length) return {k:"new", label:"Not started"};
   const done = its.filter(i => retired(i.id)).length;
   const cw = seen.reduce((n,i) => n + S.concepts[i.id].confidentWrong, 0);
-  if (done === its.length) return {k:"solid", label:"locked in"};
-  // Nothing left to serve today, but not finished for good. Worth its own
-  // state on the picker: opening it would only reach the "done for today"
-  // screen, and a confident-miss count here would read as work still to do.
-  if (!its.some(i => weight(i.id) > 0))
-    return {k:"today", label:"done today" + (cw ? " · " + cw + " confident miss" + (cw>1?"es":"") : "")};
-  if (cw > 0) return {k:"shaky", label:cw + " confident miss" + (cw>1?"es":"")};
-  return {k:"learning", label:done + "/" + its.length + " locked in"};
+  // The label carries the state. Counts live on the line underneath, once.
+  // Confident misses stay here because nothing else reports them.
+  const misses = cw + " confident miss" + (cw > 1 ? "es" : "");
+  if (done === its.length) return {k:"solid", label:"Locked in"};
+  // Nothing left to serve today, but not finished for good.
+  if (!its.some(i => weight(i.id) > 0)) return {k:"today", label:"Done today"};
+  if (cw > 0) return {k:"shaky", label:misses};
+  return {k:"learning", label:"In progress"};
 }
 
 /* ---------- views ---------- */
