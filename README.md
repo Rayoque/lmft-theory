@@ -32,7 +32,7 @@ are blank in her packet.
 | Items generated | **392** |
 | Killed by verification | **36 (9.2%)** |
 | Passed all gates | 356 |
-| **Shipped in the app** | **200** (60 Tier 1 / 90 Tier 2 / 50 Tier 3) |
+| **Shipped in the app** | **200** (60 Tier 1 / 132 Tier 2 / 8 Tier 3) |
 
 The 356 → 200 step is **selection, not killing.** The brief caps the bank
 deliberately: the corpus is ~366 facts, she has 8 days, and a tool that serves
@@ -118,9 +118,9 @@ remaining in the shipped bank.
 ### Coverage per model (items in the shipped bank)
 
 ```
-bowen 19  satir 19  object-relations 17  self-psychology 17  attachment 16
-cbt 16  structural 15  gestalt 14  existential 13  experiential 13
-narrative 13  solution-focused 13  strategic 12  client-centered 3
+bowen 20  satir 19  object-relations 18  self-psychology 18  cbt 16
+structural 15  attachment 15  narrative 13  solution-focused 13  gestalt 13
+experiential 13  strategic 12  existential 12  client-centered 3
 ```
 
 **Client Centered is thin, and that is the source, not the build.** Its section
