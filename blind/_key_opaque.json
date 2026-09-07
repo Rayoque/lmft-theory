@@ -526,5 +526,173 @@
  "q132": [
   "t3_existential_imaginaldeathexercis",
   "D"
+ ],
+ "q133": [
+  "g_bowen_fwd_0",
+  "A"
+ ],
+ "q134": [
+  "g_bowen_inv_0",
+  "C"
+ ],
+ "q135": [
+  "g_strategic_fwd_0",
+  "C"
+ ],
+ "q136": [
+  "g_strategic_inv_0",
+  "C"
+ ],
+ "q137": [
+  "g_structural_fwd_0",
+  "C"
+ ],
+ "q138": [
+  "g_structural_inv_0",
+  "B"
+ ],
+ "q139": [
+  "g_satir_fwd_0",
+  "C"
+ ],
+ "q140": [
+  "g_satir_inv_0",
+  "A"
+ ],
+ "q141": [
+  "g_narrative_fwd_0",
+  "A"
+ ],
+ "q142": [
+  "g_narrative_inv_0",
+  "C"
+ ],
+ "q143": [
+  "g_solution-focused_fwd_0",
+  "B"
+ ],
+ "q144": [
+  "g_solution-focused_inv_0",
+  "A"
+ ],
+ "q145": [
+  "g_object-relations_fwd_0",
+  "A"
+ ],
+ "q146": [
+  "g_object-relations_inv_0",
+  "C"
+ ],
+ "q147": [
+  "g_self-psychology_fwd_0",
+  "B"
+ ],
+ "q148": [
+  "g_self-psychology_inv_0",
+  "A"
+ ],
+ "q149": [
+  "g_attachment_fwd_0",
+  "C"
+ ],
+ "q150": [
+  "g_attachment_inv_0",
+  "B"
+ ],
+ "q151": [
+  "g_gestalt_fwd_0",
+  "A"
+ ],
+ "q152": [
+  "g_gestalt_inv_0",
+  "D"
+ ],
+ "q153": [
+  "g_existential_fwd_0",
+  "C"
+ ],
+ "q154": [
+  "g_existential_inv_0",
+  "B"
+ ],
+ "q155": [
+  "g_experiential_fwd_0",
+  "C"
+ ],
+ "q156": [
+  "g_experiential_inv_0",
+  "B"
+ ],
+ "q157": [
+  "g_cbt_fwd_0",
+  "C"
+ ],
+ "q158": [
+  "g_cbt_inv_0",
+  "B"
+ ],
+ "q159": [
+  "g_bowen_fwd_1",
+  "B"
+ ],
+ "q160": [
+  "g_bowen_inv_1",
+  "A"
+ ],
+ "q161": [
+  "g_strategic_fwd_1",
+  "D"
+ ],
+ "q162": [
+  "g_strategic_inv_1",
+  "B"
+ ],
+ "q163": [
+  "g_structural_fwd_1",
+  "D"
+ ],
+ "q164": [
+  "g_structural_inv_1",
+  "C"
+ ],
+ "q165": [
+  "g_satir_fwd_1",
+  "C"
+ ],
+ "q166": [
+  "g_satir_inv_1",
+  "C"
+ ],
+ "q167": [
+  "g_narrative_fwd_1",
+  "B"
+ ],
+ "q168": [
+  "g_narrative_inv_1",
+  "D"
+ ],
+ "q169": [
+  "g_solution-focused_fwd_1",
+  "B"
+ ],
+ "q170": [
+  "g_solution-focused_inv_1",
+  "B"
+ ],
+ "q171": [
+  "g_object-relations_fwd_1",
+  "D"
+ ],
+ "q172": [
+  "g_object-relations_inv_1",
+  "D"
+ ],
+ "q173": [
+  "g_self-psychology_fwd_1",
+  "B"
+ ],
+ "q174": [
+  "g_self-psychology_inv_1",
+  "B"
  ]
 }

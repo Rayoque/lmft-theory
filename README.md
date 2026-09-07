@@ -78,9 +78,36 @@ grader had nothing but the stem and the options.
 | `T2_examtip` | 11/11 | the instructor's own flagged content |
 | `T1_change` | 9/9 | |
 | `T1_marker` | 5/5 | |
-| `T3_concept` | 50/50 | verbatim definition matching |
+| `T3_concept` | 8/8 | verbatim definition matching |
+| `T2_group` | 42/42 | grouped intervention lists |
 
-**Across all 267 blind judgements, no grader ever disagreed with the answer
+### The grouped-list items
+
+Added after Lauren used the tool and said the ratio was wrong. Her read of the
+exam: roughly thirty questions that ask you to *recognise* a set of techniques,
+against maybe five that need an actual definition. The bank was inverted — 50
+definition items and none of the other kind.
+
+`T2_group` items give four lists, each belonging entirely to one model, and ask
+which is CBT's (or the reverse: here is a list, whose is it?). Two rules make
+them honest: **a list never mixes models**, which was her explicit ask, and
+**every list in an item is the same length**, so she cannot score by counting —
+CBT has 23 interventions and Object Relations has 5.
+
+Definition items were cut from 50 to 8, kept where a definition is the only
+thing that separates the terms (the packet's four-way psychodynamic trap). The
+ratio is now 42:8, close to the 30:5 she described.
+
+A grader checking these specifically for mixed lists and invented terms found
+neither. It did flag three terms the packets give to two models each —
+**Reframing** (Bowen and CBT), **Homework** (Strategic and CBT) and
+**Attunement** (Attachment, with Self Psychology using it in prose). None
+destabilises an item, because every list pairs them with terms exclusive to one
+model, but they are worth knowing about.
+
+---
+
+**Across all 309 blind judgements, no grader ever disagreed with the answer
 key.** Every gate-1 kill is an item a grader answered correctly but flagged as
 having two defensible options. The keys are sound; ambiguity was the real
 defect, and the opaque-id passes — with the leak confound removed — found none

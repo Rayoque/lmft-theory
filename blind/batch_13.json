@@ -1,0 +1,425 @@
+{
+ "instructions": "Pick the single best option per question, strictly from the packets.",
+ "questions": [
+  {
+   "id": "q133",
+   "stem": "Which of these are Bowen Family Systems interventions?",
+   "options": {
+    "A": "Opening Cutoff Relationships · Models · Genogram · Interacts with Family",
+    "B": "Prescribing the Symptom · Homework · Paradoxical Directives · Positioning",
+    "C": "Modeling Communication · Transforming Rules · Family Life Chronology · Take Responsibility",
+    "D": "Enactment · Mimesis · Joining · Boundary Making"
+   }
+  },
+  {
+   "id": "q134",
+   "stem": "These are all interventions of which model?\n\nOpening Cutoff Relationships · Models · Genogram · Interacts with Family",
+   "options": {
+    "A": "Strategic Therapy",
+    "B": "Structural Family Therapy",
+    "C": "Bowen Family Systems",
+    "D": "Satir Communications Therapy"
+   }
+  },
+  {
+   "id": "q135",
+   "stem": "Which of these are Strategic Therapy interventions?",
+   "options": {
+    "A": "Boundary Making · Unbalancing · Reframe · Joining",
+    "B": "Models · Increasing Differentiation · De-triangulation · Bibliotherapy",
+    "C": "Paradoxical Directives · Positioning · Homework · Ordeals",
+    "D": "Presupposing Change · Scaling Questions · Miracle Questioning · Coping Questions"
+   }
+  },
+  {
+   "id": "q136",
+   "stem": "These are all interventions of which model?\n\nParadoxical Directives · Positioning · Homework · Ordeals",
+   "options": {
+    "A": "Solution-Focused Therapy",
+    "B": "Structural Family Therapy",
+    "C": "Strategic Therapy",
+    "D": "Bowen Family Systems"
+   }
+  },
+  {
+   "id": "q137",
+   "stem": "Which of these are Structural Family Therapy interventions?",
+   "options": {
+    "A": "Reduce emotional reactivity · Genogram · Opening Cutoff Relationships · Increasing Differentiation",
+    "B": "Ordeals · Homework · Prescribing the Symptom · Positioning",
+    "C": "Enactment · Joining · Unbalancing · Mimesis",
+    "D": "Take Responsibility · Metaphors and Storytelling · Family Sculpting · Transforming Rules"
+   }
+  },
+  {
+   "id": "q138",
+   "stem": "These are all interventions of which model?\n\nEnactment · Joining · Unbalancing · Mimesis",
+   "options": {
+    "A": "Satir Communications Therapy",
+    "B": "Structural Family Therapy",
+    "C": "Bowen Family Systems",
+    "D": "Strategic Therapy"
+   }
+  },
+  {
+   "id": "q139",
+   "stem": "Which of these are Satir Communications Therapy interventions?",
+   "options": {
+    "A": "Play, Humor, and “Craziness” · Activating Constructive Anxiety · Trial of Labor · Battle for Structure",
+    "B": "Reframing · Reduce emotional reactivity · Bibliotherapy · Increasing Differentiation",
+    "C": "Family Sculpting · Modeling Communication · Transforming Rules · Family Life Chronology",
+    "D": "Joining · Reframe · Boundary Making · Unbalancing"
+   }
+  },
+  {
+   "id": "q140",
+   "stem": "These are all interventions of which model?\n\nFamily Sculpting · Modeling Communication · Transforming Rules · Family Life Chronology",
+   "options": {
+    "A": "Satir Communications Therapy",
+    "B": "Structural Family Therapy",
+    "C": "Experiential / Symbolic Therapy (Whitaker)",
+    "D": "Bowen Family Systems"
+   }
+  },
+  {
+   "id": "q141",
+   "stem": "Which of these are Narrative Therapy interventions?",
+   "options": {
+    "A": "Deconstructive Questions · Unique Outcomes · Externalizing the Problem · Re-authoring the story",
+    "B": "Increasing Differentiation · Teaching “I” Statements · Models · Reframing",
+    "C": "Miracle Questioning · Affirmations/Compliments · Exception Questioning · Presupposing Change",
+    "D": "Ordeals · Restraining · Paradoxical Directives · Positioning"
+   }
+  },
+  {
+   "id": "q142",
+   "stem": "These are all interventions of which model?\n\nDeconstructive Questions · Unique Outcomes · Externalizing the Problem · Re-authoring the story",
+   "options": {
+    "A": "Solution-Focused Therapy",
+    "B": "Bowen Family Systems",
+    "C": "Narrative Therapy",
+    "D": "Strategic Therapy"
+   }
+  },
+  {
+   "id": "q143",
+   "stem": "Which of these are Solution-Focused Therapy interventions?",
+   "options": {
+    "A": "Externalizing the Problem · Deconstructive Questions · Written Artifact · Re-authoring the story",
+    "B": "Formula First Session Task (FFST) · Miracle Questioning · Coping Questions · Affirmations/Compliments",
+    "C": "Restraining · Paradoxical Directives · Ordeals · Positioning",
+    "D": "Problem-Solving Training · Relaxation Training · Reframing · Finding Alternatives"
+   }
+  },
+  {
+   "id": "q144",
+   "stem": "These are all interventions of which model?\n\nFormula First Session Task (FFST) · Miracle Questioning · Coping Questions · Affirmations/Compliments",
+   "options": {
+    "A": "Solution-Focused Therapy",
+    "B": "Strategic Therapy",
+    "C": "CBT",
+    "D": "Narrative Therapy"
+   }
+  },
+  {
+   "id": "q145",
+   "stem": "Which of these are Object Relations interventions?",
+   "options": {
+    "A": "Establish a holding environment · Confront resistance and primitive defenses · Interpretation · Identify and process projective identification",
+    "B": "Genogram · Reduce emotional reactivity · Bibliotherapy · Interacts with Family",
+    "C": "Repair disruptions of the self-object transference · Identify alternative self-objects · Mourning loss of selfobjects · Establish a therapeutic holding environment",
+    "D": "Repair · Provide a secure base · Attunement · Explore disruptions"
+   }
+  },
+  {
+   "id": "q146",
+   "stem": "These are all interventions of which model?\n\nEstablish a holding environment · Confront resistance and primitive defenses · Interpretation · Identify and process projective identification",
+   "options": {
+    "A": "Attachment-Based Therapy (Bowlby)",
+    "B": "Bowen Family Systems",
+    "C": "Object Relations",
+    "D": "Self Psychology"
+   }
+  },
+  {
+   "id": "q147",
+   "stem": "Which of these are Self Psychology interventions?",
+   "options": {
+    "A": "Standing up while speaking · Empty chair · Present experience while discussing the past · Repeating statement",
+    "B": "Establish a therapeutic holding environment · Identify alternative self-objects · Repair disruptions of the self-object transference · Mourning loss of selfobjects",
+    "C": "Establish a holding environment · Identify and process projective identification · Focus on transference/countertransference · Confront resistance and primitive defenses",
+    "D": "Attunement · Repair stage · Provide a secure base · Explore disruptions"
+   }
+  },
+  {
+   "id": "q148",
+   "stem": "These are all interventions of which model?\n\nEstablish a therapeutic holding environment · Identify alternative self-objects · Repair disruptions of the self-object transference · Mourning loss of selfobjects",
+   "options": {
+    "A": "Self Psychology",
+    "B": "Attachment-Based Therapy (Bowlby)",
+    "C": "Object Relations",
+    "D": "Gestalt Therapy"
+   }
+  },
+  {
+   "id": "q149",
+   "stem": "Which of these are Attachment-Based Therapy (Bowlby) interventions?",
+   "options": {
+    "A": "Demonstrate containment · Mourning loss of selfobjects · Repair disruptions of the self-object transference · Mourning ambitions and fantasies",
+    "B": "Transforming Rules · Family Sculpting · Metaphors and Storytelling · Family Life Chronology",
+    "C": "Repair stage · Collaboratively identifying attachment style · Repair · Explore disruptions",
+    "D": "Establish a holding environment · Interpretation · Identify and process projective identification · Focus on transference/countertransference"
+   }
+  },
+  {
+   "id": "q150",
+   "stem": "These are all interventions of which model?\n\nRepair stage · Collaboratively identifying attachment style · Repair · Explore disruptions",
+   "options": {
+    "A": "Self Psychology",
+    "B": "Attachment-Based Therapy (Bowlby)",
+    "C": "Satir Communications Therapy",
+    "D": "Object Relations"
+   }
+  },
+  {
+   "id": "q151",
+   "stem": "Which of these are Gestalt Therapy interventions?",
+   "options": {
+    "A": "Experiments · Present experience while discussing the past · Standing up while speaking · Top dog / underdog dialogue",
+    "B": "Transforming Rules · Metaphors and Storytelling · Take Responsibility · Modeling Communication",
+    "C": "Play, Humor, and “Craziness” · Battle for Structure · Battle for Initiative · Trial of Labor",
+    "D": "Establish a therapeutic holding environment · Provide “experience-near” empathy · Mourning loss of selfobjects · Repair disruptions of the self-object transference"
+   }
+  },
+  {
+   "id": "q152",
+   "stem": "These are all interventions of which model?\n\nExperiments · Present experience while discussing the past · Standing up while speaking · Top dog / underdog dialogue",
+   "options": {
+    "A": "Self Psychology",
+    "B": "Experiential / Symbolic Therapy (Whitaker)",
+    "C": "Satir Communications Therapy",
+    "D": "Gestalt Therapy"
+   }
+  },
+  {
+   "id": "q153",
+   "stem": "Which of these are Existential Therapy key concepts?",
+   "options": {
+    "A": "Battle for Structure · Trial of Labor · Activating Constructive Anxiety · Play, Humor, and “Craziness”",
+    "B": "Repeating statement · Standing up while speaking · Present experience while discussing the past · Experiments",
+    "C": "Mastering emotional pain · Givens in life · Imaginal death · Focus on moment to moment",
+    "D": "Demonstrate containment · Repair disruptions of the self-object transference · Provide “experience-near” empathy · Identify alternative self-objects"
+   }
+  },
+  {
+   "id": "q154",
+   "stem": "These are all key concepts of which model?\n\nMastering emotional pain · Givens in life · Imaginal death · Focus on moment to moment",
+   "options": {
+    "A": "Gestalt Therapy",
+    "B": "Existential Therapy",
+    "C": "Self Psychology",
+    "D": "Experiential / Symbolic Therapy (Whitaker)"
+   }
+  },
+  {
+   "id": "q155",
+   "stem": "Which of these are Experiential / Symbolic Therapy (Whitaker) interventions?",
+   "options": {
+    "A": "Unbalancing · Enactment · Mimesis · Boundary Making",
+    "B": "Standing up while speaking · Repeating words or exaggerating gestures · Empty chair · Experiments",
+    "C": "Activating Constructive Anxiety · Battle for Initiative · Battle for Structure · Play, Humor, and “Craziness”",
+    "D": "Family Sculpting · Transforming Rules · Take Responsibility · Metaphors and Storytelling"
+   }
+  },
+  {
+   "id": "q156",
+   "stem": "These are all interventions of which model?\n\nActivating Constructive Anxiety · Battle for Initiative · Battle for Structure · Play, Humor, and “Craziness”",
+   "options": {
+    "A": "Satir Communications Therapy",
+    "B": "Experiential / Symbolic Therapy (Whitaker)",
+    "C": "Structural Family Therapy",
+    "D": "Gestalt Therapy"
+   }
+  },
+  {
+   "id": "q157",
+   "stem": "Which of these are CBT interventions?",
+   "options": {
+    "A": "Formula First Session Task (FFST) · Miracle Questioning · Exception Questioning · Affirmations/Compliments",
+    "B": "Positioning · Prescribing the Symptom · Ordeals · Restraining",
+    "C": "Systematic Desensitization · Downward Arrow · Socratic Questioning · Anxiety Management Training",
+    "D": "Deconstructive Questions · Externalizing the Problem · Enlisting a Witness · Unique Outcomes"
+   }
+  },
+  {
+   "id": "q158",
+   "stem": "These are all interventions of which model?\n\nSystematic Desensitization · Downward Arrow · Socratic Questioning · Anxiety Management Training",
+   "options": {
+    "A": "Narrative Therapy",
+    "B": "CBT",
+    "C": "Solution-Focused Therapy",
+    "D": "Strategic Therapy"
+   }
+  },
+  {
+   "id": "q159",
+   "stem": "Which of these are Bowen Family Systems interventions?",
+   "options": {
+    "A": "Homework · Positioning · Ordeals · Restraining",
+    "B": "Models · Reframing · Bibliotherapy · Reduce emotional reactivity",
+    "C": "Enactment · Boundary Making · Mimesis · Reframe",
+    "D": "Modeling Communication · Take Responsibility · Family Sculpting · Metaphors and Storytelling"
+   }
+  },
+  {
+   "id": "q160",
+   "stem": "These are all interventions of which model?\n\nModels · Reframing · Bibliotherapy · Reduce emotional reactivity",
+   "options": {
+    "A": "Bowen Family Systems",
+    "B": "Satir Communications Therapy",
+    "C": "Structural Family Therapy",
+    "D": "Strategic Therapy"
+   }
+  },
+  {
+   "id": "q161",
+   "stem": "Which of these are Strategic Therapy interventions?",
+   "options": {
+    "A": "Reframe · Joining · Boundary Making · Enactment",
+    "B": "Coping Questions · Miracle Questioning · Affirmations/Compliments · Exception Questioning",
+    "C": "Increasing Differentiation · De-triangulation · Reduce emotional reactivity · Reframing",
+    "D": "Prescribing the Symptom · Homework · Restraining · Positioning"
+   }
+  },
+  {
+   "id": "q162",
+   "stem": "These are all interventions of which model?\n\nPrescribing the Symptom · Homework · Restraining · Positioning",
+   "options": {
+    "A": "Solution-Focused Therapy",
+    "B": "Strategic Therapy",
+    "C": "Bowen Family Systems",
+    "D": "Structural Family Therapy"
+   }
+  },
+  {
+   "id": "q163",
+   "stem": "Which of these are Structural Family Therapy interventions?",
+   "options": {
+    "A": "Bibliotherapy · Interacts with Family · Models · Increasing Differentiation",
+    "B": "Restraining · Ordeals · Homework · Positioning",
+    "C": "Metaphors and Storytelling · Family Sculpting · Modeling Communication · Family Life Chronology",
+    "D": "Mimesis · Tracking · Joining · Reframe"
+   }
+  },
+  {
+   "id": "q164",
+   "stem": "These are all interventions of which model?\n\nMimesis · Tracking · Joining · Reframe",
+   "options": {
+    "A": "Satir Communications Therapy",
+    "B": "Bowen Family Systems",
+    "C": "Structural Family Therapy",
+    "D": "Strategic Therapy"
+   }
+  },
+  {
+   "id": "q165",
+   "stem": "Which of these are Satir Communications Therapy interventions?",
+   "options": {
+    "A": "Play, Humor, and “Craziness” · Battle for Initiative · Activating Constructive Anxiety · Trial of Labor",
+    "B": "Enactment · Reframe · Boundary Making · Tracking",
+    "C": "Metaphors and Storytelling · Transforming Rules · Modeling Communication · Family Sculpting",
+    "D": "Opening Cutoff Relationships · De-triangulation · Genogram · Reduce emotional reactivity"
+   }
+  },
+  {
+   "id": "q166",
+   "stem": "These are all interventions of which model?\n\nMetaphors and Storytelling · Transforming Rules · Modeling Communication · Family Sculpting",
+   "options": {
+    "A": "Experiential / Symbolic Therapy (Whitaker)",
+    "B": "Bowen Family Systems",
+    "C": "Satir Communications Therapy",
+    "D": "Structural Family Therapy"
+   }
+  },
+  {
+   "id": "q167",
+   "stem": "Which of these are Narrative Therapy interventions?",
+   "options": {
+    "A": "Scaling Questions · Formula First Session Task (FFST) · Affirmations/Compliments · Presupposing Change",
+    "B": "Re-authoring the story · Unique Outcomes · Enlisting a Witness · Mapping the Influence",
+    "C": "Interacts with Family · Reframing · De-triangulation · Reduce emotional reactivity",
+    "D": "Restraining · Paradoxical Directives · Prescribing the Symptom · Ordeals"
+   }
+  },
+  {
+   "id": "q168",
+   "stem": "These are all interventions of which model?\n\nRe-authoring the story · Unique Outcomes · Enlisting a Witness · Mapping the Influence",
+   "options": {
+    "A": "Strategic Therapy",
+    "B": "Bowen Family Systems",
+    "C": "Solution-Focused Therapy",
+    "D": "Narrative Therapy"
+   }
+  },
+  {
+   "id": "q169",
+   "stem": "Which of these are Solution-Focused Therapy interventions?",
+   "options": {
+    "A": "Thought Record · Behavioral Experiments · Communication Skills Training · Cognitive Restructuring",
+    "B": "Exception Questioning · Scaling Questions · Affirmations/Compliments · Coping Questions",
+    "C": "Ordeals · Homework · Paradoxical Directives · Positioning",
+    "D": "Deconstructive Questions · Externalizing the Problem · Mapping the Influence · Unique Outcomes"
+   }
+  },
+  {
+   "id": "q170",
+   "stem": "These are all interventions of which model?\n\nException Questioning · Scaling Questions · Affirmations/Compliments · Coping Questions",
+   "options": {
+    "A": "CBT",
+    "B": "Solution-Focused Therapy",
+    "C": "Narrative Therapy",
+    "D": "Strategic Therapy"
+   }
+  },
+  {
+   "id": "q171",
+   "stem": "Which of these are Object Relations interventions?",
+   "options": {
+    "A": "Repair stage · Collaboratively identifying attachment style · Attunement · Explore disruptions",
+    "B": "Mourning ambitions and fantasies · Mourning loss of selfobjects · Establish a therapeutic holding environment · Demonstrate containment",
+    "C": "Reframing · Models · Teaching “I” Statements · Interacts with Family",
+    "D": "Identify and process projective identification · Interpretation · Establish a holding environment · Focus on transference/countertransference"
+   }
+  },
+  {
+   "id": "q172",
+   "stem": "These are all interventions of which model?\n\nIdentify and process projective identification · Interpretation · Establish a holding environment · Focus on transference/countertransference",
+   "options": {
+    "A": "Attachment-Based Therapy (Bowlby)",
+    "B": "Self Psychology",
+    "C": "Bowen Family Systems",
+    "D": "Object Relations"
+   }
+  },
+  {
+   "id": "q173",
+   "stem": "Which of these are Self Psychology interventions?",
+   "options": {
+    "A": "Support affect regulation · Explore disruptions · Provide a secure base · Attunement",
+    "B": "Addressing enactments · Repair disruptions of the self-object transference · Demonstrate containment · Provide “experience-near” empathy",
+    "C": "Focus on transference/countertransference · Establish a holding environment · Identify and process projective identification · Interpretation",
+    "D": "Empty chair · Present experience while discussing the past · Repeating statement · Standing up while speaking"
+   }
+  },
+  {
+   "id": "q174",
+   "stem": "These are all interventions of which model?\n\nAddressing enactments · Repair disruptions of the self-object transference · Demonstrate containment · Provide “experience-near” empathy",
+   "options": {
+    "A": "Object Relations",
+    "B": "Self Psychology",
+    "C": "Gestalt Therapy",
+    "D": "Attachment-Based Therapy (Bowlby)"
+   }
+  }
+ ]
+}
