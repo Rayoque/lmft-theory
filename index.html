@@ -210,7 +210,7 @@ footer{padding:0 14px calc(28px + env(safe-area-inset-bottom))}
   <div class="hrow">
     <h1>LMFT Theory</h1>
     <span class="days" id="days"></span>
-    <button class="theme" id="sound" title="Chimes on a right answer and at each milestone. On an iPhone the side silent switch mutes this, whatever the setting here."></button>
+    <button class="theme" id="sound" title="Chimes on a right answer and at each milestone"></button>
     <button class="theme" id="theme" title="Light, dark, or follow the system"></button>
   </div>
   <nav id="nav"></nav>
@@ -704,119 +704,127 @@ function renderGrid(){
 }
 
 /* ---------- sound ----------
-   One toggle governs both chimes. A study tool that cannot be silenced in a
-   library is worse than a silent one. */
+   Rendered to a WAV and played through an <audio> element rather than
+   straight out of Web Audio. iOS mutes Web Audio when the side switch is on
+   silent, but lets an audio element through as media. Everything is still
+   synthesised in the page -- no files ship, and it still works offline. */
 const SKEY = "lmft.sound";
-let AC = null;
 function soundOn(){
   try { return localStorage.getItem(SKEY) !== "0"; } catch(e){ return true; }
 }
-function actx(){
-  const C = window.AudioContext || window.webkitAudioContext;
-  if (!C) return null;
-  AC = AC || new C();
-  return AC;
-}
-/* iOS keeps a context locked until something has been played through it
-   inside a real gesture. One silent sample is enough. */
-let unlocked = false;
-function unlockAudio(){
-  if (unlocked) return;
-  try {
-    const a = actx(); if (!a) return;
-    const src = a.createBufferSource();
-    src.buffer = a.createBuffer(1, 1, 22050);
-    src.connect(a.destination);
-    src.start(0);
-    a.resume();
-    unlocked = true;
-  } catch(e){ unlocked = true; }    // never retry in a loop
-}
-["pointerdown", "touchend", "keydown"].forEach(function(ev){
-  document.addEventListener(ev, unlockAudio, {passive: true});
-});
-/* resume() is async: schedule only once the clock is actually running, or
-   the notes land in a clock that has not started. */
-function withCtx(fn){
-  const a = actx(); if (!a) return;
-  if (a.state === "running"){ fn(a); return; }
-  const p = a.resume();
-  if (p && p.then) p.then(function(){ fn(a); }, function(){});
-  else fn(a);
-}
-/* one voice: wave, Hz, delay from now, length, peak gain */
-function voice(a, type, f, delay, len, peak){
-  const t = a.currentTime + delay;
-  const osc = a.createOscillator(), g = a.createGain();
-  osc.type = type;
-  osc.frequency.setValueAtTime(f, t);
-  g.gain.setValueAtTime(0.0001, t);
-  g.gain.linearRampToValueAtTime(peak, t + 0.010);
-  g.gain.exponentialRampToValueAtTime(0.0001, t + len);
-  osc.connect(g); g.connect(a.destination);
-  osc.start(t); osc.stop(t + len + 0.02);
-}
+
+/* a voice is [wave, hz, delay, length, peak] */
 const C2 = 65.41, C3 = 130.81, C5 = 523.25, E5 = 659.25, F5 = 698.46, G5 = 783.99;
 const C6 = 1046.50, E6 = 1318.51, G6 = 1567.98, C7 = 2093.00,
       E7 = 2637.02, G7 = 3135.96;
-/* right answer: C-E-G rising, 145ms */
-function chime(){
-  if (!soundOn()) return;
-  try {
-    withCtx(function(a){
-    voice(a, "sine", C6, 0,     0.10, 0.038);
-    voice(a, "sine", E6, 0.045, 0.10, 0.038);
-    voice(a, "sine", G6, 0.090, 0.11, 0.038);
-    });
-  } catch(e){}                       // audio must never break answering
+
+const SPECS = {
+  /* right answer: C-E-G rising */
+  right: [["sine", C6, 0, 0.10, 0.038], ["sine", E6, 0.045, 0.10, 0.038],
+          ["sine", G6, 0.090, 0.11, 0.038]],
+  /* session finished: the same run carried up to the octave */
+  done:  [["sine", C6, 0, 0.10, 0.036], ["sine", E6, 0.055, 0.10, 0.036],
+          ["sine", G6, 0.110, 0.10, 0.036], ["sine", C7, 0.170, 0.25, 0.040]],
+  /* model cleared for today: that, with two notes flicked above it */
+  day:   [["sine", C6, 0, 0.10, 0.034], ["sine", E6, 0.055, 0.10, 0.034],
+          ["sine", G6, 0.110, 0.10, 0.034], ["sine", C7, 0.170, 0.22, 0.038],
+          ["sine", E7, 0.320, 0.11, 0.026], ["sine", G7, 0.390, 0.24, 0.026]],
+  /* model locked for good: struck on a suspension over a low C, resolving
+     into the major chord half a second in and then holding */
+  locked:[["sine", C2, 0, 0.070, 0.070], ["sine", C3, 0, 3.40, 0.032],
+          ["sine", C5, 0, 3.20, 0.017], ["sine", G5, 0, 3.20, 0.017],
+          ["sine", C6, 0, 3.20, 0.017], ["sine", C5*1.006, 0, 3.20, 0.017],
+          ["sine", C6*1.004, 0, 3.20, 0.017],
+          ["sine", F5, 0.02, 0.62, 0.020],
+          ["sine", E5, 0.50, 2.85, 0.020], ["sine", E5*0.994, 0.50, 2.85, 0.012],
+          ["sine", C6, 0.62, 0.30, 0.019], ["sine", E6, 0.705, 0.30, 0.019],
+          ["sine", G6, 0.790, 0.30, 0.019], ["sine", C7, 0.88, 2.20, 0.022]]
+};
+
+function schedule(ac, spec){
+  spec.forEach(function(v){
+    var t = ac.currentTime + v[2];
+    var osc = ac.createOscillator(), g = ac.createGain();
+    osc.type = v[0];
+    osc.frequency.setValueAtTime(v[1], t);
+    g.gain.setValueAtTime(0.0001, t);
+    g.gain.linearRampToValueAtTime(v[4], t + 0.010);
+    g.gain.exponentialRampToValueAtTime(0.0001, t + v[3]);
+    osc.connect(g); g.connect(ac.destination);
+    osc.start(t); osc.stop(t + v[3] + 0.02);
+  });
 }
-/* session finished: the same run carried up to the octave */
-function chimeDone(){
+
+function wavURL(buf){
+  var n = buf.length, d = buf.getChannelData(0);
+  var ab = new ArrayBuffer(44 + n * 2), v = new DataView(ab), i;
+  function str(off, sv){ for (i = 0; i < sv.length; i++) v.setUint8(off + i, sv.charCodeAt(i)); }
+  str(0, "RIFF"); v.setUint32(4, 36 + n * 2, true); str(8, "WAVEfmt ");
+  v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true);
+  v.setUint32(24, buf.sampleRate, true); v.setUint32(28, buf.sampleRate * 2, true);
+  v.setUint16(32, 2, true); v.setUint16(34, 16, true);
+  str(36, "data"); v.setUint32(40, n * 2, true);
+  for (i = 0; i < n; i++){
+    var x = Math.max(-1, Math.min(1, d[i]));
+    v.setInt16(44 + i * 2, x < 0 ? x * 0x8000 : x * 0x7FFF, true);
+  }
+  return URL.createObjectURL(new Blob([ab], {type: "audio/wav"}));
+}
+
+var URLS = {}, PENDING = {}, LIVE = null;
+/* named prerender, not render: the app already has a render() and a
+   collision here silently blanked the whole view */
+function prerender(name){
+  if (URLS[name] || PENDING[name]) return;
+  var OC = window.OfflineAudioContext || window.webkitOfflineAudioContext;
+  if (!OC) return;
+  var spec = SPECS[name];
+  var secs = 0.2 + spec.reduce(function(m, v){ return Math.max(m, v[2] + v[3]); }, 0);
+  try {
+    var oc = new OC(1, Math.ceil(44100 * secs), 44100);
+    schedule(oc, spec);
+    PENDING[name] = true;
+    oc.startRendering().then(function(buf){
+      URLS[name] = wavURL(buf); PENDING[name] = false;
+    }, function(){ PENDING[name] = false; });
+  } catch(e){ PENDING[name] = false; }
+}
+/* render them all up front so the first correct answer is not silent */
+["right", "done", "day", "locked"].forEach(prerender);
+
+function play(name){
   if (!soundOn()) return;
   try {
-    withCtx(function(a){
-    voice(a, "sine", C6, 0,     0.10, 0.036);
-    voice(a, "sine", E6, 0.055, 0.10, 0.036);
-    voice(a, "sine", G6, 0.110, 0.10, 0.036);
-    voice(a, "sine", C7, 0.170, 0.25, 0.040);
-    });
+    if (URLS[name]){
+      var el = new Audio(URLS[name]);
+      el.volume = 1;
+      var p = el.play();
+      if (p && p.catch) p.catch(function(){ liveFallback(name); });
+      return;
+    }
+    liveFallback(name);
+  } catch(e){ liveFallback(name); }
+}
+/* Web Audio, for browsers with no OfflineAudioContext and for the very first
+   sound if rendering has not finished yet. Audible only when the phone is not
+   on silent, which is exactly the case this whole detour exists to fix. */
+function liveFallback(name){
+  try {
+    var C = window.AudioContext || window.webkitAudioContext;
+    if (!C) return;
+    LIVE = LIVE || new C();
+    if (LIVE.state === "running"){ schedule(LIVE, SPECS[name]); return; }
+    var r = LIVE.resume();
+    if (r && r.then) r.then(function(){ schedule(LIVE, SPECS[name]); }, function(){});
+    else schedule(LIVE, SPECS[name]);
   } catch(e){}
 }
-/* Cleared a model for the day: the session chime with two notes flicked
-   above it. */
-function chimeDayClear(){
-  if (!soundOn()) return;
-  try {
-    withCtx(function(a){
-    voice(a, "sine", C6, 0,     0.10, 0.034);
-    voice(a, "sine", E6, 0.055, 0.10, 0.034);
-    voice(a, "sine", G6, 0.110, 0.10, 0.034);
-    voice(a, "sine", C7, 0.170, 0.22, 0.038);
-    voice(a, "sine", E7, 0.320, 0.11, 0.026);
-    voice(a, "sine", G7, 0.390, 0.24, 0.026);
-    });
-  } catch(e){}
-}
-/* Locked a model for good. Struck on a suspension -- F5 sits where the third
-   belongs -- which hands over to E5 half a second in and then holds. The
-   sound is unstable, resolves, and stops moving, which is what locking is. */
-function chimeLocked(){
-  if (!soundOn()) return;
-  try {
-    withCtx(function(a){
-    voice(a, "sine", C2, 0, 0.070, 0.070);            // the latch
-    voice(a, "sine", C3, 0, 3.40, 0.032);
-    [[C5,1],[G5,1],[C6,1],[C5,1.006],[C6,1.004]].forEach(function(pr){
-      voice(a, "sine", pr[0]*pr[1], 0, 3.20, 0.017); });
-    voice(a, "sine", F5, 0.02, 0.62, 0.020);          // suspension
-    voice(a, "sine", E5, 0.50, 2.85, 0.020);          // resolves, and holds
-    voice(a, "sine", E5*0.994, 0.50, 2.85, 0.012);
-    [C6,E6,G6].forEach(function(f,i){
-      voice(a, "sine", f, 0.62 + i*0.085, 0.30, 0.019); });
-    voice(a, "sine", C7, 0.88, 2.20, 0.022);
-    });
-  } catch(e){}
-}
+
+const chime         = function(){ play("right"); };
+const chimeDone     = function(){ play("done"); };
+const chimeDayClear = function(){ play("day"); };
+const chimeLocked   = function(){ play("locked"); };
+
 function initSound(){
   const b = document.getElementById("sound");
   if (!b) return;
@@ -825,7 +833,7 @@ function initSound(){
   b.onclick = () => {
     try { localStorage.setItem(SKEY, soundOn() ? "0" : "1"); } catch(e){}
     paint();
-    if (soundOn()) chime();          // hear what was just switched on
+    if (soundOn()) chime();
   };
 }
 

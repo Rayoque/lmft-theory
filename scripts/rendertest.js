@@ -531,18 +531,18 @@ head("milestone chimes");
   ok("and it is the longer one", played.length >= 10, String(played.length));
 }
 
-head("audio survives a suspended context");
+head("audio plays as media, not Web Audio");
 {
   const { w, d } = boot();
+  // no OfflineAudioContext in jsdom, so the page falls back to Web Audio;
+  // that path is what this asserts, plus that it waits for a resume
   const played = [];
-  let resumed = false, silentBuffer = false;
+  let resumed = false;
   w.AudioContext = function(){
     const a = {
-      state: "suspended",                       // how a phone hands it to you
+      state: "suspended",                       // how a phone hands it over
       currentTime: 0,
       resume(){ resumed = true; a.state = "running"; return Promise.resolve(); },
-      createBuffer(){ silentBuffer = true; return {}; },
-      createBufferSource(){ return {buffer:null, connect(){}, start(){}}; },
       createOscillator(){ return {frequency:{setValueAtTime(f){ played.push(Math.round(f)); }},
         connect(){}, start(){}, stop(){}}; },
       createGain(){ return {gain:{setValueAtTime(){}, linearRampToValueAtTime(){},
@@ -551,15 +551,18 @@ head("audio survives a suspended context");
     };
     return a;
   };
-  d.dispatchEvent(new w.Event("pointerdown", {bubbles:true}));
-  ok("first touch unlocks with a silent buffer", silentBuffer);
-  ok("and resumes the context", resumed);
+  ok("four chimes are defined as data", w.eval("Object.keys(SPECS).length") === 4,
+     w.eval("Object.keys(SPECS).join()"));
+  ok("the locked one is much longer than the answer one",
+     w.eval("SPECS.locked.length") > w.eval("SPECS.right.length") * 3);
 
   tab(d, "Drill").click();
   answer(w, d, true, false);
   pending++;
   setTimeout(function(){
-    ok("notes still play once the context resumes", played.length === 3, played.join(","));
+    ok("falls back to Web Audio with no OfflineAudioContext", played.length === 3,
+       played.join(","));
+    ok("and waits for the context to resume first", resumed);
     pending--; finish();
   }, 25);
 }
