@@ -43,7 +43,7 @@ body{
   -webkit-text-size-adjust:100%;
   padding:0 0 env(safe-area-inset-bottom);
 }
-.wrap{max-width:var(--wrap);margin:0 auto;padding:12px 14px 90px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:12px 14px 24px}
 /* Reading views keep a short measure; the grid and dashboard get the window.
    Header, nav and content share one knob so they never fall out of line. */
 body[data-wide] .wrap,body[data-wide] .hrow,body[data-wide] nav,body[data-wide] .frow{--wrap:1500px}
@@ -73,6 +73,7 @@ button.opt{
   font:inherit;cursor:pointer;line-height:1.45;
 }
 button.opt:active{transform:scale(.995)}
+button.opt:focus-visible,.btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 button.opt.correct{border-color:var(--ok);background:var(--okbg)}
 button.opt.wrong{border-color:var(--bad);background:var(--badbg)}
 button.opt.done{cursor:default}
@@ -123,7 +124,7 @@ table.grid td:first-child{white-space:normal}
 ul{margin:0 0 10px;padding-left:20px}
 .dim{color:var(--dim)}
 .null{color:var(--warn);font-style:italic}
-footer{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:1px solid var(--line);padding:10px 14px calc(10px + env(safe-area-inset-bottom));z-index:20}
+footer{padding:0 14px calc(28px + env(safe-area-inset-bottom))}
 .frow{max-width:var(--wrap);margin:0 auto;display:flex;gap:9px;align-items:center}
 .frow .note{flex:1;min-width:0}
 /* first-run welcome */
@@ -401,7 +402,7 @@ function renderItem(){
     <div class="card">
       <span class="tag">${esc(it.type.replace(/^[TV]\d?_/,"").replace("_"," ").replace("examtip","exam tip"))}</span>
       <div class="stem">${esc(it.stem)}</div>
-      <div id="opts">${it.options.map((o,i)=>`<button class="opt" data-i="${i}">${esc(o.text)}</button>`).join("")}</div>
+      <div id="opts">${it.options.map((o,i)=>`<button class="opt" data-i="${i}" title="Arrow keys to move, space to choose">${esc(o.text)}</button>`).join("")}</div>
       <div id="reveal"></div>
     </div>`;
   el.querySelectorAll(".opt").forEach(b => b.onclick = () => {
@@ -442,8 +443,8 @@ function choose(it, i){
           + "\nshe answered: " + chosen.text.slice(0, 120) + (right ? " (correct)" : " (wrong)")
   });
   foot.hidden = false;
-  frow.innerHTML = `<button class="btn ghost" data-k="0">Guessed</button>
-    <button class="btn" data-k="1">Knew it</button>`;
+  frow.innerHTML = `<button class="btn ghost" data-k="0" title="Arrow keys to move, space to choose">Guessed</button>
+    <button class="btn" data-k="1" title="Arrow keys to move, space to choose">Knew it</button>`;
   frow.querySelectorAll("[data-k]").forEach(b => b.onclick = () => {
     const knew = b.dataset.k === "1";
     // the attempt is already recorded; confidence only adds the danger flag
@@ -666,7 +667,11 @@ function welcome(){
     makes you fire before you check, and those words genuinely belong to several
     theories at once. Those questions come back twice as often.</p>
 
-    <p class="pt"><b>4 · If a question looks wrong to you, trust your packet.</b>
+    <p class="pt"><b>4 · You can do this from the keyboard.</b>
+    Arrow keys move between the choices, space picks one. Same for the two
+    confidence buttons afterwards.</p>
+
+    <p class="pt"><b>5 · If a question looks wrong to you, trust your packet.</b>
     Every answer shows its source line so you can check. A few of those lines
     read a little garbled — that's your original document, not a glitch.</p>
 
@@ -693,6 +698,26 @@ try { seenWelcome = !!localStorage.getItem(WKEY); } catch(e){}
 if (!seenWelcome && document.body) welcome();
 
 initTheme();
+/* Arrow keys move focus between the live choices; space and enter already
+   activate a focused button, so nothing extra is needed to pick one. Before
+   she answers the live choices are the options; after, the two confidence
+   buttons. */
+function liveChoices(){
+  const opts = [...document.querySelectorAll("#opts button.opt:not(.done)")];
+  return opts.length ? opts : [...document.querySelectorAll("footer [data-k]")];
+}
+document.addEventListener("keydown", e => {
+  if (!["ArrowDown","ArrowUp","ArrowRight","ArrowLeft"].includes(e.key)) return;
+  const list = liveChoices();
+  if (!list.length) return;
+  e.preventDefault();
+  const fwd = e.key === "ArrowDown" || e.key === "ArrowRight";
+  const cur = list.indexOf(document.activeElement);
+  const next = fwd ? (cur + 1) % list.length
+                   : (cur <= 0 ? list.length - 1 : cur - 1);
+  list[next].focus();
+});
+
 renderNav();
 render();
 </script>

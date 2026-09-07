@@ -215,6 +215,33 @@ head("tags read as words");
      ![...seen].some(t => /examtip/i.test(t)), [...seen].join(", "));
 }
 
+head("keyboard navigation");
+{
+  const { w, d } = boot();
+  const key = k => d.dispatchEvent(new w.KeyboardEvent("keydown", {key:k, bubbles:true}));
+  tab(d, "Drill").click();
+  const opts = () => [...d.querySelectorAll("#opts button.opt")];
+
+  key("ArrowDown");
+  ok("first arrow focuses first option", d.activeElement === opts()[0]);
+  key("ArrowDown");
+  ok("arrow down advances", d.activeElement === opts()[1]);
+  key("ArrowUp");
+  ok("arrow up goes back", d.activeElement === opts()[0]);
+  key("ArrowUp");
+  ok("arrow up wraps to last", d.activeElement === opts()[opts().length - 1]);
+
+  d.activeElement.click();
+  const conf = [...d.querySelectorAll("footer [data-k]")];
+  key("ArrowDown");
+  ok("after answering, arrows move to confidence",
+     conf.includes(d.activeElement), String(d.activeElement && d.activeElement.className));
+  key("ArrowRight");
+  ok("left/right work on confidence too", conf.includes(d.activeElement));
+  ok("options carry a hover hint",
+     (opts()[0].getAttribute("title") || "").includes("space"));
+}
+
 /* ------------------------------------------------------------------ */
 console.log("\n" + pass + " passed, " + fail + " failed\n");
 process.exit(fail ? 1 : 0);
