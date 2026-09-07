@@ -303,9 +303,9 @@ function modelState(id){
   if (!seen.length) return {k:"new", label:"not started"};
   const done = its.filter(i => retired(i.id)).length;
   const cw = seen.reduce((n,i) => n + S.concepts[i.id].confidentWrong, 0);
-  if (done === its.length) return {k:"solid", label:"retired"};
+  if (done === its.length) return {k:"solid", label:"locked in"};
   if (cw > 0) return {k:"shaky", label:cw + " confident miss" + (cw>1?"es":"")};
-  return {k:"learning", label:done + "/" + its.length + " retired"};
+  return {k:"learning", label:done + "/" + its.length + " locked in"};
 }
 
 /* ---------- views ---------- */
@@ -343,11 +343,11 @@ function renderExhausted(){
 
 function renderLearnPicker(){
   el.innerHTML = `<h2>Learn</h2>
-    <p class="note">${MODELS.filter(m=>S.learned[m.id]).length} of ${MODELS.length} opened. Questions per model:
+    <p class="note">${MODELS.filter(m=>S.learned[m.id]).length} of ${MODELS.length} opened. Locked in = right on three <i>different</i> days. Questions per model:
       ${LEARN_SIZES.map(n=>`<button class="sz${n===learnN()?" on":""}" data-n="${n}">${n}</button>`).join("")}</p>
     <div class="grid14">${MODELS.map(m => {
       const st = modelState(m.id);
-      return `<button class="tile s-${st.k}" data-m="${m.id}">
+      return `<button class="tile s-${st.k}" data-m="${m.id}" title="Locked in = you got it right on three different days. Same-day repeats count once.">
         <b>${esc(m.name)}</b><span>${S.learned[m.id] ? "✓ " : ""}${st.label}</span></button>`;
     }).join("")}</div>`;
   el.querySelectorAll("[data-m]").forEach(b => b.onclick = () => { learnModel = b.dataset.m; renderBrief(); });
