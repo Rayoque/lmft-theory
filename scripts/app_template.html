@@ -140,8 +140,8 @@ button.opt.done{cursor:default}
 .s-shaky .dot{background:var(--bad)}     .s-shaky .st{color:var(--bad)}
 .s-solid .dot{background:var(--ok)}      .s-solid .st{color:var(--ok)}
 .s-today .dot{background:var(--accent)}  .s-today .st{color:var(--accent)}
-.tile .nums{display:block;font-size:11.5px;color:var(--dim);margin-top:3px;
-  font-variant-numeric:tabular-nums}
+.tile .nums{display:flex;align-items:center;gap:7px;font-size:11.5px;
+  color:var(--dim);margin-top:5px;font-variant-numeric:tabular-nums}
 .legend{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 14px}
 .key{display:flex;align-items:flex-start;gap:8px;flex:1 1 210px;
   background:var(--card);border:1px solid var(--line);border-left-width:6px;
@@ -501,15 +501,15 @@ function renderExhausted(){
 
 function renderLearnPicker(){
   el.innerHTML = `<h2>Learn</h2>
-    <p class="note">${MODELS.filter(m=>S.learned[m.id]).length} of ${MODELS.length} opened. Locked in = right on three <i>different</i> days. Questions per model:
+    <p class="note">${MODELS.filter(m=>S.learned[m.id]).length} of ${MODELS.length} opened. Questions per model:
       ${LEARN_SIZES.map(n=>`<button class="sz${n===learnN()?" on":""}" data-n="${n}">${n}</button>`).join("")}</p>
     <div class="grid14">${MODELS.map(m => {
       const st = modelState(m.id);
       const t = tallies(m.id);
       return `<button class="tile s-${st.k}" data-m="${m.id}" title="Locked in = right on three different days. Same-day repeats count once.">
         <b>${esc(m.name)}</b>
-        <span class="st"><i class="dot"></i>${S.learned[m.id] ? "" : ""}${st.label}</span>
-        <span class="nums">${t.today} of ${t.total} today &middot; ${t.locked} locked in</span>
+        <span class="nums"><i class="dot"></i>${t.today} of ${t.total} today &middot; ${t.locked} locked in${
+          st.k === "shaky" ? " &middot; " + st.label : ""}</span>
         </button>`;
     }).join("")}</div>`;
   el.querySelectorAll("[data-m]").forEach(b => b.onclick = () => { learnModel = b.dataset.m; renderBrief(); });
@@ -538,7 +538,7 @@ function renderBrief(){
       ${factList(m.therapistRoles, "Your packet lists no therapist role section for this model.")}
       <h3>Goals</h3>
       ${factList(m.goals, "Your packet lists no treatment goals section for this model.")}
-      <h3>Signature interventions</h3>
+      <h3>Interventions</h3>
       <ul class="kv">${m.interventions.slice(0,8).map(c => `<li><b>${esc(c.term)}</b> — ${esc(c.definition.slice(0,190))}</li>`).join("") || '<li class="null">none listed</li>'}</ul>
       <h3>Phases of treatment</h3>
       ${ph === null
@@ -687,14 +687,11 @@ function renderProgress(){
       const st = modelState(m.id), t = tallies(m.id);
       return `<div class="tile s-${st.k}">
         <b>${esc(m.name)}</b>
-        <span class="st"><i class="dot"></i>${st.label}</span>
-        <span class="nums">${t.today} of ${t.total} today &middot; ${t.locked} locked in</span>
+        <span class="nums"><i class="dot"></i>${t.today} of ${t.total} today &middot; ${t.locked} locked in${
+          st.k === "shaky" ? " &middot; " + st.label : ""}</span>
       </div>`;
     }).join("")}</div>
 
-    <p class="note" style="margin-top:12px">Today counts a question answered correctly
-    today. Locked in counts one answered correctly on three different days, which is when
-    it stops being served.</p>
 
     <div class="row" style="margin-top:16px">
       <button class="btn ghost" id="reset">Reset all progress</button>

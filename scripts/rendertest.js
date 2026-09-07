@@ -335,10 +335,10 @@ head("picker marks a model finished for today");
 
   tab(d, "Learn").click();
   const tile = d.querySelector('[data-m="client-centered"]');
-  ok("tile says done today", /done today/i.test(tile.textContent), tile.textContent.trim());
+  ok("tile turns to the done-today state", tile.classList.contains("s-today"), tile.className);
   ok("tile gets its own colour", tile.classList.contains("s-today"), tile.className);
   const other = d.querySelector('[data-m="bowen"]');
-  ok("untouched models unaffected", /not started/i.test(other.textContent), other.textContent.trim());
+  ok("untouched models unaffected", other.classList.contains("s-new"), other.className);
 }
 
 
