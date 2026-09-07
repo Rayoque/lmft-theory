@@ -107,6 +107,7 @@ button.opt.done{cursor:default}
 .s-learning{border-left-color:var(--warn)}
 .s-shaky{border-left-color:var(--bad)}
 .s-solid{border-left-color:var(--ok)}
+.s-today{border-left-color:var(--accent)}
 .note{font-size:13.5px;color:var(--dim);line-height:1.55}
 .banner{border-radius:11px;padding:12px 14px;font-size:14px;line-height:1.55;margin-bottom:12px}
 .banner.warn{background:var(--warnbg);color:var(--warn)}
@@ -334,6 +335,11 @@ function modelState(id){
   const done = its.filter(i => retired(i.id)).length;
   const cw = seen.reduce((n,i) => n + S.concepts[i.id].confidentWrong, 0);
   if (done === its.length) return {k:"solid", label:"locked in"};
+  // Nothing left to serve today, but not finished for good. Worth its own
+  // state on the picker: opening it would only reach the "done for today"
+  // screen, and a confident-miss count here would read as work still to do.
+  if (!its.some(i => weight(i.id) > 0))
+    return {k:"today", label:"done today" + (cw ? " · " + cw + " confident miss" + (cw>1?"es":"") : "")};
   if (cw > 0) return {k:"shaky", label:cw + " confident miss" + (cw>1?"es":"")};
   return {k:"learning", label:done + "/" + its.length + " locked in"};
 }

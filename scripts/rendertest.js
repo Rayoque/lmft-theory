@@ -324,5 +324,22 @@ head("undo and space-to-confirm");
      d3.activeElement !== d3.querySelector('footer [data-k="1"]'));
 }
 
+
+head("picker marks a model finished for today");
+{
+  const { w, d } = boot();
+  tab(d, "Learn").click();
+  d.querySelector('[data-m="client-centered"]').click();
+  d.querySelector("#start").click();
+  while (d.querySelector("#opts")) answer(w, d, true, false);
+
+  tab(d, "Learn").click();
+  const tile = d.querySelector('[data-m="client-centered"]');
+  ok("tile says done today", tile.textContent.includes("done today"), tile.textContent.trim());
+  ok("tile gets its own colour", tile.classList.contains("s-today"), tile.className);
+  const other = d.querySelector('[data-m="bowen"]');
+  ok("untouched models unaffected", other.textContent.includes("not started"));
+}
+
 console.log("\n" + pass + " passed, " + fail + " failed\n");
 process.exit(fail ? 1 : 0);
