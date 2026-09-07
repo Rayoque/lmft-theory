@@ -11,7 +11,7 @@
   --bg:#f6f7f9; --card:#ffffff; --ink:#161a21; --dim:#5d6673; --line:#e2e6ec;
   --accent:#2f5fd0; --accent-ink:#fff; --ok:#1c7a4a; --okbg:#e6f5ec;
   --bad:#b3261e; --badbg:#fdeceb; --warn:#8a5a00; --warnbg:#fdf3e0;
-  --src:#f2f4f8; --radius:14px;
+  --src:#f2f4f8; --radius:14px; --wrap:760px;
 }
 /* Dark tokens live in a named block so both the system preference and an
    explicit choice can pull from the same place. The media query is guarded so
@@ -43,7 +43,10 @@ body{
   -webkit-text-size-adjust:100%;
   padding:0 0 env(safe-area-inset-bottom);
 }
-.wrap{max-width:760px;margin:0 auto;padding:12px 14px 90px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:12px 14px 90px}
+/* Reading views keep a short measure; the grid and dashboard get the window.
+   Header, nav and content share one knob so they never fall out of line. */
+body[data-wide] .wrap,body[data-wide] .hrow,body[data-wide] nav,body[data-wide] .frow{--wrap:1500px}
 h1{font-size:17px;margin:0;letter-spacing:-.01em}
 h2{font-size:20px;margin:0 0 10px;letter-spacing:-.02em}
 h3{font-size:13px;text-transform:uppercase;letter-spacing:.07em;color:var(--dim);margin:18px 0 7px}
@@ -53,9 +56,9 @@ header{
   border-bottom:1px solid var(--line);padding:10px 14px calc(10px + env(safe-area-inset-top));
   padding-top:calc(10px + env(safe-area-inset-top));
 }
-.hrow{max-width:760px;margin:0 auto;display:flex;align-items:center;gap:10px}
+.hrow{max-width:var(--wrap);margin:0 auto;display:flex;align-items:center;gap:10px}
 .days{margin-left:auto;font-size:12px;color:var(--dim);font-variant-numeric:tabular-nums}
-nav{max-width:760px;margin:8px auto 0;display:flex;gap:6px;overflow-x:auto;-webkit-overflow-scrolling:touch}
+nav{max-width:var(--wrap);margin:8px auto 0;display:flex;gap:6px;overflow-x:auto;-webkit-overflow-scrolling:touch}
 nav button{
   flex:0 0 auto;background:transparent;border:1px solid var(--line);color:var(--dim);
   padding:7px 13px;border-radius:999px;font-size:14px;font-weight:600;cursor:pointer;
@@ -107,10 +110,11 @@ button.opt[disabled]{cursor:default;opacity:1}
 .banner.warn{background:var(--warnbg);color:var(--warn)}
 .banner.ok{background:var(--okbg);color:var(--ok)}
 .banner.bad{background:var(--badbg);color:var(--bad)}
-table.grid{border-collapse:collapse;font-size:11.5px;width:100%}
+table.grid{border-collapse:collapse;font-size:11.5px;width:100%;table-layout:fixed}
 table.grid th,table.grid td{border:1px solid var(--line);padding:6px 7px;vertical-align:top;text-align:left}
 table.grid th{background:var(--src);font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--dim)}
-table.grid td:first-child{font-weight:700;white-space:nowrap}
+table.grid td:first-child,table.grid th:first-child{font-weight:700;width:12.5%}
+table.grid td:first-child{white-space:normal}
 .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
 .kv{font-size:14.5px;line-height:1.6}
 .kv li{margin-bottom:5px}
@@ -118,7 +122,7 @@ ul{margin:0 0 10px;padding-left:20px}
 .dim{color:var(--dim)}
 .null{color:var(--warn);font-style:italic}
 footer{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:1px solid var(--line);padding:10px 14px calc(10px + env(safe-area-inset-bottom));z-index:20}
-.frow{max-width:760px;margin:0 auto;display:flex;gap:9px;align-items:center}
+.frow{max-width:var(--wrap);margin:0 auto;display:flex;gap:9px;align-items:center}
 .frow .note{flex:1;min-width:0}
 /* first-run welcome */
 .overlay{position:fixed;inset:0;background:rgba(8,11,16,.62);z-index:100;
@@ -284,6 +288,7 @@ function modelState(id){
 /* ---------- views ---------- */
 function render(){
   foot.hidden = true;
+  document.body.toggleAttribute("data-wide", mode === "grid" || mode === "progress");
   if (mode === "grid")     return renderGrid();
   if (mode === "progress") return renderProgress();
   if (mode === "learn" && !learnModel) return renderLearnPicker();
@@ -462,7 +467,7 @@ function renderGrid(){
     <div class="card scroll"><table class="grid"><thead><tr><th>Model</th>${COLS.map(c=>`<th>${c}</th>`).join("")}</tr></thead>
     <tbody>${MODELS.map(m=>`<tr><td>${esc(m.name)}</td>${COLS.map((_,i)=>{
       const v = cell(m,i);
-      return `<td>${v === null ? '<span class="null">not in packet</span>' : esc(v.length>150 ? v.slice(0,150)+"…" : v)}</td>`;
+      return `<td>${v === null ? '<span class="null">not in packet</span>' : esc(v.length>260 ? v.slice(0,260)+"…" : v)}</td>`;
     }).join("")}</tr>`).join("")}</tbody></table></div>
     <p class="note">Built ${esc(BUILT)} from your five packets.</p>`;
 }
