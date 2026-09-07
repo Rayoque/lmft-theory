@@ -1,17 +1,17 @@
 # -*- coding: utf-8 -*-
-"""Grouped-list items, from Lauren's own description of the exam.
+"""Grouped-list items, from the learner's own description of the exam.
 
-Her read: the exam asks "which of these are CBT interventions?" far more often
-than it asks for a definition. She wants four answer choices where each choice
-is a list belonging to ONE model -- no mixing within a list -- and she picks the
+Their read: the exam asks "which of these are CBT interventions?" far more often
+than it asks for a definition. The ask was four answer choices where each choice
+is a list belonging to ONE model -- no mixing within a list -- and you pick the
 list that matches the named theory. Plus the inverse.
 
 Two rules that matter and are easy to get wrong:
 
   * Every list in an item is the SAME LENGTH. CBT has 23 interventions and
-    Object Relations has 5; showing them at natural length would let her score
+    Object Relations has 5; showing them at natural length would let the answer be found
     by counting rather than knowing.
-  * A list never mixes models. That was her explicit ask, and it is also what
+  * A list never mixes models. That was an explicit request, and it is also what
     keeps the item honest -- a mixed list has no single owner and no clean key.
 """
 import io, json, os, random

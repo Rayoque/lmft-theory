@@ -1,7 +1,7 @@
 /* Renders index.html in a real DOM and clicks through it.
  *
  * The other harness tests pure functions -- queue order, mastery state -- and
- * every bug that reached Lauren lived outside that: a button label
+ * every bug that reached a user lived outside that: a button label
  * contradicting the setting, a summary reporting 0% for a session that never
  * happened, a stats object missing a field on one code path. None of those are
  * reachable without something actually rendering and being clicked.
@@ -186,13 +186,13 @@ head("promises match the pool");
 }
 
 /* ------------------------------------------------------------------ */
-head("state is recorded when she answers");
+head("state is recorded on answering");
 {
   const { w, d } = boot();
   tab(d, "Drill").click();
   const id = JSON.stringify(w.eval("Q[qi].id"));
   d.querySelector("#opts button.opt").click();
-  // deliberately do NOT tap a confidence button; she taps a nav tab instead
+  // deliberately do NOT tap a confidence button; a nav tab is tapped instead
   ok("answer persists without the confidence tap", w.eval("!!S.concepts[" + id + "]"));
   ok("seen counted exactly once", w.eval("S.concepts[" + id + "].seen") === 1);
 

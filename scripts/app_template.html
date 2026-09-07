@@ -232,7 +232,7 @@ const NAME   = id => (BYID[id] ? BYID[id].name : id);
 const KEY = "lmft.theory.v1";
 const today = () => {
   const d = new Date();                       // local, not UTC: toISOString()
-  const p = n => String(n).padStart(2, "0");  // rolled her evening sessions
+  const p = n => String(n).padStart(2, "0");  // rolled evening sessions
   return d.getFullYear() + "-" + p(d.getMonth() + 1) + "-" + p(d.getDate());
 };
 let S = load();
@@ -411,7 +411,7 @@ function render(){
   if (mode === "learn" && !learnModel) return renderLearnPicker();
   if (!Q.length){ Q = buildQueue(mode, learnModel, sessionN(mode, learnModel)); qi = 0; undoStack = []; stats = {right:0,wrong:0,confidentWrong:0,missed:[]}; }
   // An empty queue means every item here is retired. Falling through to the
-  // summary would report "0%" for a session she never had, and "Another"
+  // summary would report "0%" for a session that never happened, and "Another"
   // would rebuild the same empty queue forever.
   if (!Q.length) return renderExhausted();
   if (qi >= Q.length) return renderSummary();
@@ -527,8 +527,8 @@ function choose(it, i){
   snapshot(it);
   right ? stats.right++ : stats.wrong++;
   // Persist immediately. Scoring only inside the confidence handler meant an
-  // answer was silently discarded if she read the reveal and then tapped
-  // another tab -- and she is told to go look at the grid.
+  // answer was silently discarded if the reveal was read and then another
+  // tab tapped -- and the welcome says to go and look at the grid.
   score(it.id, right, false);
   if (!right) stats.missed.push(it);
   el.querySelectorAll(".opt").forEach((b,j) => {
@@ -629,8 +629,8 @@ function renderProgress(){
 }
 
 /* ---------- the grid: 14 models x 6 columns, one page ---------- */
-/* What the question is testing, in her words rather than the build brief's.
-   "collision" and "marker" are vocabulary from the spec; she has to read
+/* What the question is testing, in plain words rather than the build brief's.
+   "collision" and "marker" are vocabulary from the spec, and these are read
    these mid-question. */
 const TAGS = {
   T1_change:    "theory of change",
@@ -686,7 +686,7 @@ function renderGrid(){
 }
 
 /* ---------- theme ----------
-   Three states, not two. "Auto" is the default so the app follows her Mac's
+   Three states, not two. "Auto" is the default so the app follows the operating system's
    own light/dark schedule; the other two are explicit overrides that win in
    both directions. */
 const TKEY = "lmft.theme";
@@ -841,7 +841,7 @@ if (!seenWelcome && document.body) welcome();
 initTheme();
 /* Arrow keys move focus between the live choices; space and enter already
    activate a focused button, so nothing extra is needed to pick one. Before
-   she answers the live choices are the options; after, the two confidence
+   an answer is given the live choices are the options; after, the two confidence
    buttons. */
 function d_typing(e){
   const t = e.target;

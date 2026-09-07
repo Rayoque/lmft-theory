@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Extract the five .docx packets to auditable text + JSON.
 Walks body XML in document order so TABLES stay interleaved with paragraphs.
-Preserves bold spans -- the source author used bold as her own emphasis."""
+Preserves bold spans -- the source author used bold as their own emphasis."""
 import json, os, glob, io, sys
 import docx
 from docx.table import Table

@@ -2,7 +2,7 @@
 """Select the shipping bank: roughly 60 Tier 1, 90 Tier 2, remainder Tier 3.
 
 Selection is not killing -- these items passed verification. The brief caps the
-bank on purpose: the corpus is ~366 facts, she has 8 days, and a tool that
+bank on purpose: the corpus is ~366 facts, the learner has 8 days, and a tool that
 serves 356 items pretends otherwise.
 
 Ranking, in order:

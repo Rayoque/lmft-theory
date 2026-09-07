@@ -20,7 +20,7 @@ that are not in the packet. Item options are then assembled only from those
 fact objects. There is no code path that writes option text from anything else.
 
 If a fact is not in the packet, it does not exist here. Blank cells in the grid
-are blank in her packet.
+are blank in the packet.
 
 ---
 
@@ -35,7 +35,7 @@ are blank in her packet.
 | **Shipped in the app** | **200** (60 Tier 1 / 132 Tier 2 / 8 Tier 3) |
 
 The 356 → 200 step is **selection, not killing.** The brief caps the bank
-deliberately: the corpus is ~366 facts, she has 8 days, and a tool that serves
+deliberately: the corpus is ~366 facts, the learner has 8 days, and a tool that serves
 356 items pretends otherwise. Selection prefers blind-graded items and
 round-robins across models so no model is crowded out.
 
@@ -73,7 +73,7 @@ grader had nothing but the stem and the options.
 | Type | Graded | |
 |---|---|---|
 | `T2_collision` | 62/62 | the tool's core purpose |
-| `T1_phase` | 46/46 | the domain she named as most important |
+| `T1_phase` | 46/46 | the domain named as most important |
 | `V_vignette` | 17/17 | hand-authored |
 | `T2_examtip` | 11/11 | the instructor's own flagged content |
 | `T1_change` | 9/9 | |
@@ -83,20 +83,20 @@ grader had nothing but the stem and the options.
 
 ### The grouped-list items
 
-Added after Lauren used the tool and said the ratio was wrong. Her read of the
+Added after the learner used the tool and said the ratio was wrong. Their read of the
 exam: roughly thirty questions that ask you to *recognise* a set of techniques,
 against maybe five that need an actual definition. The bank was inverted — 50
 definition items and none of the other kind.
 
 `T2_group` items give four lists, each belonging entirely to one model, and ask
 which is CBT's (or the reverse: here is a list, whose is it?). Two rules make
-them honest: **a list never mixes models**, which was her explicit ask, and
-**every list in an item is the same length**, so she cannot score by counting —
+them honest: **a list never mixes models**, which was an explicit request, and
+**every list in an item is the same length**, so it cannot be answered by counting —
 CBT has 23 interventions and Object Relations has 5.
 
 Definition items were cut from 50 to 8, kept where a definition is the only
 thing that separates the terms (the packet's four-way psychodynamic trap). The
-ratio is now 42:8, close to the 30:5 she described.
+ratio is now 42:8, close to the 30:5 described.
 
 A grader checking these specifically for mixed lists and invented terms found
 neither. It did flag three terms the packets give to two models each —
@@ -194,7 +194,7 @@ Two things that will look like bugs and are not:
    check. Items retire at 3 correct across 3 *distinct calendar days*.
 
 **Every reveal shows the verbatim source line from the packet.** If an item
-looks wrong, the packet wins. That is the point — she should be able to catch a
+looks wrong, the packet wins. That is the point — the learner should be able to catch a
 bad item rather than memorise it.
 
 ---
@@ -202,7 +202,7 @@ bad item rather than memorise it.
 ## Scope
 
 **Theory only.** The LMCE spans several content domains; this covers one. A
-green dashboard here does not mean she is ready for the exam, and the app says
+green dashboard here does not mean the learner is ready for the exam, and the app says
 so on every session summary.
 
 This repo is public in order to serve GitHub Pages, which means the packet

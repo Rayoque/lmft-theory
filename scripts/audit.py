@@ -45,7 +45,7 @@ for k in sorted(pos): print("   %s: %3d (%.0f%%)"%("ABCD"[k],pos[k],100.0*pos[k]
 mx=max(pos.values())/float(n)
 print("   verdict:","PASS - no positional tell" if mx<0.33 else "SKEWED (%.0f%% in one slot)"%(mx*100))
 
-# 3. LENGTH TELL: can she score by picking the longest/shortest option?
+# 3. LENGTH TELL: can the answer be found by picking the longest/shortest option?
 longest=shortest=0
 for it in I["items"]:
     ls=[len(o["text"]) for o in it["options"]]
