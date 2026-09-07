@@ -2271,7 +2271,7 @@
     "cbt",
     "satir"
    ],
-   "stem": "Bowen Family Systems share the marker “I-statements” with CBT (interventions), Satir Communications Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Bowen Family Systems?",
+   "stem": "“I-statements” appears in Bowen Family Systems, CBT (interventions) and Satir Communications Therapy, so it cannot tell them apart. Which of these belongs only to Bowen Family Systems?",
    "options": [
     {
      "text": "Thought Record",
@@ -2298,7 +2298,7 @@
      "sourceLine": "Distracter: Seeking approval by acting out, irrelevant."
     }
    ],
-   "rationale": "“I-statements” is claimed by Bowen Family Systems, CBT (interventions), Satir Communications Therapy, so it discriminates nothing. Triangles (Triangulation) is unique to Bowen Family Systems.",
+   "rationale": "“I-statements” appears in Bowen Family Systems, CBT (interventions) and Satir Communications Therapy. Triangles (Triangulation) appears only in Bowen Family Systems.",
    "sourceLine": "Triangles (Triangulation): A triangle is a three-person relationship system. It is considered the building block or “molecule” of larger emotional systems because a triangle is the smallest stable relationship system. It could be work, or a substance, not just another person.",
    "marker": "I-statements"
   },
@@ -2311,7 +2311,7 @@
     "satir",
     "structural"
    ],
-   "stem": "Strategic Therapy share the marker “active / directive therapist” with Satir Communications Therapy, Structural Family Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Strategic Therapy?",
+   "stem": "“active / directive therapist” appears in Strategic Therapy, Satir Communications Therapy and Structural Family Therapy, so it cannot tell them apart. Which of these belongs only to Strategic Therapy?",
    "options": [
     {
      "text": "Transforming Rules",
@@ -2338,7 +2338,7 @@
      "sourceLine": "Computer: Super reasonable, intellectual, distant, always correct."
     }
    ],
-   "rationale": "“active / directive therapist” is claimed by Satir Communications Therapy, Strategic Therapy, Structural Family Therapy, so it discriminates nothing. Positioning is unique to Strategic Therapy.",
+   "rationale": "“active / directive therapist” appears in Satir Communications Therapy, Strategic Therapy and Structural Family Therapy. Positioning appears only in Strategic Therapy.",
    "sourceLine": "Positioning: Therapist takes a more exaggerated and extreme view of the problem and the family is obligated to rebel. That leads to them seeing the ways in which they have Competency. (T says your family is completely hopeless w hopes they’d say no its not)",
    "marker": "active / directive therapist"
   },
@@ -2351,7 +2351,7 @@
     "satir",
     "strategic"
    ],
-   "stem": "Structural Family Therapy share the marker “active / directive therapist” with Satir Communications Therapy, Strategic Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Structural Family Therapy?",
+   "stem": "“active / directive therapist” appears in Structural Family Therapy, Satir Communications Therapy and Strategic Therapy, so it cannot tell them apart. Which of these belongs only to Structural Family Therapy?",
    "options": [
     {
      "text": "Joining",
@@ -2378,7 +2378,7 @@
      "sourceLine": "Distracter: Seeking approval by acting out, irrelevant."
     }
    ],
-   "rationale": "“active / directive therapist” is claimed by Satir Communications Therapy, Strategic Therapy, Structural Family Therapy, so it discriminates nothing. Joining is unique to Structural Family Therapy.",
+   "rationale": "“active / directive therapist” appears in Satir Communications Therapy, Strategic Therapy and Structural Family Therapy. Joining appears only in Structural Family Therapy.",
    "sourceLine": "Joining: Therapist’s first task; involves blending in with the family, adapting the family’s affect, style, and language.",
    "marker": "active / directive therapist"
   },
@@ -2391,7 +2391,7 @@
     "bowen",
     "cbt"
    ],
-   "stem": "Satir Communications Therapy share the marker “I-statements” with Bowen Family Systems, CBT (interventions), so that marker cannot tell them apart. Which of these IS distinctive of Satir Communications Therapy?",
+   "stem": "“I-statements” appears in Satir Communications Therapy, Bowen Family Systems and CBT (interventions), so it cannot tell them apart. Which of these belongs only to Satir Communications Therapy?",
    "options": [
     {
      "text": "Three-Column Technique",
@@ -2418,7 +2418,7 @@
      "sourceLine": "Labeling Distortions: Teaches the client to recognize and label particular distortions in thinking that can lead to problems with interpretations of events."
     }
    ],
-   "rationale": "“I-statements” is claimed by Bowen Family Systems, CBT (interventions), Satir Communications Therapy, so it discriminates nothing. Metaphors and Storytelling is unique to Satir Communications Therapy.",
+   "rationale": "“I-statements” appears in Bowen Family Systems, CBT (interventions) and Satir Communications Therapy. Metaphors and Storytelling appears only in Satir Communications Therapy.",
    "sourceLine": "Metaphors and Storytelling: Used to help clients understand their roles.",
    "marker": "I-statements"
   },
@@ -2673,7 +2673,7 @@
     "experiential",
     "satir"
    ],
-   "stem": "Gestalt Therapy share the marker “authentic presence” with Client Centered Therapy, Existential Therapy, Experiential / Symbolic Therapy (Whitaker), Satir Communications Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Gestalt Therapy?",
+   "stem": "“authentic presence” appears in Gestalt Therapy, Client Centered Therapy, Existential Therapy, Experiential / Symbolic Therapy (Whitaker) and Satir Communications Therapy, so it cannot tell them apart. Which of these belongs only to Gestalt Therapy?",
    "options": [
     {
      "text": "Computer",
@@ -2700,7 +2700,7 @@
      "sourceLine": "Incongruent Communication: Discrepancies between verbal and non-verbal cues."
     }
    ],
-   "rationale": "“authentic presence” is claimed by Client Centered Therapy, Existential Therapy, Experiential / Symbolic Therapy (Whitaker), Gestalt Therapy, Satir Communications Therapy, so it discriminates nothing. Repeating words or exaggerating gestures is unique to Gestalt Therapy.",
+   "rationale": "“authentic presence” appears in Client Centered Therapy, Existential Therapy, Experiential / Symbolic Therapy (Whitaker), Gestalt Therapy and Satir Communications Therapy. Repeating words or exaggerating gestures appears only in Gestalt Therapy.",
    "sourceLine": "Repeating words of overexaggerating gestures",
    "marker": "authentic presence"
   },
@@ -2713,7 +2713,7 @@
     "bowen",
     "satir"
    ],
-   "stem": "Existential Therapy share the marker “taking responsibility” with Bowen Family Systems, Satir Communications Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Existential Therapy?",
+   "stem": "“taking responsibility” appears in Existential Therapy, Bowen Family Systems and Satir Communications Therapy, so it cannot tell them apart. Which of these belongs only to Existential Therapy?",
    "options": [
     {
      "text": "Givens in life",
@@ -2740,7 +2740,7 @@
      "sourceLine": "De-triangulation: Therapist becomes part of a \"healthy triangle\" where the therapist teaches the couple to manage their own anxiety, distance, and closeness in healthy ways. Therapist will be very conscious to not take sides, and supporting communication between family members."
     }
    ],
-   "rationale": "“taking responsibility” is claimed by Bowen Family Systems, Existential Therapy, Satir Communications Therapy, so it discriminates nothing. Givens in life is unique to Existential Therapy.",
+   "rationale": "“taking responsibility” appears in Bowen Family Systems, Existential Therapy and Satir Communications Therapy. Givens in life appears only in Existential Therapy.",
    "sourceLine": "Givens in life: death, freedom, meaningless, isolation. Encourages honesty about life’s conditions.",
    "marker": "taking responsibility"
   },
@@ -2793,7 +2793,7 @@
     "bowen",
     "satir"
    ],
-   "stem": "CBT (interventions) share the marker “I-statements” with Bowen Family Systems, Satir Communications Therapy, so that marker cannot tell them apart. Which of these IS distinctive of CBT (interventions)?",
+   "stem": "“I-statements” appears in CBT (interventions), Bowen Family Systems and Satir Communications Therapy, so it cannot tell them apart. Which of these belongs only to CBT (interventions)?",
    "options": [
     {
      "text": "Family Sculpting",
@@ -2820,7 +2820,7 @@
      "sourceLine": "Communication Skills Training: Used in couples therapy to help couples talk about feelings and problems. CBT therapist working with couples. Managing conflict. I-statements, assertiveness training, teaching people how to listen, teaching people how to listen and not jump in with problem solving, teaching people how to identify when they are getting overly aroused so that they know when to take time-outs."
     }
    ],
-   "rationale": "“I-statements” is claimed by Bowen Family Systems, CBT (interventions), Satir Communications Therapy, so it discriminates nothing. Communication Skills Training is unique to CBT (interventions).",
+   "rationale": "“I-statements” appears in Bowen Family Systems, CBT (interventions) and Satir Communications Therapy. Communication Skills Training appears only in CBT (interventions).",
    "sourceLine": "Communication Skills Training: Used in couples therapy to help couples talk about feelings and problems. CBT therapist working with couples. Managing conflict. I-statements, assertiveness training, teaching people how to listen, teaching people how to listen and not jump in with problem solving, teaching people how to identify when they are getting overly aroused so that they know when to take time-outs.",
    "marker": "I-statements"
   },
@@ -2874,7 +2874,7 @@
     "cbt",
     "solution-focused"
    ],
-   "stem": "Strategic Therapy share the marker “homework / between-session task” with Bowen Family Systems, CBT (interventions), Solution-Focused Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Strategic Therapy?",
+   "stem": "“homework / between-session task” appears in Strategic Therapy, Bowen Family Systems, CBT (interventions) and Solution-Focused Therapy, so it cannot tell them apart. Which of these belongs only to Strategic Therapy?",
    "options": [
     {
      "text": "Prescribing the Symptom",
@@ -2901,7 +2901,7 @@
      "sourceLine": "Bibliotherapy: Assigning reading material."
     }
    ],
-   "rationale": "“homework / between-session task” is claimed by Bowen Family Systems, CBT (interventions), Solution-Focused Therapy, Strategic Therapy, so it discriminates nothing. Prescribing the Symptom is unique to Strategic Therapy.",
+   "rationale": "“homework / between-session task” appears in Bowen Family Systems, CBT (interventions), Solution-Focused Therapy and Strategic Therapy. Prescribing the Symptom appears only in Strategic Therapy.",
    "sourceLine": "Prescribing the Symptom: A strategy in which the therapist encourages or instructs the client to engage in or practice the symptom. ie schedule a fight or schedule a worry time.",
    "marker": "homework / between-session task"
   },
@@ -2956,7 +2956,7 @@
     "experiential",
     "gestalt"
    ],
-   "stem": "Satir Communications Therapy share the marker “authentic presence” with Client Centered Therapy, Existential Therapy, Experiential / Symbolic Therapy (Whitaker), Gestalt Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Satir Communications Therapy?",
+   "stem": "“authentic presence” appears in Satir Communications Therapy, Client Centered Therapy, Existential Therapy, Experiential / Symbolic Therapy (Whitaker) and Gestalt Therapy, so it cannot tell them apart. Which of these belongs only to Satir Communications Therapy?",
    "options": [
     {
      "text": "Activating Constructive Anxiety",
@@ -2983,7 +2983,7 @@
      "sourceLine": "“Imaginal death” exercises: Envisioning one's death to reflect on what truly matters. Brings clarity, gratitude, and urgency for authentic living."
     }
    ],
-   "rationale": "“authentic presence” is claimed by Client Centered Therapy, Existential Therapy, Experiential / Symbolic Therapy (Whitaker), Gestalt Therapy, Satir Communications Therapy, so it discriminates nothing. Leveler is unique to Satir Communications Therapy.",
+   "rationale": "“authentic presence” appears in Client Centered Therapy, Existential Therapy, Experiential / Symbolic Therapy (Whitaker), Gestalt Therapy and Satir Communications Therapy. Leveler appears only in Satir Communications Therapy.",
    "sourceLine": "Leveler: Congruent in their beliefs about self and others.",
    "marker": "authentic presence"
   },
@@ -2996,7 +2996,7 @@
     "satir",
     "solution-focused"
    ],
-   "stem": "Narrative Therapy share the marker “strengths and resources” with Satir Communications Therapy, Solution-Focused Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Narrative Therapy?",
+   "stem": "“strengths and resources” appears in Narrative Therapy, Satir Communications Therapy and Solution-Focused Therapy, so it cannot tell them apart. Which of these belongs only to Narrative Therapy?",
    "options": [
     {
      "text": "Deconstructive Questions",
@@ -3023,7 +3023,7 @@
      "sourceLine": "Styles of Communication: The rules that govern family interaction function as a method of ensuring the maintenance and preservation of the family’s current functioning level."
     }
    ],
-   "rationale": "“strengths and resources” is claimed by Narrative Therapy, Satir Communications Therapy, Solution-Focused Therapy, so it discriminates nothing. Deconstructive Questions is unique to Narrative Therapy.",
+   "rationale": "“strengths and resources” appears in Narrative Therapy, Satir Communications Therapy and Solution-Focused Therapy. Deconstructive Questions appears only in Narrative Therapy.",
    "sourceLine": "Deconstructive Questions: This is a type of intervention. Once the problem is externalized, the therapist will ask various questions designed to pull apart or dismantle the client’s problem-saturated stories.",
    "marker": "strengths and resources"
   },
@@ -3113,7 +3113,7 @@
     "self-psychology",
     "structural"
    ],
-   "stem": "Self Psychology share the marker “enactment” with Structural Family Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Self Psychology?",
+   "stem": "“enactment” appears in Self Psychology and Structural Family Therapy, so it cannot tell them apart. Which of these belongs only to Self Psychology?",
    "options": [
     {
      "text": "Disengaged Boundaries",
@@ -3140,7 +3140,7 @@
      "sourceLine": "Adversarial Transference: The need for a supportive relationship that the patient can oppose in order to grow. The therapist can be a person who cares about them, but C is also allowed to disagree and push back, and this could be an important way of healing for a client who felt differential their entire life."
     }
    ],
-   "rationale": "“enactment” is claimed by Self Psychology, Structural Family Therapy, so it discriminates nothing. Adversarial Transference is unique to Self Psychology.",
+   "rationale": "“enactment” appears in Self Psychology and Structural Family Therapy. Adversarial Transference appears only in Self Psychology.",
    "sourceLine": "Adversarial Transference: The need for a supportive relationship that the patient can oppose in order to grow. The therapist can be a person who cares about them, but C is also allowed to disagree and push back, and this could be an important way of healing for a client who felt differential their entire life.",
    "marker": "enactment"
   },
@@ -3231,7 +3231,7 @@
     "client-centered",
     "gestalt"
    ],
-   "stem": "Existential Therapy share the marker “here and now / present moment” with Client Centered Therapy, Gestalt Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Existential Therapy?",
+   "stem": "“here and now / present moment” appears in Existential Therapy, Client Centered Therapy and Gestalt Therapy, so it cannot tell them apart. Which of these belongs only to Existential Therapy?",
    "options": [
     {
      "text": "Present experience while discussing the past",
@@ -3258,7 +3258,7 @@
      "sourceLine": "Gestalt focuses on body awareness: what are you noticing in your body. Getting in touch with the sensations and associated emotions with the sensations."
     }
    ],
-   "rationale": "“here and now / present moment” is claimed by Client Centered Therapy, Existential Therapy, Gestalt Therapy, so it discriminates nothing. “Imaginal death” exercises is unique to Existential Therapy.",
+   "rationale": "“here and now / present moment” appears in Client Centered Therapy, Existential Therapy and Gestalt Therapy. “Imaginal death” exercises appears only in Existential Therapy.",
    "sourceLine": "“Imaginal death” exercises: Envisioning one's death to reflect on what truly matters. Brings clarity, gratitude, and urgency for authentic living.",
    "marker": "here and now / present moment"
   },
@@ -3391,7 +3391,7 @@
     "experiential",
     "structural"
    ],
-   "stem": "Strategic Therapy share the marker “reframing” with Bowen Family Systems, CBT (interventions), Experiential / Symbolic Therapy (Whitaker), Structural Family Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Strategic Therapy?",
+   "stem": "“reframing” appears in Strategic Therapy, Bowen Family Systems, CBT (interventions), Experiential / Symbolic Therapy (Whitaker) and Structural Family Therapy, so it cannot tell them apart. Which of these belongs only to Strategic Therapy?",
    "options": [
     {
      "text": "Battle for Structure",
@@ -3418,7 +3418,7 @@
      "sourceLine": "Positioning: Therapist takes a more exaggerated and extreme view of the problem and the family is obligated to rebel. That leads to them seeing the ways in which they have Competency. (T says your family is completely hopeless w hopes they’d say no its not)"
     }
    ],
-   "rationale": "“reframing” is claimed by Bowen Family Systems, CBT (interventions), Experiential / Symbolic Therapy (Whitaker), Strategic Therapy, Structural Family Therapy, so it discriminates nothing. Positioning is unique to Strategic Therapy.",
+   "rationale": "“reframing” appears in Bowen Family Systems, CBT (interventions), Experiential / Symbolic Therapy (Whitaker), Strategic Therapy and Structural Family Therapy. Positioning appears only in Strategic Therapy.",
    "sourceLine": "Positioning: Therapist takes a more exaggerated and extreme view of the problem and the family is obligated to rebel. That leads to them seeing the ways in which they have Competency. (T says your family is completely hopeless w hopes they’d say no its not)",
    "marker": "reframing"
   },
@@ -3430,7 +3430,7 @@
     "structural",
     "experiential"
    ],
-   "stem": "Structural Family Therapy share the marker “boundary work” with Experiential / Symbolic Therapy (Whitaker), so that marker cannot tell them apart. Which of these IS distinctive of Structural Family Therapy?",
+   "stem": "“boundary work” appears in Structural Family Therapy and Experiential / Symbolic Therapy (Whitaker), so it cannot tell them apart. Which of these belongs only to Structural Family Therapy?",
    "options": [
     {
      "text": "Activating Constructive Anxiety",
@@ -3457,7 +3457,7 @@
      "sourceLine": "Battle for Initiative: Motivation for change must come from family. Includes having a family state the agenda for each session, waiting silently for family to take initiative, allowing family to determine how change is going to happen. The therapist should not be working harder than the family. A family comes in, and nobody is speaking. What would experiential therapist do? The right answer would be the therapist would wait silently for the family to take initiative."
     }
    ],
-   "rationale": "“boundary work” is claimed by Experiential / Symbolic Therapy (Whitaker), Structural Family Therapy, so it discriminates nothing. Enmeshed Boundaries is unique to Structural Family Therapy.",
+   "rationale": "“boundary work” appears in Experiential / Symbolic Therapy (Whitaker) and Structural Family Therapy. Enmeshed Boundaries appears only in Structural Family Therapy.",
    "sourceLine": "Enmeshed Boundaries: Family members are overly dependent and too closely involved and reactive to other family members. Can lead to incest.",
    "marker": "boundary work"
   },
@@ -3470,7 +3470,7 @@
     "strategic",
     "structural"
    ],
-   "stem": "Satir Communications Therapy share the marker “active / directive therapist” with Strategic Therapy, Structural Family Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Satir Communications Therapy?",
+   "stem": "“active / directive therapist” appears in Satir Communications Therapy, Strategic Therapy and Structural Family Therapy, so it cannot tell them apart. Which of these belongs only to Satir Communications Therapy?",
    "options": [
     {
      "text": "Enmeshed Boundaries",
@@ -3497,7 +3497,7 @@
      "sourceLine": "Styles of Communication: The rules that govern family interaction function as a method of ensuring the maintenance and preservation of the family’s current functioning level."
     }
    ],
-   "rationale": "“active / directive therapist” is claimed by Satir Communications Therapy, Strategic Therapy, Structural Family Therapy, so it discriminates nothing. Styles of Communication is unique to Satir Communications Therapy.",
+   "rationale": "“active / directive therapist” appears in Satir Communications Therapy, Strategic Therapy and Structural Family Therapy. Styles of Communication appears only in Satir Communications Therapy.",
    "sourceLine": "Styles of Communication: The rules that govern family interaction function as a method of ensuring the maintenance and preservation of the family’s current functioning level.",
    "marker": "active / directive therapist"
   },
@@ -3510,7 +3510,7 @@
     "bowen",
     "satir"
    ],
-   "stem": "Narrative Therapy share the marker “investigator / detective stance” with Bowen Family Systems, Satir Communications Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Narrative Therapy?",
+   "stem": "“investigator / detective stance” appears in Narrative Therapy, Bowen Family Systems and Satir Communications Therapy, so it cannot tell them apart. Which of these belongs only to Narrative Therapy?",
    "options": [
     {
      "text": "Transforming Rules",
@@ -3537,7 +3537,7 @@
      "sourceLine": "Written Artifact: This is a type of intervention. It is some form or written documentation that reinforces the client’s new story."
     }
    ],
-   "rationale": "“investigator / detective stance” is claimed by Bowen Family Systems, Narrative Therapy, Satir Communications Therapy, so it discriminates nothing. Written Artifact is unique to Narrative Therapy.",
+   "rationale": "“investigator / detective stance” appears in Bowen Family Systems, Narrative Therapy and Satir Communications Therapy. Written Artifact appears only in Narrative Therapy.",
    "sourceLine": "Written Artifact: This is a type of intervention. It is some form or written documentation that reinforces the client’s new story.",
    "marker": "investigator / detective stance"
   },
@@ -3550,7 +3550,7 @@
     "narrative",
     "satir"
    ],
-   "stem": "Solution-Focused Therapy share the marker “strengths and resources” with Narrative Therapy, Satir Communications Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Solution-Focused Therapy?",
+   "stem": "“strengths and resources” appears in Solution-Focused Therapy, Narrative Therapy and Satir Communications Therapy, so it cannot tell them apart. Which of these belongs only to Solution-Focused Therapy?",
    "options": [
     {
      "text": "Affirmations/Compliments",
@@ -3577,7 +3577,7 @@
      "sourceLine": "Written Artifact: This is a type of intervention. It is some form or written documentation that reinforces the client’s new story."
     }
    ],
-   "rationale": "“strengths and resources” is claimed by Narrative Therapy, Satir Communications Therapy, Solution-Focused Therapy, so it discriminates nothing. Affirmations/Compliments is unique to Solution-Focused Therapy.",
+   "rationale": "“strengths and resources” appears in Narrative Therapy, Satir Communications Therapy and Solution-Focused Therapy. Affirmations/Compliments appears only in Solution-Focused Therapy.",
    "sourceLine": "Affirmations/Compliments: Regularly acknowledge progress, strengths, and resources. Example: Tell the client, \"I am impressed you are sitting in that chair again after what you just went through.\"",
    "marker": "strengths and resources"
   },
@@ -3629,7 +3629,7 @@
     "self-psychology",
     "object-relations"
    ],
-   "stem": "Self Psychology share the marker “transference work” with Object Relations, so that marker cannot tell them apart. Which of these IS distinctive of Self Psychology?",
+   "stem": "“transference work” appears in Self Psychology and Object Relations, so it cannot tell them apart. Which of these belongs only to Self Psychology?",
    "options": [
     {
      "text": "Self- and Object-Representations",
@@ -3656,7 +3656,7 @@
      "sourceLine": "Focus on transference/countertransference dynamic."
     }
    ],
-   "rationale": "“transference work” is claimed by Object Relations, Self Psychology, so it discriminates nothing. Provide “experience-near” empathy is unique to Self Psychology.",
+   "rationale": "“transference work” appears in Object Relations and Self Psychology. Provide “experience-near” empathy appears only in Self Psychology.",
    "sourceLine": "Provide “experience-near” empathy",
    "marker": "transference work"
   },
@@ -3706,7 +3706,7 @@
     "gestalt",
     "cbt"
    ],
-   "stem": "Gestalt Therapy share the marker “experiments” with CBT (interventions), so that marker cannot tell them apart. Which of these IS distinctive of Gestalt Therapy?",
+   "stem": "“experiments” appears in Gestalt Therapy and CBT (interventions), so it cannot tell them apart. Which of these belongs only to Gestalt Therapy?",
    "options": [
     {
      "text": "Labeling Distortions",
@@ -3733,7 +3733,7 @@
      "sourceLine": "Repeating words of overexaggerating gestures"
     }
    ],
-   "rationale": "“experiments” is claimed by CBT (interventions), Gestalt Therapy, so it discriminates nothing. Repeating words or exaggerating gestures is unique to Gestalt Therapy.",
+   "rationale": "“experiments” appears in CBT (interventions) and Gestalt Therapy. Repeating words or exaggerating gestures appears only in Gestalt Therapy.",
    "sourceLine": "Repeating words of overexaggerating gestures",
    "marker": "experiments"
   },
@@ -3747,7 +3747,7 @@
     "client-centered",
     "gestalt"
    ],
-   "stem": "Existential Therapy share the marker “nonjudgmental stance” with Attachment-Based Therapy (Bowlby), Client Centered Therapy, Gestalt Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Existential Therapy?",
+   "stem": "“nonjudgmental stance” appears in Existential Therapy, Attachment-Based Therapy (Bowlby), Client Centered Therapy and Gestalt Therapy, so it cannot tell them apart. Which of these belongs only to Existential Therapy?",
    "options": [
     {
      "text": "Repeating statement",
@@ -3774,7 +3774,7 @@
      "sourceLine": "Experiments in Gestalt: T can make suggestions of client trying something new."
     }
    ],
-   "rationale": "“nonjudgmental stance” is claimed by Attachment-Based Therapy (Bowlby), Client Centered Therapy, Existential Therapy, Gestalt Therapy, so it discriminates nothing. Mastering emotional pain is unique to Existential Therapy.",
+   "rationale": "“nonjudgmental stance” appears in Attachment-Based Therapy (Bowlby), Client Centered Therapy, Existential Therapy and Gestalt Therapy. Mastering emotional pain appears only in Existential Therapy.",
    "sourceLine": "Mastering emotional pain: unique healing activities. Relating to pain as something that you have endured and has shaped who you are, so that the painful experience has meaning and significance. Being able to share your deepest wounds with a present nonjudgemental person – T is there with C in their suffering.",
    "marker": "nonjudgmental stance"
   },
@@ -3788,7 +3788,7 @@
     "satir",
     "structural"
    ],
-   "stem": "Experiential / Symbolic Therapy (Whitaker) share the marker “family history mapping (function)” with Bowen Family Systems, Satir Communications Therapy, Structural Family Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Experiential / Symbolic Therapy (Whitaker)?",
+   "stem": "“family history mapping (function)” appears in Experiential / Symbolic Therapy (Whitaker), Bowen Family Systems, Satir Communications Therapy and Structural Family Therapy, so it cannot tell them apart. Which of these belongs only to Experiential / Symbolic Therapy (Whitaker)?",
    "options": [
     {
      "text": "Power Hierarchy",
@@ -3815,7 +3815,7 @@
      "sourceLine": "Play, Humor, and “Craziness:” Tapping irrational side. Finding solutions in creative interactions."
     }
    ],
-   "rationale": "“family history mapping (function)” is claimed by Bowen Family Systems, Experiential / Symbolic Therapy (Whitaker), Satir Communications Therapy, Structural Family Therapy, so it discriminates nothing. Play, Humor, and “Craziness” is unique to Experiential / Symbolic Therapy (Whitaker).",
+   "rationale": "“family history mapping (function)” appears in Bowen Family Systems, Experiential / Symbolic Therapy (Whitaker), Satir Communications Therapy and Structural Family Therapy. Play, Humor, and “Craziness” appears only in Experiential / Symbolic Therapy (Whitaker).",
    "sourceLine": "Play, Humor, and “Craziness:” Tapping irrational side. Finding solutions in creative interactions.",
    "marker": "family history mapping (function)"
   },
@@ -3908,7 +3908,7 @@
     "experiential",
     "strategic"
    ],
-   "stem": "Structural Family Therapy share the marker “reframing” with Bowen Family Systems, CBT (interventions), Experiential / Symbolic Therapy (Whitaker), Strategic Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Structural Family Therapy?",
+   "stem": "“reframing” appears in Structural Family Therapy, Bowen Family Systems, CBT (interventions), Experiential / Symbolic Therapy (Whitaker) and Strategic Therapy, so it cannot tell them apart. Which of these belongs only to Structural Family Therapy?",
    "options": [
     {
      "text": "Subsystems",
@@ -3935,7 +3935,7 @@
      "sourceLine": "Play, Humor, and “Craziness:” Tapping irrational side. Finding solutions in creative interactions."
     }
    ],
-   "rationale": "“reframing” is claimed by Bowen Family Systems, CBT (interventions), Experiential / Symbolic Therapy (Whitaker), Strategic Therapy, Structural Family Therapy, so it discriminates nothing. Subsystems is unique to Structural Family Therapy.",
+   "rationale": "“reframing” appears in Bowen Family Systems, CBT (interventions), Experiential / Symbolic Therapy (Whitaker), Strategic Therapy and Structural Family Therapy. Subsystems appears only in Structural Family Therapy.",
    "sourceLine": "Subsystems: Families organize themselves by generation, relationship, and necessity. Examples: marital subsystem – spouses; parental subsystem: parents; executive subsystem: people who run the family; sibling subsystem – kids.",
    "marker": "reframing"
   },
@@ -3986,7 +3986,7 @@
     "cbt",
     "solution-focused"
    ],
-   "stem": "Narrative Therapy share the marker “collaborative goal setting” with CBT (interventions), Solution-Focused Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Narrative Therapy?",
+   "stem": "“collaborative goal setting” appears in Narrative Therapy, CBT (interventions) and Solution-Focused Therapy, so it cannot tell them apart. Which of these belongs only to Narrative Therapy?",
    "options": [
     {
      "text": "Thin Story",
@@ -4013,7 +4013,7 @@
      "sourceLine": "Anxiety Management Training: Teaches skills for specific situations using imagery. The client practices relaxation until anxiety is reduced then continues with imagery. Uses a lot of imagery and practicing relaxation skills. Teaches general coping skills. - Diaphragmatic breathing - Progressive muscle relaxation - Cognitive reframing - Coping self-statements - Thought-stopping - Self-monitoring of anxiety - Coping self-statements - Problem-solving training Skill acquisition, done early in therapy. Anxiety Management Training = “Learn how to calm your mind and body when anxiety hits — anytime, anywhere.”"
     }
    ],
-   "rationale": "“collaborative goal setting” is claimed by CBT (interventions), Narrative Therapy, Solution-Focused Therapy, so it discriminates nothing. Thin Story is unique to Narrative Therapy.",
+   "rationale": "“collaborative goal setting” appears in CBT (interventions), Narrative Therapy and Solution-Focused Therapy. Thin Story appears only in Narrative Therapy.",
    "sourceLine": "Thin Story: The alternate story being developed, which has minimal details. A goal is to build on this story and make it thicker.",
    "marker": "collaborative goal setting"
   },
@@ -4027,7 +4027,7 @@
     "cbt",
     "strategic"
    ],
-   "stem": "Solution-Focused Therapy share the marker “homework / between-session task” with Bowen Family Systems, CBT (interventions), Strategic Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Solution-Focused Therapy?",
+   "stem": "“homework / between-session task” appears in Solution-Focused Therapy, Bowen Family Systems, CBT (interventions) and Strategic Therapy, so it cannot tell them apart. Which of these belongs only to Solution-Focused Therapy?",
    "options": [
     {
      "text": "Restraining",
@@ -4054,7 +4054,7 @@
      "sourceLine": "Coping Questions: If a client has trouble identifying positive change, coping questions are asked by the therapist in order to illustrate resources that the client already has. This can include validating the client’s difficulties while also showing that they are still able to get up in the morning, go to school, etc. This highlights the client’s strengths without undermining their view of reality. These questions are supportive while also challenging the client and shifting the focus away from problem-focused narratives. Example: “How do you keep going each day even when it feels like there is no hope?”"
     }
    ],
-   "rationale": "“homework / between-session task” is claimed by Bowen Family Systems, CBT (interventions), Solution-Focused Therapy, Strategic Therapy, so it discriminates nothing. Coping Questions is unique to Solution-Focused Therapy.",
+   "rationale": "“homework / between-session task” appears in Bowen Family Systems, CBT (interventions), Solution-Focused Therapy and Strategic Therapy. Coping Questions appears only in Solution-Focused Therapy.",
    "sourceLine": "Coping Questions: If a client has trouble identifying positive change, coping questions are asked by the therapist in order to illustrate resources that the client already has. This can include validating the client’s difficulties while also showing that they are still able to get up in the morning, go to school, etc. This highlights the client’s strengths without undermining their view of reality. These questions are supportive while also challenging the client and shifting the focus away from problem-focused narratives. Example: “How do you keep going each day even when it feels like there is no hope?”",
    "marker": "homework / between-session task"
   },
@@ -4066,7 +4066,7 @@
     "object-relations",
     "self-psychology"
    ],
-   "stem": "Object Relations share the marker “termination work” with Self Psychology, so that marker cannot tell them apart. Which of these IS distinctive of Object Relations?",
+   "stem": "“termination work” appears in Object Relations and Self Psychology, so it cannot tell them apart. Which of these belongs only to Object Relations?",
    "options": [
     {
      "text": "Idealizing Transference",
@@ -4093,7 +4093,7 @@
      "sourceLine": "Demonstrate that the therapist is able to provide containment: client is getting emotional, and the T can be a warm open presence without judgement and having client feel they are able to share this information and they will not be rejected. The therapist is able to hear what client is saying without becoming overwhelmed themselves."
     }
    ],
-   "rationale": "“termination work” is claimed by Object Relations, Self Psychology, so it discriminates nothing. Confront resistance and primitive defenses is unique to Object Relations.",
+   "rationale": "“termination work” appears in Object Relations and Self Psychology. Confront resistance and primitive defenses appears only in Object Relations.",
    "sourceLine": "Confront (aka bringing the issues to attention: I notice when I bring this up, you quickly change the subject) resistance and primitive defense mechanisms.",
    "marker": "termination work"
   },
@@ -4105,7 +4105,7 @@
     "self-psychology",
     "satir"
    ],
-   "stem": "Self Psychology share the marker “self-esteem” with Satir Communications Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Self Psychology?",
+   "stem": "“self-esteem” appears in Self Psychology and Satir Communications Therapy, so it cannot tell them apart. Which of these belongs only to Self Psychology?",
    "options": [
     {
      "text": "Blamer",
@@ -4132,7 +4132,7 @@
      "sourceLine": "Mourning loss of selfobjects Mourning the mother they may have never had. They can grieve these losses. An acceptance of that loss, a sadness that is allowed to happen over it. Cry for their younger selves, inner child."
     }
    ],
-   "rationale": "“self-esteem” is claimed by Satir Communications Therapy, Self Psychology, so it discriminates nothing. Mourning loss of selfobjects is unique to Self Psychology.",
+   "rationale": "“self-esteem” appears in Satir Communications Therapy and Self Psychology. Mourning loss of selfobjects appears only in Self Psychology.",
    "sourceLine": "Mourning loss of selfobjects Mourning the mother they may have never had. They can grieve these losses. An acceptance of that loss, a sadness that is allowed to happen over it. Cry for their younger selves, inner child.",
    "marker": "self-esteem"
   },
@@ -4185,7 +4185,7 @@
     "client-centered",
     "existential"
    ],
-   "stem": "Gestalt Therapy share the marker “nonjudgmental stance” with Attachment-Based Therapy (Bowlby), Client Centered Therapy, Existential Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Gestalt Therapy?",
+   "stem": "“nonjudgmental stance” appears in Gestalt Therapy, Attachment-Based Therapy (Bowlby), Client Centered Therapy and Existential Therapy, so it cannot tell them apart. Which of these belongs only to Gestalt Therapy?",
    "options": [
     {
      "text": "Top dog / underdog dialogue",
@@ -4212,7 +4212,7 @@
      "sourceLine": "Repair occurs during the late middle phase and the end of treatment."
     }
    ],
-   "rationale": "“nonjudgmental stance” is claimed by Attachment-Based Therapy (Bowlby), Client Centered Therapy, Existential Therapy, Gestalt Therapy, so it discriminates nothing. Top dog / underdog dialogue is unique to Gestalt Therapy.",
+   "rationale": "“nonjudgmental stance” appears in Attachment-Based Therapy (Bowlby), Client Centered Therapy, Existential Therapy and Gestalt Therapy. Top dog / underdog dialogue appears only in Gestalt Therapy.",
    "sourceLine": "Top dog / underdog dialogue",
    "marker": "nonjudgmental stance"
   },
@@ -4225,7 +4225,7 @@
     "object-relations",
     "self-psychology"
    ],
-   "stem": "Existential Therapy share the marker “holding environment” with Object Relations, Self Psychology, so that marker cannot tell them apart. Which of these IS distinctive of Existential Therapy?",
+   "stem": "“holding environment” appears in Existential Therapy, Object Relations and Self Psychology, so it cannot tell them apart. Which of these belongs only to Existential Therapy?",
    "options": [
     {
      "text": "Confront resistance and primitive defenses",
@@ -4252,7 +4252,7 @@
      "sourceLine": "“Imaginal death” exercises: Envisioning one's death to reflect on what truly matters. Brings clarity, gratitude, and urgency for authentic living."
     }
    ],
-   "rationale": "“holding environment” is claimed by Existential Therapy, Object Relations, Self Psychology, so it discriminates nothing. Imaginal death is unique to Existential Therapy.",
+   "rationale": "“holding environment” appears in Existential Therapy, Object Relations and Self Psychology. Imaginal death appears only in Existential Therapy.",
    "sourceLine": "“Imaginal death” exercises: Envisioning one's death to reflect on what truly matters. Brings clarity, gratitude, and urgency for authentic living.",
    "marker": "holding environment"
   },
@@ -4264,7 +4264,7 @@
     "experiential",
     "cbt"
    ],
-   "stem": "Experiential / Symbolic Therapy (Whitaker) share the marker “role-play” with CBT (interventions), so that marker cannot tell them apart. Which of these IS distinctive of Experiential / Symbolic Therapy (Whitaker)?",
+   "stem": "“role-play” appears in Experiential / Symbolic Therapy (Whitaker) and CBT (interventions), so it cannot tell them apart. Which of these belongs only to Experiential / Symbolic Therapy (Whitaker)?",
    "options": [
     {
      "text": "Systematic Desensitization",
@@ -4291,7 +4291,7 @@
      "sourceLine": "Battle for Structure: Therapist establishes the rules and working atmosphere of treatment. Includes the need for the entire family to be in therapy (a mother and child come in for therapy and there is a question for the initial intervention an experiential therapist would use: the therapist discusses with mom the need to include entire family in therapy would be the correct answer."
     }
    ],
-   "rationale": "“role-play” is claimed by CBT (interventions), Experiential / Symbolic Therapy (Whitaker), so it discriminates nothing. Battle for Structure is unique to Experiential / Symbolic Therapy (Whitaker).",
+   "rationale": "“role-play” appears in CBT (interventions) and Experiential / Symbolic Therapy (Whitaker). Battle for Structure appears only in Experiential / Symbolic Therapy (Whitaker).",
    "sourceLine": "Battle for Structure: Therapist establishes the rules and working atmosphere of treatment. Includes the need for the entire family to be in therapy (a mother and child come in for therapy and there is a question for the initial intervention an experiential therapist would use: the therapist discusses with mom the need to include entire family in therapy would be the correct answer.",
    "marker": "role-play"
   },
@@ -4342,7 +4342,7 @@
     "existential",
     "satir"
    ],
-   "stem": "Bowen Family Systems share the marker “taking responsibility” with Existential Therapy, Satir Communications Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Bowen Family Systems?",
+   "stem": "“taking responsibility” appears in Bowen Family Systems, Existential Therapy and Satir Communications Therapy, so it cannot tell them apart. Which of these belongs only to Bowen Family Systems?",
    "options": [
     {
      "text": "Distracter",
@@ -4369,7 +4369,7 @@
      "sourceLine": "Multigenerational Transmission Process: The concept of the multigenerational transmission process describes how small differences in the levels of differentiation between parents and their offspring lead over many generations to marked differences in differentiation among the members of a multigenerational family."
     }
    ],
-   "rationale": "“taking responsibility” is claimed by Bowen Family Systems, Existential Therapy, Satir Communications Therapy, so it discriminates nothing. Multigenerational Transmission Process is unique to Bowen Family Systems.",
+   "rationale": "“taking responsibility” appears in Bowen Family Systems, Existential Therapy and Satir Communications Therapy. Multigenerational Transmission Process appears only in Bowen Family Systems.",
    "sourceLine": "Multigenerational Transmission Process: The concept of the multigenerational transmission process describes how small differences in the levels of differentiation between parents and their offspring lead over many generations to marked differences in differentiation among the members of a multigenerational family.",
    "marker": "taking responsibility"
   },
@@ -4381,7 +4381,7 @@
     "structural",
     "experiential"
    ],
-   "stem": "Structural Family Therapy share the marker “coalitions / alignments” with Experiential / Symbolic Therapy (Whitaker), so that marker cannot tell them apart. Which of these IS distinctive of Structural Family Therapy?",
+   "stem": "“coalitions / alignments” appears in Structural Family Therapy and Experiential / Symbolic Therapy (Whitaker), so it cannot tell them apart. Which of these belongs only to Structural Family Therapy?",
    "options": [
     {
      "text": "Disengaged Boundaries",
@@ -4408,7 +4408,7 @@
      "sourceLine": "Play, Humor, and “Craziness:” Tapping irrational side. Finding solutions in creative interactions."
     }
    ],
-   "rationale": "“coalitions / alignments” is claimed by Experiential / Symbolic Therapy (Whitaker), Structural Family Therapy, so it discriminates nothing. Disengaged Boundaries is unique to Structural Family Therapy.",
+   "rationale": "“coalitions / alignments” appears in Experiential / Symbolic Therapy (Whitaker) and Structural Family Therapy. Disengaged Boundaries appears only in Structural Family Therapy.",
    "sourceLine": "Disengaged Boundaries: Where family members are isolated from each other. Can lead to AOD use and is a result of rigid boundaries.",
    "marker": "coalitions / alignments"
   },
@@ -4576,7 +4576,7 @@
     "client-centered",
     "existential"
    ],
-   "stem": "Gestalt Therapy share the marker “here and now / present moment” with Client Centered Therapy, Existential Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Gestalt Therapy?",
+   "stem": "“here and now / present moment” appears in Gestalt Therapy, Client Centered Therapy and Existential Therapy, so it cannot tell them apart. Which of these belongs only to Gestalt Therapy?",
    "options": [
     {
      "text": "Holding",
@@ -4603,7 +4603,7 @@
      "sourceLine": "“Imaginal death” exercises: Envisioning one's death to reflect on what truly matters. Brings clarity, gratitude, and urgency for authentic living."
     }
    ],
-   "rationale": "“here and now / present moment” is claimed by Client Centered Therapy, Existential Therapy, Gestalt Therapy, so it discriminates nothing. Phenomenological description is unique to Gestalt Therapy.",
+   "rationale": "“here and now / present moment” appears in Client Centered Therapy, Existential Therapy and Gestalt Therapy. Phenomenological description appears only in Gestalt Therapy.",
    "sourceLine": "Explaining experience of the client by using description instead of interpretation. Client is crying in session. Interpretation “you seem sad.” For Gestalt phenomenological method: “I see you tearing up, I’m wondering what you’re experiencing right now.” This allows for more expanded of what the client is experiencing. You’re asking them to really describe what they are experiencing in the moment.",
    "marker": "here and now / present moment"
   },
@@ -4615,7 +4615,7 @@
     "existential",
     "gestalt"
    ],
-   "stem": "Existential Therapy share the marker “process not content” with Gestalt Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Existential Therapy?",
+   "stem": "“process not content” appears in Existential Therapy and Gestalt Therapy, so it cannot tell them apart. Which of these belongs only to Existential Therapy?",
    "options": [
     {
      "text": "Present experience while discussing the past",
@@ -4642,7 +4642,7 @@
      "sourceLine": "Top dog / underdog dialogue"
     }
    ],
-   "rationale": "“process not content” is claimed by Existential Therapy, Gestalt Therapy, so it discriminates nothing. Mastering emotional pain is unique to Existential Therapy.",
+   "rationale": "“process not content” appears in Existential Therapy and Gestalt Therapy. Mastering emotional pain appears only in Existential Therapy.",
    "sourceLine": "Mastering emotional pain: unique healing activities. Relating to pain as something that you have endured and has shaped who you are, so that the painful experience has meaning and significance. Being able to share your deepest wounds with a present nonjudgemental person – T is there with C in their suffering.",
    "marker": "process not content"
   },
@@ -4654,7 +4654,7 @@
     "experiential",
     "structural"
    ],
-   "stem": "Experiential / Symbolic Therapy (Whitaker) share the marker “boundary work” with Structural Family Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Experiential / Symbolic Therapy (Whitaker)?",
+   "stem": "“boundary work” appears in Experiential / Symbolic Therapy (Whitaker) and Structural Family Therapy, so it cannot tell them apart. Which of these belongs only to Experiential / Symbolic Therapy (Whitaker)?",
    "options": [
     {
      "text": "Enactment",
@@ -4681,7 +4681,7 @@
      "sourceLine": "Play, Humor, and “Craziness:” Tapping irrational side. Finding solutions in creative interactions."
     }
    ],
-   "rationale": "“boundary work” is claimed by Experiential / Symbolic Therapy (Whitaker), Structural Family Therapy, so it discriminates nothing. Play, Humor, and “Craziness” is unique to Experiential / Symbolic Therapy (Whitaker).",
+   "rationale": "“boundary work” appears in Experiential / Symbolic Therapy (Whitaker) and Structural Family Therapy. Play, Humor, and “Craziness” appears only in Experiential / Symbolic Therapy (Whitaker).",
    "sourceLine": "Play, Humor, and “Craziness:” Tapping irrational side. Finding solutions in creative interactions.",
    "marker": "boundary work"
   },
@@ -4733,7 +4733,7 @@
     "solution-focused",
     "strategic"
    ],
-   "stem": "Bowen Family Systems share the marker “homework / between-session task” with CBT (interventions), Solution-Focused Therapy, Strategic Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Bowen Family Systems?",
+   "stem": "“homework / between-session task” appears in Bowen Family Systems, CBT (interventions), Solution-Focused Therapy and Strategic Therapy, so it cannot tell them apart. Which of these belongs only to Bowen Family Systems?",
    "options": [
     {
      "text": "Assertiveness Training",
@@ -4760,7 +4760,7 @@
      "sourceLine": "Family Projection Process: The family projection process describes the primary way parents transmit their emotional problems to a child. The projection process can impair the functioning of one or more children and increase their vulnerability to clinical symptoms. Example: parents show no conflict or are too argumentative in front of kids"
     }
    ],
-   "rationale": "“homework / between-session task” is claimed by Bowen Family Systems, CBT (interventions), Solution-Focused Therapy, Strategic Therapy, so it discriminates nothing. Family Projection Process is unique to Bowen Family Systems.",
+   "rationale": "“homework / between-session task” appears in Bowen Family Systems, CBT (interventions), Solution-Focused Therapy and Strategic Therapy. Family Projection Process appears only in Bowen Family Systems.",
    "sourceLine": "Family Projection Process: The family projection process describes the primary way parents transmit their emotional problems to a child. The projection process can impair the functioning of one or more children and increase their vulnerability to clinical symptoms. Example: parents show no conflict or are too argumentative in front of kids",
    "marker": "homework / between-session task"
   },
@@ -4772,7 +4772,7 @@
     "structural",
     "self-psychology"
    ],
-   "stem": "Structural Family Therapy share the marker “enactment” with Self Psychology, so that marker cannot tell them apart. Which of these IS distinctive of Structural Family Therapy?",
+   "stem": "“enactment” appears in Structural Family Therapy and Self Psychology, so it cannot tell them apart. Which of these belongs only to Structural Family Therapy?",
    "options": [
     {
      "text": "Mourning loss of selfobjects",
@@ -4799,7 +4799,7 @@
      "sourceLine": "Enmeshed Boundaries: Family members are overly dependent and too closely involved and reactive to other family members. Can lead to incest."
     }
    ],
-   "rationale": "“enactment” is claimed by Self Psychology, Structural Family Therapy, so it discriminates nothing. Enmeshed Boundaries is unique to Structural Family Therapy.",
+   "rationale": "“enactment” appears in Self Psychology and Structural Family Therapy. Enmeshed Boundaries appears only in Structural Family Therapy.",
    "sourceLine": "Enmeshed Boundaries: Family members are overly dependent and too closely involved and reactive to other family members. Can lead to incest.",
    "marker": "enactment"
   },
@@ -4812,7 +4812,7 @@
     "bowen",
     "narrative"
    ],
-   "stem": "Satir Communications Therapy share the marker “investigator / detective stance” with Bowen Family Systems, Narrative Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Satir Communications Therapy?",
+   "stem": "“investigator / detective stance” appears in Satir Communications Therapy, Bowen Family Systems and Narrative Therapy, so it cannot tell them apart. Which of these belongs only to Satir Communications Therapy?",
    "options": [
     {
      "text": "Opening Cutoff Relationships",
@@ -4839,7 +4839,7 @@
      "sourceLine": "Transforming Rules: Assisting clients to create more functional, less rigid guidelines."
     }
    ],
-   "rationale": "“investigator / detective stance” is claimed by Bowen Family Systems, Narrative Therapy, Satir Communications Therapy, so it discriminates nothing. Transforming Rules is unique to Satir Communications Therapy.",
+   "rationale": "“investigator / detective stance” appears in Bowen Family Systems, Narrative Therapy and Satir Communications Therapy. Transforming Rules appears only in Satir Communications Therapy.",
    "sourceLine": "Transforming Rules: Assisting clients to create more functional, less rigid guidelines.",
    "marker": "investigator / detective stance"
   },
@@ -4968,7 +4968,7 @@
     "gestalt",
     "existential"
    ],
-   "stem": "Gestalt Therapy share the marker “process not content” with Existential Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Gestalt Therapy?",
+   "stem": "“process not content” appears in Gestalt Therapy and Existential Therapy, so it cannot tell them apart. Which of these belongs only to Gestalt Therapy?",
    "options": [
     {
      "text": "Focus on moment to moment",
@@ -4995,7 +4995,7 @@
      "sourceLine": "“Imaginal death” exercises: Envisioning one's death to reflect on what truly matters. Brings clarity, gratitude, and urgency for authentic living."
     }
    ],
-   "rationale": "“process not content” is claimed by Existential Therapy, Gestalt Therapy, so it discriminates nothing. Present experience while discussing the past is unique to Gestalt Therapy.",
+   "rationale": "“process not content” appears in Existential Therapy and Gestalt Therapy. Present experience while discussing the past appears only in Gestalt Therapy.",
    "sourceLine": "Paying to client’s present experience as they’re discussing the past: right now, what are experiencing as you think about that past relationship?",
    "marker": "process not content"
   },
@@ -5007,7 +5007,7 @@
     "experiential",
     "structural"
    ],
-   "stem": "Experiential / Symbolic Therapy (Whitaker) share the marker “coalitions / alignments” with Structural Family Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Experiential / Symbolic Therapy (Whitaker)?",
+   "stem": "“coalitions / alignments” appears in Experiential / Symbolic Therapy (Whitaker) and Structural Family Therapy, so it cannot tell them apart. Which of these belongs only to Experiential / Symbolic Therapy (Whitaker)?",
    "options": [
     {
      "text": "Alliances",
@@ -5034,7 +5034,7 @@
      "sourceLine": "Play, Humor, and “Craziness:” Tapping irrational side. Finding solutions in creative interactions."
     }
    ],
-   "rationale": "“coalitions / alignments” is claimed by Experiential / Symbolic Therapy (Whitaker), Structural Family Therapy, so it discriminates nothing. Play, Humor, and “Craziness” is unique to Experiential / Symbolic Therapy (Whitaker).",
+   "rationale": "“coalitions / alignments” appears in Experiential / Symbolic Therapy (Whitaker) and Structural Family Therapy. Play, Humor, and “Craziness” appears only in Experiential / Symbolic Therapy (Whitaker).",
    "sourceLine": "Play, Humor, and “Craziness:” Tapping irrational side. Finding solutions in creative interactions.",
    "marker": "coalitions / alignments"
   },
@@ -5084,7 +5084,7 @@
     "bowen",
     "cbt"
    ],
-   "stem": "Bowen Family Systems share the marker “psychoeducation / teaching” with CBT (interventions), so that marker cannot tell them apart. Which of these IS distinctive of Bowen Family Systems?",
+   "stem": "“psychoeducation / teaching” appears in Bowen Family Systems and CBT (interventions), so it cannot tell them apart. Which of these belongs only to Bowen Family Systems?",
    "options": [
     {
      "text": "Problem-Solving Training",
@@ -5111,7 +5111,7 @@
      "sourceLine": "Mastery/Pleasure Ratings: Clients use activity chart and rate mastery or pleasure that they derive from activity. Clients use an activity chart and rate the mastery or pleasure they derive from a particular activity. How good or comfortable they are at the activity; how much pleasure they will get out of that."
     }
    ],
-   "rationale": "“psychoeducation / teaching” is claimed by Bowen Family Systems, CBT (interventions), so it discriminates nothing. Increasing Differentiation is unique to Bowen Family Systems.",
+   "rationale": "“psychoeducation / teaching” appears in Bowen Family Systems and CBT (interventions). Increasing Differentiation appears only in Bowen Family Systems.",
    "sourceLine": "Increasing Differentiation: By forming supportive relationship with family members to explore the origins and effects of their families beliefs and behaviors.",
    "marker": "psychoeducation / teaching"
   },
@@ -5125,7 +5125,7 @@
     "experiential",
     "structural"
    ],
-   "stem": "Satir Communications Therapy share the marker “family history mapping (function)” with Bowen Family Systems, Experiential / Symbolic Therapy (Whitaker), Structural Family Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Satir Communications Therapy?",
+   "stem": "“family history mapping (function)” appears in Satir Communications Therapy, Bowen Family Systems, Experiential / Symbolic Therapy (Whitaker) and Structural Family Therapy, so it cannot tell them apart. Which of these belongs only to Satir Communications Therapy?",
    "options": [
     {
      "text": "Styles of Communication",
@@ -5152,7 +5152,7 @@
      "sourceLine": "Mimesis: The therapist tracks the family’s style of communication and uses it."
     }
    ],
-   "rationale": "“family history mapping (function)” is claimed by Bowen Family Systems, Experiential / Symbolic Therapy (Whitaker), Satir Communications Therapy, Structural Family Therapy, so it discriminates nothing. Styles of Communication is unique to Satir Communications Therapy.",
+   "rationale": "“family history mapping (function)” appears in Bowen Family Systems, Experiential / Symbolic Therapy (Whitaker), Satir Communications Therapy and Structural Family Therapy. Styles of Communication appears only in Satir Communications Therapy.",
    "sourceLine": "Styles of Communication: The rules that govern family interaction function as a method of ensuring the maintenance and preservation of the family’s current functioning level.",
    "marker": "family history mapping (function)"
   },
@@ -5165,7 +5165,7 @@
     "existential",
     "self-psychology"
    ],
-   "stem": "Object Relations share the marker “holding environment” with Existential Therapy, Self Psychology, so that marker cannot tell them apart. Which of these IS distinctive of Object Relations?",
+   "stem": "“holding environment” appears in Object Relations, Existential Therapy and Self Psychology, so it cannot tell them apart. Which of these belongs only to Object Relations?",
    "options": [
     {
      "text": "Identify alternative self-objects",
@@ -5192,7 +5192,7 @@
      "sourceLine": "Identification occurs when a person not only takes on a belief or voice of another person, but also begins to identify with that individual. In this case, the husband has not merely taken on the idea that women should do the housework; rather, he sees himself as the head of his household, like his father. He is identifying with his father. Because of this identification, he expects to be treated like his father, with his wife respecting him and treating him as his mom treated his dad."
     }
    ],
-   "rationale": "“holding environment” is claimed by Existential Therapy, Object Relations, Self Psychology, so it discriminates nothing. Identification is unique to Object Relations.",
+   "rationale": "“holding environment” appears in Existential Therapy, Object Relations and Self Psychology. Identification appears only in Object Relations.",
    "sourceLine": "Identification occurs when a person not only takes on a belief or voice of another person, but also begins to identify with that individual. In this case, the husband has not merely taken on the idea that women should do the housework; rather, he sees himself as the head of his household, like his father. He is identifying with his father. Because of this identification, he expects to be treated like his father, with his wife respecting him and treating him as his mom treated his dad.",
    "marker": "holding environment"
   },
@@ -5204,7 +5204,7 @@
     "self-psychology",
     "object-relations"
    ],
-   "stem": "Self Psychology share the marker “termination work” with Object Relations, so that marker cannot tell them apart. Which of these IS distinctive of Self Psychology?",
+   "stem": "“termination work” appears in Self Psychology and Object Relations, so it cannot tell them apart. Which of these belongs only to Self Psychology?",
    "options": [
     {
      "text": "Focus on transference/countertransference",
@@ -5231,7 +5231,7 @@
      "sourceLine": "Idealizing Transference: The patient looks up to and admires the therapist"
     }
    ],
-   "rationale": "“termination work” is claimed by Object Relations, Self Psychology, so it discriminates nothing. Idealizing Transference is unique to Self Psychology.",
+   "rationale": "“termination work” appears in Object Relations and Self Psychology. Idealizing Transference appears only in Self Psychology.",
    "sourceLine": "Idealizing Transference: The patient looks up to and admires the therapist",
    "marker": "termination work"
   },
@@ -5245,7 +5245,7 @@
     "existential",
     "gestalt"
    ],
-   "stem": "Attachment-Based Therapy (Bowlby) share the marker “nonjudgmental stance” with Client Centered Therapy, Existential Therapy, Gestalt Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Attachment-Based Therapy (Bowlby)?",
+   "stem": "“nonjudgmental stance” appears in Attachment-Based Therapy (Bowlby), Client Centered Therapy, Existential Therapy and Gestalt Therapy, so it cannot tell them apart. Which of these belongs only to Attachment-Based Therapy (Bowlby)?",
    "options": [
     {
      "text": "Phenomenological description",
@@ -5272,7 +5272,7 @@
      "sourceLine": "Collaboratively identifying client’s “attachment style,\" that is, problematic behavioral and emotional patterns, formed in early childhood as attempts to maintain attachment to primary caregivers."
     }
    ],
-   "rationale": "“nonjudgmental stance” is claimed by Attachment-Based Therapy (Bowlby), Client Centered Therapy, Existential Therapy, Gestalt Therapy, so it discriminates nothing. Collaboratively identifying attachment style is unique to Attachment-Based Therapy (Bowlby).",
+   "rationale": "“nonjudgmental stance” appears in Attachment-Based Therapy (Bowlby), Client Centered Therapy, Existential Therapy and Gestalt Therapy. Collaboratively identifying attachment style appears only in Attachment-Based Therapy (Bowlby).",
    "sourceLine": "Collaboratively identifying client’s “attachment style,\" that is, problematic behavioral and emotional patterns, formed in early childhood as attempts to maintain attachment to primary caregivers.",
    "marker": "nonjudgmental stance"
   },
@@ -5323,7 +5323,7 @@
     "client-centered",
     "satir"
    ],
-   "stem": "Bowen Family Systems share the marker “modeling” with Client Centered Therapy, Satir Communications Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Bowen Family Systems?",
+   "stem": "“modeling” appears in Bowen Family Systems, Client Centered Therapy and Satir Communications Therapy, so it cannot tell them apart. Which of these belongs only to Bowen Family Systems?",
    "options": [
     {
      "text": "Blamer",
@@ -5350,7 +5350,7 @@
      "sourceLine": "Leveler: Congruent in their beliefs about self and others."
     }
    ],
-   "rationale": "“modeling” is claimed by Bowen Family Systems, Client Centered Therapy, Satir Communications Therapy, so it discriminates nothing. Opening Cutoff Relationships is unique to Bowen Family Systems.",
+   "rationale": "“modeling” appears in Bowen Family Systems, Client Centered Therapy and Satir Communications Therapy. Opening Cutoff Relationships appears only in Bowen Family Systems.",
    "sourceLine": "Opening Cutoff Relationships: Encouraging and supporting clients to re-engage with estranged family members.",
    "marker": "modeling"
   },
@@ -5363,7 +5363,7 @@
     "narrative",
     "solution-focused"
    ],
-   "stem": "Satir Communications Therapy share the marker “strengths and resources” with Narrative Therapy, Solution-Focused Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Satir Communications Therapy?",
+   "stem": "“strengths and resources” appears in Satir Communications Therapy, Narrative Therapy and Solution-Focused Therapy, so it cannot tell them apart. Which of these belongs only to Satir Communications Therapy?",
    "options": [
     {
      "text": "Mapping the Influence",
@@ -5390,7 +5390,7 @@
      "sourceLine": "Formula First Session Task (FFST) A homework task to observe what’s already working “Between now and our next meeting, observe what happens in your life that you’d like to continue.”"
     }
    ],
-   "rationale": "“strengths and resources” is claimed by Narrative Therapy, Satir Communications Therapy, Solution-Focused Therapy, so it discriminates nothing. Distracter is unique to Satir Communications Therapy.",
+   "rationale": "“strengths and resources” appears in Narrative Therapy, Satir Communications Therapy and Solution-Focused Therapy. Distracter appears only in Satir Communications Therapy.",
    "sourceLine": "Distracter: Seeking approval by acting out, irrelevant.",
    "marker": "strengths and resources"
   },
@@ -5442,7 +5442,7 @@
     "existential",
     "object-relations"
    ],
-   "stem": "Self Psychology share the marker “holding environment” with Existential Therapy, Object Relations, so that marker cannot tell them apart. Which of these IS distinctive of Self Psychology?",
+   "stem": "“holding environment” appears in Self Psychology, Existential Therapy and Object Relations, so it cannot tell them apart. Which of these belongs only to Self Psychology?",
    "options": [
     {
      "text": "Confront resistance and primitive defenses",
@@ -5469,7 +5469,7 @@
      "sourceLine": "Demonstrate that the therapist is able to provide containment: client is getting emotional, and the T can be a warm open presence without judgement and having client feel they are able to share this information and they will not be rejected. The therapist is able to hear what client is saying without becoming overwhelmed themselves."
     }
    ],
-   "rationale": "“holding environment” is claimed by Existential Therapy, Object Relations, Self Psychology, so it discriminates nothing. Demonstrate containment is unique to Self Psychology.",
+   "rationale": "“holding environment” appears in Existential Therapy, Object Relations and Self Psychology. Demonstrate containment appears only in Self Psychology.",
    "sourceLine": "Demonstrate that the therapist is able to provide containment: client is getting emotional, and the T can be a warm open presence without judgement and having client feel they are able to share this information and they will not be rejected. The therapist is able to hear what client is saying without becoming overwhelmed themselves.",
    "marker": "holding environment"
   },
@@ -5559,7 +5559,7 @@
     "narrative",
     "satir"
    ],
-   "stem": "Bowen Family Systems share the marker “investigator / detective stance” with Narrative Therapy, Satir Communications Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Bowen Family Systems?",
+   "stem": "“investigator / detective stance” appears in Bowen Family Systems, Narrative Therapy and Satir Communications Therapy, so it cannot tell them apart. Which of these belongs only to Bowen Family Systems?",
    "options": [
     {
      "text": "Mapping the Influence",
@@ -5586,7 +5586,7 @@
      "sourceLine": "Leveler: Congruent in their beliefs about self and others."
     }
    ],
-   "rationale": "“investigator / detective stance” is claimed by Bowen Family Systems, Narrative Therapy, Satir Communications Therapy, so it discriminates nothing. Opening Cutoff Relationships is unique to Bowen Family Systems.",
+   "rationale": "“investigator / detective stance” appears in Bowen Family Systems, Narrative Therapy and Satir Communications Therapy. Opening Cutoff Relationships appears only in Bowen Family Systems.",
    "sourceLine": "Opening Cutoff Relationships: Encouraging and supporting clients to re-engage with estranged family members.",
    "marker": "investigator / detective stance"
   },
@@ -5637,7 +5637,7 @@
     "object-relations",
     "bowen"
    ],
-   "stem": "Object Relations share the marker “neutral stance” with Bowen Family Systems, so that marker cannot tell them apart. Which of these IS distinctive of Object Relations?",
+   "stem": "“neutral stance” appears in Object Relations and Bowen Family Systems, so it cannot tell them apart. Which of these belongs only to Object Relations?",
    "options": [
     {
      "text": "Models",
@@ -5664,7 +5664,7 @@
      "sourceLine": "Multigenerational Transmission Process: The concept of the multigenerational transmission process describes how small differences in the levels of differentiation between parents and their offspring lead over many generations to marked differences in differentiation among the members of a multigenerational family."
     }
    ],
-   "rationale": "“neutral stance” is claimed by Bowen Family Systems, Object Relations, so it discriminates nothing. Interpretation is unique to Object Relations.",
+   "rationale": "“neutral stance” appears in Bowen Family Systems and Object Relations. Interpretation appears only in Object Relations.",
    "sourceLine": "Promote insight and growth through interpretation.",
    "marker": "neutral stance"
   },
@@ -5755,7 +5755,7 @@
     "satir",
     "structural"
    ],
-   "stem": "Bowen Family Systems share the marker “family history mapping (function)” with Experiential / Symbolic Therapy (Whitaker), Satir Communications Therapy, Structural Family Therapy, so that marker cannot tell them apart. Which of these IS distinctive of Bowen Family Systems?",
+   "stem": "“family history mapping (function)” appears in Bowen Family Systems, Experiential / Symbolic Therapy (Whitaker), Satir Communications Therapy and Structural Family Therapy, so it cannot tell them apart. Which of these belongs only to Bowen Family Systems?",
    "options": [
     {
      "text": "Joining",
@@ -5782,7 +5782,7 @@
      "sourceLine": "Subsystems: Families organize themselves by generation, relationship, and necessity. Examples: marital subsystem – spouses; parental subsystem: parents; executive subsystem: people who run the family; sibling subsystem – kids."
     }
    ],
-   "rationale": "“family history mapping (function)” is claimed by Bowen Family Systems, Experiential / Symbolic Therapy (Whitaker), Satir Communications Therapy, Structural Family Therapy, so it discriminates nothing. Triangles (Triangulation) is unique to Bowen Family Systems.",
+   "rationale": "“family history mapping (function)” appears in Bowen Family Systems, Experiential / Symbolic Therapy (Whitaker), Satir Communications Therapy and Structural Family Therapy. Triangles (Triangulation) appears only in Bowen Family Systems.",
    "sourceLine": "Triangles (Triangulation): A triangle is a three-person relationship system. It is considered the building block or “molecule” of larger emotional systems because a triangle is the smallest stable relationship system. It could be work, or a substance, not just another person.",
    "marker": "family history mapping (function)"
   },

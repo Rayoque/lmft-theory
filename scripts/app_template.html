@@ -505,7 +505,7 @@ function renderItem(){
     <div class="note">${qi+1} of ${Q.length}${mode!=="learn"?" · "+esc(NAME(it.models[0])):""}${
       undoStack.length ? ` · <button class="reopen" id="back" title="Undo the last answer (backspace)">Back</button>` : ""}</div>
     <div class="card">
-      <span class="tag">${esc(it.type.replace(/^[TV]\d?_/,"").replace("_"," ").replace("examtip","exam tip"))}</span>
+      <span class="tag">${esc(TAGS[it.type] || it.type)}</span>
       <div class="stem">${esc(it.stem)}</div>
       <div id="opts">${it.options.map((o,i)=>`<button class="opt" data-i="${i}" title="Press ${'ABCD'[i]}, or arrow keys and space"><span class="ch">${"ABCD"[i]}</span><span class="ot">${esc(o.text)}</span></button>`).join("")}</div>
       <div id="reveal"></div>
@@ -629,6 +629,19 @@ function renderProgress(){
 }
 
 /* ---------- the grid: 14 models x 6 columns, one page ---------- */
+/* What the question is testing, in her words rather than the build brief's.
+   "collision" and "marker" are vocabulary from the spec; she has to read
+   these mid-question. */
+const TAGS = {
+  T1_change:    "theory of change",
+  T1_marker:    "signature term",
+  T1_phase:     "phase",
+  T2_collision: "overlap",
+  T2_examtip:   "exam tip",
+  T2_group:     "which set",
+  T3_concept:   "definition",
+  V_vignette:   "vignette",
+};
 const COLS = ["Change mechanism","Therapist role","Interventions","Beginning","Middle","End"];
 function cell(m, c){
   // Every cell shows everything the packet has for that model. The old version

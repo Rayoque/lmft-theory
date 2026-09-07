@@ -410,5 +410,24 @@ head("mobile answering flow");
   ok("new question scrolls to top", scrolls === before + 1, String(scrolls - before));
 }
 
+
+head("no build-brief jargon on screen");
+{
+  const { w, d } = boot();
+  const JARGON = ["marker", "collision", "distractor", "examtip", "T1_", "T2_", "V_"];
+  const tags = new Set();
+  tab(d, "Drill").click();
+  let text = "";
+  for (let i = 0; i < 60 && d.querySelector("#opts"); i++){
+    tags.add(d.querySelector(".tag").textContent.trim());
+    text += " " + d.querySelector(".card").textContent;
+    answer(w, d, true, false);
+  }
+  const hit = JARGON.find(j => new RegExp(j, "i").test(text));
+  ok("no jargon in questions or reveals", !hit, hit);
+  ok("tags are plain words", ![...tags].some(t => /marker|collision|examtip/i.test(t)),
+     [...tags].join(", "));
+}
+
 console.log("\n" + pass + " passed, " + fail + " failed\n");
 process.exit(fail ? 1 : 0);
