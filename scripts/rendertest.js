@@ -362,5 +362,30 @@ head("harbor theme");
      /Georgia/.test(d.querySelector("style, head").textContent || ""));
 }
 
+
+head("grid on a phone");
+{
+  const { d } = boot();
+  tab(d, "Grid").click();
+  const rows = d.querySelectorAll(".gnarrow details.mrow");
+  ok("one collapsible per model", rows.length === 14, String(rows.length));
+  ok("collapsed by default", ![...rows].some(r => r.hasAttribute("open")));
+  ok("summary names the model",
+     rows[0].querySelector("summary").textContent.includes("Bowen"),
+     rows[0].querySelector("summary").textContent);
+  const fields = rows[0].querySelectorAll(".mf");
+  ok("six labelled fields inside", fields.length === 6, String(fields.length));
+  ok("field carries its label",
+     fields[0].querySelector("b").textContent.toLowerCase().includes("change"),
+     fields[0].querySelector("b").textContent);
+  ok("wide table still present for desktop",
+     d.querySelectorAll(".gwide table.grid tbody tr").length === 14);
+  const cc = [...rows].find(r => r.textContent.includes("Client Centered"));
+  ok("gaps stay honest in the narrow layout",
+     cc.textContent.includes("not in packet"));
+  ok("narrow layout has no horizontal table",
+     !d.querySelector(".gnarrow table"));
+}
+
 console.log("\n" + pass + " passed, " + fail + " failed\n");
 process.exit(fail ? 1 : 0);

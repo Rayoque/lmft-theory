@@ -139,6 +139,33 @@ table.grid td:first-child,table.grid th:first-child{font-weight:700;width:11%}
 table.grid td{line-height:1.5}
 table.grid td:first-child{white-space:normal}
 .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+/* one layout per screen width; the table is unreadable on a phone */
+.gwide{display:block}
+.gnarrow{display:none}
+@media (max-width:760px){
+  .gwide{display:none}
+  .gnarrow{display:block}
+}
+.mrow{background:var(--card);border:1px solid var(--line);border-radius:13px;
+  margin-bottom:9px;box-shadow:var(--sh);overflow:hidden}
+.mrow>summary{
+  cursor:pointer;padding:13px 15px;font:600 15.5px/1.35 Georgia,'Iowan Old Style',serif;
+  display:flex;align-items:center;gap:9px;list-style:none;
+}
+.mrow>summary::-webkit-details-marker{display:none}
+.mrow>summary::after{
+  content:"";margin-left:auto;width:8px;height:8px;flex:0 0 auto;
+  border-right:2px solid var(--dim);border-bottom:2px solid var(--dim);
+  transform:rotate(45deg);transition:transform .15s;
+}
+.mrow[open]>summary::after{transform:rotate(-135deg)}
+.mrow[open]>summary{border-bottom:1px solid var(--line)}
+.mbody{padding:4px 15px 14px}
+.mf{padding:11px 0;border-bottom:1px solid var(--line)}
+.mf:last-child{border-bottom:0;padding-bottom:2px}
+.mf b{display:block;font-size:10.5px;font-weight:700;letter-spacing:.07em;
+  text-transform:uppercase;color:var(--dim);margin-bottom:5px}
+.mf p{margin:0;font-size:14.5px;line-height:1.55}
 .kv{font-size:14.5px;line-height:1.6}
 .kv li{margin-bottom:5px}
 ul{margin:0 0 10px;padding-left:20px}
@@ -610,13 +637,25 @@ function cell(m, c){
   }
 }
 function renderGrid(){
+  const val = (m,i) => {
+    const v = cell(m,i);
+    return v === null ? '<span class="null">not in packet</span>' : esc(v);
+  };
   el.innerHTML = `<h2>The grid</h2>
     <p class="note">A blank cell is blank in your packet.</p>
-    <div class="card scroll"><table class="grid"><thead><tr><th>Model</th>${COLS.map(c=>`<th>${c}</th>`).join("")}</tr></thead>
-    <tbody>${MODELS.map(m=>`<tr><td>${esc(m.name)}</td>${COLS.map((_,i)=>{
-      const v = cell(m,i);
-      return `<td>${v === null ? '<span class="null">not in packet</span>' : esc(v)}</td>`;
-    }).join("")}</tr>`).join("")}</tbody></table></div>
+
+    <div class="gwide card scroll"><table class="grid">
+      <thead><tr><th>Model</th>${COLS.map(c=>`<th>${c}</th>`).join("")}</tr></thead>
+      <tbody>${MODELS.map(m=>`<tr><td>${esc(m.name)}</td>${
+        COLS.map((_,i)=>`<td>${val(m,i)}</td>`).join("")}</tr>`).join("")}</tbody>
+    </table></div>
+
+    <div class="gnarrow">${MODELS.map(m=>`<details class="mrow">
+      <summary>${esc(m.name)}</summary>
+      <div class="mbody">${COLS.map((c,i)=>
+        `<div class="mf"><b>${esc(c)}</b><p>${val(m,i)}</p></div>`).join("")}</div>
+    </details>`).join("")}</div>
+
     <p class="note">Built ${esc(BUILT)} from your five packets.</p>`;
 }
 
