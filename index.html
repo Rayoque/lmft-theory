@@ -362,6 +362,10 @@ let stats = {right:0, wrong:0, confidentWrong:0, missed:[]};
 
 const el = document.getElementById("view");
 const foot = document.getElementById("foot"), frow = document.getElementById("frow");
+/* The packet writes many option texts mid-sentence, so they arrive
+   lowercase. Capitalise for display only: the verbatim line shown underneath
+   stays exactly as the packet has it, which is the point of showing it. */
+const cap = t => (t && t[0] >= "a" && t[0] <= "z") ? t[0].toUpperCase() + t.slice(1) : t;
 const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 
 function daysLeft(){
@@ -507,7 +511,7 @@ function renderItem(){
     <div class="card">
       <span class="tag">${esc(TAGS[it.type] || it.type)}</span>
       <div class="stem">${esc(it.stem)}</div>
-      <div id="opts">${it.options.map((o,i)=>`<button class="opt" data-i="${i}" title="Press ${'ABCD'[i]}, or arrow keys and space"><span class="ch">${"ABCD"[i]}</span><span class="ot">${esc(o.text)}</span></button>`).join("")}</div>
+      <div id="opts">${it.options.map((o,i)=>`<button class="opt" data-i="${i}" title="Press ${'ABCD'[i]}, or arrow keys and space"><span class="ch">${"ABCD"[i]}</span><span class="ot">${esc(cap(o.text))}</span></button>`).join("")}</div>
       <div id="reveal"></div>
     </div>`;
   const bk = document.getElementById("back");

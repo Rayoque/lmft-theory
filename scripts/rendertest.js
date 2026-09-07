@@ -461,5 +461,30 @@ head("phase questions stay within their phase");
   ok("End still shown in the grid", grid);
 }
 
+
+head("answer options read as sentences");
+{
+  const { w, d } = boot();
+  tab(d, "Drill").click();
+  let lower = 0, seen = 0;
+  for (let i = 0; i < 60 && d.querySelector("#opts"); i++){
+    [...d.querySelectorAll("#opts button.opt .ot")].forEach(o => {
+      const t = o.textContent.trim();
+      seen++;
+      if (t && t[0] >= "a" && t[0] <= "z") lower++;
+    });
+    answer(w, d, true, false);
+  }
+  ok("no option starts lowercase on screen", lower === 0,
+     lower + " of " + seen);
+  const raw = w.eval(`ITEMS.some(i => i.options.some(o => /^[a-z]/.test(o.text)))`);
+  ok("underlying data left verbatim", raw === true);
+  // per-option source lines are verification data and are stripped when the
+  // app is built; only the keyed answer's line is displayed, so that is what
+  // has to survive
+  const src = w.eval(`ITEMS.every(i => i.sourceLine && i.sourceLine.length > 0)`);
+  ok("every item still carries its packet line", src);
+}
+
 console.log("\n" + pass + " passed, " + fail + " failed\n");
 process.exit(fail ? 1 : 0);
