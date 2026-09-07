@@ -174,7 +174,11 @@ const NAME   = id => (BYID[id] ? BYID[id].name : id);
 
 /* ---------- mastery state: localStorage, deliberately ~20 lines ---------- */
 const KEY = "lmft.theory.v1";
-const today = () => new Date().toISOString().slice(0, 10);
+const today = () => {
+  const d = new Date();                       // local, not UTC: toISOString()
+  const p = n => String(n).padStart(2, "0");  // rolled her evening sessions
+  return d.getFullYear() + "-" + p(d.getMonth() + 1) + "-" + p(d.getDate());
+};
 let S = load();
 function load(){
   try { return JSON.parse(localStorage.getItem(KEY)) || {concepts:{}, learned:{}}; }
@@ -207,6 +211,13 @@ const LEARN_SIZES = [3, 5, 10];
 function learnN(){
   try { const v = parseInt(localStorage.getItem(LKEY), 10);
         return LEARN_SIZES.includes(v) ? v : 3; } catch(e){ return 3; }
+}
+/* A session is only as long as the pool allows. Client Centered has three
+   items and there are seventeen vignettes, so a flat 10 or 20 promised
+   questions that could never be delivered. */
+function sessionN(mode, modelId){
+  const want = mode === "learn" ? learnN() : SESSION;
+  return Math.min(want, poolFor(mode, modelId).length);
 }
 function poolFor(mode, modelId){
   let p = ITEMS.filter(i => weight(i.id) > 0);
@@ -303,7 +314,7 @@ function render(){
   if (mode === "grid")     return renderGrid();
   if (mode === "progress") return renderProgress();
   if (mode === "learn" && !learnModel) return renderLearnPicker();
-  if (!Q.length){ Q = buildQueue(mode, learnModel, mode === "learn" ? learnN() : SESSION); qi = 0; stats = {right:0,wrong:0,confidentWrong:0,missed:[]}; }
+  if (!Q.length){ Q = buildQueue(mode, learnModel, sessionN(mode, learnModel)); qi = 0; stats = {right:0,wrong:0,confidentWrong:0,missed:[]}; }
   // An empty queue means every item here is retired. Falling through to the
   // summary would report "0%" for a session she never had, and "Another"
   // would rebuild the same empty queue forever.
@@ -372,12 +383,12 @@ function renderBrief(){
         : ["beginning","middle","end"].map(k => `<p><b>${k}.</b> ${esc((ph[k]||[]).map(f=>f.text).join(" "))||"—"}</p>`).join("")}
       ${m.examTips.length ? `<h3>Flagged for the exam</h3>${m.examTips.map(t=>`<div class="src"><b>from your packet</b>${esc(t.sourceLine)}</div>`).join("")}` : ""}
     </div>
-    <div class="row"><button class="btn" id="start">Answer ${learnN()} question${learnN()===1?"":"s"} on this</button>
+    <div class="row"><button class="btn" id="start">Answer ${sessionN("learn", learnModel)} question${sessionN("learn", learnModel)===1?"":"s"} on this</button>
     <button class="btn ghost" id="back">All models</button></div>`;
   document.getElementById("back").onclick = () => { learnModel = null; render(); };
   document.getElementById("start").onclick = () => {
     S.learned[learnModel] = today(); save(); renderNav();
-    Q = buildQueue("learn", learnModel, learnN()); qi = 0;
+    Q = buildQueue("learn", learnModel, sessionN("learn", learnModel)); qi = 0;
     stats = {right:0,wrong:0,confidentWrong:0,missed:[]}; render();
   };
 }
@@ -388,7 +399,7 @@ function renderItem(){
     <div class="bar"><i style="width:${(qi/Q.length)*100}%"></i></div>
     <div class="note">${qi+1} of ${Q.length}${mode!=="learn"?" · "+esc(NAME(it.models[0])):""}</div>
     <div class="card">
-      <span class="tag">${esc(it.type.replace(/^[TV]\d?_/,"").replace("_"," "))}</span>
+      <span class="tag">${esc(it.type.replace(/^[TV]\d?_/,"").replace("_"," ").replace("examtip","exam tip"))}</span>
       <div class="stem">${esc(it.stem)}</div>
       <div id="opts">${it.options.map((o,i)=>`<button class="opt" data-i="${i}">${esc(o.text)}</button>`).join("")}</div>
       <div id="reveal"></div>
@@ -406,6 +417,11 @@ function choose(it, i){
   answered = i;
   const right = it.options[i].correct;
   right ? stats.right++ : stats.wrong++;
+  // Persist immediately. Scoring only inside the confidence handler meant an
+  // answer was silently discarded if she read the reveal and then tapped
+  // another tab -- and she is told to go look at the grid.
+  score(it.id, right, false);
+  if (!right) stats.missed.push(it);
   el.querySelectorAll(".opt").forEach((b,j) => {
     b.classList.add("done");
     if (it.options[j].correct) b.classList.add("correct");
@@ -430,14 +446,13 @@ function choose(it, i){
     <button class="btn" data-k="1">Knew it</button>`;
   frow.querySelectorAll("[data-k]").forEach(b => b.onclick = () => {
     const knew = b.dataset.k === "1";
-    if (!right && knew) stats.confidentWrong++;
-    score(it.id, right, knew);
+    // the attempt is already recorded; confidence only adds the danger flag
+    if (!right && knew){ stats.confidentWrong++; rec(it.id).confidentWrong++; save(); }
     // A miss is collected for an opt-in retry at the end, not spliced back
     // into the live queue: growing the denominator mid-session moves the
     // goalposts, and re-asking two items later tests memory of an answer read
     // ten seconds ago. The return that matters is the next calendar day, and
     // that is handled by the mastery state.
-    if (!right) stats.missed.push(it);
     qi++; foot.hidden = true; render();
   });
 }
@@ -457,7 +472,7 @@ function renderSummary(){
     </ul></div>
     <div class="row">
       ${stats.missed.length ? `<button class="btn" id="retry">Retry the ${stats.missed.length} you missed</button>` : ""}
-      <button class="btn${stats.missed.length?" ghost":""}" id="again">Another ${mode==="learn"?learnN():SESSION}</button>
+      <button class="btn${stats.missed.length?" ghost":""}" id="again">Another ${sessionN(mode, learnModel)}</button>
       <button class="btn ghost" id="toGrid">See the grid</button>
       ${mode==="learn"?'<button class="btn ghost" id="pick">Another model</button>':""}
     </div>`;
@@ -474,7 +489,7 @@ function renderSummary(){
 
 function renderProgress(){
   el.innerHTML = `<h2>Progress</h2>
-    <p class="note">Theory is one domain of the LMCE. Green here is not ready for the exam.</p>
+    <p class="note">Theory is one domain of the LMCE. A green dashboard here does not mean you are ready for it.</p>
     <div class="grid14">${MODELS.map(m=>{
       const st = modelState(m.id);
       return `<div class="tile s-${st.k}"><b>${esc(m.name)}</b><span>${st.label}</span></div>`;
@@ -642,15 +657,14 @@ function welcome(){
     It deliberately shuffles models so you never get two in a row from the same
     one. That always scores lower than drilling one model at a time — and it's
     the only thing that teaches you to tell them apart, which is what the exam
-    actually tests. <b style="display:inline">70–80% is the target, not 95%.</b>
+    actually tests. <b style="display:inline">70–80% is the target.</b>
     A low number there isn't a verdict on you.</p>
 
     <p class="pt"><b>3 · The “Knew it / Guessed” buttons matter more than they look.</b>
     Being confident and wrong is the most dangerous state on this exam — it's
     what happens when a familiar word like <i>neutral</i> or <i>reframing</i>
     makes you fire before you check, and those words genuinely belong to several
-    theories at once. Those questions come back twice as often. Be honest when
-    you tap it.</p>
+    theories at once. Those questions come back twice as often.</p>
 
     <p class="pt"><b>4 · If a question looks wrong to you, trust your packet.</b>
     Every answer shows its source line so you can check. A few of those lines
