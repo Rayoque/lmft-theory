@@ -68,13 +68,14 @@ nav button:disabled{opacity:.4}
 .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;margin-bottom:12px}
 button.opt{
   display:block;width:100%;text-align:left;background:var(--card);color:var(--ink);
+  user-select:text;-webkit-user-select:text;
   border:1px solid var(--line);border-radius:12px;padding:13px 15px;margin-bottom:9px;
   font:inherit;cursor:pointer;line-height:1.45;
 }
 button.opt:active{transform:scale(.995)}
 button.opt.correct{border-color:var(--ok);background:var(--okbg)}
 button.opt.wrong{border-color:var(--bad);background:var(--badbg)}
-button.opt[disabled]{cursor:default;opacity:1}
+button.opt.done{cursor:default}
 .btn{
   background:var(--accent);color:var(--accent-ink);border:0;border-radius:11px;
   padding:12px 18px;font:inherit;font-weight:650;cursor:pointer;
@@ -355,7 +356,8 @@ function renderBrief(){
   document.getElementById("back").onclick = () => { learnModel = null; render(); };
   document.getElementById("start").onclick = () => {
     S.learned[learnModel] = today(); save(); renderNav();
-    Q = buildQueue("learn", learnModel, 3); qi = 0; stats = {right:0,wrong:0,confidentWrong:0}; render();
+    Q = buildQueue("learn", learnModel, learnN()); qi = 0;
+    stats = {right:0,wrong:0,confidentWrong:0,missed:[]}; render();
   };
 }
 
@@ -370,7 +372,12 @@ function renderItem(){
       <div id="opts">${it.options.map((o,i)=>`<button class="opt" data-i="${i}">${esc(o.text)}</button>`).join("")}</div>
       <div id="reveal"></div>
     </div>`;
-  el.querySelectorAll(".opt").forEach(b => b.onclick = () => choose(it, +b.dataset.i));
+  el.querySelectorAll(".opt").forEach(b => b.onclick = () => {
+    // dragging across the text to select it should not count as answering
+    const sel = window.getSelection && window.getSelection();
+    if (sel && sel.toString().trim() && b.contains(sel.anchorNode)) return;
+    choose(it, +b.dataset.i);
+  });
 }
 
 function choose(it, i){
@@ -379,7 +386,7 @@ function choose(it, i){
   const right = it.options[i].correct;
   right ? stats.right++ : stats.wrong++;
   el.querySelectorAll(".opt").forEach((b,j) => {
-    b.disabled = true;
+    b.classList.add("done");
     if (it.options[j].correct) b.classList.add("correct");
     else if (j === i) b.classList.add("wrong");
   });
