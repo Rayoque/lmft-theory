@@ -605,6 +605,40 @@ head("progress page");
   ok("reset rebuilds done{}", w.eval("typeof S.done") === "object");
 }
 
+/* A learn session is scoped to one model, so the model rule in interleave()
+   is inert and the stem is the only variety left -- and several stems repeat
+   verbatim within a model. Two thousand sessions, every model, every size. */
+(function stems(){
+  head("learn sessions do not repeat a stem");
+  const { w } = boot();
+  const r = w.eval(`(function(){
+    const models = MODELS.map(m => m.id);
+    let adjacent = 0, avoidable = 0, short = 0, runs = 0;
+    [3, 5, 10].forEach(function(n){
+      models.forEach(function(id){
+        for (let t = 0; t < 50; t++){
+          const want = Math.min(n, poolFor("learn", id).length);
+          const q = buildQueue("learn", id, want);
+          runs++;
+          if (q.length !== want) short++;
+          for (let i = 1; i < q.length; i++)
+            if (q[i].stem === q[i-1].stem) adjacent++;
+          // a repeat is only fair to count when the model had a spare stem
+          const distinct = new Set(poolFor("learn", id).map(x => x.stem)).size;
+          const used = new Set(q.map(x => x.stem)).size;
+          if (used < Math.min(want, distinct)) avoidable++;
+        }
+      });
+    });
+    return JSON.stringify({runs:runs, adjacent:adjacent, avoidable:avoidable, short:short});
+  })()`);
+  const o = JSON.parse(r);
+  ok("ran the whole grid", o.runs === 14 * 3 * 50, String(o.runs));
+  ok("no two identical stems back to back", o.adjacent === 0, String(o.adjacent));
+  ok("a fresh stem is used whenever one exists", o.avoidable === 0, String(o.avoidable));
+  ok("and the session is still the length promised", o.short === 0, String(o.short));
+})();
+
 function finish(){
   if (pending) return;
   console.log("\n" + pass + " passed, " + fail + " failed\n");

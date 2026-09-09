@@ -327,17 +327,25 @@ function interleave(list){
   // Always take from the model with the MOST items left (that isn't the one
   // just served). Taking merely the first different model strands a crowded
   // model's leftovers at the tail and produces a same-model pair there.
+  // Second rule: never two identical stems back to back. Learn is scoped to
+  // one model, so the model rule is inert there and the stem rule is the only
+  // thing standing between her and the same sentence twice running.
   const out = [], pool = list.slice();
-  let last = null;
+  let last = null;                             // the item just served
+  const ok = x => !last || x.stem !== last.stem;
   while (pool.length){
     const count = {};
     pool.forEach(x => count[x.models[0]] = (count[x.models[0]] || 0) + 1);
-    let best = null;
-    for (const m in count)
-      if (m !== last && (best === null || count[m] > count[best])) best = m;
-    if (best === null) best = last;            // one model left; unavoidable
-    const i = pool.findIndex(x => x.models[0] === best);
-    out.push(pool[i]); last = best; pool.splice(i, 1);
+    const models = Object.keys(count).sort((a, b) => count[b] - count[a]);
+    let i = -1;
+    for (const m of models){
+      if (last && m === last.models[0] && models.length > 1) continue;
+      i = pool.findIndex(x => x.models[0] === m && ok(x));
+      if (i >= 0) break;
+    }
+    if (i < 0) i = pool.findIndex(ok);          // same model, but a new stem
+    if (i < 0) i = 0;                           // nothing else left
+    out.push(pool[i]); last = pool[i]; pool.splice(i, 1);
   }
   return out;
 }
@@ -346,11 +354,22 @@ function buildQueue(mode, modelId, n){
   const weighted = [];
   pool.forEach(i => { const w = weight(i.id); for (let k = 0; k < w; k++) weighted.push(i); });
   shuffle(weighted);
-  const seen = new Set(), picked = [];
+  const want = n || SESSION;
+  const seen = new Set(), stems = new Set(), picked = [], spare = [];
   for (const it of weighted){
     if (seen.has(it.id)) continue;
-    seen.add(it.id); picked.push(it);
-    if (picked.length >= (n || SESSION)) break;
+    seen.add(it.id);
+    // Four of a model's group items share two stems and its phase items share
+    // two more. Take a fresh stem first and hold the repeats in reserve, so a
+    // three-question session is three different questions whenever it can be.
+    if (stems.has(it.stem)) { spare.push(it); continue; }
+    stems.add(it.stem); picked.push(it);
+    if (picked.length >= want) break;
+  }
+  // Fall back to the held-back repeats rather than serve a short session.
+  for (const it of spare){
+    if (picked.length >= want) break;
+    picked.push(it);
   }
   // collision items weighted heavy in drill
   if (mode === "drill") picked.sort((a,b) =>
