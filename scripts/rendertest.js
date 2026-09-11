@@ -661,8 +661,11 @@ head("Compare: two models side by side");
   const { w, d } = boot();
   tab(d, "Compare").click();
   ok("starts on the full reference", !!d.querySelector("table.grid"));
-  ok("with two dropdowns to pick from",
-     d.querySelectorAll("select[data-slot]").length === 2);
+  ok("with three dropdowns to pick from",
+     d.querySelectorAll("select[data-slot]").length === 3);
+  ok("the third sits at None rather than telling you to add one",
+     d.querySelector('select[data-slot="2"] option[value=""]').textContent === "None",
+     d.querySelector('select[data-slot="2"] option[value=""]').textContent);
 
   const pick = (slot, id) => {
     const sel = d.querySelector('select[data-slot="' + slot + '"]');
@@ -680,10 +683,24 @@ head("Compare: two models side by side");
   ok("every section is shown for both",
      d.querySelectorAll(".sbssec").length === 6,
      String(d.querySelectorAll(".sbssec").length));
-  ok("a third dropdown is offered",
-     d.querySelectorAll("select[data-slot]").length === 3);
-  ok("the names pin under the header",
-     w.getComputedStyle(d.querySelector(".sbshead")).position === "sticky");
+  ok("the picker pins to the top so it is reachable at any scroll depth",
+     w.getComputedStyle(d.querySelector(".cmppin")).position === "sticky");
+  ok("with the toggle inside it",
+     !!d.querySelector(".cmppin #cmpHi"));
+  ok("and the column names riding inside it",
+     !!d.querySelector(".cmppin .sbshead"));
+  // The pinned block sticks to --hh, the header's measured height. Measured
+  // once, it is wrong the moment the phone is turned and the nav rewraps --
+  // the picker then floats below the header or hides under it.
+  ok("the header height it pins to is re-measured, not frozen at first paint",
+     w.eval("typeof headHeight") === "function");
+  d.documentElement.style.setProperty("--hh", "999px");
+  w.dispatchEvent(new w.Event("resize"));
+  ok("a resize recomputes it",
+     d.documentElement.style.getPropertyValue("--hh") !== "999px",
+     d.documentElement.style.getPropertyValue("--hh"));
+  ok("the comparison is not flush against the button after it",
+     !!d.querySelector(".row.cmpdrill"));
 
   // Bowen and Object Relations both list a neutral therapist. The row is the
   // whole explanation: one band, both wordings, side by side.
@@ -708,15 +725,6 @@ head("Compare: two models side by side");
   const opts = [...d.querySelectorAll('select[data-slot="1"] option')];
   ok("the other column's model cannot be picked twice",
      opts.find(o => o.value === "bowen").disabled);
-
-  d.querySelector("#cmpDiff").click();
-  ok("differences only drops the band", !d.querySelector(".arow"));
-  ok("and says how many it dropped rather than doing it quietly",
-     [...d.querySelectorAll(".agrp")].some(e => /1 shared, hidden/.test(e.textContent)),
-     [...d.querySelectorAll(".agrp")].map(e => e.textContent).join(" | "));
-  d.querySelector("#cmpDiff").click();
-  ok("toggling back brings the band out of hiding",
-     d.querySelectorAll(".arow").length === 1);
 
   d.querySelector("#cmpHi").click();
   ok("highlighting off puts everything back in packet order",

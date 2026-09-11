@@ -179,7 +179,10 @@ ul.cl.one li::before{display:none}
 .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
 
 /* ---- Compare: the picker ---- */
-.cmpbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:12px 0 6px}
+/* picker, toggle and column names travel together at the top of the page */
+.cmppin{position:sticky;top:var(--hh,64px);z-index:7;background:var(--bg);
+  padding-top:10px;margin-top:-10px}
+.cmpbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:2px 0 6px}
 .cmpbar select{
   font:inherit;font-size:14px;font-weight:600;color:var(--ink);background:var(--card);
   border:1px solid var(--line);border-radius:10px;padding:8px 10px;max-width:100%;
@@ -194,14 +197,17 @@ ul.cl.one li::before{display:none}
 .cmpbar select{flex:1 1 auto;min-width:0}
 .cmpbar .vs{flex:0 0 auto;font-size:12px;color:var(--dim);
   text-transform:uppercase;letter-spacing:.07em}
-.cmpopt{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:2px 0 14px}
+.cmpopt{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:2px 0 8px}
+.cmpopt .sz{margin-left:0}
 
 /* ---- Compare: the columns ---- */
 .sbs{margin-top:2px}
-.sbshead{
-  position:sticky;top:var(--hh,64px);z-index:6;background:var(--bg);
-  padding:7px 0 6px;border-bottom:1px solid var(--line);margin-bottom:2px;
-}
+.sbshead{background:var(--bg);padding:7px 0 6px;
+  border-bottom:1px solid var(--line);margin-bottom:2px}
+/* the comparison should not end flush against the button that follows it */
+.sbs{padding-bottom:10px}
+.cmpdrill{margin-top:22px;padding-top:18px;border-top:1px solid var(--line)}
+.cmpend{margin-top:14px;padding-bottom:8px}
 .sbsrow,.sbshead{display:grid;gap:10px;
   grid-template-columns:repeat(var(--n,2),minmax(0,1fr))}
 .sbsname{font:700 14px/1.25 Georgia,'Iowan Old Style',serif;color:var(--ink);
@@ -227,18 +233,30 @@ ul.cl.one li::before{display:none}
   text-transform:uppercase;color:var(--prog);margin-bottom:4px}
 .sbs.hi .sbscol li::before{background:var(--accent)}
 @media (max-width:760px){
-  /* one dropdown per line; stacked, they do not need "vs" and "and" spelling
-     the relationship out at the cost of a line each */
-  .cmpbar .pr{flex:1 1 100%}
+  /* two to a row. Pinned, three full-width dropdowns would eat a fifth of the
+     screen; a truncated name here costs nothing because the column heading
+     directly underneath spells it out in full. */
+  /* the same two tracks and the same gap as .sbsrow, so a dropdown sits
+     exactly over the column it names */
+  .cmpbar{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .cmpbar .pr{flex:1 1 auto;min-width:0}
   .cmpbar .vs{display:none}
+  .cmpbar select{font-size:13px;padding:7px 9px;padding-right:26px;width:100%}
+  /* The dropdowns already name the models, right above their own columns at
+     two. At three nothing can align, because the columns scroll sideways and
+     the picker does not. Either way a names row is the same names again for
+     fifty pinned pixels. The rule it carried has to stay, though, or the
+     comparison scrolls up under the picker with nothing between them. */
+  .cmppin .sbshead{display:none}
+  .cmppin{border-bottom:1px solid var(--line);padding-bottom:7px}
+  .cmppin+.sbs{padding-top:4px}
   .sbsrow,.sbshead{gap:8px}
   .sbscol{font-size:12.5px}
   .sbsname{font-size:12.5px}
   .acells>div{font-size:12.5px}
   /* three columns will not fit a phone; let that one case scroll sideways
      rather than squeezing every model into forty characters a line */
-  .sbs.n3 .sbsrow,.sbs.n3 .sbshead,
-  .sbs.n3 .acells{grid-template-columns:repeat(3,150px)}
+  .sbs.n3 .sbsrow,.sbs.n3 .acells{grid-template-columns:repeat(3,150px)}
   .sbs.n3 .arow{width:max-content;min-width:100%}
   .sbs.n3{overflow-x:auto;-webkit-overflow-scrolling:touch}
   .sbs.n3 .sbshead{position:static}
@@ -874,19 +892,39 @@ function cellHTML(m, i){
 /* Which models are side by side, and how the overlap is drawn. Kept in
    localStorage so closing the tab mid-comparison does not lose the pair. */
 const CKEY = "lmft.compare";
-let cmpSel = [], cmpHi = true, cmpDiff = false;
+let cmpSel = [], cmpHi = true;
 try {
   const c = JSON.parse(localStorage.getItem(CKEY)) || {};
   if (Array.isArray(c.sel))
     cmpSel = c.sel.filter(id => MODELS.some(m => m.id === id)).slice(0, 3);
   if (typeof c.hi === "boolean") cmpHi = c.hi;
-  if (typeof c.diff === "boolean") cmpDiff = c.diff;
 } catch(e){}
 function cmpSave(){
   try { localStorage.setItem(CKEY,
-    JSON.stringify({sel: cmpSel, hi: cmpHi, diff: cmpDiff})); } catch(e){}
+    JSON.stringify({sel: cmpSel, hi: cmpHi})); } catch(e){}
 }
 const MODEL = id => MODELS.find(m => m.id === id);
+
+/* The pinned picker sticks to the bottom of the header, so it needs the
+   header's height -- which is not a constant. It grows when the nav wraps and
+   changes with the safe-area inset, so a value measured once at render is
+   wrong the moment the phone is turned. */
+function headHeight(){
+  try {
+    const h = document.querySelector("header");
+    if (h) document.documentElement.style.setProperty(
+      "--hh", h.offsetHeight + "px");
+  } catch(e){}
+}
+try { window.addEventListener("resize", headHeight); } catch(e){}
+/* A resize event is not the only way the header changes height: the nav wraps
+   when a tab label changes, the days-to-exam line is filled in after load, and
+   a late web font reflows both. Watch the element itself where that is
+   possible, and keep the resize listener for browsers where it is not. */
+try {
+  if (window.ResizeObserver)
+    new ResizeObserver(headHeight).observe(document.querySelector("header"));
+} catch(e){}
 
 /* How many of the compared models carry each idea in this section. An entry
    in two of three columns is neither unique nor universal, so the count is
@@ -945,7 +983,7 @@ function column(list){
 function sbsSection(c, i){
   const sp = split(i);
   const both = cmpSel.length === 2 ? "Both models" : "More than one";
-  const head = sp.rows.length && !cmpDiff
+  const head = sp.rows.length
     ? '<p class="agrp">' + both + '</p>'
       + sp.rows.map(r => '<div class="arow">'
           + (r.count < cmpSel.length
@@ -954,8 +992,7 @@ function sbsSection(c, i){
           + r.cells.map(t => "<div>" + (t ? esc(t) : "") + "</div>").join("")
           + '</div></div>').join("")
       + '<p class="agrp">Only that model</p>'
-    : (sp.rows.length && cmpDiff
-        ? '<p class="agrp">' + sp.rows.length + ' shared, hidden</p>' : "");
+    : "";
   return '<section class="sbssec"><h3>' + esc(c) + '</h3>' + head
     + '<div class="sbsrow">'
     + sp.own.map(l => '<div class="sbscol">' + column(l) + '</div>').join("")
@@ -968,15 +1005,14 @@ function cmpPicker(){
     const opts = MODELS.map(m =>
       `<option value="${m.id}"${m.id === cur ? " selected" : ""}${
         cmpSel.indexOf(m.id) >= 0 && m.id !== cur ? " disabled" : ""}>${esc(m.name)}</option>`).join("");
+    // the third is a menu sitting at None, not a button that says to add one
     return `<select data-slot="${k}" aria-label="Model ${k+1} to compare"><option value="">${
-      k < 2 ? "Choose a model" : "Add a third"}</option>${opts}</select>`;
+      k < 2 ? "Choose a model" : "None"}</option>${opts}</select>`;
   };
   // each dropdown travels with the word in front of it, so neither can wrap
   // away from the other
   const unit = (w, k) => `<span class="pr"><span class="vs">${w}</span>${slot(k)}</span>`;
-  // the third dropdown only appears once there is something to add it to
-  const three = cmpSel.length >= 2 ? unit("and", 2) : "";
-  return `<div class="cmpbar"><span class="pr">${slot(0)}</span>${unit("vs", 1)}${three}
+  return `<div class="cmpbar"><span class="pr">${slot(0)}</span>${unit("vs", 1)}${unit("and", 2)}
     ${cmpSel.length ? '<button class="sz" id="cmpClear">Show all 14</button>' : ""}</div>`;
 }
 
@@ -984,20 +1020,23 @@ function renderCompare(){
   const val = (m,i) => cellHTML(m,i);
   const sbs = cmpSel.length >= 2;
 
+  // The picker, the toggle and the column names stay put while the
+  // comparison scrolls under them, so switching a model never means scrolling
+  // back to the top to find the dropdown.
   const body = sbs ? `
-    <div class="cmpopt">
-      <button class="sz${cmpHi ? " on" : ""}" id="cmpHi">Highlight overlap</button>
-      <button class="sz${cmpDiff ? " on" : ""}" id="cmpDiff">Differences only</button>
+      <div class="cmpopt">
+        <button class="sz${cmpHi ? " on" : ""}" id="cmpHi">Group what they share</button>
+      </div>
+      <div class="sbshead" style="--n:${cmpSel.length}">${cmpSel.map(id =>
+        `<div class="sbsname">${esc(MODEL(id).name)}</div>`).join("")}</div>
     </div>
     <div class="sbs${cmpHi ? " hi" : ""} n${cmpSel.length}" style="--n:${cmpSel.length}">
-      <div class="sbshead">${cmpSel.map(id =>
-        `<div class="sbsname">${esc(MODEL(id).name)}</div>`).join("")}</div>
       ${COLS.map((c,i) => sbsSection(c, i)).join("")}
     </div>
-    <div class="row"><button class="btn" id="cmpDrill">Drill these ${
+    <div class="row cmpdrill"><button class="btn" id="cmpDrill">Drill these ${
       cmpSel.length} models</button></div>
-    <p class="note">Anything blank is blank in your packet.</p>`
-  : `
+    <p class="note cmpend">Anything blank is blank in your packet.</p>`
+  : `</div>
     <p class="note">Pick two models above to put them side by side. Anything blank
     here is blank in your packet.</p>
 
@@ -1015,13 +1054,10 @@ function renderCompare(){
 
     <p class="note">Built ${esc(BUILT)} from your five packets.</p>`;
 
-  el.innerHTML = `<h2>Compare models</h2>${cmpPicker()}${body}`;
+  el.innerHTML = `<h2>Compare models</h2><div class="cmppin n${cmpSel.length}">${
+    cmpPicker()}${body}`;
 
-  // the names pin under the header, whatever height the header happens to be
-  try {
-    document.documentElement.style.setProperty(
-      "--hh", document.querySelector("header").offsetHeight + "px");
-  } catch(e){}
+  headHeight();
 
   el.querySelectorAll("select[data-slot]").forEach(sel => sel.onchange = () => {
     const k = +sel.dataset.slot, v = sel.value, next = cmpSel.slice();
@@ -1033,8 +1069,6 @@ function renderCompare(){
   if (cl) cl.onclick = () => { cmpSel = []; cmpSave(); renderCompare(); };
   const hi = document.getElementById("cmpHi");
   if (hi) hi.onclick = () => { cmpHi = !cmpHi; cmpSave(); renderCompare(); };
-  const df = document.getElementById("cmpDiff");
-  if (df) df.onclick = () => { cmpDiff = !cmpDiff; cmpSave(); renderCompare(); };
   const dr = document.getElementById("cmpDrill");
   if (dr) dr.onclick = () => goDrill(cmpSel.slice());
 }
