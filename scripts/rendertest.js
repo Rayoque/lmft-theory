@@ -24,7 +24,7 @@ const ok = (n, c, extra) => { c ? pass++ : fail++;
               (!c && extra ? "  <- " + extra : "")); };
 const head = t => console.log("\n=== " + t + " ===");
 
-function boot(){
+function boot0(){
   const dom = new JSDOM(HTML, {
     runScripts: "dangerously",
     url: "https://rayoque.github.io/lmft-theory/",
@@ -35,8 +35,13 @@ function boot(){
     },
   });
   const w = dom.window, d = w.document;
+  return dom;
+}
+/* the welcome is in the way of every other test */
+function boot(){
+  const dom = boot0(), w = dom.window, d = w.document;
   const modal = d.querySelector(".overlay");
-  if (modal) modal.querySelector("#again2").click();       // dismiss welcome
+  if (modal) modal.querySelector("#again2").click();
   return { w, d };
 }
 
@@ -647,6 +652,135 @@ head("progress page");
   ok("a fresh stem is used whenever one exists", o.avoidable === 0, String(o.avoidable));
   ok("and the session is still the length promised", o.short === 0, String(o.short));
 })();
+
+/* Side-by-side. The whole point is that she can hold two models against each
+   other without scrolling fourteen rows, and see which entries are actually
+   the same idea in two wordings. */
+head("Compare: two models side by side");
+{
+  const { w, d } = boot();
+  tab(d, "Compare").click();
+  ok("starts on the full reference", !!d.querySelector("table.grid"));
+  ok("with two dropdowns to pick from",
+     d.querySelectorAll("select[data-slot]").length === 2);
+
+  const pick = (slot, id) => {
+    const sel = d.querySelector('select[data-slot="' + slot + '"]');
+    sel.value = id; sel.onchange();
+  };
+  pick(0, "bowen");
+  ok("one model is not a comparison", !!d.querySelector("table.grid"));
+  pick(1, "object-relations");
+
+  ok("two models replace the full table", !d.querySelector("table.grid"));
+  const names = [...d.querySelectorAll(".sbsname")].map(e => e.textContent);
+  ok("both names head their column",
+     names.length === 2 && names[0].includes("Bowen") && names[1].includes("Object"),
+     names.join(" | "));
+  ok("every section is shown for both",
+     d.querySelectorAll(".sbssec").length === 6,
+     String(d.querySelectorAll(".sbssec").length));
+  ok("a third dropdown is offered",
+     d.querySelectorAll("select[data-slot]").length === 3);
+  ok("the names pin under the header",
+     w.getComputedStyle(d.querySelector(".sbshead")).position === "sticky");
+
+  // Bowen and Object Relations both list a neutral therapist
+  const sh = [...d.querySelectorAll(".sbscol li.sh")];
+  ok("the entry both models share is marked in both columns",
+     sh.length === 2 && sh.every(li => /neutral/i.test(li.textContent)),
+     sh.map(e => e.textContent).join(" | "));
+  ok("and everything else reads as that model's own",
+     d.querySelectorAll(".sbscol li.uq").length > 20,
+     String(d.querySelectorAll(".sbscol li.uq").length));
+
+  // a model cannot be compared against itself
+  const opts = [...d.querySelectorAll('select[data-slot="1"] option')];
+  ok("the other column's model cannot be picked twice",
+     opts.find(o => o.value === "bowen").disabled);
+
+  d.querySelector("#cmpDiff").click();
+  ok("differences only hides the shared entry",
+     d.querySelectorAll(".sbscol li.sh").length === 0);
+  ok("and says how many it hid rather than quietly dropping them",
+     [...d.querySelectorAll(".hid")].length === 2,
+     [...d.querySelectorAll(".hid")].map(e => e.textContent).join(" | "));
+  d.querySelector("#cmpDiff").click();
+  ok("toggling back brings it out of hiding",
+     d.querySelectorAll(".sbscol li.sh").length === 2);
+
+  d.querySelector("#cmpHi").click();
+  ok("highlighting off drops the marks", !d.querySelector(".sbs.hi"));
+  ok("but keeps every entry on screen",
+     d.querySelectorAll(".sbscol li").length > 20);
+  d.querySelector("#cmpHi").click();
+
+  ok("the choice survives a reload",
+     JSON.parse(w.localStorage.getItem("lmft.compare")).sel.join() ===
+     "bowen,object-relations");
+
+  d.querySelector("#cmpClear").click();
+  ok("Show all 14 returns the full reference", !!d.querySelector("table.grid"));
+}
+
+/* "Genogram" and "Family Life Chronology" are one idea in two packets. A
+   string compare would call them different, and the overlap questions would
+   then disagree with this page. */
+head("Compare: overlap comes from the packets, not from string matching");
+{
+  const { d } = boot();
+  tab(d, "Compare").click();
+  const pick = (slot, id) => {
+    const sel = d.querySelector('select[data-slot="' + slot + '"]');
+    sel.value = id; sel.onchange();
+  };
+  pick(0, "bowen"); pick(1, "satir");
+  const sh = [...d.querySelectorAll(".sbscol li.sh")].map(e => e.textContent);
+  ok("differently worded entries register as the same idea",
+     sh.some(t => /Genogram/.test(t)) && sh.some(t => /Family Life Chronology/.test(t)),
+     sh.join(" | "));
+}
+
+/* Reading two models against each other and then testing yourself on exactly
+   those two is the loop this page exists to close. */
+head("Compare: drilling just the models on screen");
+{
+  const { w, d } = boot();
+  tab(d, "Compare").click();
+  const pick = (slot, id) => {
+    const sel = d.querySelector('select[data-slot="' + slot + '"]');
+    sel.value = id; sel.onchange();
+  };
+  pick(0, "bowen"); pick(1, "satir");
+  d.querySelector("#cmpDrill").click();
+  ok("lands in a drill", !!d.querySelector("#opts"));
+  const only = w.eval(`Q.every(i => i.models.some(
+    m => m === "bowen" || m === "satir"))`);
+  ok("every question touches one of the two", only);
+  ok("including the overlap items that span them",
+     w.eval(`Q.some(i => i.type === "T2_collision")`));
+  ok("and it is a real session, not one question",
+     w.eval("Q.length") > 5, String(w.eval("Q.length")));
+
+  tab(d, "Drill").click();
+  const wide = w.eval(`Q.some(i => !i.models.some(
+    m => m === "bowen" || m === "satir"))`);
+  ok("the Drill tab goes back to all fourteen", wide);
+}
+
+/* The heading claimed four points and the page listed five. */
+head("welcome counts its own points");
+{
+  const dom = boot0();
+  const d = dom.window.document;
+  const pts = d.querySelectorAll(".overlay .pt");
+  ok("the heading agrees with the list",
+     d.querySelector("#wcount").textContent === "Five" && pts.length === 5,
+     d.querySelector("#wcount").textContent + " / " + pts.length);
+  ok("and the points are numbered in order",
+     [...pts].every((p, i) => p.querySelector("b").textContent.indexOf((i+1) + " · ") === 0),
+     [...pts].map(p => p.querySelector("b").textContent.slice(0, 4)).join("|"));
+}
 
 function finish(){
   if (pending) return;

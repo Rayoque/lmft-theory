@@ -175,6 +175,63 @@ ul.cl.one li::before{display:none}
 .mf ul.cl li{padding-left:14px;margin-bottom:8px}
 .mf ul.cl li::before{left:3px;width:4px;height:4px;top:.6em}
 .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+
+/* ---- Compare: the picker ---- */
+.cmpbar{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:12px 0 6px}
+.cmpbar select{
+  font:inherit;font-size:14px;font-weight:600;color:var(--ink);background:var(--card);
+  border:1px solid var(--line);border-radius:10px;padding:8px 10px;max-width:100%;
+  cursor:pointer;-webkit-appearance:none;appearance:none;
+  background-image:linear-gradient(45deg,transparent 50%,var(--dim) 50%),
+                   linear-gradient(135deg,var(--dim) 50%,transparent 50%);
+  background-position:calc(100% - 15px) 52%,calc(100% - 10px) 52%;
+  background-size:5px 5px,5px 5px;background-repeat:no-repeat;padding-right:30px;
+}
+.cmpbar select:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.cmpbar .pr{display:inline-flex;align-items:center;gap:8px;flex:1 1 190px;min-width:0}
+.cmpbar select{flex:1 1 auto;min-width:0}
+.cmpbar .vs{flex:0 0 auto;font-size:12px;color:var(--dim);
+  text-transform:uppercase;letter-spacing:.07em}
+.cmpopt{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:2px 0 14px}
+
+/* ---- Compare: the columns ---- */
+.sbs{margin-top:2px}
+.sbshead{
+  position:sticky;top:var(--hh,64px);z-index:6;background:var(--bg);
+  padding:7px 0 6px;border-bottom:1px solid var(--line);margin-bottom:2px;
+}
+.sbsrow,.sbshead{display:grid;gap:10px;
+  grid-template-columns:repeat(var(--n,2),minmax(0,1fr))}
+.sbsname{font:700 14px/1.25 Georgia,'Iowan Old Style',serif;color:var(--ink);
+  overflow-wrap:anywhere}
+.sbssec{margin:16px 0 0}
+.sbssec>h3{font-size:10.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--dim);margin:0 0 7px}
+.sbscol{font-size:13.5px;line-height:1.5;overflow-wrap:anywhere;min-width:0}
+.sbscol .cl li{margin-bottom:6px}
+.sbscol .null{font-size:12.5px}
+.sbscol .hid{margin:6px 0 0;font-size:11.5px;color:var(--dim)}
+/* off by default: the marks only appear once Highlight overlap is on */
+.sbs.hi .sbscol li.uq::before{background:var(--accent)}
+.sbs.hi .sbscol li.sh{color:var(--dim)}
+.sbs.hi .sbscol li.sh::before{background:none;box-shadow:inset 0 0 0 1px var(--dim)}
+.stag{display:inline-block;font-size:9.5px;font-weight:700;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--dim);border:1px solid var(--line);
+  border-radius:999px;padding:0 5px;margin-left:5px;vertical-align:1px;white-space:nowrap}
+@media (max-width:760px){
+  /* one dropdown per line; stacked, they do not need "vs" and "and" spelling
+     the relationship out at the cost of a line each */
+  .cmpbar .pr{flex:1 1 100%}
+  .cmpbar .vs{display:none}
+  .sbsrow,.sbshead{gap:8px}
+  .sbscol{font-size:12.5px}
+  .sbsname{font-size:12.5px}
+  /* three columns will not fit a phone; let that one case scroll sideways
+     rather than squeezing every model into forty characters a line */
+  .sbs.n3 .sbsrow,.sbs.n3 .sbshead{grid-template-columns:repeat(3,150px)}
+  .sbs.n3{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .sbs.n3 .sbshead{position:static}
+}
 /* one layout per screen width; the table is unreadable on a phone */
 .gwide{display:block}
 .gnarrow{display:none}
@@ -323,6 +380,8 @@ function scopeFor(mode, modelId){
   if (mode === "learn" && modelId) p = p.filter(i => i.models[0] === modelId);
   if (mode === "vignette")        p = p.filter(i => i.type === "V_vignette");
   if (mode === "drill")           p = p.filter(i => i.type !== "V_vignette");
+  if (mode === "drill" && drillModels)
+    p = p.filter(i => i.models.some(x => drillModels.indexOf(x) >= 0));
   return p;
 }
 function poolFor(mode, modelId){
@@ -389,6 +448,10 @@ function buildQueue(mode, modelId, n){
 
 /* ---------- session ---------- */
 let Q = [], qi = 0, mode = "learn", learnModel = null, answered = null;
+/* Drill normally spans everything. Set from Compare, it spans just the models
+   being compared -- including every overlap item that touches either of them,
+   which is the whole reason to drill a pair straight after reading it. */
+let drillModels = null;
 /* One snapshot per answer, so Back can put the record and the tally back
    exactly as they were. score() mutates S.concepts in place, so a shallow
    copy would not survive the undo. */
@@ -444,7 +507,16 @@ document.getElementById("nav").onclick = e => {
   const b = e.target.closest("button[data-tab]"); if (!b || b.disabled) return;
   go(b.dataset.tab);
 };
-function go(tab){ mode = tab; learnModel = null; Q = []; qi = 0; undoStack = []; renderNav(); render(); }
+function go(tab){ mode = tab; learnModel = null; Q = []; qi = 0; undoStack = [];
+  drillModels = null; renderNav(); render(); }
+/* Same as go("drill"), minus the clearing. Tapping the Drill tab afterwards
+   is how she gets back to all fourteen. */
+function goDrill(ids){
+  mode = "drill"; learnModel = null; Q = []; qi = 0; undoStack = [];
+  drillModels = ids && ids.length ? ids : null;
+  stats = {right:0, wrong:0, confidentWrong:0, missed:[]};
+  renderNav(); render();
+}
 
 /* ---------- model state for the dashboard ---------- */
 /* what is finished today, and what is finished for good */
@@ -764,16 +836,19 @@ function cell(m, c){
   // was not a curated pick, it was just interventions[0], whichever the packet
   // happened to list first. Since the bank now drills whole sets of
   // techniques, this page has to show whole sets too.
-  const all = a => (a && a.length ? a.map(x => x.text) : null);
+  // {t: what to show, k: which idea it is}. k is the number build_app.py
+  // interned from collisions.json, so two models saying one thing in two
+  // wordings carry the same k. Prose has no k -- there is nothing to match.
+  const all = a => (a && a.length ? a.map(x => ({t:x.text, k:x.k})) : null);
   switch(c){
-    case 0: return m.changeMechanism ? [m.changeMechanism.text] : null;
+    case 0: return m.changeMechanism ? [{t:m.changeMechanism.text, k:null}] : null;
     case 1: return m.therapistRoles === null ? null : all(m.therapistRoles);
     case 2: return m.interventions.length
-      ? m.interventions.map(x => x.term) : null;
+      ? m.interventions.map(x => ({t:x.term, k:x.k})) : null;
     default: {
       if (m.phases === null) return null;
-      const k = ["beginning","middle","end"][c-3];
-      return all(m.phases[k]);
+      const ph = ["beginning","middle","end"][c-3];
+      return all(m.phases[ph]);
     }
   }
 }
@@ -783,12 +858,103 @@ function cellHTML(m, i){
   const v = cell(m, i);
   if (v === null) return '<span class="null">not in packet</span>';
   return '<ul class="cl' + (v.length === 1 ? " one" : "") + '">'
-    + v.map(t => "<li>" + esc(t) + "</li>").join("") + "</ul>";
+    + v.map(e => "<li>" + esc(e.t) + "</li>").join("") + "</ul>";
 }
+/* Which models are side by side, and how the overlap is drawn. Kept in
+   localStorage so closing the tab mid-comparison does not lose the pair. */
+const CKEY = "lmft.compare";
+let cmpSel = [], cmpHi = true, cmpDiff = false;
+try {
+  const c = JSON.parse(localStorage.getItem(CKEY)) || {};
+  if (Array.isArray(c.sel))
+    cmpSel = c.sel.filter(id => MODELS.some(m => m.id === id)).slice(0, 3);
+  if (typeof c.hi === "boolean") cmpHi = c.hi;
+  if (typeof c.diff === "boolean") cmpDiff = c.diff;
+} catch(e){}
+function cmpSave(){
+  try { localStorage.setItem(CKEY,
+    JSON.stringify({sel: cmpSel, hi: cmpHi, diff: cmpDiff})); } catch(e){}
+}
+const MODEL = id => MODELS.find(m => m.id === id);
+
+/* How many of the compared models carry each idea in this section. An entry
+   in two of three columns is neither unique nor universal, so the count is
+   kept rather than a boolean. */
+function overlap(i){
+  const n = {};
+  cmpSel.forEach(id => {
+    const v = cell(MODEL(id), i);
+    if (!v) return;
+    const once = {};
+    v.forEach(e => {
+      if (e.k === null || once[e.k]) return;
+      once[e.k] = 1; n[e.k] = (n[e.k] || 0) + 1;
+    });
+  });
+  return n;
+}
+
+function sbsCell(id, i, n){
+  const v = cell(MODEL(id), i);
+  if (v === null) return '<span class="null">not in packet</span>';
+  let hid = 0;
+  const li = v.map(e => {
+    const c = (e.k === null) ? 1 : (n[e.k] || 1);
+    if (c > 1 && cmpDiff) { hid++; return ""; }
+    const tag = (c > 1 && cmpHi)
+      ? '<span class="stag">' + (c === cmpSel.length ? "shared" : c + " of " + cmpSel.length) + '</span>'
+      : "";
+    return '<li class="' + (c > 1 ? "sh" : "uq") + '">' + esc(e.t) + tag + '</li>';
+  }).join("");
+  const rest = hid ? '<p class="hid">' + hid + ' shared, hidden</p>' : "";
+  if (!li) return rest || '<span class="null">nothing only to this model</span>';
+  return '<ul class="cl' + (v.length === 1 ? " one" : "") + '">' + li + '</ul>' + rest;
+}
+
+function cmpPicker(){
+  const slot = k => {
+    const cur = cmpSel[k] || "";
+    const opts = MODELS.map(m =>
+      `<option value="${m.id}"${m.id === cur ? " selected" : ""}${
+        cmpSel.indexOf(m.id) >= 0 && m.id !== cur ? " disabled" : ""}>${esc(m.name)}</option>`).join("");
+    return `<select data-slot="${k}" aria-label="Model ${k+1} to compare"><option value="">${
+      k < 2 ? "Choose a model" : "Add a third"}</option>${opts}</select>`;
+  };
+  // each dropdown travels with the word in front of it, so neither can wrap
+  // away from the other
+  const unit = (w, k) => `<span class="pr"><span class="vs">${w}</span>${slot(k)}</span>`;
+  // the third dropdown only appears once there is something to add it to
+  const three = cmpSel.length >= 2 ? unit("and", 2) : "";
+  return `<div class="cmpbar"><span class="pr">${slot(0)}</span>${unit("vs", 1)}${three}
+    ${cmpSel.length ? '<button class="sz" id="cmpClear">Show all 14</button>' : ""}</div>`;
+}
+
 function renderCompare(){
   const val = (m,i) => cellHTML(m,i);
-  el.innerHTML = `<h2>Compare models</h2>
-    <p class="note">Anything blank here is blank in your packet.</p>
+  const sbs = cmpSel.length >= 2;
+
+  const body = sbs ? `
+    <div class="cmpopt">
+      <button class="sz${cmpHi ? " on" : ""}" id="cmpHi">Highlight overlap</button>
+      <button class="sz${cmpDiff ? " on" : ""}" id="cmpDiff">Differences only</button>
+    </div>
+    <div class="sbs${cmpHi ? " hi" : ""} n${cmpSel.length}" style="--n:${cmpSel.length}">
+      <div class="sbshead">${cmpSel.map(id =>
+        `<div class="sbsname">${esc(MODEL(id).name)}</div>`).join("")}</div>
+      ${COLS.map((c,i) => { const n = overlap(i); return `<section class="sbssec">
+        <h3>${esc(c)}</h3>
+        <div class="sbsrow">${cmpSel.map(id =>
+          `<div class="sbscol">${sbsCell(id, i, n)}</div>`).join("")}</div>
+      </section>`; }).join("")}
+    </div>
+    <div class="row"><button class="btn" id="cmpDrill">Drill these ${
+      cmpSel.length} models</button></div>
+    <p class="note">${cmpHi
+      ? "A filled dot is only in that column. A hollow dot and the tag mean another model here claims the same thing, sometimes in its own words — which is what the overlap questions test."
+      : "Anything blank is blank in your packet."}</p>`
+  : `
+    <p class="note">Pick two models above to put them side by side. Anything blank
+    here is blank in your packet.</p>
 
     <div class="gwide card scroll"><table class="grid">
       <thead><tr><th>Model</th>${COLS.map(c=>`<th>${c}</th>`).join("")}</tr></thead>
@@ -803,6 +969,29 @@ function renderCompare(){
     </details>`).join("")}</div>
 
     <p class="note">Built ${esc(BUILT)} from your five packets.</p>`;
+
+  el.innerHTML = `<h2>Compare models</h2>${cmpPicker()}${body}`;
+
+  // the names pin under the header, whatever height the header happens to be
+  try {
+    document.documentElement.style.setProperty(
+      "--hh", document.querySelector("header").offsetHeight + "px");
+  } catch(e){}
+
+  el.querySelectorAll("select[data-slot]").forEach(sel => sel.onchange = () => {
+    const k = +sel.dataset.slot, v = sel.value, next = cmpSel.slice();
+    if (!v) next.splice(k, 1); else next[k] = v;
+    cmpSel = next.filter(Boolean).slice(0, 3);
+    cmpSave(); renderCompare();
+  });
+  const cl = document.getElementById("cmpClear");
+  if (cl) cl.onclick = () => { cmpSel = []; cmpSave(); renderCompare(); };
+  const hi = document.getElementById("cmpHi");
+  if (hi) hi.onclick = () => { cmpHi = !cmpHi; cmpSave(); renderCompare(); };
+  const df = document.getElementById("cmpDiff");
+  if (df) df.onclick = () => { cmpDiff = !cmpDiff; cmpSave(); renderCompare(); };
+  const dr = document.getElementById("cmpDrill");
+  if (dr) dr.onclick = () => goDrill(cmpSel.slice());
 }
 
 /* ---------- sound ----------
@@ -1074,33 +1263,33 @@ function welcome(){
     <div class="hey">Hey babe. Claude and I made this tool to help these theories stick w you. Hope it's useful and regardless, you got this. I am so proud of the inspired, intuitive, and radiantly sovereign woman you are and are becoming ❤️ 🌼</div>
     <p class="sig">— Tanneen</p>
 
-    <h2>Four things before you start</h2>
+    <h2><span id="wcount">Five</span> things before you start</h2>
     <p class="lede">Short version, so nothing here surprises you later.</p>
 
-    <p class="pt"><b>1 · Start in Learn, one model at a time.</b>
+    <p class="pt"><b>Start in Learn, one model at a time.</b>
     Read the brief, then answer the questions right there before moving on.
     It's built around the thing you said — that you learn the answer while you're
     taking it. Every answer shows the reasoning <i>and</i> the exact line from
     your own packet.</p>
 
-    <p class="pt"><b>2 · Your score in Drill will look bad. That's the design working.</b>
+    <p class="pt"><b>Your score in Drill will look bad. That's the design working.</b>
     It deliberately shuffles models so you never get two in a row from the same
     one. That always scores lower than drilling one model at a time — and it's
     the only thing that teaches you to tell them apart, which is what the exam
     actually tests. <b style="display:inline">70–80% is the target.</b>
     A low number there isn't a verdict on you.</p>
 
-    <p class="pt"><b>3 · The “Knew it / Guessed” buttons matter more than they look.</b>
+    <p class="pt"><b>The “Knew it / Guessed” buttons matter more than they look.</b>
     Being confident and wrong is the most dangerous state on this exam — it's
     what happens when a familiar word like <i>neutral</i> or <i>reframing</i>
     makes you fire before you check, and those words genuinely belong to several
     theories at once. Those questions come back twice as often.</p>
 
-    <p class="pt"><b>4 · You can do this from the keyboard.</b>
+    <p class="pt"><b>You can do this from the keyboard.</b>
     Press A, B, C or D to answer, or use the arrow keys and space. Same for the
     two confidence buttons afterwards.</p>
 
-    <p class="pt"><b>5 · If a question looks wrong to you, trust your packet.</b>
+    <p class="pt"><b>If a question looks wrong to you, trust your packet.</b>
     Every answer shows the exact line from your packet, so you can check. A few of those lines
     read a little garbled — that's your original document, not a glitch.</p>
 
@@ -1115,6 +1304,15 @@ function welcome(){
     <button class="btn" id="again2">Start</button>
   </div>`;
   document.body.appendChild(d);
+  // Number the points from their order, and say how many there are. Typing
+  // either by hand is how the heading came to claim four of five.
+  const WORDS = ["no","One","Two","Three","Four","Five","Six","Seven","Eight"];
+  const pts = d.querySelectorAll(".pt");
+  pts.forEach((p, i) => {
+    const b = p.querySelector("b");
+    b.textContent = (i + 1) + " · " + b.textContent;
+  });
+  d.querySelector("#wcount").textContent = WORDS[pts.length] || pts.length;
   d.querySelector("#again2").onclick = () => {
     try { localStorage.setItem(WKEY, "1"); } catch(e){}
     d.remove();

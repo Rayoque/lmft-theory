@@ -9,6 +9,7 @@ import datetime
 import io
 import json
 import os
+import re
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -21,6 +22,32 @@ def load(n):
 
 T = load("theories.json")
 I = load("items.json")
+C = load("collisions.json")
+
+
+def norm(t):
+    """Identical to build_collisions.norm, so the two agree on what matches."""
+    t = t.lower().replace("“", "").replace("”", "").replace("’", "'")
+    t = re.sub(r"[^a-z0-9 ]+", " ", t)
+    return " ".join(t.split())
+
+
+# every spelling the packets use for one idea -> that idea's canonical name
+CANON = {}
+for c in C["equivalenceClasses"]:
+    for v in c["variants"]:
+        CANON[norm(v)] = "=" + c["canonical"]
+
+_keys = {}
+
+
+def key(text):
+    """Intern an entry's identity. Same number means the packets are saying
+    the same thing; the app compares numbers and nothing else."""
+    k = CANON.get(norm(text), norm(text))
+    if k not in _keys:
+        _keys[k] = len(_keys)
+    return _keys[k]
 
 # Ship only what the app reads. Keeps the single file small enough for a phone.
 slim_models = []
@@ -32,16 +59,17 @@ for m in T["models"]:
                              "sourceLine": m["changeMechanism"]["sourceLine"]}
                             if m["changeMechanism"] else None),
         "therapistRoles": (None if m["therapistRoles"] is None
-                           else [{"text": f["text"]} for f in m["therapistRoles"]]),
+                           else [{"text": f["text"], "k": key(f["text"])}
+                                 for f in m["therapistRoles"]]),
         "goals": (None if m["goals"] is None
                   else [{"text": f["text"]} for f in m["goals"]]),
         "concepts": [{"term": c["term"], "definition": c["definition"]}
                      for c in m["concepts"]],
-        "interventions": [{"term": c["term"], "definition": c["definition"]}
-                          for c in m["interventions"]],
+        "interventions": [{"term": c["term"], "definition": c["definition"],
+                           "k": key(c["term"])} for c in m["interventions"]],
         "phases": (None if m["phases"] is None
-                   else {k: [{"text": f["text"]} for f in v]
-                         for k, v in m["phases"].items()}),
+                   else {pk: [{"text": f["text"], "k": key(f["text"])} for f in v]
+                         for pk, v in m["phases"].items()}),
         "examTips": [{"sourceLine": t["sourceLine"]} for t in m["examTips"]],
     })
 
@@ -68,6 +96,6 @@ with io.open(out, "w", encoding="utf-8") as f:
     f.write(html)
 
 kb = os.path.getsize(out) / 1024.0
-print("index.html written: %.0f KB, %d items, %d models"
-      % (kb, len(slim_items), len(slim_models)))
+print("index.html written: %.0f KB, %d items, %d models, %d entry keys"
+      % (kb, len(slim_items), len(slim_models), len(_keys)))
 assert "__THEORIES__" not in html and "__ITEMS__" not in html, "placeholder left"
