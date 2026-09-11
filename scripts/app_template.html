@@ -47,7 +47,7 @@ body{
   padding:0 0 env(safe-area-inset-bottom);
 }
 .wrap{max-width:var(--wrap);margin:0 auto;padding:12px 14px 24px}
-/* Reading views keep a short measure; the grid and dashboard get the window.
+/* Reading views keep a short measure; Compare and the dashboard get the window.
    Header, nav and content share one knob so they never fall out of line. */
 body[data-wide] .wrap,body[data-wide] .hrow,body[data-wide] nav,body[data-wide] .frow{--wrap:1500px}
 h1{font-size:17px;margin:0;letter-spacing:-.01em}
@@ -125,7 +125,7 @@ button.opt.done{cursor:default}
 .tile span{font-size:12px;color:var(--dim)}
 .tile{border-left-width:6px}
 /* the card keeps the ordinary surface; the state is carried by the edge, the
-   dot and the label, which is enough and does not turn the grid into a
+   dot and the label, which is enough and does not turn the dashboard into a
    patchwork */
 .s-new{border-left-color:var(--line)}
 .s-learning{border-left-color:var(--prog)}
@@ -164,6 +164,16 @@ table.grid th{background:var(--src);font-size:10.5px;text-transform:uppercase;le
 table.grid td:first-child,table.grid th:first-child{font-weight:700;width:11%}
 table.grid td{line-height:1.5}
 table.grid td:first-child{white-space:normal}
+/* one entry per line, in the table and in the phone accordion */
+ul.cl{margin:0;padding:0;list-style:none}
+ul.cl li{position:relative;padding-left:11px;margin-bottom:5px}
+ul.cl li:last-child{margin-bottom:0}
+ul.cl li::before{content:"";position:absolute;left:1px;top:.62em;
+  width:3px;height:3px;border-radius:50%;background:var(--dim)}
+ul.cl.one li{padding-left:0}
+ul.cl.one li::before{display:none}
+.mf ul.cl li{padding-left:14px;margin-bottom:8px}
+.mf ul.cl li::before{left:3px;width:4px;height:4px;top:.6em}
 .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
 /* one layout per screen width; the table is unreadable on a phone */
 .gwide{display:block}
@@ -191,7 +201,7 @@ table.grid td:first-child{white-space:normal}
 .mf:last-child{border-bottom:0;padding-bottom:2px}
 .mf b{display:block;font-size:10.5px;font-weight:700;letter-spacing:.07em;
   text-transform:uppercase;color:var(--dim);margin-bottom:5px}
-.mf p{margin:0;font-size:14.5px;line-height:1.55}
+.mf .mv{font-size:14.5px;line-height:1.55}
 .kv{font-size:14.5px;line-height:1.6}
 .kv li{margin-bottom:5px}
 ul{margin:0 0 10px;padding-left:20px}
@@ -422,7 +432,7 @@ function daysLeft(){
 }
 document.getElementById("days").textContent = daysLeft();
 
-const TABS = [["learn","Learn"],["drill","Drill"],["vignette","Vignette"],["grid","Grid"],["progress","Progress"]];
+const TABS = [["learn","Learn"],["drill","Drill"],["vignette","Vignette"],["compare","Compare"],["progress","Progress"]];
 function learnedAll(){ return MODELS.every(m => S.learned[m.id]); }
 function renderNav(){
   document.getElementById("nav").innerHTML = TABS.map(([k,l]) => {
@@ -470,8 +480,8 @@ function modelState(id){
 /* ---------- views ---------- */
 function render(){
   showFoot(false);
-  document.body.toggleAttribute("data-wide", mode === "grid" || mode === "progress");
-  if (mode === "grid")     return renderGrid();
+  document.body.toggleAttribute("data-wide", mode === "compare" || mode === "progress");
+  if (mode === "compare")  return renderCompare();
   if (mode === "progress") return renderProgress();
   if (mode === "learn" && !learnModel) return renderLearnPicker();
   if (!Q.length){ Q = buildQueue(mode, learnModel, sessionN(mode, learnModel)); qi = 0; undoStack = []; stats = {right:0,wrong:0,confidentWrong:0,missed:[]}; }
@@ -510,12 +520,12 @@ function renderExhausted(){
     <div class="row">
       ${mode === "learn" ? '<button class="btn ghost" id="pick">Another model</button>' : ""}
       <button class="btn" id="toDrill">Drill</button>
-      <button class="btn ghost" id="toGrid">The grid</button>
+      <button class="btn ghost" id="toGrid">Compare models</button>
     </div>`;
   const pk = document.getElementById("pick");
   if (pk) pk.onclick = () => { learnModel = null; Q = []; render(); };
   document.getElementById("toDrill").onclick = () => go("drill");
-  document.getElementById("toGrid").onclick  = () => go("grid");
+  document.getElementById("toGrid").onclick  = () => go("compare");
 }
 
 function renderLearnPicker(){
@@ -607,7 +617,7 @@ function choose(it, i){
   right ? stats.right++ : stats.wrong++;
   // Persist immediately. Scoring only inside the confidence handler meant an
   // answer was silently discarded if the reveal was read and then another
-  // tab tapped -- and the welcome says to go and look at the grid.
+  // tab tapped -- and the welcome says to go and look at Compare.
   score(it.id, right, false);
   if (!right) stats.missed.push(it);
   el.querySelectorAll(".opt").forEach((b,j) => {
@@ -670,7 +680,7 @@ function renderSummary(){
     <div class="row">
       ${stats.missed.length ? `<button class="btn" id="retry">Retry the ${stats.missed.length} you missed</button>` : ""}
       <button class="btn${stats.missed.length?" ghost":""}" id="again">Another ${sessionN(mode, learnModel)}</button>
-      <button class="btn ghost" id="toGrid">See the grid</button>
+      <button class="btn ghost" id="toGrid">Compare models</button>
       ${mode==="learn"?'<button class="btn ghost" id="pick">Another model</button>':""}
     </div>`;
   document.getElementById("again").onclick = () => { Q = []; render(); };
@@ -680,7 +690,7 @@ function renderSummary(){
     stats = {right:0,wrong:0,confidentWrong:0,missed:[]};
     render();
   };
-  document.getElementById("toGrid").onclick = () => go("grid");
+  document.getElementById("toGrid").onclick = () => go("compare");
   const p = document.getElementById("pick"); if (p) p.onclick = () => { learnModel = null; Q = []; render(); };
 }
 
@@ -730,7 +740,7 @@ function renderProgress(){
 }
 
 
-/* ---------- the grid: 14 models x 6 columns, one page ---------- */
+/* ---------- Compare: 14 models x 6 columns, one page ---------- */
 /* What the question is testing, in plain words rather than the build brief's.
    "collision" and "marker" are vocabulary from the spec, and these are read
    these mid-question. */
@@ -745,18 +755,21 @@ const TAGS = {
   V_vignette:   "vignette",
 };
 const COLS = ["Change mechanism","Therapist role","Interventions","Beginning","Middle","End"];
+/* A cell is a LIST of entries, never a joined string. Middot-joining eight
+   interventions produced one long grey sentence that nobody reads to the end;
+   one entry per line is the whole point of the page. */
 function cell(m, c){
   // Every cell shows everything the packet has for that model. The old version
   // showed only the FIRST entry of each list -- and "signature intervention"
   // was not a curated pick, it was just interventions[0], whichever the packet
   // happened to list first. Since the bank now drills whole sets of
-  // techniques, the grid has to show whole sets too.
-  const all = a => (a && a.length ? a.map(x => x.text).join(" · ") : null);
+  // techniques, this page has to show whole sets too.
+  const all = a => (a && a.length ? a.map(x => x.text) : null);
   switch(c){
-    case 0: return m.changeMechanism ? m.changeMechanism.text : null;
+    case 0: return m.changeMechanism ? [m.changeMechanism.text] : null;
     case 1: return m.therapistRoles === null ? null : all(m.therapistRoles);
     case 2: return m.interventions.length
-      ? m.interventions.map(x => x.term).join(" · ") : null;
+      ? m.interventions.map(x => x.term) : null;
     default: {
       if (m.phases === null) return null;
       const k = ["beginning","middle","end"][c-3];
@@ -764,13 +777,18 @@ function cell(m, c){
     }
   }
 }
-function renderGrid(){
-  const val = (m,i) => {
-    const v = cell(m,i);
-    return v === null ? '<span class="null">not in packet</span>' : esc(v);
-  };
-  el.innerHTML = `<h2>The grid</h2>
-    <p class="note">A blank cell is blank in your packet.</p>
+/* One entry, one line. A lone entry keeps its line but loses the bullet --
+   a bulleted list of one reads as a mistake. */
+function cellHTML(m, i){
+  const v = cell(m, i);
+  if (v === null) return '<span class="null">not in packet</span>';
+  return '<ul class="cl' + (v.length === 1 ? " one" : "") + '">'
+    + v.map(t => "<li>" + esc(t) + "</li>").join("") + "</ul>";
+}
+function renderCompare(){
+  const val = (m,i) => cellHTML(m,i);
+  el.innerHTML = `<h2>Compare models</h2>
+    <p class="note">Anything blank here is blank in your packet.</p>
 
     <div class="gwide card scroll"><table class="grid">
       <thead><tr><th>Model</th>${COLS.map(c=>`<th>${c}</th>`).join("")}</tr></thead>
@@ -781,7 +799,7 @@ function renderGrid(){
     <div class="gnarrow">${MODELS.map(m=>`<details class="mrow">
       <summary>${esc(m.name)}</summary>
       <div class="mbody">${COLS.map((c,i)=>
-        `<div class="mf"><b>${esc(c)}</b><p>${val(m,i)}</p></div>`).join("")}</div>
+        `<div class="mf"><b>${esc(c)}</b><div class="mv">${val(m,i)}</div></div>`).join("")}</div>
     </details>`).join("")}</div>
 
     <p class="note">Built ${esc(BUILT)} from your five packets.</p>`;
@@ -1092,7 +1110,7 @@ function welcome(){
     but the one thing that matters there, the trap where the exam asks about
     “stages” for a model that has none, is in here.<br><br>
     Nothing was invented. If it isn't in your packets, it isn't in here —
-    including the blank cells in the grid. <i>— Claude</i></p>
+    including the blanks under Compare. <i>— Claude</i></p>
 
     <button class="btn" id="again2">Start</button>
   </div>`;

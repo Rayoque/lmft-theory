@@ -19,7 +19,7 @@ typed by hand — so a `sourceLine` is structurally incapable of containing word
 that are not in the packet. Item options are then assembled only from those
 fact objects. There is no code path that writes option text from anything else.
 
-If a fact is not in the packet, it does not exist here. Blank cells in the grid
+If a fact is not in the packet, it does not exist here. Blank entries under Compare
 are blank in the packet.
 
 ---

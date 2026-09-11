@@ -109,7 +109,7 @@ head("every view renders clean");
 {
   const { d } = boot();
   const BAD = ["undefined", "NaN", "[object Object]", "${", "null,"];
-  for (const name of ["Learn", "Drill", "Grid", "Progress"]){
+  for (const name of ["Learn", "Drill", "Compare", "Progress"]){
     tab(d, name).click();
     const t = txt(d);
     ok(name + " renders", t.length > 40, "only " + t.length + " chars");
@@ -117,13 +117,15 @@ head("every view renders clean");
     ok(name + " has no template leakage", !hit, hit);
   }
 
-  tab(d, "Grid").click();
+  tab(d, "Compare").click();
   const rows = d.querySelectorAll("table.grid tbody tr");
   ok("grid has 14 rows", rows.length === 14, String(rows.length));
   ok("grid has 7 columns", d.querySelectorAll("table.grid thead th").length === 7);
-  ok("grid lists many interventions, not one",
-     rows[0].children[3].textContent.includes("·"),
-     rows[0].children[3].textContent.slice(0, 60));
+  ok("a cell lists many interventions, not one",
+     rows[0].children[3].querySelectorAll("ul.cl li").length > 3,
+     String(rows[0].children[3].querySelectorAll("ul.cl li").length));
+  ok("and nothing is middot-joined any more",
+     !d.querySelector("table.grid tbody").textContent.includes("·"));
   ok("client-centered shows the gap honestly",
      [...rows].find(r => r.textContent.includes("Client Centered"))
        .textContent.includes("not in packet"));
@@ -366,7 +368,7 @@ head("harbor theme");
 head("grid on a phone");
 {
   const { d } = boot();
-  tab(d, "Grid").click();
+  tab(d, "Compare").click();
   const rows = d.querySelectorAll(".gnarrow details.mrow");
   ok("one collapsible per model", rows.length === 14, String(rows.length));
   ok("collapsed by default", ![...rows].some(r => r.hasAttribute("open")));
@@ -380,6 +382,13 @@ head("grid on a phone");
      fields[0].querySelector("b").textContent);
   ok("wide table still present for desktop",
      d.querySelectorAll(".gwide table.grid tbody tr").length === 14);
+  // the phone layout is where the run-on sentence hurt most
+  const iv = [...fields].find(f => /intervention/i.test(f.querySelector("b").textContent));
+  ok("interventions are one per line on a phone too",
+     iv.querySelectorAll("ul.cl li").length > 3,
+     String(iv.querySelectorAll("ul.cl li").length));
+  ok("no middot run-ons anywhere in the narrow layout",
+     !d.querySelector(".gnarrow").textContent.includes("·"));
   const cc = [...rows].find(r => r.textContent.includes("Client Centered"));
   ok("gaps stay honest in the narrow layout",
      cc.textContent.includes("not in packet"));
