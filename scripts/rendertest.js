@@ -685,14 +685,24 @@ head("Compare: two models side by side");
   ok("the names pin under the header",
      w.getComputedStyle(d.querySelector(".sbshead")).position === "sticky");
 
-  // Bowen and Object Relations both list a neutral therapist
-  const sh = [...d.querySelectorAll(".sbscol li.sh")];
-  ok("the entry both models share is marked in both columns",
-     sh.length === 2 && sh.every(li => /neutral/i.test(li.textContent)),
-     sh.map(e => e.textContent).join(" | "));
-  ok("and everything else reads as that model's own",
-     d.querySelectorAll(".sbscol li.uq").length > 20,
-     String(d.querySelectorAll(".sbscol li.uq").length));
+  // Bowen and Object Relations both list a neutral therapist. The row is the
+  // whole explanation: one band, both wordings, side by side.
+  const band = [...d.querySelectorAll(".arow")];
+  ok("what both models claim gets its own row", band.length === 1,
+     String(band.length));
+  const cells = [...band[0].querySelectorAll(".acells > div")];
+  ok("with one cell per model, aligned",
+     cells.length === 2 && cells.every(c => /neutral/i.test(c.textContent)),
+     cells.map(c => c.textContent).join(" | "));
+  ok("the band is labelled by what it is, not by a legend",
+     [...d.querySelectorAll(".agrp")].map(e => e.textContent).join("|")
+       .toLowerCase().indexOf("both models") === 0,
+     [...d.querySelectorAll(".agrp")].map(e => e.textContent).join("|"));
+  ok("a shared entry is lifted out of the columns underneath",
+     ![...d.querySelectorAll(".sbscol li")].some(li => /^neutral$/i.test(li.textContent)));
+  ok("and everything else stays in its own column",
+     d.querySelectorAll(".sbscol li").length > 20,
+     String(d.querySelectorAll(".sbscol li").length));
 
   // a model cannot be compared against itself
   const opts = [...d.querySelectorAll('select[data-slot="1"] option')];
@@ -700,19 +710,19 @@ head("Compare: two models side by side");
      opts.find(o => o.value === "bowen").disabled);
 
   d.querySelector("#cmpDiff").click();
-  ok("differences only hides the shared entry",
-     d.querySelectorAll(".sbscol li.sh").length === 0);
-  ok("and says how many it hid rather than quietly dropping them",
-     [...d.querySelectorAll(".hid")].length === 2,
-     [...d.querySelectorAll(".hid")].map(e => e.textContent).join(" | "));
+  ok("differences only drops the band", !d.querySelector(".arow"));
+  ok("and says how many it dropped rather than doing it quietly",
+     [...d.querySelectorAll(".agrp")].some(e => /1 shared, hidden/.test(e.textContent)),
+     [...d.querySelectorAll(".agrp")].map(e => e.textContent).join(" | "));
   d.querySelector("#cmpDiff").click();
-  ok("toggling back brings it out of hiding",
-     d.querySelectorAll(".sbscol li.sh").length === 2);
+  ok("toggling back brings the band out of hiding",
+     d.querySelectorAll(".arow").length === 1);
 
   d.querySelector("#cmpHi").click();
-  ok("highlighting off drops the marks", !d.querySelector(".sbs.hi"));
-  ok("but keeps every entry on screen",
-     d.querySelectorAll(".sbscol li").length > 20);
+  ok("highlighting off puts everything back in packet order",
+     !d.querySelector(".arow") && !d.querySelector(".agrp"));
+  ok("with nothing dropped on the way",
+     [...d.querySelectorAll(".sbscol li")].some(li => /^neutral$/i.test(li.textContent)));
   d.querySelector("#cmpHi").click();
 
   ok("the choice survives a reload",
@@ -735,10 +745,24 @@ head("Compare: overlap comes from the packets, not from string matching");
     sel.value = id; sel.onchange();
   };
   pick(0, "bowen"); pick(1, "satir");
-  const sh = [...d.querySelectorAll(".sbscol li.sh")].map(e => e.textContent);
-  ok("differently worded entries register as the same idea",
-     sh.some(t => /Genogram/.test(t)) && sh.some(t => /Family Life Chronology/.test(t)),
-     sh.join(" | "));
+  const row = [...d.querySelectorAll(".arow")]
+    .find(r => /Genogram/.test(r.textContent));
+  ok("two wordings of one idea land on the same row", !!row,
+     [...d.querySelectorAll(".arow")].map(r => r.textContent).join(" | "));
+  ok("and each model keeps its own words rather than one winning",
+     /Genogram/.test(row.querySelector(".acells > div").textContent) &&
+     /Family Life Chronology/.test(row.querySelectorAll(".acells > div")[1].textContent),
+     row.textContent);
+
+  // three models: an entry two of them share is not the same claim as one
+  // all three share, and the row says which
+  pick(2, "cbt");
+  const part = [...d.querySelectorAll(".arow")].filter(r => r.querySelector(".achip"));
+  ok("a partial overlap is labelled with its count",
+     part.length === 2 && part.every(r => r.querySelector(".achip").textContent === "2 of 3"),
+     part.map(r => (r.querySelector(".achip") || {}).textContent).join(" | "));
+  ok("and the model without it shows an empty cell, not a gap in the row",
+     [...part[0].querySelectorAll(".acells > div")].some(c => c.textContent === ""));
 }
 
 /* Reading two models against each other and then testing yourself on exactly

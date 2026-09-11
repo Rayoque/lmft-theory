@@ -13,7 +13,7 @@
   --accent:#2f5c8f; --accent-ink:#fff; --ok:#2f7355; --okbg:#e4f1e9;
   --bad:#9e4740; --badbg:#f8e8e5; --warn:#8a5a00; --warnbg:#fdf3e0;
   --src:#e9f0f8; --radius:16px; --wrap:760px;
-  --prog:#8a6a3a;
+  --prog:#8a6a3a; --shbg:#f7f0e4;
   --sh:0 1px 2px rgba(19,37,61,.06), 0 8px 20px rgba(19,37,61,.06);
 }
 /* Dark tokens live in a named block so both the system preference and an
@@ -25,14 +25,16 @@
     --bg:#0c1521; --card:#142030; --ink:#e4edf8; --dim:#8ea0b6; --line:#213145;
     --accent:#86b6e8; --accent-ink:#0c1521; --ok:#79c79b; --okbg:#14271d;
     --bad:#e0968e; --badbg:#2b1b18; --warn:#f0c274; --warnbg:#33280f;
-    --src:#0f1926; --prog:#d0a86c; --sh:0 6px 18px rgba(0,0,0,.30);
+    --src:#0f1926; --prog:#d0a86c; --shbg:#241d12;
+    --sh:0 6px 18px rgba(0,0,0,.30);
   }
 }
 :root[data-theme="dark"]{
     --bg:#0c1521; --card:#142030; --ink:#e4edf8; --dim:#8ea0b6; --line:#213145;
   --accent:#86b6e8; --accent-ink:#0c1521; --ok:#79c79b; --okbg:#14271d;
   --bad:#e0968e; --badbg:#2b1b18; --warn:#f0c274; --warnbg:#33280f;
-  --src:#0f1926; --sh:0 6px 18px rgba(0,0,0,.30);
+  --src:#0f1926; --prog:#d0a86c; --shbg:#241d12;
+  --sh:0 6px 18px rgba(0,0,0,.30);
 }
 .theme{margin-left:10px;background:none;border:1px solid var(--line);
   color:var(--dim);font:inherit;font-size:12px;line-height:1;cursor:pointer;
@@ -211,13 +213,19 @@ ul.cl.one li::before{display:none}
 .sbscol .cl li{margin-bottom:6px}
 .sbscol .null{font-size:12.5px}
 .sbscol .hid{margin:6px 0 0;font-size:11.5px;color:var(--dim)}
-/* off by default: the marks only appear once Highlight overlap is on */
-.sbs.hi .sbscol li.uq::before{background:var(--accent)}
-.sbs.hi .sbscol li.sh{color:var(--dim)}
-.sbs.hi .sbscol li.sh::before{background:none;box-shadow:inset 0 0 0 1px var(--dim)}
-.stag{display:inline-block;font-size:9.5px;font-weight:700;letter-spacing:.05em;
-  text-transform:uppercase;color:var(--dim);border:1px solid var(--line);
-  border-radius:999px;padding:0 5px;margin-left:5px;vertical-align:1px;white-space:nowrap}
+/* What both models claim, on one row. The row is the explanation. */
+.agrp{font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--dim);margin:0 0 5px}
+.arow+.agrp{margin-top:13px}
+.arow{background:var(--shbg);border-left:3px solid var(--prog);
+  border-radius:0 8px 8px 0;padding:7px 10px;margin-bottom:5px}
+.acells{display:grid;gap:10px;
+  grid-template-columns:repeat(var(--n,2),minmax(0,1fr))}
+.acells>div{font-size:13.5px;line-height:1.45;overflow-wrap:anywhere;min-width:0}
+.acells>div:empty::before{content:"\2014";color:var(--dim);opacity:.5}
+.achip{display:block;font-size:9.5px;font-weight:700;letter-spacing:.05em;
+  text-transform:uppercase;color:var(--prog);margin-bottom:4px}
+.sbs.hi .sbscol li::before{background:var(--accent)}
 @media (max-width:760px){
   /* one dropdown per line; stacked, they do not need "vs" and "and" spelling
      the relationship out at the cost of a line each */
@@ -226,9 +234,12 @@ ul.cl.one li::before{display:none}
   .sbsrow,.sbshead{gap:8px}
   .sbscol{font-size:12.5px}
   .sbsname{font-size:12.5px}
+  .acells>div{font-size:12.5px}
   /* three columns will not fit a phone; let that one case scroll sideways
      rather than squeezing every model into forty characters a line */
-  .sbs.n3 .sbsrow,.sbs.n3 .sbshead{grid-template-columns:repeat(3,150px)}
+  .sbs.n3 .sbsrow,.sbs.n3 .sbshead,
+  .sbs.n3 .acells{grid-template-columns:repeat(3,150px)}
+  .sbs.n3 .arow{width:max-content;min-width:100%}
   .sbs.n3{overflow-x:auto;-webkit-overflow-scrolling:touch}
   .sbs.n3 .sbshead{position:static}
 }
@@ -894,21 +905,61 @@ function overlap(i){
   return n;
 }
 
-function sbsCell(id, i, n){
-  const v = cell(MODEL(id), i);
-  if (v === null) return '<span class="null">not in packet</span>';
-  let hid = 0;
-  const li = v.map(e => {
-    const c = (e.k === null) ? 1 : (n[e.k] || 1);
-    if (c > 1 && cmpDiff) { hid++; return ""; }
-    const tag = (c > 1 && cmpHi)
-      ? '<span class="stag">' + (c === cmpSel.length ? "shared" : c + " of " + cmpSel.length) + '</span>'
-      : "";
-    return '<li class="' + (c > 1 ? "sh" : "uq") + '">' + esc(e.t) + tag + '</li>';
-  }).join("");
-  const rest = hid ? '<p class="hid">' + hid + ' shared, hidden</p>' : "";
-  if (!li) return rest || '<span class="null">nothing only to this model</span>';
-  return '<ul class="cl' + (v.length === 1 ? " one" : "") + '">' + li + '</ul>' + rest;
+/* Split one section into the rows the models share and the entries they do
+   not. A shared row carries each model's own wording, so the two spellings of
+   one idea sit next to each other rather than being collapsed into whichever
+   packet happened to be read first. */
+function split(i){
+  const per = cmpSel.map(id => cell(MODEL(id), i));
+  if (!cmpHi) return {rows: [], own: per.map(v => v && v.map(e => e.t))};
+  const n = overlap(i), rows = [], done = {};
+  per.forEach(v => {
+    if (!v) return;
+    v.forEach(e => {
+      if (e.k === null || (n[e.k] || 1) < 2 || done[e.k]) return;
+      done[e.k] = 1;
+      rows.push({
+        count: n[e.k],
+        cells: per.map(v2 => {
+          const hit = v2 && v2.filter(x => x.k === e.k)[0];
+          return hit ? hit.t : null;
+        }),
+      });
+    });
+  });
+  return {
+    rows: rows,
+    own: per.map(v => v && v.filter(e => e.k === null || (n[e.k] || 1) < 2)
+                           .map(e => e.t)),
+  };
+}
+
+function column(list){
+  if (list === null || list === undefined)
+    return '<span class="null">not in packet</span>';
+  if (!list.length) return '<span class="null">\u2014</span>';
+  return '<ul class="cl' + (list.length === 1 ? " one" : "") + '">'
+    + list.map(t => "<li>" + esc(t) + "</li>").join("") + "</ul>";
+}
+
+function sbsSection(c, i){
+  const sp = split(i);
+  const both = cmpSel.length === 2 ? "Both models" : "More than one";
+  const head = sp.rows.length && !cmpDiff
+    ? '<p class="agrp">' + both + '</p>'
+      + sp.rows.map(r => '<div class="arow">'
+          + (r.count < cmpSel.length
+              ? '<span class="achip">' + r.count + ' of ' + cmpSel.length + '</span>' : "")
+          + '<div class="acells">'
+          + r.cells.map(t => "<div>" + (t ? esc(t) : "") + "</div>").join("")
+          + '</div></div>').join("")
+      + '<p class="agrp">Only that model</p>'
+    : (sp.rows.length && cmpDiff
+        ? '<p class="agrp">' + sp.rows.length + ' shared, hidden</p>' : "");
+  return '<section class="sbssec"><h3>' + esc(c) + '</h3>' + head
+    + '<div class="sbsrow">'
+    + sp.own.map(l => '<div class="sbscol">' + column(l) + '</div>').join("")
+    + '</div></section>';
 }
 
 function cmpPicker(){
@@ -941,17 +992,11 @@ function renderCompare(){
     <div class="sbs${cmpHi ? " hi" : ""} n${cmpSel.length}" style="--n:${cmpSel.length}">
       <div class="sbshead">${cmpSel.map(id =>
         `<div class="sbsname">${esc(MODEL(id).name)}</div>`).join("")}</div>
-      ${COLS.map((c,i) => { const n = overlap(i); return `<section class="sbssec">
-        <h3>${esc(c)}</h3>
-        <div class="sbsrow">${cmpSel.map(id =>
-          `<div class="sbscol">${sbsCell(id, i, n)}</div>`).join("")}</div>
-      </section>`; }).join("")}
+      ${COLS.map((c,i) => sbsSection(c, i)).join("")}
     </div>
     <div class="row"><button class="btn" id="cmpDrill">Drill these ${
       cmpSel.length} models</button></div>
-    <p class="note">${cmpHi
-      ? "A filled dot is only in that column. A hollow dot and the tag mean another model here claims the same thing, sometimes in its own words — which is what the overlap questions test."
-      : "Anything blank is blank in your packet."}</p>`
+    <p class="note">Anything blank is blank in your packet.</p>`
   : `
     <p class="note">Pick two models above to put them side by side. Anything blank
     here is blank in your packet.</p>
